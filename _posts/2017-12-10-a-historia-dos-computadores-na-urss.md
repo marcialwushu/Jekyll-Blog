@@ -5,9 +5,10 @@ date:   2017-12-10 20:04:31 -0200
 categories: jekyll update
 ---
 
-![](https://cdni.rbth.com/rbthmedia/images/web/en-rbth/images/2014-09/big/RIAN_00581719.HR.ru_468.jpg)
+![Os sistemas de computadores originais na União Soviética não eram unificados sob um padrão só, inclusive dentro da mesma série Foto: Boris Uchmiákin/RIA Nóvosti](https://cdni.rbth.com/rbthmedia/images/web/en-rbth/images/2014-09/big/RIAN_00581719.HR.ru_468.jpg)
 
->_Os primeiros computadores soviéticos criados no final dos anos 1940 não eram inferiores a seus análogos ocidentais. A indústria de informática estava se desenvolvendo rapidamente até o início dos anos 70, momento em que o governo soviético tomou a decisão precipitada de por fim a esses projetos._
+
+>### Os primeiros computadores soviéticos criados no final dos anos 1940 não eram inferiores a seus análogos ocidentais. A indústria de informática estava se desenvolvendo rapidamente até o início dos anos 70, momento em que o governo soviético tomou a decisão precipitada de por fim a esses projetos.
 
 Imediatamente após a Segunda Guerra Mundial, o governo de Stálin começou a pensar sobre a necessidade de inovação técnica na indústria e na ciência. A chegada da Guerra Fria exigia a mobilização dos recursos intelectuais nacionais. No começo dos anos 50, foi criada na URSS uma indústria moderna de computadores pessoais cujo nível não era inferior ao da indústria americana. No entanto, no início dos anos 70,  o governo do país decidiu cessar os desenvolvimentos originais e começou a praticar a cópia dos sistemas ocidentais. Em resultado, toda a indústria ficou destruída, um perda para todo o mundo da ciência.
 
