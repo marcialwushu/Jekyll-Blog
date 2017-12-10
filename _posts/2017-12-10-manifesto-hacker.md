@@ -4,6 +4,7 @@ title:  "MANIFESTO HACKER"
 date:   2017-12-10 19:20:31 -0200
 categories: jekyll update
 ---
+![](http://static5.businessinsider.com/image/56903eb0dd08956a188b46a4-1190-625/the-infamous-hacker-manifesto-just-turned-30.jpg)
 
 O ["Hacker Manifesto"](http://www.cucaracha.com.br/djangobroder/20000724hacker001.html) do The mentor é um texto maravilhoso. Ele foi publicado originalmente na edição número 7 Do e-zine [Phrack no dia 25 de setembro de 1986](http://www.2600.com/phrack/phrack07.html), por um hacker que atendia pelo nick de "The Mentor" e encontrava-se atrás das grades, por invadir o sistema de um banco. Desde então (e se passaram 14 anos quase) esse texto foi fowardeado e republicado em inúmeras BBS, Listas de discussão, NewsGroups e sites. Uma vez que existem poucas traduções boas em português resolvi traduzir o texto, tomando liberdade de adicionar paragráfos, e situar o texto no ano dois mil.
 
@@ -15,8 +16,8 @@ No ano dois mil as pessoas são mais altas e vivem mais do que em 1986, mas de r
 
 Matias Maxx a.k.a. [BloodStorm](matias@cucaracha.com.br)
 
-## A Consicência de um hacker
-## O manifesto Hacker
+## *A Consicência de um hacker*
+## *O manifesto Hacker*
 
 [Texto original](http://www.cucaracha.com.br/djangobroder/20000724hacker001.html) por ["The Mentor"](mentor@blankenship.com)
 Tradução e adaptação livre por [BloodStorm](matias@cucaracha.com.br)
@@ -27,7 +28,7 @@ Mas nada disso importa pra você, o que te chama atenção é aquela manchete de
 
 Mais um foi pego hoje. Todo dia e a todo momento sistemas são quebrados. Sites são alterados e informações disseminadas. Mas hoje foi diferente. Mais um foi pego hoje!
 
-##### Maldito Moleque! Vocês são todos iguais!
+*Maldito Moleque! Vocês são todos iguais!*
 
 Mas por acaso você, na sua psicologia mesquinha e mentalidade paranóica, preconceituosa e atrasada já voltou sua mente para o dito criminoso e tentou entender o que se passa por trás destes olhos? Você já parou pra pensar no que o fez agir dessa maneira? Que forças o moldaram? Já tentou entender essa índole autodestrutiva e toda a repulsão ao sistema!?
 
@@ -35,17 +36,17 @@ Eu sou um Hacker bem vindo ao meu mundo...
 
 Meu mundo começa na escola, eu sou mais esperto que a maioria dos meus coleguinhas e toda a besteira que tentam nos ensinar não faz mais nada do que encher meu saco! Sento na última ou na primeira fileira, não importa! Meus olhos estão fixados no quadro negro ou na cara de banana do tutor. Mas minha mente, minha mente está viajando...
 
-##### Maldito Moleque folgado! Vocês são todos iguais!
+*Maldito Moleque folgado! Vocês são todos iguais!*
 
 Estou no ginásio e desenhava na carteira enquanto o professor explicava pela enésima vez como se reduz uma fração. "Eu já entendi!"
 
 "Não Tia, eu não coloquei o desenvolvimento, eu fiz tudo de cabeça..."
 
-##### Maldito Moleque! Provavelmente copiou! Vocês são todos iguais!
+*Maldito Moleque! Provavelmente copiou! Vocês são todos iguais!*
 
 Fiz uma descoberta hoje. Um computador. Espera um pouco, isto é maneiro, faz o que eu quero fazer. E se faz errado, provavelmente é porque eu fiz alguma cagada e não por que não gosta de mim, ou se sente ameaçado por mim. Não é porque ele pensa que eu sou um trouxa, não quer que eu aprenda ou acha que eu não deveria estar aqui... Nada disso!
 
-##### Maldito Moleque! Só quer saber de video-game! Vocês são todos iguais.
+*Maldito Moleque! Só quer saber de video-game! Vocês são todos iguais.*
 
 Então aconteceu... uma porta para um novo mundo abriu-se. Um pulso eletrônico percorre as linhas telefônicas tal qual heroina pela veia de um viciado. Aqui eu me refugio das incopetencias do dia a dia e expando minha pessoa...
 
@@ -55,7 +56,7 @@ Chego a uma BBS, uma sala de bate-papo, uma lista de discussão...
 
 Eu conheço todo mundo aqui. Mesmo que nunca tenha olhado nos seus olhos ou ouvido suas vozes. Mesmo que eu nunca os veja, ou se eles desaparecerem por completo daqui... Mesmo assim, eu conheço todo mundo...
 
-##### Maldito Moleque! Pendurado no telefone mais uma vez! Vocês são todos iguais...
+*Maldito Moleque! Pendurado no telefone mais uma vez! Vocês são todos iguais...*
 
 Pode acreditar! Somos todos iguais. Na escola fomos alimentados com colheradas de papinha enquanto estávamos famintos por garfadas de carne. Os pedacinhos desta que você deixou escapar estavam pré-mastigados e sem graça. Fomos dominados por sádicos ou ignorados pelos apáticos. Os poucos que tinham alguma coisa para nos ensinar nos acolheram como pupilos queridos. Mas estes foram raros como lagos no deserto...
 
@@ -77,7 +78,11 @@ Escrito originalmente em 8 de Janeiro de 1986 por [The Mentor](mentor@blankenshi
 Hacker Manifesto por aí:
 
 <http://www.2600.com/phrack/phrack07.html> (Phrack VII - E-Zine onde o hacker manifesto foi publicado originalmente)
+
 <http://www.fortunecity.com/millenium/blueridge/275/maifesto.htm> (em italiano)
+
 <http://www.cianet.com.br/users/master/bgmani.htm> (em portugês, tradução horrível)
+
 <http://www.thecoo.edu/~elusk/oca/hackman.html> (em inglês com imagens)
+
 <http://www.disobey.com/devilshat/ds980702.htm> (Hacker Manifesto 1998. Uma versão bem-humorada do manifesto hacker que provoca os LammerZ que pensam ser hackers)
