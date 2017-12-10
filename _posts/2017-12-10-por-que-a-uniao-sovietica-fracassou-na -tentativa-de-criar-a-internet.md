@@ -73,7 +73,10 @@ A conclusão é que os valores das tecnologias que criamos são, na verdade, ref
 
 Para o autor, contudo, a discussão sobre o poder e os valores intrínsecos de grandes redes de computadores já deixou de ser sobre a oposição entre mercados privados e Estados - e passou a ser sobre como grandes organizações que trabalham com tecnologia de redes têm sido criadas, cada vez mais, para coletar informações sobre indivíduos.
 
+---
+Mateial Original : [NEXO Jornal](https://www.nexojornal.com.br/expresso/2016/08/06/Por-que-a-Uni%C3%A3o-Sovi%C3%A9tica-fracassou-na-tentativa-de-criar-a-Internet)
 
+Autor: Ana Freitas
 
 
 
