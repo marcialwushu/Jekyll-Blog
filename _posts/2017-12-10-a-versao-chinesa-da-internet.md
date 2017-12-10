@@ -47,9 +47,15 @@ A maioria das empresas que lidam com a China já criaram e estão a utilizar uma
 
 ----
 
+
 Texo Original: [Chinese4biz](http://www.chinese4.biz/pt/guia-cultural-empresarial/preparacoes/18/versao-chinesa-da-internet)
-Ligações externas
+
+Ligações externas:
+
 <http://www.chinainternetwatch.com/>
+
 <http://www.east-media.net/>
+
 <http://www.wechat.com/it/>
+
 <http://www.baidu.com/>
