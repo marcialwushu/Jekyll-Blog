@@ -97,9 +97,8 @@ DeepDive de [Stanford](https://www.stanford.edu/) transforma texto e multimídia
 
 ---
 
-Thomas Fox-Brewster , Forbes Staff
+Autor: [Thomas Fox-Brewster](https://www.forbes.com/sites/thomasbrewster/#202c68812eb6)
 
-I cover crime, privacy and security in digital and physical form
 
 [README](https://www.forbes.com/sites/thomasbrewster/2015/04/17/darpa-nasa-and-partners-show-off-memex/#1bffc787378d)
 
