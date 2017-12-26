@@ -28,27 +28,27 @@ As estatísticas variam, mas aparece assim em 2017. **A Baidu tem cerca de 80% d
 Baidu é o motor de busca mais popular na China. Este é definitivamente o motor mais útil se você quiser melhorar o seu SEO, mas funciona de forma muito diferente
 Google.
 
-## Diferenças-chave comparadas com o Google
+### Diferenças-chave comparadas com o Google
 
 As principais diferenças resultam da forma como os sites operam. Enquanto na superfície eles podem parecer semelhantes, diferentes focos e sistemas mais antigos significam que, enquanto a tecnologia Baidu é melhor no processamento do chinês, eles ainda colocam uma grande ênfase nas Meta tags, o que significa que os usuários estão abertos a fraudes.
 
-## 1. Apenas alguns sites não chineses classificarão no Baidu
+### 1. Apenas alguns sites não chineses classificarão no Baidu
 
 Uma diferença importante que deve ser observado é que o Baidu é um site completamente chinês, e há muito poucos sites que não são chineses. Embora isso seja difícil para aqueles que estão tentando entrar no mercado, é uma das razões pelas quais tem uma base de usuários tão grande.
 
-## 2. Muito menos resultados orgânicos na primeira página de Baidu
+### 2. Muito menos resultados orgânicos na primeira página de Baidu
  
 
 Rich snippets e anúncios também funcionam de uma maneira muito diferente para o Google. A primeira página tende a ser um conteúdo de anúncios pesados, com apenas alguns resultados de pesquisa orgânicos aparecendo. Você também estará diretamente em concorrência com os próprios produtos da Baidu, o que significa que o conteúdo da primeira página é muito difícil de encontrar.
 
  
 
-## 3. Baidu não suporta Schema.org
+### 3. Baidu não suporta Schema.org
  
 
 O Baidu não usa schema.org para marcar os Rich Snippets, mas eles têm sua própria plataforma chamada Baidu Open. Este é um fator crucial para entender como o Baidu funciona. Apenas um pequeno número de plataformas pode ser aplicado ao BaiduOpen, por isso é importante saber se a sua empresa se qualifica.
 
-## Formas extra para impulsionar seu tráfego de busca orgânica
+### Formas extra para impulsionar seu tráfego de busca orgânica
 
 Há, no entanto, uma série de maneiras diferentes de otimizar o seu SEO usando diferentes produtos Baidu. As Ferramentas para webmasters permitem que você altere a taxa de rastreamento através do seu site, e responder perguntas sobre sua empresa no Teiba permite que você fique mais confiável.
 
@@ -59,24 +59,24 @@ No entanto, o ranking no Baidu não é fácil, a menos que você tenha uma agên
  
 Se você quiser aparecer em uma posição mais alta no Baidu, você pode tentar aproveitar os outros produtos da Baidu:
 
-## 1. Crie seu perfil de empresa no Baike
+### 1. Crie seu perfil de empresa no Baike
  
 Baike é semelhante à Wikipédia, mas as empresas têm a opção de comprar o direito de ter controle sobre o que está em sua página. Ele deve ser imparcial em teoria, mas, na prática, muitas empresas têm um certo controle sobre o que é colocado nas suas páginas.
 
-## 2. Participar na Plataforma Q&A do Baidu Zhidao
+### 2. Participar na Plataforma Q&A do Baidu Zhidao
  
 Zhidao é outra parte essencial da infra-estrutura do Baidu. Este é um site Q & A que permite que as pessoas respondam perguntas sobre seus negócios. Uma vez que a pesquisa é uma parte essencial da jornada do comprador, e a pesquisa é uma grande parte da cultura compradora chinesa, esta é uma excelente maneira de aumentar suas avaliações e criar SEO orgânicos.
 
 
-## 3. Aproveite a plataforma de compartilhamento de arquivos Wenku
+### 3. Aproveite a plataforma de compartilhamento de arquivos Wenku
  
 Outro site que a Baidu executa é o Wenku, que é essencialmente um serviço de compartilhamento de arquivos que oferece suporte a uma ampla gama de documentos diferentes. Esta é uma excelente maneira de maximizar as soluções B2B ou se você possui um produto de alto valor.
 
-## 4. Informe de Noticias com Tieba e Baidu News
+### 4. Informe de Noticias com Tieba e Baidu News
  
 Eu já mencionei Tieba, mas Baidu também administra outros sites que você deve conhecer. Baidu News source é muito confiável e tem um número elevado de visitantes. Se o seu conteúdo se qualificar para estar neste site, então você deve realmente ir para ele, pois aumentará maciçamente suas chances de ser reconhecido organicamente.
 
-## Risco potencial do Baidu: regulamento para conteúdo de anúncios inadequados
+### Risco potencial do Baidu: regulamento para conteúdo de anúncios inadequados
  
 Embora Baidu seja o mais popular, isso pode estar mudando. Desde o recente escândalo de Wei Zexi, o motor de pesquisa estava sob investigação em 2016, e parece haver uma diminuição na confiança dos clientes. O escândalo envolveu uma morte de 21 anos depois de ter recebido informações incorretas de tratamento de câncer on-line.
 
@@ -92,7 +92,7 @@ Sogou é de propriedade da Sohu, e eles oferecem uma variedade de serviços de i
 
 Fundada em 2004, tem seu próprio algoritmo exclusivo, o que torna útil para empresas que desejam acessar residentes nos locais de níveis mais baixos. Possui um dual-core similar às empresas ocidentais, e os produtos da aplicação web são projetados para classificar a informação online.
 
-## Aquisição pelo maior gigante da tecnologia Tencent
+### Aquisição pelo maior gigante da tecnologia Tencent
 
 Em setembro de 2013, foi adquirida pela Tencent, uma das maiores empresas de tecnologia da China.
 
@@ -114,7 +114,7 @@ O motor de busca principal do QiHoo 360 é realmente chamado de Haosou, por isso
 
 A Haosou oferece uma ampla gama de serviços, incluindo notícias, sites, imagens, Q & A, vídeos, imagens e música, bem como outros serviços. Como você pode dizer, funciona com um serviço muito similar ao Baidu.
 
-## Diferença-chave com Baidu
+### Diferença-chave com Baidu
 
 Lançado em 2012, este é outro motor de busca importante, pois se concentra em mais segurança em comparação com outros motores de busca. Eles também são importantes, porque em 2015 eles se associaram com uma agência de publicidade em Hong Kong para melhorar suas capacidades de mecanismos de pesquisa.
 
