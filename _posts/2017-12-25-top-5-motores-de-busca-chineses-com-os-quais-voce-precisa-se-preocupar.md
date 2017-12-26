@@ -28,7 +28,7 @@ As estatísticas variam, mas aparece assim em 2017. **A Baidu tem cerca de 80% d
 Baidu é o motor de busca mais popular na China. Este é definitivamente o motor mais útil se você quiser melhorar o seu SEO, mas funciona de forma muito diferente
 Google.
 
-# Diferenças-chave comparadas com o Google
+## Diferenças-chave comparadas com o Google
 
 As principais diferenças resultam da forma como os sites operam. Enquanto na superfície eles podem parecer semelhantes, diferentes focos e sistemas mais antigos significam que, enquanto a tecnologia Baidu é melhor no processamento do chinês, eles ainda colocam uma grande ênfase nas Meta tags, o que significa que os usuários estão abertos a fraudes.
 
@@ -48,7 +48,7 @@ Rich snippets e anúncios também funcionam de uma maneira muito diferente para 
 
 O Baidu não usa schema.org para marcar os Rich Snippets, mas eles têm sua própria plataforma chamada Baidu Open. Este é um fator crucial para entender como o Baidu funciona. Apenas um pequeno número de plataformas pode ser aplicado ao BaiduOpen, por isso é importante saber se a sua empresa se qualifica.
 
-# Formas extra para impulsionar seu tráfego de busca orgânica
+## Formas extra para impulsionar seu tráfego de busca orgânica
 
 Há, no entanto, uma série de maneiras diferentes de otimizar o seu SEO usando diferentes produtos Baidu. As Ferramentas para webmasters permitem que você altere a taxa de rastreamento através do seu site, e responder perguntas sobre sua empresa no Teiba permite que você fique mais confiável.
 
@@ -80,7 +80,6 @@ Eu já mencionei Tieba, mas Baidu também administra outros sites que você deve
  
 Embora Baidu seja o mais popular, isso pode estar mudando. Desde o recente escândalo de Wei Zexi, o motor de pesquisa estava sob investigação em 2016, e parece haver uma diminuição na confiança dos clientes. O escândalo envolveu uma morte de 21 anos depois de ter recebido informações incorretas de tratamento de câncer on-line.
 
- 
 Houve uma grande quantidade de protesto do público para que Baidu tornasse os anúncios mais óbvios. Baidu respondeu aos escândalos, tornando suas propagandas mais fáceis de detectar, com caixas azuis marcando quais postagens são pagas.
 
 # 2. Sogou - Previamente comprado pela Tencent
@@ -102,7 +101,6 @@ Em janeiro deste ano, foi anunciado que eles estarão produzindo cerca de 10% de
 Uma vantagem que a Sogou tem sobre outros motores de busca, especialmente o Baidu, é que eles são o único motor que é formalmente permitido percorrer mensagens públicas na plataforma [WeChat da Tencent](https://www.dragonsocial.net/blog/beginner-guide-wechat-for-business/). Esta plataforma possui mais de 800 milhões de usuários, por isso é um reforço significativo.
 
 Eles estiveram conversando com fabricantes de telefones inteligentes para que eles possam enviar novos telefones com o software já instalado neles.
-
  
 Em 2013, eles se fundiram com o negócio de busca Soso da Tencent, a fim de torná-los mais competitivos e esculpir uma grande parte do mercado.
 
@@ -134,11 +132,21 @@ O [WeChat](https://www.dragonsocial.net/wechat-marketing-agency/) também permit
 
 Mesmo que não esteja conectado com o Baidu, é tão importante quando se entende como os consumidores chineses tomam decisões de compra.
 
-## Era dos motores de pesquisa móveis chineses
+# Era dos motores de pesquisa móveis chineses
+
+Embora pareça que o mercado de mecanismos de busca móvel seguisse motores de busca por computador, parece que esse mercado é muito mais competitivo.
+
+É importante entender que as plataformas predominantes são móveis ou laptops, os tablets não parecem tão populares quanto em outros países. Então, ao projetar seu site, você deve ter em mente que ele deve ser amigável para dispositivos móveis.
+
+Os três principais motores de busca utilizados são Baidu com 78,2%, Sogou em 7,9% e Easou em 4,9%, com outras empresas em 9,0% (primeiro trimestre de 2017, China Internet Watch).
+
+Os motores de busca móveis parecem ter mais margem para tirar o mercado do Baidu.
+Google Tradutor para empresas:Google Toolkit de tradução para appsTradutor de sites
+
 
 # 5. Easou - Outro Mecanismo de Pesquisa Móvel
 
-![](https://www.dragonsocial.net/wp-content/uploads/2017/07/easou-min.jpeg)
+![](http://yagnenok.com/images/bots/easou.png)
 
 Este é um motor de busca especificamente projetado para dispositivos de celulares, que usa processamento de linguagem natural, bem como extração de informações e computação distribuída.
 
