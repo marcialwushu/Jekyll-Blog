@@ -1,0 +1,4 @@
+language: ruby #1
+group: stable #2
+dist: trusty #3
+os: linux #4
