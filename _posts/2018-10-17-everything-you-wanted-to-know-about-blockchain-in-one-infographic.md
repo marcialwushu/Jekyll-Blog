@@ -7,6 +7,6 @@ categories: jekyll update
 
 
 
-## Everything You Wanted to Know About Blockchain in One Infographic
+## Tudo o que você queria saber sobre o Blockchain em um infográfico
 
 ![](https://wp-assets.futurism.com/2018/10/Everything-You-Wanted-To-Know-About-Blockchain.jpg)
