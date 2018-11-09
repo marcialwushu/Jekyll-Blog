@@ -14,14 +14,14 @@ O Telegram Messenger está disponível em várias plataformas há anos, incluind
 
 A partir da versão 1.3.13, o aplicativo permite exportar o histórico de bate-papo para conversas individuais. O log de alterações do aplicativo é exibido da seguinte maneira.
 
-```
+
 - Exportar dados de chats individuais usando o menu '...'. 
 - Adicionado um novo tema noturno. 
 - Agora você pode atribuir temas personalizados como temas noturnos e diurnos para alternar rapidamente entre eles. 
 - O Telegram Passport agora suporta mais tipos de dados, incluindo versões traduzidas de documentos. 
 - Melhoria do algoritmo hash de senhas para melhor proteger os dados do Telegram Passport.
 
-```
+
 
 O recurso de histórico de bate-papo de exportação suporta todos os tipos de conversas, incluindo suas mensagens salvas pessoais, bots, canais, bate-papos em grupo e bate-papos individuais.
 
