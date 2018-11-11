@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PHP 8.0 Data de Release e status do JIT no PHP"
-date:   2018-11-08 23:39:31 -0200
+date:   2018-11-11 02:25:31 -0200
 categories: jekyll update
 ---
 
