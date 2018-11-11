@@ -5,11 +5,13 @@ date:   2018-11-11 02:25:31 -0200
 categories: jekyll update
 ---
 
+![](https://nyingspot.b-cdn.net/wp-content/uploads/2016/10/php8-indonesia-nyingspot.com_-800x400.jpg)
+
 O PHP continua sendo a linguagem mais popular do lado do servidor para criar sites. Com uma participação de mercado estimada em 80%, a linguagem de programação de vinte e poucos anos está em toda parte. O PHP evoluiu, e as próximas principais etapas são o PHP 8.0.0 e a compilação JIT (just in time). Vamos dar uma olhada nisso.
 
-A última grande versão do PHP foi 7.0.0. Esta versão foi um marco importante com desempenho significativamente aprimorado e menor uso de memória. Desde a versão 7.0, houve dois lançamentos adicionando recursos e adicionando recursos: 7.1 em 2016 e 7.2 em 2017. 
+A última grande versão do PHP foi 7.0.0. Esta versão foi um marco importante com desempenho significativamente aprimorado e menor uso de memória. Desde a versão 7.0, houve dois lançamentos adicionando novos recursos: 7.1 em 2016 e 7.2 em 2017. 
 
-Mas, assim como ocorre com os estados de versionamento semântico, não pode haver alterações significativas nas versões principais com o patch de versão semântica (major.minor.patch). A próxima versão secundária, PHP 7.3, está prevista para ser lançada no final de 2018. A próxima versão secundária, PHP 7.3, está prevista para ser lançada no final de 2018.
+Mas, assim como ocorre com os estados de versionamento semântico, não pode haver alterações significativas nas versões principais com o patch de versão semântica (major.minor.patch). A próxima versão secundária, PHP 7.3, está prevista para ser lançada no final de 2018. 
 
 O lançamento do PHP 8.0 ainda não está agendado, mas como é um grande salto, levará alguns anos. A partir de agora, também não há detalhes dos recursos, mas estima-se que a programação esteja a anos de distância. Algumas especulações definem o lançamento do PHP 8.0.0 em setembro de 2021:
 
