@@ -11,7 +11,7 @@ categories: jekyll update
 ![](https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125)
 
 
-O  [Typed Properties 2.0 RFC](https://wiki.php.net/rfc/typed_properties_v2) foi aceitado com votos de 70 a favor e um voto contra. A maioria de 2/3 é necessária porque as Typed Properties são uma alteração da linguagem. A mudança de propriedade tipada é uma proposta do PHP 7.4.
+O  [Typed Properties 2.0 RFC](https://wiki.php.net/rfc/typed_properties_v2) foi aceito com 70 votos a favor e um voto contra. A maioria de 2/3 é necessária porque as Typed Properties são uma alteração da linguagem. A mudança de propriedade tipada é uma proposta do PHP 7.4.
 
 >Com a introdução de tipos escalares e tipos de retorno, o PHP 7 aumentou muito o poder do sistema de tipagem do PHP. No entanto, atualmente não é possível declarar os tipagem de propriedades de classe, forçando os desenvolvedores a usar os métodos getter e setter para impor type contracts. Isso requer boilerplate code desnecessário, torna o uso menos ergonômico e prejudica o desempenho. Este RFC resolve esse problema introduzindo suporte para declarações de property type de primeira classe.
 
