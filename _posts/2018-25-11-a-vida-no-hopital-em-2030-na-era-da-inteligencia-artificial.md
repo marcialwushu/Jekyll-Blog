@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A vida no hospital em 2030, na era da inteligência artificial"
-date:   2018-25-11 23:08:31 -0200
+date:   2018-11-25 23:08:31 -0200
 categories: jekyll update
 ---
 
