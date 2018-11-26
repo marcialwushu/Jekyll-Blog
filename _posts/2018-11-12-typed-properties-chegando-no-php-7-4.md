@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Typed Properties Chegando no PHP 7.4"
-date:   2018-11-12 02:20:31 -0200
+date:   2018-11-11 02:20:31 -0200
 categories: jekyll update
 ---
 
