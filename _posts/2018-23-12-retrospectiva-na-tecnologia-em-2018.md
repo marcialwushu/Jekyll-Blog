@@ -613,6 +613,17 @@ Versão do Moto G5 apresenta falha gravíssima que dribla a tela de bloqueio com
 
 - Healthy.io turns your smartphone into a clinical-grade medical testing device
 
+**FEVEREIRO 02**
+
+- [Atualize o seu Firefox! Patch corrige porta aberta para controle de hackers](http://bit.ly/techW4a)
+- [Microsoft Launcher 4.6 tem versão beta liberada, com suporte à Cortana](http://bit.ly/techu8)
+- [Tente adivinhar: Google App ganhará um misterioso serviço em breve](http://bit.ly/2E9JxFw)
+- [Tim Cook confirma que Apple Pay será lançado no Brasil](https://canalte.ch/T5SQ8)
+- [Asus lança novos Zenfones, Câmera 360º e bateria portátil compacta](http://bit.ly/techso)
+
+
+
+
 **FEVEREIRO 03**
 
 - Imported smartphones could beco
@@ -631,3 +642,208 @@ Versão do Moto G5 apresenta falha gravíssima que dribla a tela de bloqueio com
 
 - SpaceX’s Best Hope for Sending People to Mars Will Launch This Week
 
+**FEVEREIRO 04**
+
+- Facebook introduces Friends Awards, personalised video, and more
+
+- Bitcoin has a huge scaling problem—Lightning could be the solution
+
+- Centennial Flame upgrade project cost taxpayers $845,000
+
+- Hyundai’s self-driving fuel cell cars complete a record highway trip
+
+- Next-gen 6.1-inch LCD iPhone again predicted to outsell OLED models
+
+- Apple offers free repairs for iPhone glitch
+
+- Banks ban credit purchase of cryptocurrency due to risks
+
+- Microsoft to drop Windows 10 S as a stand-alone product
+
+**FEVEREIRO 05**
+
+- OnePlus releases Lava Red OnePlus 5T for Valentine’s Day
+
+- HP Unveils New Color 3-D Printers
+
+- Ex Google and Facebook Employees Want to Protect Kids From Social Media Addiction
+
+- Apple iPhone X investigating issue where users are unable to take calls
+
+- 256GB iPhone X now costs a staggering $1,699 in India as Apple hikes prices yet again
+
+- Apple abruptly pulled Telegram last week when it learned app was serving child pornography
+
+- Xiaomi to Launch Budget Android Smartphone on Feb 14
+
+- Google enables Pixel Visual Core for better Instagram, Snapchat, and WhatsApp photos
+
+- iPad Remains World’s Most Popular Tablet as Apple Outsold Samsung and Amazon Combined Last Year
+
+- Google India introduces #SecurityCheckKiya to educate users on internet security
+
+- Apple Music will soon have more subscribers than Spotify in the US
+- [Vendas da Apple no 4º trimestre de 2017 superam Samsung; Xiaomi cresce 97%](https://canalte.ch/T5SU0)
+- [Google Tradutor fica ainda mais útil após nova atualização; recursos interessantes chegarão em breve](http://bit.ly/techG1s)
+- [Código no iOS 11.3 sugere uso do Apple ID como 'login único' em diversos sites](http://bit.ly/techaPQ)
+
+
+**FEVEREIRO 06**
+
+- WhatsApp new feature for Android beta lets users add three participants in call
+
+- Actor Anupam Kher Says Twitter Account Hacked
+
+- The 2018 Porsche 911 GT3 RS Now Gets 520 HP From Its Naturally Aspirated Flat Six
+
+- Google+ Android app getting “brand new version” in coming days
+
+- Microsoft takes aim at Google, Box, Dropbox with OneDrive switch offer
+
+- Report suggests Apple could begin 2018 product launches next month
+
+- Moto Z2 Force owners report screen peeling issue
+- [Telegram foi usado para compartilhar conteúdo de pedofilia, diz Apple](https://canalte.ch/T5T1Q)
+- [Versão digital do Documento Nacional de Identidade já se encontra em teste](https://canalte.ch/T5T0W)
+- [Qualcomm anuncia que terá centro de referência para soluções de cidades inteligentes no Brasil](http://bit.ly/techkM)
+- [Pixel 3, é você? Smartphone HTC aparece em vídeo mostrando ótimo desempenho no 4G](http://bit.ly/techGw)
+- [Telegram ganha proteções contra usuários que distribuem pornografia infantil](http://bit.ly/techZxp)
+
+
+**FEVEREIRO 07**
+
+- Apple-Shazam deal may hurt competition in Europe
+
+- HP’s new Thunderbolt 3 USB-C dock has a modular Bang & Olufsen speaker on top
+
+- Huawei Mate 10 and Mate 10 Pro update brings camera fixes, key optimizations
+
+- Amazon’s Echo Look style assistant gets a little bit smarter
+
+- Chinese cops now have hi-tech glasses to screen crowds for criminals
+
+- Twenty-five ‘new’ Jaguar D-Types to be built in original Le Mans specification
+
+- Apple releases second iOS 11.3 public beta for iPhone and iPad
+
+- Elon Musk’s space car set to overshoot Mars and hurtle towards asteroid belt
+
+- Latest Google Play Services beta fixes Pixel “Check for update” button
+- [Google anuncia novidades em seus apps para o Carvanal](https://canalte.ch/T5T3Q)
+- [Cortana está pronta para curtir o Carnaval; confira as novidades da assistente](https://canalte.ch/T5T6C)
+- [Atualização do Drive permite anotações em arquivos do Office e PDFs](https://canalte.ch/T5TC4)
+- [De olho em projetos futuros, Google anuncia junção do Nest à seu time de hardware](http://bit.ly/techwst)
+- [Resultados do quarto trimestre mostram recuperação do Snapchat](https://canalte.ch/T5TAS
+
+
+**FEVEREIRO 08**
+
+- Google Fined Rs 136 Crore For ‘Search Bias’
+
+- EMUI 8.0 confirmed for Honor 7X and Honor 8, coming in Q2
+
+- Amazon launches a Polly WordPress plugin that turns blog posts into audio, including podcasts
+
+- Bosch to hire 10,000 engineers in India to work on AI, other future tech
+
+- Suzuki to invest $3 billion in India over 3 years
+
+- Internet pioneer John Perry Barlow dies, aged 70
+
+- Bagel Emoji Finally Added to the List for 2018
+
+- Apple to launch AirPower and AirPods wireless charging case in March
+
+- WhatsApp has launched person-to-person payments into beta in India
+- [Nearly 2000 WordPress Websites Infected with a Keylogger](http://feedproxy.google.com/~r/TheHackersNews/~3/6Nw6EPx93tI/wordpress-keylogger.html)
+- [Hard-coded Password Lets Attackers Bypass Lenovo's Fingerprint Scanner](http://feedproxy.google.com/~r/TheHackersNews/~3/Exuk17jPRBA/lenovo-fingerprint.html)
+- [Heat Map Released by Fitness Tracker Reveals Location of Secret Military Bases](http://feedproxy.google.com/~r/TheHackersNews/~3/wp0PUGgkj3s/strava-heatmap-location-tracking.html)
+- [Update Your Firefox Browser to Fix a Critical Remotely Exploitable Flaw](http://feedproxy.google.com/~r/TheHackersNews/~3/vjyxt1ELD_k/firefox-browser-update.html)
+- [Critical Oracle Micros POS Flaw Affects Over 300,000 Payment Systems](http://feedproxy.google.com/~r/TheHackersNews/~3/NC55XmFzqc0/oracle-micros-pos.html)
+- [Cryptocurrency Mining Malware Infected Over Half-Million PCs Using NSA Exploit](http://feedproxy.google.com/~r/TheHackersNews/~3/ysy41UbR3sU/cryptocurrency-mining-malware.html)
+- [(Unpatched) Adobe Flash Player Zero-Day Exploit Spotted in the Wild](http://feedproxy.google.com/~r/TheHackersNews/~3/_7ox_ZEhu_8/flash-zero-day-exploit.html)
+- [Meltdown/Specter-based Malware Coming Soon to Devices Near You, Are You Ready?](http://feedproxy.google.com/~r/TheHackersNews/~3/zFf0N4S1C4I/meltdown-spectre-malware-hacking.html)
+- [Unpatched DoS Flaw Could Help Anyone Take Down WordPress Websites](Unpatched DoS Flaw Could Help Anyone Take Down WordPress Websites)
+- [How to Mitigate the Threat Cryptocurrency Mining Poses to Enterprise Security](How to Mitigate the Threat Cryptocurrency Mining Poses to Enterprise Security)
+- [British Hacker 'Lauri Love' will not be extradited to US, Court Rules](http://feedproxy.google.com/~r/TheHackersNews/~3/sCQEHRgwBJo/lauri-love-extradition.html)
+- [Critical Flaw in Grammarly Spell Checker Could Let Attackers Steal Your Data](Critical Flaw in Grammarly Spell Checker Could Let Attackers Steal Your Data)
+- [Watch Out! New Cryptocurrency-Mining Android Malware is Spreading Rapidly](http://feedproxy.google.com/~r/TheHackersNews/~3/5h8O_7Abwng/cryptocurrency-mining-android.html)
+- [Researcher Claims Hotspot Shield VPN Service Exposes You on the Internet](Researcher Claims Hotspot Shield VPN Service Exposes You on the Internet)
+- [Cyber Espionage Group Targets Asian Countries With Bitcoin Mining Malware](http://feedproxy.google.com/~r/TheHackersNews/~3/pgOyZ_1cg-I/cyber-espionage-asia.html)
+- [Apple's iBoot Source Code for iPhone Leaked on Github](http://feedproxy.google.com/~r/TheHackersNews/~3/DkmMm4NUyDY/iboot-ios-source-code.html)
+- [Intel Releases New Spectre Patch Update for Skylake Processors](Intel Releases New Spectre Patch Update for Skylake Processors)
+- [Hackers Can Now Steal Data Even From Faraday Cage Air-Gapped Computers](http://feedproxy.google.com/~r/TheHackersNews/~3/6fvoFZo2qHY/airgap-computer-hacking.html)
+- [Secure VPN Services — Get 91% Off On Lifetime Subscriptions](http://feedproxy.google.com/~r/TheHackersNews/~3/A1sC_j3cdYg/best-secure-vpn-services.html)
+
+**FEVEREIRO 09**
+
+- WhatsApp beta testers can now send payments in India
+
+- Aurora will power Byton EV’s autonomous driving features
+
+- Bitcoin worth $4.7M seized in federal fake-ID sting
+
+- Russian nuclear scientists arrested for using supercomputer to mine Bitcoin
+
+- HomePod repair cost nearly price of new unit, AppleCare+ ideal for parents and pet owners
+
+- Samsung's Full-Screen Patent Could Take 'Galaxy,' 'Note' to New Extremes
+
+- YouTube suspends ads on Logan Paul’s videos after he used a stun gun on a dead rat
+
+- EMUI 8 with Android Oreo lands on Honor 8 Pro in India
+- [Que perigo, Apple! Homem quase perde orelha após explosão de AirPod](http://bit.ly/techCvLI)
+- [Celular misterioso da Xiaomi bate iPhone X em teste de desempenho, suposto Mi Mix 2S deve ser o primeiro telefone com Snapdragon 845](http://bit.ly/techas4)
+- [Vaza na rede pedaço de código-fonte do iOS 9; Apple se pronuncia](http://bit.ly/lgbtVEXJ)
+- [New Point-of-Sale Malware Steals Credit Card Data via DNS Queries](http://feedproxy.google.com/~r/TheHackersNews/~3/dOoeM5xKVIE/pos-malware-dns.html)
+
+
+**FEVEREIRO 10**
+
+- [Instagram to notify people when someone takes screenshot of their Story](https://indianexpress.com/article/technology/social/instagram-to-notify-people-when-someone-takes-screenshot-of-their-story-post-5058313/)
+
+- [Apple sold more watches than Rolex, Swatch, and the rest of the Swiss watch industry combined](https://www.businessinsider.com/apple-outsold-the-entire-swiss-watch-industry-in-2017-2018-2)
+
+- [Indians Can Now Send Money To Each Other Via WhatsApp](https://www.buzzfeednews.com/article/pranavdixit/whatsapp-payments-in-india)
+
+- [Google to use Getty Images content for its services](https://www.reuters.com/article/us-google-getty/google-to-use-getty-images-content-for-its-services-idUSKBN1FT1RE)
+
+- [Windows 10 is getting its own effortless Bluetooth pairing for devices](https://www.theverge.com/2018/2/10/16998598/microsoft-windows-10-bluetooth-pairing-streamlined-support)
+
+- [VideoLAN VLC releases version 3.0 with HDR and 360-degree video](https://arstechnica.com/gadgets/2018/02/videolan-vlc-releases-version-3-0-with-hdr-and-360-degree-video/)
+
+- [Facebook testing a “downvote” button for flagging content](https://www.androidauthority.com/facebook-testing-downvote-button-flagging-content-836623/)
+- [Reconhecimento de palma da mão é a segurança da Fujitsu para o Windows 10](http://bit.ly/techD5)
+- [Programas de inteligência artificial estão sendo treinados para lidar com erros humanos](http://bit.ly/tech0wE)
+- [Tecnologia de ponta! Samsung lança geladeira com sistemas que refrigeram os alimentos por igual](http://bit.ly/techVLa)
+- [Projeto de Smartphone-PC faz sucesso no IndieGogo](http://bit.ly/techsBm)
+- [Russian Scientists Arrested for Using Nuclear Weapon Facility to Mine Bitcoins](https://thehackernews.com/2018/02/supercomputer-mining-bitcoin.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Security+Blog%29)
+
+
+
+
+
+
+
+
+
+**FEVEREIRO 11**
+
+**FEVEREIRO 12**
+
+- [Google’s AI chips are now open for public use](https://venturebeat.com/2018/02/12/googles-ai-chips-are-now-open-for-public-use/)
+
+- [Facebook Is Losing Younger Users at an Even Faster Than Expected Rate](https://www.inc.com/zoe-henry/facebook-losing-users-faster-than-expected-2018.html)
+
+- [You can now watch Snap Maps on the web](https://www.theverge.com/2018/2/12/17003486/snapchat-maps-online-snap-maps)
+
+- [Israel develops pocket-size device to test for heart attacks](https://edition.cnn.com/2018/02/12/health/heart-attack-test-device-intl/index.html)
+
+- [WhatsApp Payment Live in India For Some Users](https://www.thequint.com/tech-and-auto/tech-news/whatsapp-upi-payment-feature-india-how-it-works)
+
+- [Apple iMac Pro, the ‘most powerful mac ever’, goes on sale in India for Rs 415000](https://indianexpress.com/article/technology/gadgets/apple-imac-pro-the-most-powerful-mac-ever-goes-on-sale-in-india-for-rs-415000-5060922/)
+
+- [Verizon will begin locking iPhones to its network starting this spring](https://9to5mac.com/2018/02/12/verizon-to-lock-iphones/)
+
+
+- [Xiaomi deletes poll which finds Android One more popular than MIUI](https://www.androidauthority.com/xiaomi-deletes-poll-stock-android-miui-837007/)
