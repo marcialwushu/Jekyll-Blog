@@ -763,15 +763,15 @@ Versão do Moto G5 apresenta falha gravíssima que dribla a tela de bloqueio com
 - [Cryptocurrency Mining Malware Infected Over Half-Million PCs Using NSA Exploit](http://feedproxy.google.com/~r/TheHackersNews/~3/ysy41UbR3sU/cryptocurrency-mining-malware.html)
 - [(Unpatched) Adobe Flash Player Zero-Day Exploit Spotted in the Wild](http://feedproxy.google.com/~r/TheHackersNews/~3/_7ox_ZEhu_8/flash-zero-day-exploit.html)
 - [Meltdown/Specter-based Malware Coming Soon to Devices Near You, Are You Ready?](http://feedproxy.google.com/~r/TheHackersNews/~3/zFf0N4S1C4I/meltdown-spectre-malware-hacking.html)
-- [Unpatched DoS Flaw Could Help Anyone Take Down WordPress Websites](Unpatched DoS Flaw Could Help Anyone Take Down WordPress Websites)
-- [How to Mitigate the Threat Cryptocurrency Mining Poses to Enterprise Security](How to Mitigate the Threat Cryptocurrency Mining Poses to Enterprise Security)
+- [Unpatched DoS Flaw Could Help Anyone Take Down WordPress Websites](http://feedproxy.google.com/~r/TheHackersNews/~3/T9IuLuzm10w/wordpress-dos-exploit.html)
+- [How to Mitigate the Threat Cryptocurrency Mining Poses to Enterprise Security](http://feedproxy.google.com/~r/TheHackersNews/~3/mvvjnq1M0Ik/cryptocurrency-mining-threat.html)
 - [British Hacker 'Lauri Love' will not be extradited to US, Court Rules](http://feedproxy.google.com/~r/TheHackersNews/~3/sCQEHRgwBJo/lauri-love-extradition.html)
-- [Critical Flaw in Grammarly Spell Checker Could Let Attackers Steal Your Data](Critical Flaw in Grammarly Spell Checker Could Let Attackers Steal Your Data)
+- [Critical Flaw in Grammarly Spell Checker Could Let Attackers Steal Your Data](http://feedproxy.google.com/~r/TheHackersNews/~3/9ZLEKxH6fTI/grammar-checking-software.html)
 - [Watch Out! New Cryptocurrency-Mining Android Malware is Spreading Rapidly](http://feedproxy.google.com/~r/TheHackersNews/~3/5h8O_7Abwng/cryptocurrency-mining-android.html)
-- [Researcher Claims Hotspot Shield VPN Service Exposes You on the Internet](Researcher Claims Hotspot Shield VPN Service Exposes You on the Internet)
+- [Researcher Claims Hotspot Shield VPN Service Exposes You on the Internet](http://feedproxy.google.com/~r/TheHackersNews/~3/UKPO9I4x4Jk/hotspot-shield-vpn-service.html)
 - [Cyber Espionage Group Targets Asian Countries With Bitcoin Mining Malware](http://feedproxy.google.com/~r/TheHackersNews/~3/pgOyZ_1cg-I/cyber-espionage-asia.html)
 - [Apple's iBoot Source Code for iPhone Leaked on Github](http://feedproxy.google.com/~r/TheHackersNews/~3/DkmMm4NUyDY/iboot-ios-source-code.html)
-- [Intel Releases New Spectre Patch Update for Skylake Processors](Intel Releases New Spectre Patch Update for Skylake Processors)
+- [Intel Releases New Spectre Patch Update for Skylake Processors](http://feedproxy.google.com/~r/TheHackersNews/~3/7XnEFs2dhls/intel-processor-update.html)
 - [Hackers Can Now Steal Data Even From Faraday Cage Air-Gapped Computers](http://feedproxy.google.com/~r/TheHackersNews/~3/6fvoFZo2qHY/airgap-computer-hacking.html)
 - [Secure VPN Services — Get 91% Off On Lifetime Subscriptions](http://feedproxy.google.com/~r/TheHackersNews/~3/A1sC_j3cdYg/best-secure-vpn-services.html)
 
@@ -818,12 +818,6 @@ Versão do Moto G5 apresenta falha gravíssima que dribla a tela de bloqueio com
 - [Tecnologia de ponta! Samsung lança geladeira com sistemas que refrigeram os alimentos por igual](http://bit.ly/techVLa)
 - [Projeto de Smartphone-PC faz sucesso no IndieGogo](http://bit.ly/techsBm)
 - [Russian Scientists Arrested for Using Nuclear Weapon Facility to Mine Bitcoins](https://thehackernews.com/2018/02/supercomputer-mining-bitcoin.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheHackersNews+%28The+Hackers+News+-+Security+Blog%29)
-
-
-
-
-
-
 
 
 
