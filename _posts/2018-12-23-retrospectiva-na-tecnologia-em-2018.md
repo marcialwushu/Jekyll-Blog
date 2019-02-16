@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Retrospectiva na tecnologia em 2018"
-date:   2018-23-12 19:42:31 -0200
+date:   2018-12-23 19:42:31 -0200
 categories: jekyll update
 ---
 
