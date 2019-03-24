@@ -128,4 +128,79 @@ qc.measure( q[0], c[0] )
 
 ```
 
+… O resultado deve ser sempre ```c[0] = 0```.
+
+Se nós fizemos um NOT ...
+
+
+```
+
+q = QuantumRegister(1)
+c = ClassicalRegister(1)
+qc = QuantumCircuit(q, c)
+qc.u3(math.pi,0,0, q[0])
+qc.measure( q[0], c[0] )
+
+```
+
+..o resultado deve ser sempre ```c[0]=1```.
+
+Se fizéssemos apenas meio NOT ...
+
+```
+q = QuantumRegister(1)
+c = ClassicalRegister(1)
+qc = QuantumCircuit(q, c)
+qc.u3(0.5*math.pi,0,0, q[0])
+qc.measure( q[0], c[0] )
+
+```
+
+… ```q[0]``` Estará na metade do caminho entre 0 e 1 quando for medido. Na verdade, será o estado de superposição que chamamos ```u3(0.5*pi,0,0) |0⟩``` anteriormente. Medindo se isso é 0 ou 1 vai forçá-lo a escolher aleatoriamente um ou outro, com probabilidades iguais.
+
+Essa natureza probabilística vai aparecer em cálculos quânticos. A aleatoriedade adicional também está presente nos dispositivos atuais devido ao ruído. Embora isso esteja em um nível geralmente baixo, ainda temos que manter sua existência em mente. Então, às vezes, teremos um 1 quando devemos receber um 0 e vice-versa.
+
+Por essas razões, é comum executar um programa quântico muitas vezes. Em seguida, esse processo retorna uma lista de todas as saídas geradas durante essas várias amostras e o número de vezes que ocorreram.
+
+## Fazendo um jogo
+
+Agora vamos usar esses muitos caminhos em direção a NOT para fazer um jogo em um computador quântico.
+
+Primeiro, vou deixar você em segredo. Computadores quânticos sempre serão dispositivos híbridos, parcialmente quânticos e parcialmente normais. O último é necessário para lidar com entradas e saídas, a fim de interagir com os macacos que querem usar o dispositivo.
+
+Por esse motivo, os SDKs quânticos geralmente são incorporados em uma linguagem de programação padrão. O QISKit usa o Python, portanto, podemos usar um programa Python para lidar com as partes normais do programa e para construir e executar tarefas para a parte quântica.
+
+
+É importante notar que tudo ainda está evoluindo. E todos nós fazendo programas quânticos nestes primeiros dias, inevitavelmente, guiaremos essa evolução.
+
+Para executar o programa, você precisará do Jupyter instalado, bem como das dependências do SDK. Você pode encontrar mais aqui.
+
+[Qiskit/qiskit-tutorials - Uma coleção de blocos de anotações Jupyter da comunidade e desenvolvedores qiskit mostrando como usar o Qiskit](https://github.com/QISKit/qiskit-tutorial/blob/master/README.md)
+
+Agora vamos ver o código!
+
+Em primeiro lugar, tudo o que precisamos para executar o código no Quantum Experience da IBM precisa ser importado.
+
+```py
+from qiskit import ClassicalRegister, QuantumRegister
+from qiskit import QuantumCircuit, execute
+
+```
+
+Em seguida, precisamos nos registrar com a API para que possamos realmente executar tarefas no dispositivo quântico real.
+
+```py
+from qiskit import register
+
+import Qconfig
+qx_config = {
+    "APItoken": Qconfig.APItoken,
+    "url": Qconfig.config['url']}
+
+register(qx_config['APItoken'], qx_config['url'])
+
+```
+
+
+
 [Artigo Original](https://medium.com/qiskit/how-to-program-a-quantum-computer-982a9329ed02)
