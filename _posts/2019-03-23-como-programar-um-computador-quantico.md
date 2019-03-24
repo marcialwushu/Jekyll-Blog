@@ -271,6 +271,117 @@ for player in range(2):
     
 ```
 
+Cada programa é inicializado com um registro de cinco bits quânticos e clássicos, para cobrir toda a grade. O programa para a grade de um determinado jogador pode ser endereçado ```qc[player]```, embora note que o jogador 1 é aqui referido como ```player=0```, e o jogador 2 como ```player=1```.
+
+Agora, suponha que queremos aplicar uma certa fração de um NOT a um determinado qubit. Nós fazemos isso com a seguinte linha
 
 
+```
+qc[player].u3(frac * math.pi, 0.0, 0.0, q[position])
+
+```
+
+mas com ```frac``` e ```position``` substituídos por números reais.
+
+Usando isso, podemos adicionar todas as bombas que o jogador adversário está disparando nessa grade. Para a grade de player nós circulamos sobre as três posições onde há um navio. Em seguida, adicionamos uma linha ```qc[player]``` para cada bomba que foi enviada aqui.
+
+Mencionei anteriormente que os três navios neste jogo terão diferentes pontos fortes. O primeiro colocado pelo jogador será afundado por uma única bomba, mas o segundo precisará de dois para ser destruído e o terceiro precisará de três.
+
+Em termos de qubits, isso significa que uma bomba que atinge o primeiro navio aplica um NOT inteiro. Uma bomba que atinge o segundo navio se aplica, metade de um NOT, e um no terceiro navio aplica um terço de um NOT. A fração ```frac``` é então determinada por qual navio está sendo atingido. Para isso, simplesmente usamos ```frac = 1/(ship+1)```.
+
+Uma vez que o bombardeio acabou, é hora de ver o que aconteceu. Para isso, precisamos adicionar os comandos de medição. Cada qubit no registrador é medido e os resultados copiados para um bit normal correspondente. Isso é feito com
+
+```py
+
+for qubit in range(5):
+    qc[player]t.measure(q[qubit], c[qubit])
+    
+```
+
+Agora temos um par de programas quânticos, é hora de executá-los. Isso é feito usando
+
+```
+job = execute(qc, backend, shots=shots)
+
+```
+
+Aqui ```backend``` foi definido anteriormente quando perguntamos ao jogador em qual dispositivo rodar.
+
+Depois que o trabalho for enviado, podemos tentar extrair os dados.
+
+```py
+
+for player in range(2):
+    grid[player] = job.result().get_counts(qc[player])
+    
+```
+
+Aqui eu copio os resultados para grid, com os resultados do bombardeio dos playernavios em ```grid[player]```.
+
+Observe que a chamada ```job.result()``` irá aguardar até que o trabalho tenha realmente parado de ser executado. Se você estiver em uma fila atrás dos outros usando o dispositivo, isso pode levar alguns minutos.
+
+Os resultados são armazenados ```grid[player]``` como um dicionário. As chaves são seqüências de bits e assim parecem algo 110. O bit mais à direita é ```c[0]```, e assim ```c[0]=0```, neste exemplo de seqüência de bits. Ao processar os resultados, podemos descobrir quantas execuções receberam cada resultado ( 0 ou 1) para cada um dos bits normais.
+
+Nós interpretamos a fração de vezes que um qubit é medido para ser 1 como o dano percentual para o nosso navio. Nós não podemos esperar 100% de dano devido aos efeitos do ruído (ou tempo, se você quiser uma explicação no universo) então nós contamos um dano maior que 95% como significando que a nave afundou.
+
+Vamos verificar alguns exemplos de saídas do processo quântico. Suponha que um jogador coloque seu terceiro navio na posição 2. O outro jogador então o bombardeia. Os resultados serão parecidos.
+
+```
+{'00000': 734, '00100': 290}
+
+```
+
+Aqui, 290 das 1024 corridas encontraram uma 1 posição 2, mostrando que esta nave realmente sofreu alguns danos.
+
+Outro exemplo: um jogador coloca seu primeiro navio na posição 1 e o segundo em 2. O outro jogador lança a primeira posição na primeira rodada e a segunda posição na segunda. Os resultados seriam
+
+
+```
+{'00110': 532, '00010': 492}
+
+```
+
+Aqui todos os resultados têm um 1segundo slot à direita (o da posição 1). Aquela nave foi destruída por uma única bomba. O que está na posição 2 foi apenas meio danificado, portanto, metade dos resultados tem um 1para isso.
+
+Estes resultados de exemplo foram bons e limpos, então podemos dizer que eles foram feitos no simulador. No dispositivo real, você pode encontrar alguns 1 para resultados de navios que não foram bombardeados e para qubits que não são navios.
+
+O processamento de cadeias de bits não é algo exclusivo da computação quântica, por isso não pretendo dizer-lhe como fazê-lo. Se você estiver interessado no método que eu hackeei, você encontrará no código.
+
+Uma vez calculadas as porcentagens de dano, elas são apresentadas aos jogadores. Por exemplo, se apenas o navio na posição 2 foi atingido e tem 50% de dano, isso seria mostrado como.
+
+```
+?       ? 
+ |\     /|
+ | \   / |
+ |  \ /  |
+ |  50%  |
+ |  / \  |
+ | /   \ |
+ |/     \|
+ ?       ?
+ 
+ ```
+ 
+ O jogo continua a pedir bombas e executar o cenário até que um jogador tenha perdido todos os seus navios. Nesse ponto, o outro jogador ganha.
+
+Você pode notar que bombardear o terceiro navio de um jogador causa um dano de cerca de 25%. Como esse navio é um terço do caminho para a destruição, você poderia esperar 33%. O motivo é trigonometria. Não há necessidade de insistir muito sobre isso neste momento.
+
+É importante notar que todo o cenário é repetido todas as vezes. Se a quantidade de tempo entre os turnos pode ser apenas cerca de um minuto, mas isso é quase uma eternidade para os qubits. Mesmo a uma temperatura de 0,02 Kelvin, a informação teria queimado muito antes do próximo turno. Além disso, nossa necessidade de extrair informações também irá perturbar toda a adorável quantumidade do sistema. Por essas razões, qualquer processo que necessite de interação humana, precisará das partes quânticas a serem reexecutadas do zero para cada nova entrada.
+
+Então foi isso. Battleships rodando em um computador quântico. Não é o uso mais requintado de um computador quântico, ou a versão mais extravagante de Battleships. Mas para mim, combinar os dois é metade da diversão!
+
+O código fonte completo pode ser acessado abaixo.
+
+[QISKit/qiskit-tutorial](https://github.com/QISKit/qiskit-tutorial/blob/master/reference/games/battleships_with_partial_NOT_gates.ipynb)
+
+
+E aqui está um vídeo do jogo em ação.
+
+[![](https://i.ytimg.com/vi/kM3SuHNZVVU/sddefault.jpg)](https://youtu.be/kM3SuHNZVVU)
+
+A história continua com outra versão do Battleships na parte 2.
+
+---
+
+Autor: [Dr. James Wootton](https://medium.com/@decodoku)
 [Artigo Original](https://medium.com/qiskit/how-to-program-a-quantum-computer-982a9329ed02)
