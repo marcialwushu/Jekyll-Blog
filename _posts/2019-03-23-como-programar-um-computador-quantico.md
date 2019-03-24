@@ -33,5 +33,6 @@ Com bits podemos fazer operações booleanas simples, como NOT, AND e OR. Estes 
 
 Os computadores quânticos são baseados em bits quânticos ou qubits. Estes também têm dois valores possíveis que podemos chamar 0e 1. Mas as leis da mecânica quântica também permitem outras possibilidades, que chamamos de estados de superposição.
 
-Em certo sentido, os estados de superposição são valores que existem a meio caminho entre os extremos de 0e 1. Podemos imaginar um qubit como uma esfera, com 0e 1sentando em postes opostos. Os estados de superposição são todos os outros pontos possíveis na superfície.
+Em certo sentido, os estados de superposição são valores que existem a meio caminho entre os extremos de 0 e 1. Podemos imaginar um qubit como uma esfera, com 0 e 1sentando em postes opostos. Os estados de superposição são todos os outros pontos possíveis na superfície.
 
+![](https://cdn-images-1.medium.com/max/800/1*2CmzGqe_tVECBj2QjhUoLg.png)
