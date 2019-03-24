@@ -201,6 +201,76 @@ register(qx_config['APItoken'], qx_config['url'])
 
 ```
 
+Isso faz referência ao Qconfigarquivo, no qual você precisará de uma conta com a IBM para configurar. Não se preocupe, é grátis! Veja [aqui](https://quantumcomputing.stackexchange.com/questions/2062/what-is-qconfig-in-qiskit-and-how-do-i-set-it-up) os detalhes.
+
+Em seguida, importamos várias funções projetadas para lidar com todas as entradas e saídas chatas. Como isso não faz parte da programação quântica, não entraremos em detalhes sobre isso.
+
+```py
+from battleships_engine import *
+
+```
+
+A primeira coisa que precisamos fazer é decidir sobre o dispositivo que será usado para a parte quântica do programa.
+
+```py
+
+device = ask_for_device()
+
+from qiskit import Aer, IBMQ
+try:
+    backend = Aer.get_backend(device)
+except:
+    backend = IBMQ.get_backend(device)
+    
+```
+
+A função ```ask_for_device()``` simplesmente pergunta ao jogador se deve ou não usar o dispositivo real. Se eles responderem y, o dispositivo escolhido é ```ibmq_5_tenerife```: um processador quântico real de cinco qubits nos laboratórios da IBM. Se eles responderem n, um simulador é escolhido.
+
+Outra coisa importante a definir é o número de vezes que cada trabalho será executado. Isso ocorre porque usamos muitas amostras para calcular estatísticas sobre as saídas possivelmente aleatórias que recebemos.
+
+```
+shots = 1024
+
+```
+
+Não há razão mágica para 1024. Você pode mudá-lo se quiser.
+
+Em seguida, chegamos a montar as pranchas, com cada jogador escolhendo onde colocar três navios. Cinco posições possíveis estão disponíveis, correspondendo aos cinco qubits do dispositivo ibmqx4 da IBM. Eu visualizo a grade assim
+
+```
+
+4       0
+|\     /|
+| \   / |
+|  \ /  |
+|   2   |
+|  / \  |
+| /   \ |
+|/     \|
+3       1
+
+```
+
+Os números são os nomes que eu uso para cada posição. Eles também são os nomes que a IBM usa, assim 2 como a posição do qubit ```q[2]```, por exemplo.
+
+As escolhas feitas pelos jogadores são armazenadas em shipPos. Isto tem uma entrada para cada um dos dois jogadores ( ```player=0``` para o primeiro jogador, ```player=1``` para o segundo) e para cada um dos três navios que eles colocam. A entrada ```shipPos[player][ship]``` mantém a posição ( 0, 1, 2, 3ou 4) para o navio numerados shippertencente a player.
+
+Agora é hora do loop principal do jogo. Neste vamos perguntar a ambos os jogadores onde na grade do seu oponente eles gostariam de bombardear. Isto é então adicionado ```bomb[player][position]```, o que conta quantas vezes ```player``` bombardeou ```position``` ao longo do jogo.
+
+Agora temos informações suficientes para configurar o programa quântico. Sabemos quais qubits devem ser navios e onde bombardear. Então agora é hora de definir os trabalhos correspondentes com o QISKit.
+
+Em cada rodada teremos dois programas quânticos para executar: cada um simulando a ação na grade de um jogador. Vamos usar o array ```qc``` para manter esses programas.
+
+```
+
+qc = []
+for player in range(2):
+    q = QuantumRegister(5)
+    c = ClassicalRegister(5)
+    qc.append( QuantumCircuit(q, c) )
+    
+```
+
 
 
 [Artigo Original](https://medium.com/qiskit/how-to-program-a-quantum-computer-982a9329ed02)
