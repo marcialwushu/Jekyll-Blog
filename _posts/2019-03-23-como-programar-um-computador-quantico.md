@@ -384,4 +384,6 @@ A história continua com outra versão do Battleships na parte 2.
 ---
 
 Autor: [Dr. James Wootton](https://medium.com/@decodoku)
+
+
 [Artigo Original](https://medium.com/qiskit/how-to-program-a-quantum-computer-982a9329ed02)
