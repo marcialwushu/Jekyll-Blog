@@ -19,18 +19,18 @@ Existem dois tipos de CTFs, os Jeopardy-style (estilo Quiz), que normalmente sã
 
 **Jeopardy-style**: são apresentadas questões de diversas categorias, níveis de dificuldade e pontuações. As categorias variam de competição pra competição, mas as principais são:
 
-- Reversing (Eng. Reversa). Ex: Rev 100 – 2º HnR.
-- Crypto (Criptografia). Ex: Crypto 100 – SECCON 2014.
-- Forensics (Forense). Ex: For 20 – Pwn2Win 2014.
-- Miscellaneous (Diversos). Ex: Misc 100 – 3º HnR.
-- Trivias (Triviais).
-- Web Hacking. Ex: Web 100 – SECCON 2014.
-- Networking (Redes).
-- Pwnables/Exploitation (Exploração de binários). Ex: Exploitation 20 – ADCTF 2014.
-- PPC (Professional Proramming and Coding). Ex: PPC  7 – ADCTF 2014.
+- **Reversing** (Eng. Reversa). Ex: [Rev 100 – 2º HnR](http://ctf-br.org/wiki/hnr/hnr2/r100-it-rules/).
+- **Crypto** (Criptografia). Ex: [Crypto 100 – SECCON 2014](http://ctf-br.org/wiki/seccon/seccon2014/c100-easy-cipher/).
+- **Forensics** (Forense). Ex: [For 20 – Pwn2Win 2014](http://ctf-br.org/wiki/pwn2win/pwn2win2014/f20-k1k0/).
+- **Miscellaneous** (Diversos). Ex: [Misc 100 – 3º HnR](http://ctf-br.org/wiki/hnr/hnr4/m100/).
+- **Trivias** (Triviais).
+- **Web Hacking**. Ex: [Web 100 – SECCON 2014](http://ctf-br.org/wiki/seccon/seccon2014/w100-jspuzzle/).
+- **Networking** (Redes).
+- **Pwnables/Exploitation** (Exploração de binários). Ex: [Exploitation 20 – ADCTF 2014](http://ctf-br.org/wiki/adctf/adctf2014/day-20-easypwn/).
+- **PPC** (Professional Proramming and Coding). Ex: [PPC  7 – ADCTF 2014](https://ctf-br.org/wiki/adctf/adctf2014/p7-reader-day-7-2/).
 
 
-Para saber mais, acesse: https://ctftime.org/ctf-wtf/
+Para saber mais, acesse: <https://ctftime.org/ctf-wtf/>
 
 
 
