@@ -36,70 +36,71 @@ Para saber mais, acesse: <https://ctftime.org/ctf-wtf/>
 
 Disponibilizaremos aqui links para materiais (artigos, guias, palestras, etc) e tudo mais que podem ajudá-lo em sua trajetória no Maravilhoso Mundo das Competições Capture the Flag! Eventualmente tentaremos traduzir alguns docs para ajudar quem ainda não tem familiaridade com a língua inglesa.
 
-[A Brief History of CTF](https://psifertex.github.io/a-brief-history-of-ctf/) – Bela apresentação do psifertex, contando um pouco da história dos CTFs.
+- [A Brief History of CTF](https://psifertex.github.io/a-brief-history-of-ctf/) – Bela apresentação do psifertex, contando um pouco da história dos CTFs.
 
-[CTF Field Guide](https://trailofbits.github.io/ctf/index.html), por [Trail of Bits](https://www.trailofbits.com/) – “Guia de Campo” que pretende nortear novos players e pessoas que desejam começar a trabalhar com segurança da informação.
+- [CTF Field Guide](https://trailofbits.github.io/ctf/index.html), por [Trail of Bits](https://www.trailofbits.com/) – “Guia de Campo” que pretende nortear novos players e pessoas que desejam começar a trabalhar com segurança da informação.
 
-CTF CheatSheet, por Rudy “Rryy” Matela – Cheatsheet conciso de comandos que podem ser utilizados para facilitar a vida durante os CTFs. Foi feito pelo Rryy, membro do CTF-BR.
+- [CTF CheatSheet](https://github.com/rudymatela/ultimate-cheat-sheets/releases/download/ctf-v0.3/ctf-ucs-0.3.pdf), por Rudy “[Rryy](https://matela.com.br/)” Matela – Cheatsheet conciso de comandos que podem ser utilizados para facilitar a vida durante os CTFs. Foi feito pelo Rryy, membro do CTF-BR.
 
-CTF Resources – estilo nosso /docs, englobando muita coisa sobre CTFs.
+- [CTF Resources](http://ctfs.github.io/resources/) – estilo nosso /docs, englobando muita coisa sobre CTFs.
 
-Awesome CTF – outra coleção de links bem interessante.
+- [Awesome CTF](https://github.com/dossantos87/awesome-ctf) – outra coleção de links bem interessante.
 
-CTF Heaven – repositório do TheZakMan, membro do Projeto.
+- [CTF Heaven](https://github.com/thezakman/CTF-Heaven) – repositório do TheZakMan, membro do Projeto.
 
-Maximum CTF: Getting the Most Out of Capture the Flag, por Jordan “psifertex” Wiens – Palestra ministrada na DEF CON 17 por um dos maiores contribuidores/entusiastas da cena, o psifertex. É um dos organizadores do Ghost in the Shellcode, o CTF que tem o game Pwn Adventure como uma das atrações principais.
+- [Maximum CTF: Getting the Most Out of Capture the Flag](https://www.youtube.com/watch?v=okPWY0FeUoU), por Jordan “[psifertex](https://twitter.com/psifertex)” Wiens – Palestra ministrada na DEF CON 17 por um dos maiores contribuidores/entusiastas da cena, o psifertex. É um dos organizadores do [Ghost in the Shellcode](http://ghostintheshellcode.com/), o CTF que tem o game [Pwn Adventure](http://pwnadventure.com/) como uma das atrações principais.
 
-Hacking Games in a Hacked Game: outra palestra do psifertex, juntamente com Rusty Wagner, ministrada na Infiltrate 2015.
+- [Hacking Games in a Hacked Game](https://vimeo.com/132900706): outra palestra do [psifertex](https://twitter.com/psifertex), juntamente com Rusty Wagner, ministrada na [Infiltrate 2015](http://infiltratecon.org/speakers.html#games).
 
-On the Battlefield with the Dragons, por Dragon Sector – Palestra ministrada pelo capitão e vice-campeão do Dragon Sector (melhor time de 2014) no evento CONFidence deste mesmo ano. Eles citam diversos exemplos de challenges que já resolveram, o que nos mostra claramente a diversidade e multidisciplinaridade que os CTFs proporcionam.
+- [On the Battlefield with the Dragons](https://www.youtube.com/watch?v=h6oLWmzgDGc), por [Dragon Sector](http://dragonsector.pl/) – Palestra ministrada pelo capitão e vice-campeão do Dragon Sector (melhor time de 2014) no evento [CONFidence](http://2014.confidence.org.pl/en/) deste mesmo ano. Eles citam diversos exemplos de challenges que já resolveram, o que nos mostra claramente a diversidade e multidisciplinaridade que os CTFs proporcionam.
 
-Pwning (sometimes) with style, por Dragon Sector – Dragons’ notes on CTFs.
+- [Pwning (sometimes) with style](http://j00ru.vexillium.org/blog/24_03_15/dragons_ctf.pdf), por [Dragon Sector](http://dragonsector.pl/) – Dragons’ notes on CTFs.
 
-MHacks Tinfoil Security Tech Talk: Zero to Zeroday – Palestra introdutória de CTFs ministrada por Shane Wilton. Sem sombra de dúvidas uma das melhores!
+- [MHacks Tinfoil Security Tech Talk: Zero to Zeroday](https://www.youtube.com/watch?v=Jnh8PK9iQco) – Palestra introdutória de CTFs ministrada por Shane Wilton. Sem sombra de dúvidas uma das melhores!
 
-USENIX Enigma 2016 – Building a Competitive Hacking Team – Palestra do tylerni7, do PPP (Plaid Parliament of Pwning), falando sobre seu time e o mundo dos CTFs.
+- [USENIX Enigma 2016 – Building a Competitive Hacking Team](https://www.youtube.com/watch?v=-r-B1uOj0W4) – Palestra do tylerni7, do [PPP](http://pwning.net/) (Plaid Parliament of Pwning), falando sobre seu time e o mundo dos CTFs.
 
-USENIX Enigma 2016 – Capture the Flag: An Owner’s Manual – Palestra ministrada por Vito Genovese, um dos organizadores do CTF da DEF CON! Slides e Vídeo.
+- [USENIX Enigma 2016 – Capture the Flag: An Owner’s Manual](https://www.usenix.org/conference/enigma2016/conference-program/presentation/genovese) – Palestra ministrada por Vito Genovese, um dos organizadores do CTF da DEF CON! [Slides](https://www.usenix.org/sites/default/files/conference/protected-files/enigma16_slides_genovese.pdf) e [Vídeo](https://www.youtube.com/watch?v=BshccRicu8Q).
 
-DEF CON 23 – Machine vs. Machine: Inside DARPA’s Fully Automated CTF – Mais uma palestra do psifertex, explicando o funcionamento da competição automatizada de pwning criada pela DARPA (Defense Advanced Research Projects Agency).
+- [DEF CON 23 – Machine vs. Machine: Inside DARPA’s Fully Automated CTF](https://www.youtube.com/watch?v=gnyCbU7jGYA) – Mais uma palestra do psifertex, explicando o funcionamento da competição automatizada de pwning criada pela DARPA (Defense Advanced Research Projects Agency).
 
-Meet the PPP – Conhecendo o melhor time da atualidade.
+- [Meet the PPP](http://kernelmag.dailydot.com/issue-sections/headline-story/16863/plaid-parliament-of-pwning-hacker-ctf/) – Conhecendo o melhor time da atualidade.
 
-DEF CON in the news: A profile of this year’s CTF champs Plaid Parliament of Pwning!
+- [DEF CON in the news: A profile of this year’s CTF champs Plaid Parliament of Pwning!](https://www.inverse.com/article/19402-plaid-parliament-of-pwning-wins-defcon-again)
 
-A DEF CON CTF 2016 Overview – Overview do evento de um membro do PPP, time vencedor.
+- [A DEF CON CTF 2016 Overview](https://dttw.tech/posts/r1rHSpdY) – Overview do evento de um membro do PPP, time vencedor.
 
-LiveOverflow Youtube Channel – Muitos vídeos bons e didáticos.
+- [LiveOverflow Youtube Channel](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/videos) – Muitos vídeos bons e didáticos.
 
-Entrevista com o CyKoR – Time que bateu o PPP nas Finals da DEF CON 2015.
+- [Entrevista com o CyKoR](https://blog.avatao.com/Interview-CyKor/) – Time que bateu o PPP nas Finals da DEF CON 2015.
 
-ONDE TREINAR?
-Shellterlabs – Rede social brasileira de segurança da informação, com challenges de vários CTFs famosos.
+## ONDE TREINAR?
 
-akictf – Wargame feito pelo akiym, membro do time japonês dodododo. Tem challenges com dificuldade crescente envolvendo diversas categorias.
+- [Shellterlabs](http://shellterlabs.com/) – Rede social brasileira de segurança da informação, com challenges de vários CTFs famosos.
 
-pwnable.kr – Site com challenges somente de exploitation.
+- [akictf](http://ctf.katsudon.org/) – Wargame feito pelo akiym, membro do time japonês dodododo. Tem challenges com dificuldade crescente envolvendo diversas categorias.
 
-pwnable.tw – Semelhante ao pwnable.kr, porém criado pelo pessoal do HITCON.
+- [pwnable.kr](http://pwnable.kr/) – Site com challenges somente de exploitation.
 
-canyouhack.it – Site com challenges de diversas categorias.
+- [pwnable.tw](http://pwnable.tw/) – Semelhante ao pwnable.kr, porém criado pelo pessoal do HITCON.
 
-reversing.kr – Site com diversos challenges de reversing, sendo a maioria binários do Windows (PE).
+- [canyouhack.it](http://canyouhack.it/) – Site com challenges de diversas categorias.
 
-crackmes.de – Mais challenges de reversing, focado especificamente em cracks.
+- [reversing.kr](http://reversing.kr/challenge.php) – Site com diversos challenges de reversing, sendo a maioria binários do Windows (PE).
 
-challenges.re – Mais reversing.
+- [crackmes.de](http://crackmes.de/) – Mais challenges de reversing, focado especificamente em cracks.
 
-id0-rsa.pub – Crypto challenges.
+- [challenges.re](http://challenges.re/) – Mais reversing.
 
-cryptopals.com – Challenges de criptografia feitos pela Matasano.
+- [id0-rsa.pub](https://id0-rsa.pub/) – Crypto challenges.
 
-eudyptula-challenge.org – Challenges de programming referentes ao kernel do linux.
+- [cryptopals.com](http://cryptopals.com/) – Challenges de criptografia feitos pela Matasano.
 
-microcorruption.com – Challenges de exploitation.
+- [eudyptula-challenge.org](http://eudyptula-challenge.org/) – Challenges de programming referentes ao kernel do linux.
 
-ringzer0team.com – Outro site com diversos challenges de muitas categorias.
+- [microcorruption.com](http://microcorruption.com/) – Challenges de exploitation.
+
+- ringzer0team.com – Outro site com diversos challenges de muitas categorias.
 
 chall.tasteless.eu – Challenges criados pelo time internacional Tasteless.
 
