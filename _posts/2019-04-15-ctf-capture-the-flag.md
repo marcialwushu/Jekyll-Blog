@@ -32,6 +32,111 @@ Existem dois tipos de CTFs, os Jeopardy-style (estilo Quiz), que normalmente sã
 
 Para saber mais, acesse: <https://ctftime.org/ctf-wtf/>
 
+## DOCS 
+
+Disponibilizaremos aqui links para materiais (artigos, guias, palestras, etc) e tudo mais que podem ajudá-lo em sua trajetória no Maravilhoso Mundo das Competições Capture the Flag! Eventualmente tentaremos traduzir alguns docs para ajudar quem ainda não tem familiaridade com a língua inglesa.
+
+[A Brief History of CTF](https://psifertex.github.io/a-brief-history-of-ctf/) – Bela apresentação do psifertex, contando um pouco da história dos CTFs.
+
+[CTF Field Guide](https://trailofbits.github.io/ctf/index.html), por [Trail of Bits](https://www.trailofbits.com/) – “Guia de Campo” que pretende nortear novos players e pessoas que desejam começar a trabalhar com segurança da informação.
+
+CTF CheatSheet, por Rudy “Rryy” Matela – Cheatsheet conciso de comandos que podem ser utilizados para facilitar a vida durante os CTFs. Foi feito pelo Rryy, membro do CTF-BR.
+
+CTF Resources – estilo nosso /docs, englobando muita coisa sobre CTFs.
+
+Awesome CTF – outra coleção de links bem interessante.
+
+CTF Heaven – repositório do TheZakMan, membro do Projeto.
+
+Maximum CTF: Getting the Most Out of Capture the Flag, por Jordan “psifertex” Wiens – Palestra ministrada na DEF CON 17 por um dos maiores contribuidores/entusiastas da cena, o psifertex. É um dos organizadores do Ghost in the Shellcode, o CTF que tem o game Pwn Adventure como uma das atrações principais.
+
+Hacking Games in a Hacked Game: outra palestra do psifertex, juntamente com Rusty Wagner, ministrada na Infiltrate 2015.
+
+On the Battlefield with the Dragons, por Dragon Sector – Palestra ministrada pelo capitão e vice-campeão do Dragon Sector (melhor time de 2014) no evento CONFidence deste mesmo ano. Eles citam diversos exemplos de challenges que já resolveram, o que nos mostra claramente a diversidade e multidisciplinaridade que os CTFs proporcionam.
+
+Pwning (sometimes) with style, por Dragon Sector – Dragons’ notes on CTFs.
+
+MHacks Tinfoil Security Tech Talk: Zero to Zeroday – Palestra introdutória de CTFs ministrada por Shane Wilton. Sem sombra de dúvidas uma das melhores!
+
+USENIX Enigma 2016 – Building a Competitive Hacking Team – Palestra do tylerni7, do PPP (Plaid Parliament of Pwning), falando sobre seu time e o mundo dos CTFs.
+
+USENIX Enigma 2016 – Capture the Flag: An Owner’s Manual – Palestra ministrada por Vito Genovese, um dos organizadores do CTF da DEF CON! Slides e Vídeo.
+
+DEF CON 23 – Machine vs. Machine: Inside DARPA’s Fully Automated CTF – Mais uma palestra do psifertex, explicando o funcionamento da competição automatizada de pwning criada pela DARPA (Defense Advanced Research Projects Agency).
+
+Meet the PPP – Conhecendo o melhor time da atualidade.
+
+DEF CON in the news: A profile of this year’s CTF champs Plaid Parliament of Pwning!
+
+A DEF CON CTF 2016 Overview – Overview do evento de um membro do PPP, time vencedor.
+
+LiveOverflow Youtube Channel – Muitos vídeos bons e didáticos.
+
+Entrevista com o CyKoR – Time que bateu o PPP nas Finals da DEF CON 2015.
+
+ONDE TREINAR?
+Shellterlabs – Rede social brasileira de segurança da informação, com challenges de vários CTFs famosos.
+
+akictf – Wargame feito pelo akiym, membro do time japonês dodododo. Tem challenges com dificuldade crescente envolvendo diversas categorias.
+
+pwnable.kr – Site com challenges somente de exploitation.
+
+pwnable.tw – Semelhante ao pwnable.kr, porém criado pelo pessoal do HITCON.
+
+canyouhack.it – Site com challenges de diversas categorias.
+
+reversing.kr – Site com diversos challenges de reversing, sendo a maioria binários do Windows (PE).
+
+crackmes.de – Mais challenges de reversing, focado especificamente em cracks.
+
+challenges.re – Mais reversing.
+
+id0-rsa.pub – Crypto challenges.
+
+cryptopals.com – Challenges de criptografia feitos pela Matasano.
+
+eudyptula-challenge.org – Challenges de programming referentes ao kernel do linux.
+
+microcorruption.com – Challenges de exploitation.
+
+ringzer0team.com – Outro site com diversos challenges de muitas categorias.
+
+chall.tasteless.eu – Challenges criados pelo time internacional Tasteless.
+
+root-me.org – Challenges diversos e conta com material de apoio.
+
+CTF Learn – Plataforma feita com os challenges dos próprios players. Você também pode adicionar o seu!
+
+PwnerRank – Plataforma com challenges de praticamente todas categorias pra treinar.
+
+Tigress – Challenges de RE referente ao The Tigress C Diversifier/Obfuscator. Alguns challenges unsolvable.
+
+Stereotyped Challenges – vários challenges web feitos pelo stypr, player do dcua.
+
+Hack the Box – destaque para os vários challenges que simulam cenários reais de pentest.
+
+CTFS NACIONAIS?
+Hacking n’ Roll – CTF organizado pelo pessoal do INSERT (Information Security Research Team), do Ceará. Já fizeram 5 edições, sendo a partir da segunda, que ocorreu em 2012, em formato Jeopardy, com duração de 24 horas consecutivas, nos moldes das competições internacionais.
+
+Pwn2Win CTF – Inspirado no Hacking n’ Roll, o time brasileiro Epic Leet Team, formado em 2012 para jogar a segunda edição do HnR, criou seu próprio CTF em 2014, utilizando elementos de CTFs Jeopardy e Attack/Defense. O evento tornou-se internacional a partir da segunda edição, que ocorreu em 2016.
+
+3DSCTF – O time 318br fez a primeira edição do 3DSCTF no final de 2016. Foi internacional e teve duração de 168 horas.
+
+WRITE-UPS?
+Uma boa forma de aprender é vendo write-ups de challenges que você tentou mas não conseguiu fazer, ou ainda para ver as diversas soluções para o mesmo desafio. Nos links abaixo você consegue achar write-ups facilmente:
+
+Projeto CTF-BR Repo (pt-BR)
+
+CTFTime Repo
+
+GitHub Repo
+
+PRÓXIMO CTF?
+Basta acompanhar o CTFTime, site referência no meio, pois ele possui uma área de “Upcoming Events“. Além disso, possui um ranking global com o score dos times durante o ano, sendo que cada CTF, dependendo da dificuldade e outros fatores, possui um peso para definir sua pontuação. A fórmula utilizada para calcular o rating pode ser vista aqui.
+
+Se você está começando, busque jogar nos CTFs com rating baixo, ou High School.
+
+
 
 
 # Awesome CTF [![Build Status](https://travis-ci.org/apsdehal/awesome-ctf.svg?branch=master)](https://travis-ci.org/apsdehal/awesome-ctf) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
