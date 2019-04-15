@@ -100,40 +100,43 @@ Disponibilizaremos aqui links para materiais (artigos, guias, palestras, etc) e 
 
 - [microcorruption.com](http://microcorruption.com/) – Challenges de exploitation.
 
-- ringzer0team.com – Outro site com diversos challenges de muitas categorias.
+- [ringzer0team.com](http://ringzer0team.com/) – Outro site com diversos challenges de muitas categorias.
 
-chall.tasteless.eu – Challenges criados pelo time internacional Tasteless.
+- [chall.tasteless.eu](http://chall.tasteless.eu/) – Challenges criados pelo time internacional Tasteless.
 
-root-me.org – Challenges diversos e conta com material de apoio.
+- [root-me.org](http://www.root-me.org/) – Challenges diversos e conta com material de apoio.
 
-CTF Learn – Plataforma feita com os challenges dos próprios players. Você também pode adicionar o seu!
+- [CTF Learn](http://ctflearn.com/) – Plataforma feita com os challenges dos próprios players. Você também pode adicionar o seu!
 
-PwnerRank – Plataforma com challenges de praticamente todas categorias pra treinar.
+- [PwnerRank](https://www.pwnerrank.com/) – Plataforma com challenges de praticamente todas categorias pra treinar.
 
-Tigress – Challenges de RE referente ao The Tigress C Diversifier/Obfuscator. Alguns challenges unsolvable.
+- [Tigress](http://tigress.cs.arizona.edu/challenges.html) – Challenges de RE referente ao The Tigress C Diversifier/Obfuscator. Alguns challenges unsolvable.
 
-Stereotyped Challenges – vários challenges web feitos pelo stypr, player do dcua.
+- [Stereotyped Challenges](https://chall.stypr.com/) – vários challenges web feitos pelo stypr, player do dcua.
 
-Hack the Box – destaque para os vários challenges que simulam cenários reais de pentest.
+- [Hack the Box](http://hackthebox.eu/) – destaque para os vários challenges que simulam cenários reais de pentest.
 
-CTFS NACIONAIS?
-Hacking n’ Roll – CTF organizado pelo pessoal do INSERT (Information Security Research Team), do Ceará. Já fizeram 5 edições, sendo a partir da segunda, que ocorreu em 2012, em formato Jeopardy, com duração de 24 horas consecutivas, nos moldes das competições internacionais.
+## CTFS NACIONAIS?
 
-Pwn2Win CTF – Inspirado no Hacking n’ Roll, o time brasileiro Epic Leet Team, formado em 2012 para jogar a segunda edição do HnR, criou seu próprio CTF em 2014, utilizando elementos de CTFs Jeopardy e Attack/Defense. O evento tornou-se internacional a partir da segunda edição, que ocorreu em 2016.
+[Hacking n’ Roll](http://hackingnroll.com/) – CTF organizado pelo pessoal do [INSERT](http://www.insert.uece.br/) (Information Security Research Team), do Ceará. Já fizeram 5 edições, sendo a partir da segunda, que ocorreu em 2012, em formato Jeopardy, com duração de 24 horas consecutivas, nos moldes das competições internacionais.
 
-3DSCTF – O time 318br fez a primeira edição do 3DSCTF no final de 2016. Foi internacional e teve duração de 168 horas.
+[Pwn2Win CTF](https://pwn2win.party/) – Inspirado no Hacking n’ Roll, o time brasileiro [Epic Leet Team](http://www.ctf-br.org/wiki/elt), formado em 2012 para jogar a segunda edição do HnR, criou seu próprio CTF em 2014, utilizando elementos de CTFs Jeopardy e Attack/Defense. O evento tornou-se internacional a partir da [segunda edição](https://ctf-br.org/2016/04/pwn2win-ctf-2016-bastidores/), que ocorreu em 2016.
 
-WRITE-UPS?
+[3DSCTF](http://3dsctf.win/) – O time [318br](http://318br.sh/) fez a primeira edição do 3DSCTF no final de 2016. Foi internacional e teve duração de 168 horas.
+
+## WRITE-UPS?
+
 Uma boa forma de aprender é vendo write-ups de challenges que você tentou mas não conseguiu fazer, ou ainda para ver as diversas soluções para o mesmo desafio. Nos links abaixo você consegue achar write-ups facilmente:
 
-Projeto CTF-BR Repo (pt-BR)
+- [Projeto CTF-BR Repo](https://www.ctf-br.org/write-ups) (pt-BR)
 
-CTFTime Repo
+- [CTFTime Repo](https://ctftime.org/writeups)
 
-GitHub Repo
+- [GitHub Repo](https://github.com/ctfs)
 
-PRÓXIMO CTF?
-Basta acompanhar o CTFTime, site referência no meio, pois ele possui uma área de “Upcoming Events“. Além disso, possui um ranking global com o score dos times durante o ano, sendo que cada CTF, dependendo da dificuldade e outros fatores, possui um peso para definir sua pontuação. A fórmula utilizada para calcular o rating pode ser vista aqui.
+## PRÓXIMO CTF?
+
+Basta acompanhar o [CTFTime](http://ctftime.org/), site referência no meio, pois ele possui uma área de “Upcoming Events“. Além disso, possui um ranking global com o score dos times durante o ano, sendo que cada CTF, dependendo da dificuldade e outros fatores, possui um peso para definir sua pontuação. A fórmula utilizada para calcular o rating pode ser vista [aqui](https://ctftime.org/rating-formula/).
 
 Se você está começando, busque jogar nos CTFs com rating baixo, ou High School.
 
@@ -515,3 +518,10 @@ Check solve section for steganography.
 ### LICENSE
 
 CC0 :)
+
+--- 
+
+- https://ctf-br.org/docs/
+- https://wheresmykeyboard.com/2016/07/hacking-sites-ctfs-wargames-practice-hacking-skills/
+- https://github.com/apsdehal/awesome-ctf/blob/master/README.md
+- https://ctftime.org/ctfs
