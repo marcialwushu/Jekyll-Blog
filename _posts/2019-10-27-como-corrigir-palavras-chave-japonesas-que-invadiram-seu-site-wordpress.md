@@ -31,3 +31,42 @@ A pesquisa no Google pode ser o passo inicial para identificar as páginas infec
 O Google exibirá todas as páginas indexadas do site, incluindo as que foram invadidas. Navegue pelos resultados da pesquisa e verifique se há URLs com aparência suspeita. Caso você encontre algum site com títulos ou descrições em caracteres japoneses, é possível que o site tenha sido infectado.
 
 ![Wordpress-Japanese-Keyword-Hack-Search](https://secure.wphackedhelp.com/blog/wp-content/uploads/2018/02/Wordpress-Japanese-Keyword-Hack-Search-3.png)
+
+No entanto, se a pesquisa do Google não fornecer esse conteúdo invadido, tente um mecanismo de pesquisa diferente com os mesmos termos principais. Pode ser que outros mecanismos de pesquisa exibam o conteúdo / URLs infectados que foram removidos do índice do Google.
+
+### Usando o Google Search Console para detectar o conteúdo invadido
+
+O Google aconselha os webmasters a registrar seus sites no Search Console para receber notificações oportunas em caso de invasão. Para procurar as páginas invadidas, acesse o Search Console> ferramenta Security Issue. A ferramenta verificará se alguma das páginas invadidas foi indexada pelo Google.
+
+![](https://secure.wphackedhelp.com/blog/wp-content/uploads/2018/02/japanese-seo-spam-google-search-console-security-issue.png)
+
+### Use Fetch com o Google para detectar cloaking
+
+A camuflagem é uma técnica comum implementada pelos hackers para exibir diferentes URLs ou conteúdo para os usuários e mecanismos de pesquisa do que eles esperavam. O proprietário do site pode ser enganado e exibir um erro de página vazia ou HTTP 404, enquanto o site ainda pode estar invadido. [A ferramenta Fetch do Google](https://www.google.com/webmasters/tools/googlebot-fetch) no Google Search Console deve ser usada para verificar a ocultação. A ferramenta ajudará a ver o conteúdo oculto subjacente.
+
+![](https://secure.wphackedhelp.com/blog/wp-content/uploads/2018/02/Use-Fetch-as-Google.png)
+
+
+### Como corrigir hack de palavras-chave em japonês no WordPress?
+
+- Antes de começar, é essencial que o site infectado seja temporariamente offline. Isso fornecerá um tempo para remover o hack e também evitará que os usuários visitem as páginas invadidas.
+- Além disso, faça um backup dos arquivos principais e do banco de dados do site antes de fazer alterações neles. O backup também conteria as páginas invadidas e deve ser referido apenas se o conteúdo necessário for removido acidentalmente.
+- Mantenha uma cópia de todos os arquivos com os quais você trabalha.
+- Os métodos sugeridos ou implementados para resolver a preocupação requerem um conhecimento técnico. É recomendável procurar assistência de um profissional para lidar com o problema, se você tiver menos conhecimento sobre JavaScript, arquivos PHP ou CMS do seu site. Você pode nos consultar ou pedir ajuda ao seu provedor de hospedagem.
+
+Para corrigir spam seo japonês do site WordPress, basta seguir estas etapas.
+
+- Remova as contas recém-criadas do Search Console
+- Verifique seu arquivo .htaccess
+- Use Fetch  como ferramenta do Google
+- Remova todos os arquivos e scripts maliciosos
+- Verificar arquivos modificados recentemente
+- Verifique seu Sitemap
+- Execute uma verificação de malware usando o WP Hacked Help
+- Criar lista de URLs infectados
+- Enviar para remoção na ferramenta de URL no console de pesquisa
+
+Para mais detalhes veja:
+
+
+
