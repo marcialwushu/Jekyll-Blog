@@ -18,3 +18,8 @@ Sites baseados em Sistema de Gerenciamento de Conteúdo (CMS) como WordPress, Op
 
 O Japanese Keyword Hack é um tipo de hack que afeta principalmente os arquivos principais e o banco de dados do site. Navegar por cada arquivo para detectar o hack é um processo cansativo. Você pode seguir três abordagens diferentes para detectar se seu site foi infectado com esse tipo de invasão. Abaixo mencionados são as maneiras de verificar este hack:
 
+### Execute uma verificação de segurança:
+
+Para começar, você pode executar uma verificação de segurança aqui
+
+[![](https://secure.wphackedhelp.com/blog/wp-content/uploads/2017/08/wordpress-security-check.jpg)](https://secure.wphackedhelp.com/scanner.html?affCode=wphhorganic)
