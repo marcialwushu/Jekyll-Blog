@@ -23,3 +23,11 @@ O Japanese Keyword Hack é um tipo de hack que afeta principalmente os arquivos 
 Para começar, você pode executar uma verificação de segurança aqui
 
 [![](https://secure.wphackedhelp.com/blog/wp-content/uploads/2017/08/wordpress-security-check.jpg)](https://secure.wphackedhelp.com/scanner.html?affCode=wphhorganic)
+
+### Usando a Pesquisa do Google para identificar páginas invadidas
+
+A pesquisa no Google pode ser o passo inicial para identificar as páginas infectadas no site do WorPress. Para descobrir essas páginas, abra a pesquisa do Google e digite: site: [URL raiz do seu site]
+
+O Google exibirá todas as páginas indexadas do site, incluindo as que foram invadidas. Navegue pelos resultados da pesquisa e verifique se há URLs com aparência suspeita. Caso você encontre algum site com títulos ou descrições em caracteres japoneses, é possível que o site tenha sido infectado.
+
+![Wordpress-Japanese-Keyword-Hack-Search](https://secure.wphackedhelp.com/blog/wp-content/uploads/2018/02/Wordpress-Japanese-Keyword-Hack-Search-3.png)
