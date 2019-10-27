@@ -68,5 +68,21 @@ Para corrigir spam seo japonês do site WordPress, basta seguir estas etapas.
 
 Para mais detalhes veja:
 
+### Remover contas recém-criadas suspeitas do Search Console
+
+Os hackers costumam usar uma maneira comum de adicionar contas spam do Gmail como administradores para fazer alterações nas configurações do seu site. Verifique sua conta do Search Console e encontre os novos usuários que foram adicionados.
+
+Se você não reconhecer nenhum usuário, revogue imediatamente o acesso ao site. Para confirmar a legitimidade de um usuário, visite a página de verificação do Search Console que fornecerá uma lista de usuários verificados para o site. Ao clicar em Detalhes da verificação, você pode visualizar todos os usuários verificados para o site.
+
+Para excluir permanentemente um usuário do Search Console, você pode consultar a seção Remover proprietário da Central de Ajuda Gerenciando usuários, proprietários e permissões. O usuário pode ser excluído com êxito somente após remover o token de verificação associado.
+
+Por exemplo, isso foi encontrado em um modelo de um gerador de porta com spam:
+
+```html
+<meta name = "confirm-v1" content = "JxC + bn8NTCEfKZIdusC9WQELc8FEwbi8p32wf9q0QGA =">
+```
+
+Essa linha de código permite que hackers verifiquem a propriedade de sites comprometidos. Fique de olho nas verificações maliciosas do Google Search Console
+
 
 
