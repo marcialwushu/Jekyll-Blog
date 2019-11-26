@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PCI SSC lança novo programa de qualificação de avaliadores"
-date:   2019-10-27 17:57:31 -0200
+date:   2019-10-28 17:57:31 -0200
 categories: jekyll update
 ---
 
