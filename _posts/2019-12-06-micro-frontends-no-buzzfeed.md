@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Micro Frontends no BuzzFeed"
-date:   2019-12-12 17:59:38 -0200
+date:   2019-12-06 17:59:38 -0200
 categories: jekyll update
 ---
 
