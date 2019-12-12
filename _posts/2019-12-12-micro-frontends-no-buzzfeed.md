@@ -89,7 +89,7 @@ No geral, o padrão de micro front-end funcionou bem para o BuzzFeed Tech nesses
 
 Definitivamente, existe um ponto de inflexão em que ter muito mais deles exigiria mais trabalho para compensar a primeira troca, mas achamos que ainda não estamos lá e não esperamos estar lá tão cedo - abstraindo componentes para compartilhamento pacotes funcionam bem para a maioria dos nossos casos. Onde isso não acontece, é bom ter outro padrão arquitetural para alcançar.
 
-<p style="text-align:center;">. . . .</p>
+>...
 
 A BuzzFeed Tech está contratando. Se você estiver interessado em navegar pelas aberturas, acesse buzzfeed.com/jobs . Temos papéis em Los Angeles, Minneapolis, Londres e Nova York!
 
