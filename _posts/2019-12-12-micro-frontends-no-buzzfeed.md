@@ -42,6 +42,14 @@ Isso tornou-se extremamente demorado e levou as equipes a evitar alterações no
 2. Fazer uma solicitação pull
 3. Implantar o cabeçalho
 
+## Micro Frontend # 2: Publicar conteúdo (ou como chamamos: The Subbuzzes)
+
+Por quê? Para manter um contrato com o CMS
+
+Temos alguns "destinos" diferentes (por exemplo, BuzzFeed e BuzzFeed News) para o nosso conteúdo, mas cada um deles é alimentado por um único CMS. Cada destino é seu próprio serviço (ou vários serviços) que se conecta às nossas APIs de conteúdo. Isso significa que temos a capacidade de renderizar o mesmo conteúdo em vários destinos; no entanto, na prática, escolhemos não.
+
+
+
 
 
 
