@@ -113,13 +113,13 @@ A melhor maneira de acompanhar diferentes cartões e seus padrões é armazená-
 
 ```js
 
-var acceptCreditCards = { 
-  visa: / ^ 4 [0-9] {12} (?: [0-9] {3})? $ /, 
-  mastercard: / ^ 5 [1-5] [0-9] {14 } $ | ^ 2 (?: 2 (?: 2 [1-9] | [3-9] [0-9]) | [3-6] [0-9] [0-9] | 7 (? : [01] [0-9] | 20)) [0-9] {12} $ /, 
-  amex: / ^ 3 [47] [0-9] {13} $ /, 
-  descubra: / ^ 65 [4 -9] [0-9] {13} | 64 [4-9] [0-9] {13} | 6011 [0-9] {12} | (622 (?: 12 [6-9] | 1 [3-9] [0-9] | [2-8] [0-9] [0-9] | 9 [01] [0-9] | 92 [0-5]) [0-9] { 10}) $ /, 
-  diners_club: / ^ 3 (?: 0 [0-5] | [68] [0-9]) [0-9] {11} $ /, 
-  jcb: / ^ (?: 2131 | 1800 | 35 [0-9] {3}) [0-9] {11} $ / 
+var acceptedCreditCards = {
+  visa: /^4[0-9]{12}(?:[0-9]{3})?$/,
+  mastercard: /^5[1-5][0-9]{14}$|^2(?:2(?:2[1-9]|[3-9][0-9])|[3-6][0-9][0-9]|7(?:[01][0-9]|20))[0-9]{12}$/,
+  amex: /^3[47][0-9]{13}$/,
+  discover: /^65[4-9][0-9]{13}|64[4-9][0-9]{13}|6011[0-9]{12}|(622(?:12[6-9]|1[3-9][0-9]|[2-8][0-9][0-9]|9[01][0-9]|92[0-5])[0-9]{10})$/,
+  diners_club: /^3(?:0[0-5]|[68][0-9])[0-9]{11}$/,
+  jcb: /^(?:2131|1800|35[0-9]{3})[0-9]{11}$/
 };
 
 ```
@@ -129,22 +129,21 @@ Em seguida, podemos criar uma função que testa o valor inserido em relação a
 
 ```js
 
-função  checkSupported (value) { 
-  // remove todos os caracteres sem dígito 
-  var value = value.replace (/ \ D / g, ''); 
-  var aceito = falso; 
+function checkSupported(value) {
+  // remove all non digit characters
+  var value = value.replace(/\D/g, '');
+  var accepted = false;
   
-  // faz um loop pelas chaves (visa, mastercard, amex, etc.) 
-  Object.keys (acceptCreditCards) .forEach ( function (key) { 
-    var regex = acceptCreditCards [chave]; 
-    if (regex.test (value)) {accept 
-      = true; 
-    } 
-  }); 
+  // loop through the keys (visa, mastercard, amex, etc.)
+  Object.keys(acceptedCreditCards).forEach(function(key) {
+    var regex = acceptedCreditCards[key];
+    if (regex.test(value)) {
+      accepted = true;
+    }
+  });
   
-  retorno aceito; 
+  return accepted;
 }
-
 ```
 
 [Demo](https://codepen.io/kelvinzhang/pen/NBmPjX?editors=1010)
@@ -155,37 +154,36 @@ Por fim, podemos combinar o algoritmo Luhn com nosso verificador de cartões de 
 
 ```js
 
-função  validateCard (valor) { 
-  // remove todos os caracteres sem dígito 
-  var value = value.replace (/ \ D / g, ''); 
-  var sum = 0; 
-  var shouldDouble = false; 
-  // faz um loop através dos valores começando no lado direito 
-  de ( var i = value.length - 1; i> = 0; i--) { 
-    var digit = parseInt (value.charAt (i)); 
+function validateCard(value) {
+  // remove all non digit characters
+  var value = value.replace(/\D/g, '');
+  var sum = 0;
+  var shouldDouble = false;
+  // loop through values starting at the rightmost side
+  for (var i = value.length - 1; i >= 0; i--) {
+    var digit = parseInt(value.charAt(i));
 
-    if (shouldDouble) { 
-      if ((dígito * = 2)> 9) dígito - = 9; 
-    } 
+    if (shouldDouble) {
+      if ((digit *= 2) > 9) digit -= 9;
+    }
 
-    soma + = dígito; 
-    shouldDouble =! shouldDouble; 
-  } 
+    sum += digit;
+    shouldDouble = !shouldDouble;
+  }
   
-  var válido = (soma% 10) == 0; 
-  var aceito = falso;
+  var valid = (sum % 10) == 0;
+  var accepted = false;
   
-  // faz um loop pelas chaves (visa, mastercard, amex, etc.) 
-  Object.keys (acceptCreditCards) .forEach ( function (key) { 
-    var regex = acceptCreditCards [chave]; 
-    if (regex.test (value)) {accept 
-      = true; 
-    } 
-  }); 
+  // loop through the keys (visa, mastercard, amex, etc.)
+  Object.keys(acceptedCreditCards).forEach(function(key) {
+    var regex = acceptedCreditCards[key];
+    if (regex.test(value)) {
+      accepted = true;
+    }
+  });
   
-  retorno && aceito válido; 
+  return valid && accepted;
 }
-
 ```
 
 [Demo](https://codepen.io/kelvinzhang/pen/LBoEWK?editors=1010)
@@ -205,18 +203,18 @@ Um CVV não tem nada parecido com um algoritmo de Luhn para verificar sua valida
 
 ```js
 
-função  validateCVV (creditCard, cvv) { 
-  // remove todos os caracteres sem dígito 
-  var creditCard = creditCard.replace (/ \ D / g, ''); 
-  var cvv = cvv.replace (/ \ D / g, ''); 
-  // american express e cvv têm 4 dígitos 
-  if ((acceptCreditCards.amex) .test (creditCard)) { 
-    if ((/^\d{4}$/).test(cvv)) 
-      return true; 
-  } else  if ((/^\d{3}$/).test(cvv)) {// outro cartão & cvv tem 3 dígitos 
-    return true; 
-  } 
-  retornar falso; 
+function validateCVV(creditCard, cvv) {
+  // remove all non digit characters
+  var creditCard = creditCard.replace(/\D/g, '');
+  var cvv = cvv.replace(/\D/g, '');
+  // american express and cvv is 4 digits
+  if ((acceptedCreditCards.amex).test(creditCard)) {
+    if((/^\d{4}$/).test(cvv))
+      return true;
+  } else if ((/^\d{3}$/).test(cvv)) { // other card & cvv is 3 digits
+    return true;
+  }
+  return false;
 }
 
 ```
@@ -224,7 +222,7 @@ função  validateCVV (creditCard, cvv) {
 Vamos também definir um comprimento máximo para ele:
 
 ```js
-$ ('# cvv'). attr ('maxlength', 4);
+$('#cvv').attr('maxlength', 4);
 ```
 
 Podemos então integrar isso à validação do cartão de crédito.
