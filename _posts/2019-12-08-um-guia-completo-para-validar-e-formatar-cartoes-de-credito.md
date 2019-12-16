@@ -81,23 +81,23 @@ Resumindo a última linha, obtemos um valor de 90, que é um múltiplo de 10. Es
 Aqui está uma implementação Javascript do algoritmo Luhn:
 
 ```js
-função  checkLuhn (value) { 
-  // remove todos os caracteres que não são dígitos dig 
-  var value = value.replace (/ \ D / g, ''); 
-  var sum = 0; 
-  var shouldDouble = false; 
-  // faz um loop através dos valores começando no lado direito 
-  de ( var i = value.length - 1; i> = 0; i--) { 
-    var digit = parseInt (value.charAt (i)); 
+function checkLuhn(value) {
+  // remove all non digit characters
+  var value = value.replace(/\D/g, '');
+  var sum = 0;
+  var shouldDouble = false;
+  // loop through values starting at the rightmost side
+  for (var i = value.length - 1; i >= 0; i--) {
+    var digit = parseInt(value.charAt(i));
     
-    if (shouldDouble) { 
-      if ((dígito * = 2)> 9) dígito - = 9; 
-    } 
+    if (shouldDouble) {
+      if ((digit *= 2) > 9) digit -= 9;
+    }
 
-    soma + = dígito; 
-    shouldDouble =! shouldDouble; 
-  } 
-  retorno (soma% 10) == 0; 
+    sum += digit;
+    shouldDouble = !shouldDouble;
+  }
+  return (sum % 10) == 0;
 }
 ```
 
@@ -383,7 +383,7 @@ $('#cc').on('input', function() {
 Perfeito! Agora, os usuários podem digitar espaços à medida que digitam o número do cartão, inserir / remover dígitos antes e depois de um espaço formatado, manter a posição do cursor quando um dígito é inserido ou removido e, quando a formatação é alterada, formata novamente o cartão enquanto preservando a posição do cursor.
 
 
-## Embrulhando-o
+## Wrapping It Up
 
 Agora que concluímos a validação e a formatação dos cartões de crédito, vamos combiná-los no formato final de cartão de crédito.
 
