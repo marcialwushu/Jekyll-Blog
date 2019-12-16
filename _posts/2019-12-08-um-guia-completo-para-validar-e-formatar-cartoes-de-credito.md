@@ -60,10 +60,10 @@ Os números dos cartões de crédito podem parecer aleatórios, mas na verdade h
 
 No diagrama acima:
 
-1. Identificador principal da indústria (MII) - identifica a indústria do cartão. Veja aqui uma lista de setores e seus dígitos correspondentes.
-2. Número de identificação do emissor (IIN) - identifica o emissor do cartão. O American Express começa com 34 ou 37, o Mastercard começa com 2221–2720 ou 51–55, o Visa começa com 4. Veja aqui uma lista de todas as faixas de IIN. Isso é especialmente útil para futuras atualizações se os emissores de cartões decidirem expandir seus intervalos de IIN.
-3. Número da conta - identifica a conta do cliente
-4. Soma de verificação - garante que o número da conta é válido
+1. **Identificador principal da indústria (MII - Major Industry Identifier)** - identifica a indústria do cartão. Veja [aqui](https://en.wikipedia.org/wiki/ISO/IEC_7812#Major_industry_identifier) uma lista de setores e seus dígitos correspondentes.
+2. **Número de identificação do emissor (IIN - Issuer Identification Number)** - identifica o emissor do cartão. O American Express começa com 34 ou 37, o Mastercard começa com 2221–2720 ou 51–55, o Visa começa com 4. Veja [aqui](https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_(IIN)) uma lista de todas as faixas de IIN. Isso é especialmente útil para futuras atualizações se os emissores de cartões decidirem expandir seus intervalos de IIN.
+3. **Número da conta** - identifica a conta do cliente
+4. **Soma de verificação** - garante que o número da conta é válido
 
 O algoritmo Luhn determina a validade de um cartão usando o número da conta e a soma de verificação (rótulos 3 e 4). Funciona quase como mágica:
 
