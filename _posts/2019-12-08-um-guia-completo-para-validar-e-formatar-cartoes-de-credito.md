@@ -23,13 +23,15 @@ O objetivo deste post é explicar como implementar seu próprio formulário de c
 
 |  Issuer     |    Length     |    Test Number      |     RegEx Pattern      |
 |:-------------|--------------|----------------------|-----------------------|
-|Mastercard	|16	|5555 5555 5555 4444            	|            /^5[1-5][0-9]{14}$```|```^2(?:2(?:2[1-9]```|```[3-9][0-9])```|```[3-6][0-9][0-9]```|```7(?:[01][0-9]```|```20))[0-9]{12}$/                   |
+|Mastercard	|16	|5555 5555 5555 4444  	|            ```/^5[1-5][0-9]{14}$|^2(?:2(?:2[1-9]|[3-9][0-9])|[3-6][0-9][0-9]|7(?:[01][0-9]|20))[0-9]{12}$/```                   |
 |American Express	|15	|3782 822463 10005 |        ```/^3[47][0-9]{13}$/```                   |
 |Visa	|16	|4242 4242 4242 4242	|  ```/^4[0-9]{12}(?:[0-9]{3})?$/```                |
 |Discover	|16	|6011 1111 1111 1117	|            ```/^65[4-9][0-9]{13}|64[4-9][0-9]{13}|6011[0-9]{12}|(622(?:12[6-9]|1[3-9][0-9]|[2-8][0-9][0-9]|9[01][0-9]|92[0-5])[0-9]{10})$/```  |
 |JCB	|16	|3530 1113 3330 0000	|            ```/^(?:2131|1800|35[0-9]{3})[0-9]{11}$/```           |
 |Diner’s Club	|14	|3056 930902 5904	|              ```/^3(?:0[0-5]|[68][0-9])[0-9]{11}$/```            |
 |Maestro	|13-19	|6759 6498 2643 8453    	|        ```/^(5018|5081|5044|5020|5038|603845|6304|6759|676[1-3]|6799|6220|504834|504817|504645)[0-9]{8,15}$/```        |
+
+
 
 
 Algumas coisas a serem observadas aqui:
@@ -41,4 +43,11 @@ Algumas coisas a serem observadas aqui:
 
 
 Para obter uma lista dos gateways de pagamento comuns e dos cartões que eles suportam, consulte [esta lista da Aria Systems](https://developer.ariasystems.net/UserDocumentation/07Payments_and_Credits/Payment_Gateways/06_Supported_Payment_Gateways_and_Payment_Methods) . Para obter uma lista de cartões de teste, consulte [este repositório do Github](https://github.com/drmonkeyninja/test-payment-cards) . Para mais cartões e seus padrões RegEx, veja [esta lista no Github](https://gist.github.com/michaelkeevildown/9096cd3aac9029c4e6e05588448a8841).
+
+
+## Validando cartões
+
+Por quê?
+
+
 
