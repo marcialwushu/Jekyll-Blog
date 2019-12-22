@@ -256,7 +256,8 @@ Este artigo abordou os traços gerais da mecânica do jogo para esta versão do 
 
 
 
-"source": [
+```py
+
     "\n",
     "print(\"\\n\\n\\n\\n\\n\\n\\n\\n\")\n",
     "print(\"            ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗████████╗██╗   ██╗███╗   ███╗            \")\n",
@@ -286,15 +287,16 @@ Este artigo abordou os traços gerais da mecânica do jogo para esta versão do 
     "print(\"\")\n",
     "print(\"\")\n",
     "randPlace = input(\"> Press Enter to start...\\n\").upper()"
-   ]
-   
+```
+
+  
    
    
    ---
    
    
    
-   Autor: [Dr James Wootton]()
+   Autor: [Dr James Wootton](https://medium.com/@decodoku?source=follow_footer--------------------------follow_footer-)
    
-   [Original](https://medium.com/@decodoku/how-to-program-a-quantum-computer-part-2-f0d3eee872fe)
+  [Original](https://medium.com/@decodoku/how-to-program-a-quantum-computer-part-2-f0d3eee872fe)
 
