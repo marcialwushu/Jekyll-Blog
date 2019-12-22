@@ -7,8 +7,9 @@ categories: jekyll update
 
 ![](https://www.intel.com.br/content/dam/www/public/us/en/images/research/16x9/labs-article-neuromorphic-marquee-16x9.jpg.rendition.intel.web.480.270.jpg)
 
-Além da IA de hoje
-Novas abordagens algorítmicas simulam as interações do cérebro humano com o mundo.
+>Além da IA de hoje
+
+>Novas abordagens algorítmicas simulam as interações do cérebro humano com o mundo.
 
 ## O que é computação neuromórfica
 
@@ -45,4 +46,45 @@ A comunidade trabalha para abstrair os princípios da neurociência e adaptá-lo
 
 Os membros da comunidade concordam com uma abordagem aberta e colaborativa, na qual compartilharão os resultados de suas pesquisas. O Intel Labs facilita alguns esforços de pesquisa na comunidade por meio de financiamento e acesso aos sistemas de desenvolvimento Loihi.
 
+## Foco de pesquisa em computação probabilística
 
+A incerteza e o ruído fundamentais que são modulados em dados naturais são um desafio fundamental para o avanço da IA. Os algoritmos devem tornar-se hábeis em tarefas baseadas em dados naturais, que os humanos gerenciam intuitivamente, mas os sistemas de computadores têm dificuldade.
+
+Ter a capacidade de entender e calcular com incertezas permitirá aplicativos inteligentes em diversos domínios da IA. Por exemplo, em imagens médicas, com base nas medidas de incerteza, é possível priorizar quais imagens um radiologista precisa olhar e mostrar nas regiões de imagem destacadas com baixa incerteza. No caso de assistente inteligente em casa, um agente pode interagir com o usuário fazendo perguntas esclarecedoras para entender melhor uma solicitação quando houver uma alta incerteza no reconhecimento de intenção.
+No domínio de veículos autônomos, os sistemas que pilotam carros autônomos têm muitas tarefas que são adequadas à computação convencional, como navegar por uma rota GPS e controlar a velocidade. O estado atual da IA permite que os sistemas reconheçam e respondam às suas vizinhanças, como evitar colisões com pedestres inesperados.
+
+Para avançar esses recursos no campo da direção totalmente autônoma, os algoritmos devem incorporar o tipo de conhecimento que os humanos desenvolvem como condutores experientes. Os sensores, como GPS, câmeras, etc. exibem incerteza em suas estimativas de posição. Além disso, a bola com a qual as crianças brincam em um quintal próximo pode rolar para a rua e uma das crianças pode decidir persegui-la. É prudente ter cuidado com um motorista agressivo na próxima pista. Nesses ciclos de percepção e resposta, tanto as entradas quanto as saídas carregam um grau de incerteza. A tomada de decisão em tais cenários depende da percepção e compreensão do ambiente para prever eventos futuros, a fim de decidir sobre o curso de ação correto. As tarefas de percepção e compreensão precisam estar cientes da incerteza inerente a essas tarefas.
+
+## Gerenciamento e modelagem da incerteza A
+
+computação probabilística geralmente aborda problemas de lidar com a incerteza, que é inerentemente incorporada aos dados naturais. Existem duas maneiras principais pelas quais a incerteza desempenha um papel nos sistemas de IA:
+
+- Incerteza na percepção e reconhecimento de dados naturais. As fontes contribuintes incluem incerteza de entrada resultante de sensores e ambiente de hardware, bem como a incerteza do modelo de reconhecimento devido à disparidade nos dados de treinamento e nos dados que estão sendo reconhecidos.
+- Incerteza ao subestimar e prever eventos dinâmicos. O movimento humano e a previsão de intenção são um exemplo em que essa incerteza é exibida. Qualquer agente que tente prever tais eventos dinâmicos precisa modelar a intenção humana e entender as incertezas no modelo. As observações podem ser usadas para reduzir continuamente as incertezas para uma previsão eficiente de intenção e objetivo.
+
+Os principais problemas nessa área giram em torno da caracterização e quantificação eficientes da incerteza, incorporando essa incerteza em cálculos e resultados e armazenando um modelo das incertezas que interagem com os dados correspondentes.
+
+Uma implicação do fato de que os resultados são expressos como probabilidades, em vez de valores determinísticos, é que todas as conclusões são experimentais e associadas a graus específicos de confiança. Para estender o exemplo de direção autônoma acima, a bola das crianças desaparecendo de vista ou um comportamento cada vez mais irregular do motorista agressivo pode aumentar a confiança de que esse risco potencial exigirá uma resposta.
+
+Além de permitir a intuição e a previsão na IA, métodos probabilísticos também podem ser usados ​​para conferir um certo grau de transparência aos sistemas de reconhecimento de IA existentes que tendem a operar como uma caixa preta. Por exemplo, os mecanismos atuais de Deep Learning produzem um resultado sem uma certa incerteza. Os métodos probabilísticos podem aumentar esses mecanismos para gerar uma estimativa de incerteza baseada em princípios juntamente com o resultado, possibilitando que um aplicativo decida a confiabilidade da previsão. Tornar a incerteza visível ajuda a estabelecer confiança na confiança do sistema de IA na tomada de decisões.
+
+Enquanto os processos determinísticos têm resultados previsíveis e repetíveis, os probabilísticos não, devido a influências aleatórias que não podem ser conhecidas ou medidas. Esse processo de incorporação de ruídos, incertezas e contradições de dados naturais é um aspecto vital da construção de computadores capazes de níveis humanos (ou super-humanos) de entendimento, previsão e tomada de decisão. Este trabalho baseia-se em aplicações anteriores de aleatoriedade na análise de dados, como o uso bem estabelecido de algoritmos de Monte Carlo para modelar probabilidade.
+
+
+## Habilitando um ecossistema probabilístico de computação
+
+Além de seu principal objetivo - lidar com dados incompletos e incertos - a computação probabilística depende do seu sucesso em ser integrada de forma colaborativa e holística ao universo mais amplo da tecnologia de computação. O Intel Labs está ajudando a construir as pontes necessárias entre entidades da academia e da indústria por meio da Aliança de pesquisa estratégica da Intel para computação probabilística.
+
+Esta iniciativa de pesquisa é dedicada ao avanço da computação probabilística do laboratório para a realidade, integrando probabilidade e aleatoriedade em componentes fundamentais de hardware e software. Reunindo e possibilitando a pesquisa nessas áreas, a Aliança trabalha para projetar as capacidades de percepção e julgamento para permitir a próxima geração de IA.
+
+# PESQUISA 
+
+>Loihi: Um processador Manyom Neuromorphic com aprendizado no chip
+
+>O chip Loihi integra uma ampla gama de novos recursos para o campo - incluindo regras de aprendizado sináptico programáveis.
+
+[Leia o paper](https://ieeexplore.ieee.org/document/8259423)
+
+---
+
+[Original](https://www.intel.com.br/content/www/br/pt/research/neuromorphic-computing.html)
