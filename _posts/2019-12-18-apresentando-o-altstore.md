@@ -94,6 +94,6 @@ E eu acho ... isso é tudo que eu tenho mantido em segredo nos últimos anos. Fi
 
 ---
 
-Autor: Riley Testut
+Autor: [Riley Testut](http://github.com/rileytestut)
 
 [Artigo Original](http://rileytestut.com/blog/2019/09/25/introducing-altstore/)
