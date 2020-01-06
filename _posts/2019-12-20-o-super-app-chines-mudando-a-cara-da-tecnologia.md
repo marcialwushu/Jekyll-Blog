@@ -9,7 +9,6 @@ categories: jekyll update
 
 Por trás de 'The Great Firewall' surge um novo tipo de aplicativo. Diga olá ao WeChat
 
-POR DAVID KIRIAKIDIS
 
 Se você está lendo isso no Reino Unido, Europa, América ou, de fato, em quase qualquer lugar do mundo, é provável que você nunca tenha usado um aplicativo chinês. Na verdade, é provável que você nem consiga citar um.
 
@@ -57,4 +56,6 @@ No entanto, apesar dessas preocupações, o que não deve ser esquecido é o pod
 
 ---
 
-[](https://fleximize.com/articles/006663/chinese-super-app-changing-tech)
+POR DAVID KIRIAKIDIS
+
+[Artigo Original](https://fleximize.com/articles/006663/chinese-super-app-changing-tech)
