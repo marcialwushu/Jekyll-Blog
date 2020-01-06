@@ -163,7 +163,7 @@ Considerando que as lojas de aplicativos para Windows e Amazon cobrem uma parte 
 
 Faz mais de duas décadas que o Opera Mobile foi lançado e, após seu enorme sucesso, a empresa lançou a Opera Mobile Store em 2011. Desde que a alternativa da loja de aplicativos multiplataforma já hospedou, mais de 170.000 aplicativos móveis suportados por dispositivos Android e iOS . Com mais de 105.000.000 de visitantes por mês e 7500 dispositivos suportados, a Opera Mobile Store é uma ótima opção para os desenvolvedores de aplicativos se ramificarem para uma base de usuários mais ampla.
 
-Para saber mais sobre esta loja de aplicativos alternativa, clique AQUI
+Para saber mais sobre esta loja de aplicativos alternativa, clique [AQUI](http://html5.oms.apps.bemobi.com/en_gb/)
 
  ### 2. NexVa
  
@@ -192,6 +192,6 @@ Por falar em opções, uma ótima maneira de promover seu aplicativo é obter um
 
 ---
 
-Autor: Vikram
+Autor: [Vikram](https://www.linkedin.com/in/vikram-khajuria-5a2808101/)
 
 [Artigo Original](https://www.mobileappdaily.com/app-stores-list)
