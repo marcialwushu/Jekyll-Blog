@@ -49,7 +49,7 @@ Em 25 de novembro de 2019, a equipe do Cordova lançou o Cordova iOS 5.1.0 , que
 Atualizar:
 
 - Verifique se você possui um plug-in WKWebView instalado: o [oficial Apache ou o Ionic](https://github.com/ionic-team/cordova-plugin-ionic-webview) . Todos os aplicativos iniciais Ionic incluem automaticamente ```cordova-plugin-ionic-webview```.
-- Adicione ```<preference name="WKWebViewOnly" value="true" />``` ao seu config.xmlarquivo.
+- Adicione ```<preference name="WKWebViewOnly" value="true" />``` ao seu arquivo ```config.xml``` .
 - Execute ```cordova prepare ios``` para aplicar as alterações.
 
 Para recapitular:
