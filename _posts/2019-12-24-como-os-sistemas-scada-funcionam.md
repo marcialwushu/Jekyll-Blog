@@ -22,7 +22,10 @@ O sistema SCADA permite que os operadores alterem o ponto de ajuste do fluxo e h
  EX: Se houver muita pressão na construção de uma tubulação de gás, o sistema SCADA pode abrir automaticamente uma válvula de liberação.
  
  
- ### 1. Arquitetura de hardware:
+ 
+ 
+ 
+ ## 1. Arquitetura de hardware:
  
  
  O sistema geralmente SCADA pode ser classificado em duas partes:
@@ -38,7 +41,7 @@ A estação SCADA refere-se aos servidores e é composta por um único PC. Os se
 
 ![](https://www.elprocus.com/wp-content/uploads/2013/10/SCADA-Diagram.png)
 
-### 2. Arquitetura de Software:
+## 2. Arquitetura de Software:
 
 A maioria dos servidores é usada para multitarefa e banco de dados em tempo real. Os servidores são responsáveis ​​pela coleta e manipulação de dados. O sistema SCADA consiste em um programa de software para fornecer tendências, dados de diagnóstico e gerenciar informações como procedimento de manutenção agendada, informações logísticas, esquemas detalhados para um sensor ou máquina em particular e guias especializados para solução de problemas do sistema. Isso significa que o operador pode exibir uma representação esquemática da planta que está sendo controlada.
 
