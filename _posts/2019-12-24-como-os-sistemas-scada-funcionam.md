@@ -21,7 +21,9 @@ O sistema SCADA permite que os operadores alterem o ponto de ajuste do fluxo e h
  
  EX: Se houver muita pressão na construção de uma tubulação de gás, o sistema SCADA pode abrir automaticamente uma válvula de liberação.
  
+ 
  ### 1. Arquitetura de hardware:
+ 
  
  O sistema geralmente SCADA pode ser classificado em duas partes:
 
