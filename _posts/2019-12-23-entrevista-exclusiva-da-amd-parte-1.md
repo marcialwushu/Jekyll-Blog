@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 
-![](http://www.redgamingtech.com/wp-content/uploads/2014/01/exclusive-amd-interview-gpu-compute-and-more.jpg)
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/191b895cfed6689ae7b116879c5ddb14/exclusive-amd-interview-gpu-compute-and-more.jpg)
 
 A AMD é uma das maiores forças nos jogos da próxima geração no momento. A AMD está produzindo os chips para os consoles da próxima geração, o Playstation 4, o Wii U e o Xbox One. Além disso, a Radeon R9 290X é uma das melhores GPUs do mercado atualmente para desempenho. Durante sua recente conferência da CES, eles anunciaram que o desempenho de Mantle no Battlefield 4 é bastante impressionante 45% maior em muitas circunstâncias do que com a API tradicional.
 
