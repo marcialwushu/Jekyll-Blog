@@ -60,6 +60,74 @@ De fato, o excelente desempenho nos jogos tem tudo a ver com manter os recursos 
 
 Continue para a PRÓXIMA PÁGINA
 
+# Entrevista exclusiva da AMD - Discutindo a arquitetura da GCN, o desempenho e o futuro Parte 1 Página 2
+
+**Vamos assumir que sou desenvolvedor de jogos e estou no meio da criação de um jogo para o PS4. Há relatos de que o Mantle é semelhante à API do Playstation 4. Como o PS4 usa a tecnologia GCN, é relativamente fácil para mim portar meu jogo para o PC no PS4 usando a tecnologia Mantle, principalmente se eu estiver usando um mecanismo como o Frostbite 3 ou digamos Unreal?**
+
+Robert Hallock: Projetamos tornar o modelo de programação de Mantle semelhante ao que os desenvolvedores de jogos já estão criando para outras plataformas. É claro que “facilidade” é relativa à complexidade do aplicativo, mas tentamos torná-lo o mais fácil possível com ferramentas robustas de detecção de erros, documentação saudável e suporte robusto dos cérebros da AMD por trás do Mantle. Todos os desenvolvedores de jogos que atualmente trabalham com o Mantle ficaram novamente satisfeitos com nossos esforços nessa categoria.
+
+**Eu, juntamente com muitos outros da indústria, consideramos que foi uma grande jogada da AMD permitir aos proprietários da Nvidia e da Intel a chance de usar o TressFX. Embora seja uma fera muito diferente, você poderia esclarecer como a Nvidia seria capaz de implementar o Mantle se eles quisessem apoiá-lo?**
+
+Robert Hallock: Não seria prudente da minha parte comentar em nome de outras empresas.
+
+ 
+
+**Quais foram os fatores que levaram a AMD a criar a API Mantle? Foi apenas um caso de ajudar os desenvolvedores a resolver os principais pontos fracos da arquitetura de jogos para PC (a sobrecarga) na preparação para a próxima geração de consoles e mecanismos de jogos?**
+
+Robert Hallock: Os desenvolvedores de jogos fizeram as rondas na indústria, pedindo a todos os fornecedores de hardware que se interessam por gráficos uma solução para tornar os PCs mais parecidos com um console com relação à eficiência na utilização de hardware e à simplicidade da programação. Eles reconheceram que os jogos para PC poderiam aprender muito com seus irmãos na sala de estar. Somente a AMD levou esses pedidos do estágio de negociação para a fase de mão de obra e dinheiro, e Mantle nasceu! ( [MAIS informações podem ser encontradas aqui no Mantle](http://www.redgamingtech.com/introducing-amd-mantle-low-level-api-from-amd/) )
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/ddd148da9b52b52e3e4330a400e929f1/mantle-execution-model.jpg)
+
+**O fornecimento da tecnologia principal nos consoles Playstation 4 da Sony e Xbox One da Microsoft influenciou o design do seu futuro hardware, tanto na GPU quanto nas APUs?**
+
+Robert Hallock: Eu não trabalho na unidade de negócios semi-personalizados da AMD, então não pude comentar de maneira inteligente. (nota dos entrevistadores - em breve tenho uma entrevista com o departamento da APU!)
+
+**Com o lançamento do Radeon R9 290X, a largura de banda foi aumentada mudando para um barramento de memória de 512 bits de 384 e também dobrando a contagem de ROP da GPU, em relação à taxa, que é maior que o aumento nos processadores de fluxo. Você acha que o gargalo das GPUs está se tornando mais no ROP e na largura de banda de memória local (na GPU discreta) ou está tudo bastante equilibrado? Além disso, qual é a proporção ideal de ROP, unidades de textura e largura de banda em comparação com 8 núcleos GCN (ou 512 processadores de fluxo)?**
+
+Robert Hallock: O design da GPU é análogo à pergunta sobre o design do mecanismo de jogo que você colocou anteriormente. Tudo tem que ser equilibrado. Você pode lançar um punhado de back-end de renderização em uma GPU, mas se a largura de banda da memória for insuficiente, esse hardware será desperdiçado. E vice-versa, é claro.
+
+Eu acho que pode ser melhor explicado trabalhando de trás para frente, perguntando-se: “Qual meta de desempenho e resolução eu quero atingir?” Então você constrói um núcleo no papel que, pelos seus modelos matemáticos, produziria desempenho aproximadamente equivalente ao seu objetivo . Então você constrói!
+
+Para 512 UCs, eu diria: 32 unidades de textura, 16 ROPs e um barramento de 128 bits.
+
+**Como você acha que o SteamOS da Valve se encaixa no grande esquema dos jogos para PC? A Valve disse que obteve melhor desempenho com seus jogos no SteamOS do que no Windows. A AMD suportará Linux Gaming e SteamOS com Mantle e outras tecnologias no futuro?**
+
+Robert Hallock: A posição final do SteamOS no ecossistema de jogos para PC é incerto, mas estamos entusiasmados com as Steam Machines e sua abordagem de ecossistema aberto aos jogos. Com relação ao Mantle, estamos avaliando como ele pode ser implementado, juntamente com como e quando o Mantle para Steam OS deve ser incluído em nosso plano de desenvolvimento. Por enquanto, estamos focados no OpenGL como plataforma de entrega para Linux.
+
+Você pode ver outras evidências de nossos esforços no Linux com nossas contribuições para os kernels 3.11 e 3.12, ou o recente anúncio da iBuyPower de máquinas a vapor baseadas em AMD.
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/86c918219a6a7491d3bbbe55e9ec1d07/amd-jaguar-cpu-frontend1-1024x555.png)
+
+**A AMD parece estar em uma ótima posição no momento para unificar o desenvolvimento de jogos, com sua CPU, APU e GPU sendo usadas em PCs e consoles da próxima geração. Desenvolvedores que desfrutam de codificação de baixo nível com o Mantle e outras tecnologias como TrueAudio e TressFX. Você pode falar um pouco da sua visão do desenvolvimento de jogos, tanto no PC quanto nos consoles?**
+
+Robert Hallock: Estamos tremendamente orgulhosos do continuum que construímos no ecossistema de jogos. Os desenvolvedores de jogos já começaram a aproveitar os pontos em comum, como a recente decisão da Crystal Dynamics de dar vida ao TressFX Hair para todas as plataformas com o Tomb Raider Definitive Edition. Esperamos que os dividendos continuem sendo pagos dessa maneira nos próximos anos para todas as plataformas abordadas.
+
+**Com relação ao TressFX, você o atualizou recentemente para simular mais do que apenas cabelos, por exemplo, grama e pêlo (que é uma tecnologia impressionante, devo acrescentar) e reduziu a sobrecarga associada à execução. Você pode nos dizer se planeja usar uma versão do Hardware Physics para fumaça e detritos?**
+
+Robert Hallock: Não posso especular sobre tecnologias não anunciadas.
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/f5b72e7216f0b595213e17d76929df4f/tress-fx-2.0-conclusions-1024x558.jpg)
+
+**Você poderia nos dar sua opinião atual sobre o estado do mercado de PCs? Parece que com a próxima geração de consoles usando CPUs baseadas em X86 e um desenvolvimento mais unificado, o PC está se beneficiando enormemente.**
+
+Robert Hallock: os jogos para PC estão vivos e  saudáveis . Revelamos no Havaí, com o lançamento das séries AMD Radeon ™ R9 e R7, que o entusiasta hardware de PC está crescendo US $ 1 bilhão ano a ano até 2016. É um momento fabuloso para ser um jogador! Mas, novamente, quando  não  foi incrível ser um jogador?
+
+
+**Como você vê a progressão das CPUs, especificamente para o PC de mesa (jogos) em desenvolvimento nos próximos 3 a 5 anos?** 
+
+Robert Hallock: Receio não poder responder razoavelmente a essa pergunta, pois não trabalho na divisão de CPU da AMD. (Nota do entrevistador: tenho outra entrevista agendada, onde perguntarei isso e muito mais!)
+
+ 
+
+Amanhã ou no dia seguinte será outra parte da entrevista. Robert voltou para mim com outra carga de respostas no último minuto.
+
+Portanto, esse é o fim da primeira parte de nossa entrevista com comunicações técnicas, jogos e gráficos para desktop da AMD, Robert Hallock e AMD como um todo. Gostaria de estender meus agradecimentos à AMD pela entrevista e eu (junto com sem dúvida muitos leitores) estamos ansiosos pela próxima parte da entrevista. Portanto, fique atento e espero que você participe da análise técnica e da segunda parte da entrevista aqui mesmo na RedGamingTech!
+
+
+
+
 ---
+
+Autor: CrimsonRayne
 
 [Artigo Original](http://www.redgamingtech.com/exclusive-amd-interview-discussing-gcn-architecture-performance-the-future-part-1/)
