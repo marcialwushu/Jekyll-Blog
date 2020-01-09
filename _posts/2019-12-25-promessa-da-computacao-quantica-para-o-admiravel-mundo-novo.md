@@ -26,7 +26,7 @@ Na minha expectativa, o método mais eficaz de entender a computação em Q é t
 
 Portanto, se construíssemos um sistema quântico de computador composto por 300 qubits, podemos hipoteticamente [calcular, em um curto espaço de tempo, mais etapas](http://www.ict.griffith.edu.au/joan/qucomp/intro.php) (1x10⁹⁰) do que todos os átomos ( [1x10⁸³](https://www.universetoday.com/36302/atoms-in-the-universe/) ) no [universo observável](https://www.universetoday.com/47923/the-known-universe-video/) . E enquanto usa uma fração de energia. O poder incomparável de um computador quântico é, portanto, demonstrado neste exemplo.
 
-Nota: Os estados dos qubits são escritos convencionalmente na [Notação Dirac](http://www.users.csbsju.edu/~frioux/dirac/dirac.pdf) como | 0> -ket ou | 1> -ket. Paul Dirac fez essa notação em 1939 por sua utilidade no campo da mecânica quântica.
+**Nota**: Os estados dos qubits são escritos convencionalmente na [Notação Dirac](http://www.users.csbsju.edu/~frioux/dirac/dirac.pdf) como ```| 0> -ket ou | 1> -ket```. Paul Dirac fez essa notação em 1939 por sua utilidade no campo da mecânica quântica.
 
 Atualmente, os computadores quânticos existem e podem ser operados por qualquer pessoa com conexão à Internet (links presentes no parágrafo anterior). No entanto, se você é um pesquisador, cientista ou funcionário de uma empresa da Fortune 500, poderá obter acesso a um computador Q mais avançado no início de sua fase de teste.
 
