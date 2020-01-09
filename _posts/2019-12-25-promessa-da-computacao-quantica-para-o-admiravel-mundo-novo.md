@@ -108,8 +108,55 @@ Abaixo , mostrarei alguns exemplos de pesquisa científica, tecnologia financeir
 
 **Pequenas simulações moleculares**: Pesquisadores da [Universidade de Sydney](https://phys.org/news/2018-07-world-first-quantum-simulation-chemical-bonds.html) e da [IBM](https://www.technologyreview.com/the-download/608866/ibm-has-used-its-quantum-computer-to-simulate-a-molecule-heres-why-thats-big/) desenvolveram simulações para obter os estados fundamentais de pequenas moléculas como hidreto de lítio e hidreto de berílio - uma tarefa que os supercomputadores podem, na melhor das hipóteses, aproximar. Compostos como o hidreto de lítio são compostos importantes para baterias avançadas, e é por isso que fabricantes de automóveis como [Volkswagen](https://cleantechnica.com/2018/06/18/volkswagen-turns-to-quantum-computers-for-advanced-battery-research/) e [Daimler](https://blog.daimler.com/en/2018/11/07/quantum-computers-future-daimler-google-ibm-technology/) manifestaram grande interesse no campo de pesquisa. E como veremos no futuro, a capacidade de simular moléculas alterará a química e a fabricação para sempre.
 
+**Produtos farmacêuticos**: No campo dos produtos farmacêuticos, mesmo as empresas que podem pagar supercomputadores de última geração encontrarão a computação em Q útil, pois oferece uma promessa que os computadores clássicos não conseguem. A Q-computing abrirá portas para criar novos medicamentos potentes cuja eficácia será melhor compreendida. Possui o potencial de substituir o método atual de investir [bilhões de dólares em pesquisas que levam décadas](http://phrma-docs.phrma.org/sites/default/files/pdf/rd_brochure_022307.pdf) para serem desenvolvidas. [Espera-se que a virada deste século testemunhe o surgimento de "superbactérias"](https://www.theguardian.com/cities/2018/jun/26/another-outbreak-is-certain-are-cities-ready-for-the-next-superbug-epidemic-) , cepas bacterianas resistentes a todos os antibióticos conhecidos. E a situação precisará de uma linha de frente rápida de defesa, alimentada pela tecnologia quântica.
+
+
+**Engenharia Química**: No campo da Engenharia Química, os Q-Computers se estabeleceram como um divisor de águas, pois milhões de dólares são investidos por gigantes como [DOW e Evonik](https://cen.acs.org/articles/95/i39/Digitalization-comes-materials-industry.html). A Q-computing tem um tremendo potencial para revolucionar a maneira como produzimos amônia, um substrato químico essencial na fabricação de fertilizantes necessários para aumentar o suprimento mundial de alimentos. Desde a Primeira Guerra Mundial, a amônia foi fabricada usando o processo Haber-Bosch: um processo de baixo rendimento e alta energia que consome quase 2% de toda a energia que produzimos anualmente. Uma melhoria considerável pode ser desenvolvida se pudermos descobrir o funcionamento interno das bactérias fixadoras de nitrogênio, que produz amônia à temperatura ambiente. A nitrogenase é uma dessas enzimas encontradas em bactérias fixadoras de nitrogênio que, nos últimos 100 anos, estão envoltas em mistério devido à sua estrutura complexa. Mas, como vemos na medicina, o Q-computing nos ajudará a [desvendar a estrutura quaternária dessa enzima e descrever a função enzimática do composto](https://cen.acs.org/articles/95/i43/Chemistry-quantum-computings-killer-app.html).. A capacidade de fabricar essa enzima melhorará o status de segurança alimentar do mundo e ajudará a economizar uma tonelada de energia para as empresas.
+
+![](https://miro.medium.com/max/450/1*_2VbK-U9KjsDe-4Ii9kkKg.jpeg)
+
+>Processador quântico de armadilha iônica da IonQ
+
+**Materiais avançados**: A fotossíntese em plantas também tem sido difícil de replicar em laboratórios. Novas pesquisas mostraram que as [plantas realizam computação Q](https://www.scientificamerican.com/article/when-it-comes-to-photosynthesis-plants-perform-quantum-computation/) para fotossíntese e, com nosso melhor entendimento da computação Q, podemos estudar esses processos mais profundamente e replicá-los melhor. A perspectiva de fabricar novos materiais para células solares e materiais supercondutores de alta temperatura para dispositivos eletrônicos eficientes é imensa.
+
+**Sistemas de controle e modelagem**: Em níveis mais altos de abstrações, o Q-computing será usado nas indústrias modernas para detecção de falhas e problemas de otimização para diferentes tarefas. Usando o aprendizado de máquina e a computação em Q juntos, milhares de bancos de dados podem ser verificados em busca de centenas de variáveis ​​para treinar [redes neurais como a GAN](https://arxiv.org/pdf/1804.08641.pdf) em tempo recorde com extrema precisão.
+
+**Fintech**: Na fintech, espera-se que a Q-computing cause grandes interrupções à medida que as empresas de blockchain fortalecem e [defendem seus sistemas](https://www.technologyreview.com/s/611022/if-quantum-computers-threaten-blockchains-quantum-blockchains-could-be-the-defense/) contra o poder algorítmico da Q-computing, os fundos de hedge [decodificam o mercado de ações](https://www.benzinga.com/general/education/14/11/4984117/decoding-the-stock-market-with-quantum-computers) e os bancos [projetam um sistema impenetrável](https://www.americanbanker.com/news/quantum-leap-how-banks-can-get-the-most-from-cutting-edge-tech?brief=00000161-04ae-d710-ad71-f6beb7c70000) para transações.
+
+**TelCo**: As comunicações se tornarão mais seguras em geral, porque uma propriedade da comunicação quântica é que a interceptação irreversível destrói as informações, alertando assim as autoridades em caso de violação. Físicos na China foram capazes de explorar os fenômenos mencionados anteriormente de entrelaçamento quântico para [transferir chaves de criptografia da Terra para o Espaço](https://phys.org/news/2017-07-physicists-transmit-earth-to-space-quantum-entanglement.html) .
+
+Em resumo, a computação quântica, embora desafiadora, deu perspectivas nobres a pesquisadores e investidores de todo o mundo e definitivamente veio para ficar. A parte emocionante ainda está por vir, pois encontramos novos problemas que a Q-computing se destacará na solução. Você pode se envolver com a comunidade de computação quântica seguindo os links abaixo.
+
+Os kits de desenvolvimento de algumas das principais empresas são:
+
+1. [Rigetti’s Forest](https://www.rigetti.com/forest), [D-Wave’s Ocean SDK](https://cloud.dwavesys.com/leap/signup/)
+2. [IBM’s QISKIT](https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorial/blob/master/index.ipynb)
+3. [Google’s PlayGround](http://www.quantumplayground.net/#/home)
+4. [Intel & QuTech’s Inspire](https://www.quantum-inspire.com/)
+5. [Microsoft’s development kit](https://www.microsoft.com/en-us/quantum/development-kit)
+6. [IonQ’s SDK environment](https://ionq.co/request-access).
+
+
+![](https://miro.medium.com/max/2048/1*I9muk4zTQiSt2m-fVYagRw.jpeg)
+
+>The Composer(graphical user interface) of IBM’s quantum programming software accessible through the cloud.
+
+
+Atualização 1 : Surgiram empresas que se dedicaram a enfrentar certos desafios à medida que a tecnologia emergia no mundo.
+
+1. A [QuSoft](http://www.qusoft.org/about/) é uma empresa holandesa que se dedica à criação de software fundamentalmente novo no campo da Q-computing.
+2. [Project Q Sydney](https://projectqsydney.com/q-vision/) tem participado de um diálogo crítico para as implicações de paz e segurança de uma era quântica.
+
+Atualização 2 : Depois de publicar este artigo, muitas pessoas me procuraram perguntando como podem trabalhar para empresas que trabalham com computadores quânticos. Embora eu esteja pensando nisso, deparei-me com um artigo do Medium, do pesquisador da IBM [Jay Gambetta](https://medium.com/@jaygambetta), que forneceu detalhes sobre como pessoas de diferentes disciplinas podem se envolver com a IBM (incluindo um e-mail para enviar seus currículos) ou qualquer outro documento relacionado. companhia. Leia aqui: [The Hitchhiking Cat’s Guide to Getting a Job in Quantum Computing](https://medium.com/qiskit/the-hitchhiking-cats-guide-to-getting-a-job-in-quantum-computing-da7e3bb9ff64) . Se você estiver em uma situação semelhante à minha, desejo-lhe boa sorte. :)
+
+Atualização # 3: O Quantum Machine Learning está realmente decolando. Leia este artigo da contade [Maria Schuld](https://medium.com/@maria_53121) no [Quantum Machine Learning 1.0](https://medium.com/xanaduai/quantum-machine-learning-1-0-76a525c8cf69) e obtenha uma visão de nível superior do que realmente está acontecendo no campo.
+
+Em segundo lugar, para quem deseja se envolver academicamente com a Computação Quântica e a Informação Quântica, pode comprar / baixar [**Computação Quântica e Informação Quântica**](https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information), escritas por [Michael Nielsen](https://en.wikipedia.org/wiki/Michael_Nielsen) e [Isaac Chuang](https://en.wikipedia.org/wiki/Isaac_Chuang) . O livro é considerado uma 'bíblia' do campo. Obrigado Maria por isso!
+
 
 ---
+
+Autor: [Rayyan Zahid](https://blog.usejournal.com/@rayyanzahidpk)
 
 [Artigo Original](https://blog.usejournal.com/quantum-computings-promise-for-the-brave-new-world-fa15b651cced)
 
