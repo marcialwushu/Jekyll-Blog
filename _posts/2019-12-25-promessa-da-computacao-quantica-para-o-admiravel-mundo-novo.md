@@ -53,3 +53,67 @@ A IBM, como a D-wave, também permite que o público [acesse](https://quantumexp
 |----|------|
 |![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/fb8b5de5407ba58d3d97797f495c79cc/1_rndr_DDWr8wQ64UdVzPqhw.jpeg)| ![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/02811a1457a70e12e925239c3eed0839/1_cj6cMDhxWjAYbwkCBz7FNQ.jpeg) |
 
+>Computador quântico IBM Q System One construído como um produto portátil e comercial
+
+Casos de uso futuros para essa tecnologia tornam atraente para as empresas incluí-lo em seu portfólio de serviços na nuvem e em dispositivos fabricados para os consumidores. Há o [Aspen-1](https://medium.com/rigetti/the-rigetti-128-qubit-chip-and-what-it-means-for-quantum-df757d1b71ea) de 16 qubits da Rigetti, o [Tangle Lake de 49 qubits](https://newsroom.intel.com/news/intel-advances-quantum-neuromorphic-computing-research/) da Intel, o [Bristlecone](https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html) de 72 qubits do Google e o [simulador clássico de Tai Zheng de 124](https://damo.alibaba.com/labs/quantum) qubits da AliBaba. A corrida para a [supremacia quântica](https://arxiv.org/abs/1203.5813) está se tornando progressivamente interessante à medida que as empresas [tentam](https://arxiv.org/abs/1203.5813) superar os computadores clássicos - os mesmos computadores em que algumas empresas foram pioneiras. Enquanto você lê este artigo, os pesquisadores estão trabalhando incansavelmente para provar que seus sistemas venceram seus primos autômatos.
+
+Também pode muito bem ser que grandes empresas possam perder para pequenos [grupos de pesquisa](https://spectrum.ieee.org/tech-talk/computing/hardware/quantum-simulators-get-bigger-and-badder) e startups que seguiram outros caminhos para o mesmo problema. Alguns desses grupos foram:
+
+- Dispositivo [Rydberg Atom](https://www.nature.com/articles/nature24622) de 51 qubit MIT, Harvard e CalTech
+- Universidade de Maryland (UoM) e dispositivo de 53 qubit [Trapped Ion](https://www.nature.com/articles/nature24654) do Instituto Nacional de Padrões e Tecnologia (NIST)
+- Dispositivo [Ion Trapped IonQ de 79 qubit](https://ionq.co/)
+
+Todos esses campeões e [outros](https://quantumcomputingreport.com/scorecards/qubit-count/) demonstram o enorme potencial em realizar o que tem sido desde apenas um longo sonho em construção.
+
+## Algoritmos quânticos
+
+É importante estar ciente de que o objetivo dessas empresas é substituir a computação clássica, mas complementá-la. Resolvendo certos problemas com algoritmos com a hipótese de serem superiores quando executados em computadores Q, os dois sistemas podem ser usados ​​em conjunto.
+
+![](https://miro.medium.com/max/672/1*t_Y9GTmAoAk4ec5BxfM7Dw.jpeg)
+
+>O Bristlecone de 72 qubit do Google é o processador quântico universal mais poderoso do mundo, construído com qubits supercondutores
+
+Poucos dos campos que a computação em Q afetará categoricamente estão relacionados à pesquisa, otimização, computação segura, aprendizado de máquina, ciência de materiais, criptografia, química quântica, amostragem, física da matéria condensada e dinâmica quântica. O desafio que os [teóricos da complexidade quântica](https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/) enfrentam atualmente é descobrir os conjuntos de classes de problemas que podem ser resolvidos com eficiência pelos computadores Q ( classe de erro limitado, quântico, polinomial ( BQP) ). Uma coisa é certa, os atuais modelos e algoritmos de computação em Q oferecem um impulso significativo na solução de alguns tipos de problemas, mas fica aquém do milagre do [hipercomputador Oracle que Alan Turing e outros imaginavam](http://www.pld.ttu.ee/~vadim/AIRT/hypercomputation%20%5BAutosaved%5D.ppt).
+
+![](https://miro.medium.com/max/695/1*ipDn8JtrBt0W5TAQigDWkQ.png)
+
+>Um diagrama de complexidade computacional representando a classe BQP com outras classes
+
+Quanto aos algoritmos que são superiores, existem muitos programas que ganharam popularidade. [Sabe-se que o algoritmo de Shor para fatoração](https://courses.cs.washington.edu/courses/cse599d/06wi/lecturenotes11.pdf) e [o algoritmo de Grover para busca em banco de dados](https://people.cs.umass.edu/~strubell/doc/quantum_tutorial.pdf) são exponencialmente e quadraticamente mais rápidos do que seus equivalentes clássicos. Eles não oferecem uma solução independente, mas esses algoritmos foram capazes de atrair a atenção de pesquisadores e inventores no campo de dados e criptografia.
+
+## A realidade da computação quântica
+
+Depois de saber que a computação em Q é muito mais rápida em determinadas tarefas, ela não abre a porta para o seu próximo console de jogos ser um playstation-Q aprimorado. Até que obstáculos como decoerência quântica e ruído quântico (os dois principais desafios de engenharia que impedem a computação em Q) sejam resolvidos e novos materiais supercondutores que operam em temperaturas mais altas sejam fabricados, não podemos esperar que esses dispositivos estejam disponíveis em nossa casa. Atualmente, as [QPUs operam](https://www.dwavesys.com/tutorials/background-reading-series/introduction-d-wave-quantum-hardware) em temperaturas mais frias do que o espaço, a 15 milikelvins, e pressionam quase 10 bilhões de vezes menos que as condições atmosféricas da Terra. Essas condições operacionais exigem componentes extremamente sensíveis e caros para funcionar.
+
+*Veja como outros experimentos, como o [Observatório de Ondas Gravitacionais com Interferômetro a Laser](https://futurism.com/4-ligos-not-just-detecting-gravitational-waves-now-it-can-make-them-too), estão impactando a ciência delicada, como a Q-computing.*
+
+Mas faz uma parada e questiona se a Q-computing está seguindo um caminho semelhante de comercialização pelo qual os computadores clássicos passaram? Hoje, os computadores Q são do tamanho de uma sala pequena e são capazes de calcular com a mesma eficiência que um computador decente. Se pudermos fazer novas descobertas com materiais avançados e identificar maneiras de corrigir erros causados ​​durante as operações, podemos esperar um futuro completamente diferente.
+
+
+![](https://miro.medium.com/max/603/1*KsqRnuBlRm7yUEI-kkwwsA.jpeg)
+
+>O EDSAC (1949) era do tamanho de uma sala, mas podia executar 650 instruções por segundo. Universidade de Cambridge
+
+## Aplicações da computação quântica
+
+Chegando ao lado mais prático da Q-computing, onde os investidores estão mais interessados, os aplicativos estão em um amplo espectro de indústrias. Algumas das aplicações mais promissoras estão ligadas à simulação de moléculas e átomos. Como os computadores Q são construídos com pequenas partículas, eles são inerentemente mais adequados para imitar partículas que são governadas pelas leis da mecânica quântica.
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5d7e81516a6cc012940f6135/4d3302234e2544768c4aa9b5f1956f2a/1_GzyHQVZl5fEo1Of5lOsH0w.jpeg)
+
+>Equipe Quantum Vision da QuTech com um refrigerador de diluição
+
+Abaixo , mostrarei alguns exemplos de pesquisa científica, tecnologia financeira ( **fintech** ), telecomunicações ( **telco** ) e manufatura industrial.
+
+**Química**: Martin Rahm, professor assistente de química física da Universidade de Tecnologia de Chalmers, desenvolveu recentemente [uma nova escala de eletronegatividade](https://www.chalmers.se/en/departments/chem/news/Pages/electronegativity.aspx) , encontrando a energia de ligação média dos elétrons mais externos usando cálculos experimentais e mecânicos quânticos. Pesquisas de redefinição de livros didáticos como esse podem ser realizadas usando a Q-computing, como um grupo de pesquisa do Laboratório Nacional de Oak Ridge demonstrou no ano passado, encontrando a [energia de ligação de deuteron](https://arxiv.org/pdf/1801.03897.pdf).
+
+**Pequenas simulações moleculares**: Pesquisadores da [Universidade de Sydney](https://phys.org/news/2018-07-world-first-quantum-simulation-chemical-bonds.html) e da [IBM](https://www.technologyreview.com/the-download/608866/ibm-has-used-its-quantum-computer-to-simulate-a-molecule-heres-why-thats-big/) desenvolveram simulações para obter os estados fundamentais de pequenas moléculas como hidreto de lítio e hidreto de berílio - uma tarefa que os supercomputadores podem, na melhor das hipóteses, aproximar. Compostos como o hidreto de lítio são compostos importantes para baterias avançadas, e é por isso que fabricantes de automóveis como [Volkswagen](https://cleantechnica.com/2018/06/18/volkswagen-turns-to-quantum-computers-for-advanced-battery-research/) e [Daimler](https://blog.daimler.com/en/2018/11/07/quantum-computers-future-daimler-google-ibm-technology/) manifestaram grande interesse no campo de pesquisa. E como veremos no futuro, a capacidade de simular moléculas alterará a química e a fabricação para sempre.
+
+
+---
+
+[Artigo Original](https://blog.usejournal.com/quantum-computings-promise-for-the-brave-new-world-fa15b651cced)
+
+
+
+
+
