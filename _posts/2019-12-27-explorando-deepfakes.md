@@ -59,4 +59,5 @@ As imagens abaixo são de baixa resolução para manter pequeno o tamanho do arq
 
 ![](https://media.giphy.com/media/fo23NLu9hCqAZYi4Eh/giphy.gif)
 
+<div style="width:100%;height:0;padding-bottom:113%;position:relative;"><iframe src="https://giphy.com/embed/fo23NLu9hCqAZYi4Eh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/fo23NLu9hCqAZYi4Eh">via GIPHY</a></p>
 
