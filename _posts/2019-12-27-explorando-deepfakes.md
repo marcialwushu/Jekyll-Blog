@@ -57,6 +57,6 @@ Observe que, embora eu tenha milhares de imagens de cada pessoa, é possível ob
 As imagens abaixo são de baixa resolução para manter pequeno o tamanho do arquivo GIF animado. Há um vídeo do YouTube abaixo com maior resolução e som.
 
 
-![](https://gph.is/2HRv1Be)
+![](https://giphy.com/gifs/fo23NLu9hCqAZYi4Eh/html5)
 
 
