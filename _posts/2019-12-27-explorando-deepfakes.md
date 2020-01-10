@@ -93,3 +93,112 @@ O Deepfakes vai além ao ter um codificador para comprimir uma face em uma codif
 
 >Há apenas um codificador que é compartilhado entre os casos Fallon e Oliver, mas os decodificadores são diferentes. Durante o treinamento, as faces de entrada são distorcidas, para simular a noção de "queremos uma face assim".
 
+Acima, mostramos como esses três componentes são treinados:
+
+- Passamos uma imagem distorcida de Fallon para o codificador e tentamos reconstruir o rosto de Fallon com o decodificador A. Isso força o decodificador A a aprender como criar o rosto de Fallon a partir de uma entrada barulhenta.
+- Em seguida, usando o mesmo codificador, codificamos uma versão distorcida do rosto de Oliver e tentamos reconstruí-lo usando o decodificador B.
+- Continuamos repetindo isso até que os dois decodificadores possam criar seus respectivos rostos, e o codificador aprendeu a "capturar a essência de um rosto", seja Fallon ou Oliver.
+
+Depois que o treinamento estiver concluído, podemos executar um truque inteligente: passar uma imagem de Fallon para o codificador e, em vez de tentar reconstruir Fallon a partir da codificação, passamos agora para o decodificador B para reconstruir Oliver.
+
+![](https://miro.medium.com/max/591/1*3m1BKsjoOavu4UPcZw4-Iw.png)
+
+>É assim que executamos o modelo para gerar imagens. O codificador captura a essência do rosto de Fallon e o entrega ao decodificador B, que diz "ah, outra entrada barulhenta, mas eu aprendi como transformar isso em Oliver ... voila!"
+
+É notável pensar que o algoritmo pode aprender a gerar essas imagens apenas vendo milhares de exemplos, mas foi exatamente o que aconteceu aqui e com resultados razoáveis.
+
+## Limitações e aprendizados
+
+Embora os resultados sejam empolgantes, existem claras limitações ao que podemos alcançar com esta tecnologia hoje:
+
+- **Só funciona se houver muitas imagens do alvo** : para colocar uma pessoa em um vídeo, são necessárias na ordem de 300 a 2000 imagens de seu rosto para que a rede possa aprender como recriá-lo. O número depende da variação dos rostos e da proximidade com o vídeo original.
+→ Isso funciona bem para celebridades ou qualquer pessoa com muitas fotos online. Mas, claramente, isso não permitirá que você crie um produto que possa trocar a cara de qualquer pessoa.
+
+- **Você também precisa de dados de treinamento representativos do objetivo**: o algoritmo não é bom em gerar fotos de perfil de Oliver, simplesmente porque não havia muitos exemplos de Oliver olhando para o lado. Em geral, as imagens de treinamento do seu alvo precisam aproximar a orientação, as expressões faciais e a iluminação nos vídeos nos quais você deseja inseri-los.
+
+→ Portanto, se você estiver criando uma ferramenta de troca de rosto para uma pessoa comum, já que a maioria das fotos será voltada para a frente (por exemplo, selfies no Instagram), limite as trocas de rosto para a maioria dos vídeos voltados para a frente. Se você estiver trabalhando com uma celebridade, é mais fácil obter um conjunto diversificado de imagens. E se seu objetivo estiver ajudando você a criar dados, procure quantidade e variedade para inseri-los em qualquer coisa.
+
+![](https://miro.medium.com/max/355/1*JlsGPVrNNiKQCAUljE24uQ.png)
+
+>Não havia muitas imagens de Oliver olhando para o lado, então a rede nunca foi capaz de aprender pelo exemplo e gerar poses de perfil.
+
+- **Os modelos de construção podem ficar caros** : foram necessárias 48 horas para obter bons resultados e 72 para obter os mais justos acima. Por cerca de US $ 0,50 por hora da GPU, custará US $ 36 para construir um modelo apenas para a troca da pessoa A para B e vice-versa, e isso não inclui toda a largura de banda necessária para obter dados de treinamento e CPU e E / S para pré-processá-los. . O maior problema: você precisa de um modelo para cada par de pessoas, para que o trabalho investido em um único modelo não seja dimensionado para diferentes faces. (Nota: usei uma única máquina de GPU; o treinamento pode ser paralelo entre as GPUs.) → Esse alto custo de criação de modelo dificulta a criação de um aplicativo gratuito ou barato, na esperança de que ele se torne viral. Obviamente, não é um problema se os clientes estão dispostos a pagar para gerar modelos.
+- **A execução de modelos é bastante barata, mas não gratuita**: leva de 5 a 20X a duração de um vídeo para criar uma troca ao executar em uma GPU, por exemplo, um vídeo 1080p de 1 minuto leva cerca de 18 minutos para ser gerado. Uma GPU ajuda a acelerar o modelo principal e também o código de detecção de rosto (ou seja, existe um rosto nesse quadro que eu precise trocar?). Eu não tentei a conversão em apenas uma CPU, mas arriscaria que seria muito mais lento. → Existem muitas ineficiências no processo de conversão atual: aguardar E / S ao ler e escrever quadros, sem lotes de quadros enviados para a GPU, sem paralelismo etc. Isso pode ser feito para funcionar muito mais rápido e, possivelmente, com uma troca de tempo e custo que permite que as CPUs fiquem bem na conversão.
+- **A reutilização de modelos reduz o tempo de treinamento e, portanto, o custo** : se você usar o modelo de Fallon para Oliver para converter, digamos, o rosto de Jimmy Kimmel para John Oliver, os resultados serão geralmente muito ruins. No entanto, se você treinar um novo modelo com imagens de Kimmel e Oliver, mas começar com o modelo treinado de Fallon para Oliver, ele poderá aprender como realizar conversões razoáveis em 20 a 50% do tempo (12 a 36 horas em vez de Mais de 72 horas). →Se alguém mantiver modelos estáveis ​​para diferentes formatos de rosto e usá-los como ponto de partida, poderá haver reduções consideráveis em tempo e custo.
+
+Esses são problemas possíveis para ter certeza: ferramentas podem ser construídas para coletar imagens de canais on-line em massa; algoritmos podem ajudar a sinalizar quando há dados de treinamento insuficientes ou incompatíveis; otimizações inteligentes ou reutilização de modelos podem ajudar a reduzir o tempo de treinamento; e um sistema bem projetado pode ser construído para tornar todo o processo automático.
+
+Mas, finalmente, a pergunta é: por quê? Existe um modelo de negócios suficiente para fazer com que tudo isso valha a pena?
+
+# Então, quais aplicativos em potencial existem?
+
+Dado o que agora aprendemos sobre o que é possível, vamos falar sobre maneiras pelas quais isso pode ser útil:
+
+## Produção de conteúdo de vídeo
+
+Hollywood tinha essa tecnologia na ponta dos dedos, mas não a esse baixo custo. Se eles conseguirem criar ótimos vídeos com essa técnica, isso mudará a demanda de editores qualificados ao longo do tempo.
+
+Mas também poderia abrir novas oportunidades: por exemplo, fazer filmes com atores desconhecidos e, em seguida, sobrepor celebridades famosas a eles. Isso pode funcionar para vídeos do YouTube ou mesmo canais de notícias filmados por pessoas comuns.
+
+Em cenários mais distantes, os estúdios podem mudar de ator com base em seu mercado-alvo (mais Schwarzenager para os austríacos) ou a Netflix pode permitir que os espectadores escolham atores antes de começarem a jogar. O mais provável é que essa tecnologia possa gerar receita para as propriedades de atores mortos há muito tempo, trazendo-os de volta à vida.
+
+
+[![](https://i.ytimg.com/vi/ladqJQLR2bA/hqdefault.jpg)](https://youtu.be/ladqJQLR2bA)
+
+>O Deepfakes é a ponta do iceberg no que diz respeito aos métodos de geração de vídeo. O vídeo acima demonstra uma abordagem para construir um modelo 3D controlável de uma pessoa a partir de uma coleção de fotos ( [artigo](http://grail.cs.washington.edu/projects/3DPersona/) 2015). O principal autor desse artigo tem outro [trabalho interessante que vale a pena examinar](https://homes.cs.washington.edu/~supasorn/) ; atualmente ele está no Google Brain.
+
+## Aplicativos sociais
+
+Alguns dos tópicos de comentários dos vídeos do DeepFakes no YouTube falam sobre o grande gerador de memes que essa tecnologia poderia criar. [Jib Jab](http://www.jibjab.com/) é uma empresa que vende cartões de vídeo com trocas simples de rosto há anos (eles são hilários). Mas a grande oportunidade é criar o próximo grande sucesso viral; afinal de contas, os filtros de fotos atraíram muitas pessoas ao Instagram e ao SnapChat, e os aplicativos de troca de rosto já foram bem antes.
+
+Dado o quão divertidos os resultados podem ser, provavelmente há espaço para um aplicativo viral de sucesso se você puder obter os custos baixos o suficiente para gerar esses modelos.
+
+![](https://miro.medium.com/max/1899/1*nJSLEVoCzgas36uCrBpU7Q.png)
+
+>[StarGAN](https://github.com/yunjey/StarGAN) é um trabalho de pesquisa que demonstra a geração de diferentes cores de cabelo, sexo, idade e até expressão emocional usando apenas um algoritmo. Aposto que um aplicativo que permite gerar rostos carnudos pode se tornar viral.
+
+## Licenciamento de rostos de celebridades
+
+Imagine se a Target pudesse ter uma celebridade exibindo suas roupas por um mês, pagando uma taxa à agente dela, pegando alguns tiros na cabeça existentes e clicando em um botão. Isso criaria um novo fluxo de receita para celebridades, influenciadores de mídia social ou qualquer pessoa que esteja no centro das atenções no momento. E daria às empresas outra ferramenta para promover marcas e impulsionar a conversão. Também levanta questões legais interessantes sobre a propriedade da semelhança e questões de modelo de negócios sobre como particionar e precificar direitos de uso.
+
+![](https://miro.medium.com/max/695/1*kPQUjvaZ7suEOm02U7KcWg.png)
+
+>As faces de licenciamento já estão acontecendo. A [Looklet](http://looklet.com/) é uma empresa que permite às empresas de vestuário: (1) fotografar suas roupas em um manequim, (2) escolher as roupas que acompanham, (3) escolher o rosto e a pose de uma modelo, e pronto, ter uma imagem brilhante pronta para o marketing. Além do mais: eles podem reestilizar à vontade, sem modelos ou fotógrafos.
+
+## Publicidade personalizada
+
+Imagine um mundo em que os anúncios que você vê enquanto navega na Web incluem você, seus amigos e sua família. Embora isso possa parecer assustador hoje, parece tão distante pensar que essa não será a norma daqui a alguns anos?
+
+Afinal, somos criaturas visuais e os anunciantes tentam obter respostas emocionais de nós há anos, por exemplo, a Coca-Cola pode querer transmitir alegria colocando seus amigos em um videoclipe, ou Allstate pode provocar seus medos mostrando sua família em um anúncio de seguro. Ou a abordagem pode ser mais direta: o Banana Republic pode sobrepor seu rosto a um tipo de corpo que combine com o seu e convencê-lo de que vale a pena experimentar as novas jaquetas de couro.
+
+## Conclusão
+
+Quem quer que seja o usuário original do Deepfakes, eles abriram uma caixa de perguntas difíceis de Pandora sobre como a geração de vídeos falsos afetará a sociedade. Espero que da mesma maneira que aceitamos que as imagens possam ser falsificadas facilmente, também nos adaptaremos à incerteza do vídeo, embora [nem todos compartilhem essa esperança](https://www.lawfareblog.com/deep-fakes-looming-crisis-national-security-democracy-and-privacy) .
+
+O que a Deepfakes também fez foi mostrar como essa tecnologia é interessante. [Modelos geradores profundos](https://towardsdatascience.com/deep-generative-models-25ab2821afd3), como o auto-codificador usado pelo Deepfakes, permitem criar dados de aparência sintética, mas realistas (incluindo imagens ou vídeos), apenas mostrando um algoritmo com muitos exemplos. Isso significa que, quando esses algoritmos forem transformados em produtos, as pessoas comuns terão acesso a ferramentas poderosas que os tornarão mais criativos, esperançosamente para fins positivos.
+
+Já houve algumas aplicações interessantes dessa técnica, como [aplicativos de transferência de estilo](https://www.macworld.com/article/3125615/photography/10-photo-apps-that-use-ai-to-give-your-pics-a-new-artistic-look.html#slide1) que fazem suas fotos parecerem pinturas famosas, mas, dado o alto volume e a natureza empolgante da pesquisa que está sendo publicada neste espaço, há claramente muito mais por vir .
+
+**Estou interessado em explorar como gerar valor a partir das últimas pesquisas em IA; se você tiver interesse em levar essa tecnologia ao mercado para resolver um problema real, envie- me uma observação**.
+
+![](https://miro.medium.com/max/2066/1*767Spn4O_pT4RkGgv_O9fQ.png)
+
+>Exemplos de resultados de um famoso artigo [CycleGAN](https://junyanz.github.io/CycleGAN/) (ICCV 2017), que mostra um algoritmo aprendendo a transformar zebras em cavalos, inverno a verão, e fotos regulares em pinturas impressionistas famosas.
+
+## Apêndice
+
+Alguns petiscos divertidos para os curiosos:
+
+- **O [FakeApp](http://fakeapp.org/) é um aplicativo de desktop gratuito** que permite usar a tecnologia Deepfakes, desde que você tenha uma GPU e esteja executando o Windows. Mas esteja avisado, o download e a execução de qualquer coisa potencialmente obscura no seu computador é perigoso, e já houve [muita angústia sobre o FakeApp, incluindo um recurso de minerador de criptografia no aplicativo](https://blog.malwarebytes.com/security-world/2018/02/deepfakes-fakeapp-tool-briefly-includes-cryptominer/) ( [mais aqui](https://www.reddit.com/r/SFWdeepfakes/comments/7yov8p/fakeapp_22_downloadable_now_has_miner_included/) ).
+- [**Derp Fakes é um canal do YouTube**](https://www.youtube.com/channel/UCUix6Sk2MZkVOr5PWQrtH1g/videos) com muitos vídeos engraçados sobre SFW. Eu gosto especialmente [deste](https://www.youtube.com/watch?v=QhxTTshL3b0) ; é estrelado por Nicholas Cage como todo mundo em uma cena de O Senhor dos Anéis, e é tecnicamente interessante e hilário.
+- **O autor original do Deepfakes é desconhecido** (e se for Satoshi ? ... apenas brincando). Também se acredita que ele / ela não é a pessoa por trás do FakeApp. Enquanto o autor forneceu o código original, eles deixaram várias coisas incertas, como: sob qual licença o código é compartilhado e em que artigo acadêmico, se houver, inspirou sua arquitetura de rede neural?
+- **O desenvolvimento e a pesquisa do Deepfakes continuam** por meio de uma comunidade de colaboradores. Visite o [repositório do Github deepfakes/faceswap](https://github.com/deepfakes/faceswap) para encontrar o código mais recente. Verifique também shaoanlu / faceswap-GAN para ver um usuário pesquisar outros modelos (como um GAN), técnicas de mascaramento (como a face gerada é inserida em uma imagem) e até mesmo uma [abordagem de um modelo para trocar](https://github.com/shaoanlu/faceswap-GAN/tree/master/notes) todos eles (para que você não precise criar modelos para cada par de pessoas).
+- **Se você quiser ler mais sobre esse fenômeno**, confira o [artigo original da Motherboard](https://motherboard.vice.com/en_us/article/gydydm/gal-gadot-fake-ai-porn) que trouxe isso aos olhos do público; este post em que um usuário do FakeApp [troca seu cônjuge em vídeos](https://towardsdatascience.com/family-fun-with-deepfakes-or-how-i-got-my-wife-onto-the-tonight-show-a4454775c011) (SFW) e essa [linha do tempo com uma compilação](http://digg.com/2018/deepfake-what-is-it) de outras boas leituras. Além disso, poucas horas antes de publicar este post, o NYTimes divulgou minha história! [Leia aqui](https://www.nytimes.com/2018/03/04/technology/fake-videos-deepfakes.html) .
+- **Se você quiser ver outras pesquisas relacionadas** , confira este vídeo em que um usuário [controla o rosto de outra pessoa em tempo real](https://www.youtube.com/watch?v=ohmajJTcpNk) ; este onde eles [geram um vídeo realista de Obama](http://www.washington.edu/news/2017/07/11/lip-syncing-obama-new-tools-turn-audio-clips-into-realistic-video/) ; e também veja o Lyrebird, um produto que permite [gerar áudio realista de outra pessoa](https://lyrebird.ai/demo/) , com amostras suficientes de voz para treinar.
+
+---
+
+Autor: [Gaurav Oberoi](https://goberoi.com/@goberoi?source=follow_footer--------------------------follow_footer-)
+
+[Artigo Original](https://goberoi.com/exploring-deepfakes-20c9947c22d9)
+
