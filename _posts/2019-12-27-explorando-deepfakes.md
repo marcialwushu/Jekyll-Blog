@@ -59,3 +59,37 @@ As imagens abaixo são de baixa resolução para manter pequeno o tamanho do arq
 ![](https://github.com/2859pia2019/LivrosReferenciaEstudo/blob/master/giphy.gif?raw=true)
 
 >Oliver tocando a música de Iggy Azalea, Fancy. O algoritmo funciona bem, mesmo com o microfone no caminho.
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e18b20f20a8d10e1aa0bba6/0cf8bf79300a837a93bea349bc927bb0/deepfake.gif)
+
+>Aqui está Oliver hospedando o show de Fallon. Observe que o rosto fica com óculos, mas o cabelo e o formato do rosto são intocados.
+
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e18b20f20a8d10e1aa0bba6/4af5310f935c01d90016fdc8d1cc05d7/df.gif)
+
+>Boa conversa para o treinador das Olimpíadas. O algoritmo aprendeu o suficiente para fazer o "DO IT!" De Oliver parecer real.
+
+
+
+[![](https://i.ytimg.com/vi/q0wjV_Q-Lu8/hqdefault.jpg)](https://youtu.be/q0wjV_Q-Lu8)
+
+>Por favor, não assista a isso, a menos que queira ver John Oliver dançando ao som de música.
+
+Embora não sejam perfeitos, os resultados acima são bastante convincentes. A principal coisa a lembrar é: o algoritmo aprendeu como fazer isso vendo muitos exemplos, não modifiquei os vídeos de forma alguma. Mágico? Vamos olhar embaixo das cobertas.
+
+## Como funciona?
+
+No centro do código do Deepfakes está um [autoencoder](https://en.wikipedia.org/wiki/Autoencoder) , uma rede neural profunda que aprende como obter uma entrada, compactá-la em uma pequena representação ou codificação e depois regenerar a entrada original dessa codificação.
+
+![](https://miro.medium.com/max/593/1*2lfxmPqase0xyBscsnO9jQ.png)
+
+>Nesta configuração padrão do autoencoder, a rede está tentando aprender como criar uma codificação (os bits do meio), a partir da qual pode regenerar a imagem original. Com dados suficientes, ele aprenderá como fazer isso.
+
+Colocar um gargalo no meio força a rede a recriar essas imagens em vez de apenas retornar o que vê. As codificações ajudam a capturar padrões mais amplos, hipoteticamente, como e onde desenhar a sobrancelha de Jimmy Fallon.
+
+O Deepfakes vai além ao ter um codificador para comprimir uma face em uma codificação e dois decodificadores, um para transformá-lo novamente na pessoa A (Fallon) e o outro na pessoa B (Oliver). É mais fácil entender com um diagrama:
+
+![](https://miro.medium.com/max/591/1*3PGiPLIUEzd0ZMLxlQyFhw.png)
+
+>Há apenas um codificador que é compartilhado entre os casos Fallon e Oliver, mas os decodificadores são diferentes. Durante o treinamento, as faces de entrada são distorcidas, para simular a noção de "queremos uma face assim".
+
