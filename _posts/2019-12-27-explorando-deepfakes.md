@@ -60,9 +60,11 @@ As imagens abaixo são de baixa resolução para manter pequeno o tamanho do arq
 
 >Oliver tocando a música de Iggy Azalea, Fancy. O algoritmo funciona bem, mesmo com o microfone no caminho.
 
+
 ![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e18b20f20a8d10e1aa0bba6/0cf8bf79300a837a93bea349bc927bb0/deepfake.gif)
 
 >Aqui está Oliver hospedando o show de Fallon. Observe que o rosto fica com óculos, mas o cabelo e o formato do rosto são intocados.
+
 
 
 ![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e18b20f20a8d10e1aa0bba6/4af5310f935c01d90016fdc8d1cc05d7/df.gif)
