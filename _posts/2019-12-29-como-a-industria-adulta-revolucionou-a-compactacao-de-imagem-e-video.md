@@ -44,6 +44,8 @@ Enquanto algumas pessoas são céticas sobre a influência da pornografia em ace
 
 ---
 
+Autor: Ashish Sharma
+
 [Artigo Original](https://www.datacompression.info/how-the-adult-industry-revolutionized-image-and-video-compression/)
 
 
