@@ -246,6 +246,175 @@ Uma das abordagens mais simples para compor aplicativos juntos no navegador é o
 
 ```
 
+Assim como na [opção](https://martinfowler.com/articles/micro-frontends.html#Server-sideTemplateComposition) de inclusão do [servidor](https://martinfowler.com/articles/micro-frontends.html#Server-sideTemplateComposition) , criar uma página com iframes não é uma técnica nova e talvez não pareça tão excitante. Porém, se revisitarmos os principais benefícios das micro-interfaces [listadas anteriormente](https://martinfowler.com/articles/micro-frontends.html#Benefits) , os iframes serão os principais, desde que tenhamos cuidado com o modo como dividimos o aplicativo e estruturamos nossas equipes.
+
+Muitas vezes vemos muita relutância em escolher iframes. Embora parte dessa relutância pareça ser motivada por um pressentimento de que os iframes são um pouco "eca", há algumas boas razões para que as pessoas os evitem. O fácil isolamento mencionado acima tende a torná-los menos flexíveis do que outras opções. Pode ser difícil criar integrações entre diferentes partes do aplicativo, para tornar o roteamento, o histórico e os links diretos mais complicados, além de apresentar alguns desafios extras para tornar sua página totalmente responsiva.
+
+
+## Integração em tempo de execução via JavaScript ## 
+
+A próxima abordagem que descreveremos é provavelmente a mais flexível e a que vemos equipes adotando com mais frequência. Cada micro frontend é incluído na página usando uma <script>tag e, ao carregar, expõe uma função global como seu ponto de entrada. O aplicativo de contêiner determina então qual micro front-end deve ser montado e chama a função relevante para informar a um micro front-end quando e onde se renderizar.
+   
+
+```html
+
+< html > 
+  < head > 
+    < title > Alimente-me! </ title > 
+  </ head > 
+  < body > 
+    < h1 > Bem-vindo ao Feed me! </ h1 >
+
+    <! - Esses scripts não renderizam nada imediatamente -> 
+    <! - Em vez disso, anexam funções de ponto de entrada à `janela` -> 
+    < script  src = " https://browse.example.com/bundle. js " ></ script > 
+    < script  src = "https://order.example.com/bundle.js" ></ script > 
+    < script  src = "https://profile.example.com/bundle.js" ></ script >
+
+    < div  id = "micro-frontend-root" > </ div >
+
+    < script  type = "text / javascript" > // Essas funções globais são anexadas à janela pelos scripts acima const microFrontendsByRoute = {
+         '/' : window .renderBrowseRestaurants,
+         '/ order-food' : window .renderOrderFood,
+         '/ user- profile ' : window .renderUserProfile,
+      
+      
+      };
+      const renderFunction = microFrontendsByRoute [ window .location.pathname];
+
+      // Tendo determinado a função do ponto de entrada, agora a chamamos, 
+      // fornecendo o ID do elemento em que ele deve se renderizar 
+      renderFunction ( 'micro-frontend-root' );
+    </ script > 
+  </ body > 
+</ html >
+
+```
+
+O exposto acima é obviamente um exemplo primitivo, mas demonstra a técnica básica. Diferentemente da integração em tempo de compilação, podemos implantar cada um dos bundle.jsarquivos independentemente. E, diferentemente dos iframes, temos total flexibilidade para criar integrações entre nossos micro frontends da maneira que quisermos. Poderíamos estender o código acima de várias maneiras, por exemplo, para baixar apenas cada pacote JavaScript, conforme necessário, ou para transmitir e receber dados ao renderizar um micro front-end.
+
+A flexibilidade dessa abordagem, combinada com a capacidade de implementação independente, a torna a escolha padrão e a que vimos na natureza com mais frequência. Vamos explorá-lo com mais detalhes quando entrarmos no [exemplo completo](https://martinfowler.com/articles/micro-frontends.html#TheExampleInDetail).
+
+## Integração em tempo de execução via Web Components ## 
+
+Uma variação da abordagem anterior é que cada micro frontend defina um elemento customizado em HTML para o contêiner instanciar, em vez de definir uma função global para o contêiner chamar.
+
+
+```html
+
+< html > 
+  < head > 
+    < title > Alimente-me! </ title > 
+  </ head > 
+  < body > 
+    < h1 > Bem-vindo ao Feed me! </ h1 >
+
+    <! - Esses scripts não renderizam nada imediatamente -> 
+    <! - Em vez disso, cada um define um tipo de elemento personalizado -> 
+    < script  src = "https://browse.example.com/bundle.js" ></ script > 
+    < script  src = "https://order.example.com/bundle.js" ></ script > 
+    < script  src = "https://profile.example.com/bundle.js" ></ script >
+
+    < div  id = "micro-frontend-root" > </ div >
+
+    < script  type = "text / javascript" > // Esses tipos de elementos são definidos pelos scripts acima const webComponentsByRoute = {
+         '/' : 'micro-frontend-browse-restaurants' ,
+         '/ order-food' : 'micro-frontend -order-food ' ,
+         ' / user-profile ' : ' micro-frontend-user-profile ' ,
+      
+      
+      };
+      const webComponentType = webComponentsByRoute [ janela .location.pathname];
+
+      // Depois de determinar o tipo de elemento personalizado do componente da Web certo, 
+      // agora criamos uma instância e a anexamos ao documento 
+      const root = document .getElementById ( 'micro-frontend-root' );
+      const webComponent = documento .createElement (webComponentType);
+      root.appendChild (webComponent);
+    </ script > 
+  </ body > 
+</ html >
+
+```
+
+O resultado final aqui é bastante semelhante ao exemplo anterior, a principal diferença é que você está optando por fazer as coisas 'da maneira dos componentes da web'. Se você gosta da especificação do componente da web e gosta da ideia de usar os recursos que o navegador fornece, essa é uma boa opção. Se você preferir definir sua própria interface entre o aplicativo de contêiner e os micro frontends, poderá preferir o exemplo anterior.
+
+---
+
+## Styling ## 
+
+O CSS como linguagem é inerentemente global, herdador e em cascata, tradicionalmente sem sistema de módulos, espaço para nome ou encapsulamento. Alguns desses recursos existem agora, mas muitas vezes falta suporte ao navegador. Em um cenário de micro frontends, muitos desses problemas são exacerbados. Por exemplo, se o micro front-end de uma equipe tem uma folha de estilo que diz h2 { color: black; }, e outra diz h2 { color: blue; }, e ambos os seletores estão anexados à mesma página, alguém ficará desapontado! Esse não é um problema novo, mas é agravado pelo fato de que esses seletores foram escritos por equipes diferentes em momentos diferentes, e o código provavelmente está dividido em repositórios separados, dificultando a descoberta.
+
+Ao longo dos anos, muitas abordagens foram inventadas para tornar o CSS mais gerenciável. Alguns optam por usar uma convenção de nomenclatura estrita, como o [BEM](http://getbem.com/) , para garantir que os seletores sejam aplicados apenas quando pretendidos. Outros, preferindo não confiar apenas na disciplina do desenvolvedor, usam um pré-processador como o [SASS](https://sass-lang.com/) , cujo aninhamento de seletor pode ser usado como uma forma de namespacing. Uma abordagem mais nova é aplicar todos os estilos de maneira programática com [módulos CSS](https://github.com/css-modules/css-modules) ou uma das várias bibliotecas [CSS-in-JS](https://mxstbr.com/thoughts/css-in-js/) , o que garante que os estilos sejam aplicados diretamente apenas nos locais pretendidos pelo desenvolvedor. Ou, para uma abordagem mais baseada em plataforma, o [shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM) também oferece isolamento de estilo.
+
+A abordagem que você escolhe não importa muito, desde que você encontre uma maneira de garantir que os desenvolvedores possam escrever seus estilos independentemente um do outro e tenha confiança de que seu código se comportará de maneira previsível quando composto em um único aplicativo.
+
+---
+
+## Bibliotecas de componentes compartilhados ##
+
+Mencionamos acima que a consistência visual entre os micro frontends é importante, e uma abordagem para isso é desenvolver uma biblioteca de componentes de interface do usuário reutilizáveis ​​e compartilhados. Em geral, acreditamos que essa é uma boa ideia, embora seja difícil fazer bem. Os principais benefícios da criação dessa biblioteca são esforços reduzidos através da reutilização de código e consistência visual. Além disso, sua biblioteca de componentes pode servir como um guia de estilo vivo e pode ser um ótimo ponto de colaboração entre desenvolvedores e designers.
+
+
+Uma das coisas mais fáceis de errar é criar muitos desses componentes, muito cedo. É tentador criar um [Framework Foundation](https://martinfowler.com/bliki/FoundationFramework.html) , com todos os recursos visuais comuns que serão necessários em todos os aplicativos. No entanto, a experiência nos diz que é difícil, se não impossível, adivinhar quais devem ser as APIs dos componentes antes de você usá-las no mundo real, o que resulta em muitas mudanças no início da vida de um componente. Por esse motivo, preferimos permitir que as equipes criem seus próprios componentes dentro de suas bases de código conforme necessário, mesmo que isso cause alguma duplicação inicialmente. Permita que os padrões surjam naturalmente e, depois que a API do componente se tornar óbvia, você poderá [coletar](https://martinfowler.com/bliki/HarvestedFramework.html) o código duplicado em uma biblioteca compartilhada e tenha certeza de que você tem algo comprovado.
+
+Os candidatos mais óbvios para o compartilhamento são primitivas visuais "burras", como ícones, rótulos e botões. Também podemos compartilhar componentes mais complexos que podem conter uma quantidade significativa de lógica da interface do usuário, como um campo de pesquisa suspenso com preenchimento automático. Ou uma tabela classificável, filtrável e paginada. No entanto, tenha cuidado para garantir que seus componentes compartilhados contenham apenas lógica da interface do usuário e nenhuma lógica comercial ou de domínio. Quando a lógica do domínio é colocada em uma biblioteca compartilhada, ela cria um alto grau de acoplamento entre aplicativos e aumenta a dificuldade da mudança. Portanto, por exemplo, você geralmente não deve tentar compartilhar umProductTable, que conteria todos os tipos de suposições sobre o que exatamente é um "produto" e como deve se comportar. Essa modelagem de domínio e lógica de negócios pertence ao código do aplicativo das micro frontends, e não a uma biblioteca compartilhada.
+
+Como em qualquer biblioteca interna compartilhada, existem algumas questões complicadas sobre sua propriedade e governança. Um modelo é dizer que, como um ativo compartilhado, "todos" são os proprietários, embora na prática isso geralmente signifique que ninguém é o proprietário. Ele pode rapidamente se tornar uma mistura de códigos inconsistentes, sem convenções claras ou visão técnica. No outro extremo, se o desenvolvimento da biblioteca compartilhada for completamente centralizado, haverá uma grande desconexão entre as pessoas que criam os componentes e as pessoas que os consomem. Os melhores modelos que vimos são aqueles em que qualquer pessoa pode contribuir com a biblioteca, mas há um custodiante(uma pessoa ou uma equipe) responsável por garantir a qualidade, consistência e validade dessas contribuições. O trabalho de manter a biblioteca compartilhada exige fortes habilidades técnicas, mas também as habilidades necessárias para cultivar a colaboração entre muitas equipes.
+
+
+---
+
+## Comunicação entre aplicativos ##
+
+Uma das perguntas mais comuns sobre micro frontends é como deixá-los conversar entre si. Em geral, recomendamos que eles se comuniquem o menos possível, pois muitas vezes reintroduz o tipo de acoplamento inadequado que procuramos evitar em primeiro lugar.
+
+Dito isto, é geralmente necessário algum nível de comunicação entre aplicativos. [Eventos personalizados](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events) permitem que os micro frontends se comuniquem indiretamente, o que é uma boa maneira de minimizar o acoplamento direto, apesar de dificultar a determinação e a execução do contrato existente entre os micro frontends. Como alternativa, o modelo React de passar retornos de chamada e dados para baixo (nesse caso, para baixo do aplicativo de contêiner para os micro frontends) também é uma boa solução que torna o contrato mais explícito. Uma terceira alternativa é usar a barra de endereço como um mecanismo de comunicação, que exploraremos com mais [detalhes posteriormente](https://martinfowler.com/articles/micro-frontends.html#Cross-applicationCommunicationViaRouting) .
+
+>Se você estiver usando o redux, a abordagem usual é ter um único armazenamento compartilhado global para todo o aplicativo. No entanto, se cada micro frontend deve ser seu próprio aplicativo independente, faz sentido que cada um tenha seu próprio repositório redux. Os documentos do redux até mencionam ["isolar um aplicativo Redux como um componente em um aplicativo maior"](https://redux.js.org/faq/store-setup#can-or-should-i-create-multiple-stores-can-i-import-my-store-directly-and-use-it-in-components-myself) como um motivo válido para ter vários repositórios.
+
+
+Qualquer que seja a abordagem que escolhermos, queremos que nossos micro frontends se comuniquem enviando mensagens ou eventos entre si e evitem ter qualquer estado compartilhado. Assim como o compartilhamento de um banco de dados entre microsserviços, assim que compartilhamos nossas estruturas de dados e modelos de domínio, criamos enormes quantidades de acoplamento e torna-se extremamente difícil fazer alterações.
+
+Assim como no estilo, existem várias abordagens diferentes que podem funcionar bem aqui. O mais importante é pensar bastante sobre que tipo de acoplamento você está apresentando e como manterá esse contrato ao longo do tempo. Assim como na integração entre microsserviços, você não poderá fazer alterações significativas em suas integrações sem ter um processo de atualização coordenada em diferentes aplicativos e equipes.
+
+Você também deve pensar em como verificará automaticamente se a integração não quebra. O teste funcional é uma abordagem, mas preferimos limitar o número de testes funcionais que escrevemos devido ao custo de implementá-los e mantê-los. Como alternativa, você pode implementar algum tipo de [contrato orientado ao consumidor](https://martinfowler.com/articles/consumerDrivenContracts.html) , para que cada micro front-end possa especificar o que é necessário para outros micro front-end, sem a necessidade de realmente integrar e executar todos eles em um navegador juntos.
+
+---
+
+## Comunicação de back-end ##
+
+Se tivermos equipes separadas trabalhando independentemente em aplicativos de front-end, e o desenvolvimento de back-end? Acreditamos firmemente no valor das equipes de pilha completa, que possuem o desenvolvimento de seus aplicativos desde o código visual até o desenvolvimento da API e o código do banco de dados e da infraestrutura. Um padrão que ajuda aqui é o padrão [BFF](https://samnewman.io/patterns/architectural/bff/) , em que cada aplicativo de front-end possui um back-end correspondente cujo objetivo é apenas atender às necessidades desse front-end. Embora o padrão BFF possa originalmente significar back-end dedicados para cada canal de front-end (Web, celular, etc.), ele pode ser facilmente estendido para significar um back-end para cada micro front-end.
+
+Há muitas variáveis a serem consideradas aqui. O BFF pode ser independente com sua própria lógica de negócios e banco de dados, ou pode ser apenas um agregador de serviços de recebimento de dados. Se houver serviços a jusante, pode ou não fazer sentido que a equipe que possui o micro frontend e seu melhor amigo também possua alguns desses serviços. Se o micro frontend tiver apenas uma API com a qual converse e essa API for razoavelmente estável, poderá não haver muito valor na criação de um BFF. O princípio norteador aqui é que a equipe que constrói um micro front-end específico não deve esperar que outras equipes construam coisas para eles. Portanto, se todos os novos recursos adicionados a um micro front-end também exigirem alterações no back-end, esse é um argumento forte para um BFF, de propriedade da mesma equipe.
+
+
+![](https://martinfowler.com/articles/micro-frontends/bff.png)
+
+>Figura 7: Existem várias maneiras diferentes de estruturar seus relacionamentos de front-end / back-end
+
+Outra pergunta comum é: como o usuário de um aplicativo de micro frontend deve ser autenticado e autorizado com o servidor? Obviamente, nossos clientes devem ter que se autenticar apenas uma vez; portanto, o auth geralmente se enquadra na categoria de preocupações transversais que devem pertencer ao aplicativo de contêineres. O contêiner provavelmente possui algum tipo de formulário de login, através do qual obtemos algum tipo de token. Esse token pertenceria ao contêiner e pode ser injetado em cada micro front-end na inicialização. Por fim, o micro front-end pode enviar o token com qualquer solicitação feita ao servidor, e o servidor pode fazer qualquer validação necessária.
+
+
+---
+
+## Teste ## 
+
+Não vemos muita diferença entre front-end monolíticos e micr-front-end quando se trata de testes. Em geral, quaisquer estratégias que você esteja usando para testar um front end monolítico podem ser reproduzidas em cada micro front end individual. Ou seja, cada micro front-end deve ter seu próprio conjunto abrangente de testes automatizados que garantam a qualidade e a correção do código.
+
+
+A lacuna óbvia seria então o teste de integração dos vários micro frontends com o aplicativo de contêiner. Isso pode ser feito usando sua ferramenta preferida de ferramenta funcional / de ponta a ponta (como Selenium ou Cypress), mas não leve as coisas muito longe; testes funcionais devem abranger apenas aspectos que não podem ser testados em um nível inferior da [pirâmide de testes](https://martinfowler.com/bliki/TestPyramid.html) . Com isso queremos dizer, use testes de unidade para cobrir sua lógica de negócios de baixo nível e lógica de renderização e, em seguida, use testes funcionais apenas para validar se a página foi montada corretamente. Por exemplo, você pode carregar o aplicativo totalmente integrado em uma URL específica e afirmar que o título codificado do micro frontend relevante está presente na página.
+
+Se houver jornadas de usuário que abranjam micro frontends, você poderá usar testes funcionais para cobri-los, mas mantenha os testes funcionais focados na validação da integração dos frontends, e não na lógica de negócios interna de cada micro frontend, que já deveria ter foi coberto por testes de unidade. [Como mencionado acima](#comunicação-entre-aplicativos), os contratos orientados ao consumidor podem ajudar a especificar diretamente as interações que ocorrem entre os micro frontends sem a escassez de ambientes de integração e testes funcionais.
+
+---
+
+## O exemplo em detalhes ##
+
+A maior parte do restante deste artigo será uma explicação detalhada de apenas uma maneira pela qual nosso aplicativo de exemplo pode ser implementado. Vamos nos concentrar principalmente em como o aplicativo de contêiner e os micro frontends se [ntegram usando JavaScript](https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript)pois essa é provavelmente a parte mais interessante e complexa. Você pode ver o resultado final implantado ao vivo em https://demo.microfrontends.com e o código fonte completo pode ser visto no Github .
+
+
+
 
 
 
