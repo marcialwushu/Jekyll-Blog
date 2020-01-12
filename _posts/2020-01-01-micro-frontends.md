@@ -11,8 +11,8 @@ categories: jekyll update
 ## CONTEÚDO ##
 
 * [Benefícios](#beneficios)
-    * [Atualizações incrementais](#bases-de-código-simples-e-dissociadas)
-    * [Bases de código simples e dissociadas]()
+    * [Atualizações incrementais]()
+    * [Bases de código simples e dissociadas](#basesdecódigosimplesedissociadas)
     * [Implantação independente]()
     * [Equipes autônomas]()
     * [Em poucas palavras]()
