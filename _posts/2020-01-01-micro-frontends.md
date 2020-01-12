@@ -6,18 +6,18 @@ categories: jekyll update
 ---
 
 
->Bom desenvolvimento de front-end é difícil. Escalar o desenvolvimento de front-end para que muitas equipes possam trabalhar simultaneamente em um produto grande e complexo é ainda mais difícil. Neste artigo, descreveremos uma tendência recente de dividir monólitos de front-end em muitas partes menores e mais gerenciáveis, e como essa arquitetura pode aumentar a eficácia e a eficiência das equipes que trabalham no código de front-end. Além de falar sobre os vários benefícios e custos, abordaremos algumas das opções de implementação disponíveis e mergulharemos em um aplicativo de exemplo completo que demonstra a técnica.
+*Bom desenvolvimento de front-end é difícil. Escalar o desenvolvimento de front-end para que muitas equipes possam trabalhar simultaneamente em um produto grande e complexo é ainda mais difícil. Neste artigo, descreveremos uma tendência recente de dividir monólitos de front-end em muitas partes menores e mais gerenciáveis, e como essa arquitetura pode aumentar a eficácia e a eficiência das equipes que trabalham no código de front-end. Além de falar sobre os vários benefícios e custos, abordaremos algumas das opções de implementação disponíveis e mergulharemos em um aplicativo de exemplo completo que demonstra a técnica*.
 
 ## CONTEÚDO ##
 
 * [Benefícios](#beneficios)
-    * [Atualizações incrementais]()
+    * [Atualizações incrementais](#atualizações-incrementais)
     * [Bases de código simples e dissociadas](#bases-de-código-simples-e-dissociadas)
-    * [Implantação independente]()
-    * [Equipes autônomas]()
-    * [Em poucas palavras]()
-* [O exemplo]()
-* [Abordagens de integração]()
+    * [Implantação independente](#implantação-independente)
+    * [Equipes autônomas](#equipes-autônomas)
+    * [Em poucas palavras](#em-poucas-palavras)
+* [O exemplo](#o-exemplo)
+* [Abordagens de integração](#abordagens-de-integração)
     * [Composição do modelo do lado do servidor]()
     * [Integração em tempo de compilação]()
     * [Integração em tempo de execução via iframes]()
