@@ -40,7 +40,7 @@ categories: jekyll update
     * [Complexidade operacional e de governança]()
 * [Conclusão]()
 
----
+
 
 Nos últimos anos, os [microsserviços](https://martinfowler.com/articles/microservices.html) explodiram em popularidade, com muitas organizações usando esse estilo arquitetural para evitar as limitações de backends grandes e monolíticos. Embora tenha sido escrito muito sobre esse estilo de criação de software do lado do servidor, muitas empresas continuam lutando com bases de código de front-end monolíticas.
 
@@ -64,7 +64,7 @@ Não é por acaso que essas vantagens de destaque são algumas das mesmas que os
 
 Obviamente, não há almoços grátis quando se trata de arquitetura de software - tudo tem um custo. Algumas implementações de micro frontend podem levar à duplicação de dependências, aumentando o número de bytes que nossos usuários devem baixar. Além disso, o aumento dramático na autonomia da equipe pode causar fragmentação na maneira como suas equipes trabalham. No entanto, acreditamos que esses riscos podem ser gerenciados e que os benefícios dos micro frontends geralmente superam os custos.
 
-## Benefícios ##
+## Beneficios ##
 
 Em vez de definir micro frontends em termos de abordagens técnicas específicas ou detalhes de implementação, colocamos ênfase nos atributos que surgem e nos benefícios que eles oferecem.
 
