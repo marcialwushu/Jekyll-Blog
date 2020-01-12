@@ -140,16 +140,16 @@ Dada a definição bastante flexível acima, existem muitas abordagens que poder
 Começamos com uma abordagem decididamente não inovadora para o desenvolvimento de front-end - renderizando HTML no servidor a partir de vários modelos ou fragmentos. Temos um index.htmlque contém todos os elementos comuns da página e, em seguida, usa inclusões do servidor para conectar conteúdo específico da página a partir de arquivos HTML fragmentados:
 
 ```html
-< html  lang = "en"  dir = "ltr" > 
-  < cabeça > 
-    < meta  charset = "utf-8" > 
-    < title > Alimente-me </ title > 
-  </ head > 
-  < corpo > 
-    < h1 > 🍽 Alimente-me </ h1 > 
-    <! - # include file = "$ PAGE.html" -> 
-  </ body > 
-</ html >
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feed me</title>
+  </head>
+  <body>
+    <h1>🍽 Feed me</h1>
+    <!--# include file="$PAGE.html" -->
+  </body>
+</html>
 
 ```
 
@@ -157,29 +157,29 @@ Servimos esse arquivo usando o Nginx, configurando a $PAGE variável corresponde
 
 ```js
 
-servidor {
-     escute  8080 ;
+server {
+    listen 8080;
     server_name localhost;
 
-    root / usr / share / nginx / html;
+    root /usr/share/nginx/html;
     index index.html;
-    ssi  on ;
+    ssi on;
 
-    # Redirecione / para / procure 
-    reescrever ^ / $ http: // localhost: 8080 / browse redirect ;
+    # Redirect / to /browse
+    rewrite ^/$ http://localhost:8080/browse redirect;
 
-    # Decida qual fragmento HTML inserir com base na 
-    localização / navegação da URL {
-       set  $ PAGE  'browse' ;
+    # Decide which HTML fragment to insert based on the URL
+    location /browse {
+      set $PAGE 'browse';
     }
-    local / pedido {
-       set  $ PAGE  'order' ;
+    location /order {
+      set $PAGE 'order';
     }
-    local / perfil {
-       set  $ PAGE  'profile'
+    location /profile {
+      set $PAGE 'profile'
     }
 
-    # Todos os locais devem renderizar através do index.html 
+    # All locations should render through index.html
     error_page 404 /index.html;
 }
 
@@ -202,15 +202,16 @@ Uma abordagem que vemos às vezes é publicar cada micro frontend como um pacote
 
 ```json
 {
-   "name" : "@ feed-me / container" ,
-   "version" : "1.0.0" ,
-   "description" : "Um aplicativo Web de entrega de alimentos" ,
-   "dependências" : {
-     "@ feed-me / browse-restaurants " : " ^ 1.2.3 " ,
-     " @ feed-me / order-food " : " ^ 4.5.6 " ,
-     " @ feed-me / perfil do usuário " : " ^ 7.8.9 "
+  "name": "@feed-me/container",
+  "version": "1.0.0",
+  "description": "A food delivery web app",
+  "dependencies": {
+    "@feed-me/browse-restaurants": "^1.2.3",
+    "@feed-me/order-food": "^4.5.6",
+    "@feed-me/user-profile": "^7.8.9"
   }
 }
+
 ```
 
 A princípio, isso parece fazer sentido. Ele produz um único pacote Javascript implementável, como é habitual, permitindo a duplicação de dependências comuns de nossos vários aplicativos. No entanto, essa abordagem significa que precisamos recompilar e liberar cada micro front-end para liberar uma alteração em qualquer parte individual do produto. Assim como nos microsserviços, já vimos dores suficientes causadas por um processo de liberação tão lento que recomendamos fortemente contra esse tipo de abordagem para micro frontends.
@@ -222,27 +223,27 @@ Depois de todo o trabalho de dividir nosso aplicativo em bases de código discre
 Uma das abordagens mais simples para compor aplicativos juntos no navegador é o humilde iframe. Por sua natureza, os iframes facilitam a criação de uma página a partir de subpáginas independentes. Eles também oferecem um bom grau de isolamento em termos de estilo e variáveis globais que não interferem entre si.
 
 ```html
-< html > 
-  < head > 
-    < title > Alimente-me! </ title > 
-  </ head > 
-  < body > 
-    < h1 > Bem-vindo ao Feed me! </ h1 >
+<html>
+  <head>
+    <title>Feed me!</title>
+  </head>
+  <body>
+    <h1>Welcome to Feed me!</h1>
 
-    < iframe  id = "micro-frontend-container" > </ iframe >
+    <iframe id="micro-frontend-container"></iframe>
 
-    < tipo de script  = "text / javascript" > const microFrontendsByRoute = {
-         '/' : 'https://browse.example.com/index.html' ,
-         '/ order-food' : 'https: //order.example. com / index.html ' ,
-         ' / user-profile ' : ' https://profile.example.com/index.html ' ,
-      
+    <script type="text/javascript">
+      const microFrontendsByRoute = {
+        '/': 'https://browse.example.com/index.html',
+        '/order-food': 'https://order.example.com/index.html',
+        '/user-profile': 'https://profile.example.com/index.html',
       };
 
-      const iframe = documento .getElementById ( 'micro-frontend-container' );
-      iframe.src = microFrontendsByRoute [ janela .location.pathname];
-    </ script > 
-  </ body > 
-</ html >
+      const iframe = document.getElementById('micro-frontend-container');
+      iframe.src = microFrontendsByRoute[window.location.pathname];
+    </script>
+  </body>
+</html>
 
 ```
 
@@ -258,37 +259,36 @@ A próxima abordagem que descreveremos é provavelmente a mais flexível e a que
 
 ```html
 
-< html > 
-  < head > 
-    < title > Alimente-me! </ title > 
-  </ head > 
-  < body > 
-    < h1 > Bem-vindo ao Feed me! </ h1 >
+<html>
+  <head>
+    <title>Feed me!</title>
+  </head>
+  <body>
+    <h1>Welcome to Feed me!</h1>
 
-    <! - Esses scripts não renderizam nada imediatamente -> 
-    <! - Em vez disso, anexam funções de ponto de entrada à `janela` -> 
-    < script  src = " https://browse.example.com/bundle. js " ></ script > 
-    < script  src = "https://order.example.com/bundle.js" ></ script > 
-    < script  src = "https://profile.example.com/bundle.js" ></ script >
+    <!-- These scripts don't render anything immediately -->
+    <!-- Instead they attach entry-point functions to `window` -->
+    <script src="https://browse.example.com/bundle.js"></script>
+    <script src="https://order.example.com/bundle.js"></script>
+    <script src="https://profile.example.com/bundle.js"></script>
 
-    < div  id = "micro-frontend-root" > </ div >
+    <div id="micro-frontend-root"></div>
 
-    < script  type = "text / javascript" > // Essas funções globais são anexadas à janela pelos scripts acima const microFrontendsByRoute = {
-         '/' : window .renderBrowseRestaurants,
-         '/ order-food' : window .renderOrderFood,
-         '/ user- profile ' : window .renderUserProfile,
-      
-      
+    <script type="text/javascript">
+      // These global functions are attached to window by the above scripts
+      const microFrontendsByRoute = {
+        '/': window.renderBrowseRestaurants,
+        '/order-food': window.renderOrderFood,
+        '/user-profile': window.renderUserProfile,
       };
-      const renderFunction = microFrontendsByRoute [ window .location.pathname];
+      const renderFunction = microFrontendsByRoute[window.location.pathname];
 
-      // Tendo determinado a função do ponto de entrada, agora a chamamos, 
-      // fornecendo o ID do elemento em que ele deve se renderizar 
-      renderFunction ( 'micro-frontend-root' );
-    </ script > 
-  </ body > 
-</ html >
-
+      // Having determined the entry-point function, we now call it,
+      // giving it the ID of the element where it should render itself
+      renderFunction('micro-frontend-root');
+    </script>
+  </body>
+</html>
 ```
 
 O exposto acima é obviamente um exemplo primitivo, mas demonstra a técnica básica. Diferentemente da integração em tempo de compilação, podemos implantar cada um dos bundle.jsarquivos independentemente. E, diferentemente dos iframes, temos total flexibilidade para criar integrações entre nossos micro frontends da maneira que quisermos. Poderíamos estender o código acima de várias maneiras, por exemplo, para baixar apenas cada pacote JavaScript, conforme necessário, ou para transmitir e receber dados ao renderizar um micro front-end.
@@ -302,38 +302,38 @@ Uma variação da abordagem anterior é que cada micro frontend defina um elemen
 
 ```html
 
-< html > 
-  < head > 
-    < title > Alimente-me! </ title > 
-  </ head > 
-  < body > 
-    < h1 > Bem-vindo ao Feed me! </ h1 >
+<html>
+  <head>
+    <title>Feed me!</title>
+  </head>
+  <body>
+    <h1>Welcome to Feed me!</h1>
 
-    <! - Esses scripts não renderizam nada imediatamente -> 
-    <! - Em vez disso, cada um define um tipo de elemento personalizado -> 
-    < script  src = "https://browse.example.com/bundle.js" ></ script > 
-    < script  src = "https://order.example.com/bundle.js" ></ script > 
-    < script  src = "https://profile.example.com/bundle.js" ></ script >
+    <!-- These scripts don't render anything immediately -->
+    <!-- Instead they each define a custom element type -->
+    <script src="https://browse.example.com/bundle.js"></script>
+    <script src="https://order.example.com/bundle.js"></script>
+    <script src="https://profile.example.com/bundle.js"></script>
 
-    < div  id = "micro-frontend-root" > </ div >
+    <div id="micro-frontend-root"></div>
 
-    < script  type = "text / javascript" > // Esses tipos de elementos são definidos pelos scripts acima const webComponentsByRoute = {
-         '/' : 'micro-frontend-browse-restaurants' ,
-         '/ order-food' : 'micro-frontend -order-food ' ,
-         ' / user-profile ' : ' micro-frontend-user-profile ' ,
-      
-      
+    <script type="text/javascript">
+      // These element types are defined by the above scripts
+      const webComponentsByRoute = {
+        '/': 'micro-frontend-browse-restaurants',
+        '/order-food': 'micro-frontend-order-food',
+        '/user-profile': 'micro-frontend-user-profile',
       };
-      const webComponentType = webComponentsByRoute [ janela .location.pathname];
+      const webComponentType = webComponentsByRoute[window.location.pathname];
 
-      // Depois de determinar o tipo de elemento personalizado do componente da Web certo, 
-      // agora criamos uma instância e a anexamos ao documento 
-      const root = document .getElementById ( 'micro-frontend-root' );
-      const webComponent = documento .createElement (webComponentType);
-      root.appendChild (webComponent);
-    </ script > 
-  </ body > 
-</ html >
+      // Having determined the right web component custom element type,
+      // we now create an instance of it and attach it to the document
+      const root = document.getElementById('micro-frontend-root');
+      const webComponent = document.createElement(webComponentType);
+      root.appendChild(webComponent);
+    </script>
+  </body>
+</html>
 
 ```
 
@@ -411,15 +411,338 @@ Se houver jornadas de usuário que abranjam micro frontends, você poderá usar 
 
 ## O exemplo em detalhes ##
 
-A maior parte do restante deste artigo será uma explicação detalhada de apenas uma maneira pela qual nosso aplicativo de exemplo pode ser implementado. Vamos nos concentrar principalmente em como o aplicativo de contêiner e os micro frontends se [ntegram usando JavaScript](https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript)pois essa é provavelmente a parte mais interessante e complexa. Você pode ver o resultado final implantado ao vivo em https://demo.microfrontends.com e o código fonte completo pode ser visto no Github .
+A maior parte do restante deste artigo será uma explicação detalhada de apenas uma maneira pela qual nosso aplicativo de exemplo pode ser implementado. Vamos nos concentrar principalmente em como o aplicativo de contêiner e os micro frontends se [ntegram usando JavaScript](https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript)pois essa é provavelmente a parte mais interessante e complexa. Você pode ver o resultado final implantado ao vivo em https://demo.microfrontends.com e o código fonte completo pode ser visto no [Github](https://github.com/micro-frontends-demo) .
 
 
+![](https://martinfowler.com/articles/micro-frontends/screenshot-browse.png)
+
+
+>Figura 8: A página de destino 'browse' do aplicativo de demonstração completo de micro frontends
+
+A demonstração é toda criada usando o React.js, portanto, vale a pena ressaltar que o React não tem monopólio sobre essa arquitetura. Os micro frontends podem ser implementados com muitas ferramentas ou estruturas diferentes. Escolhemos o React aqui por causa de sua popularidade e por causa de nossa própria familiaridade com ele.
+
+
+## O recipiente ##
+
+Começaremos com o contêiner , pois é o ponto de entrada para nossos clientes. Vamos ver o que podemos aprender sobre isso package.json:
+
+```js
+{
+  "name": "@micro-frontends-demo/container",
+  "description": "Entry point and container for a micro frontends demo",
+  "scripts": {
+    "start": "PORT=3000 react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^2.1.8"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-enzyme": "^6.0.2",
+    "react-app-rewire-micro-frontends": "^0.0.1",
+    "react-app-rewired": "^2.1.1"
+  },
+  "config-overrides-path": "node_modules/react-app-rewire-micro-frontends"
+}
+```
+
+A partir das dependências reacte react-scripts, podemos concluir que é um aplicativo React.js criado com [create-react-app](https://facebook.github.io/create-react-app/). Mais interessante é o que não existe: qualquer menção aos micro frontends que vamos compor juntos para formar nosso aplicativo final. Se os especificássemos aqui como dependências da biblioteca, estaríamos seguindo o caminho da integração em tempo de construção, que conforme mencionado anteriormente tende a causar acoplamentos problemáticos em nossos ciclos de lançamento.
+
+>Na versão 1 react-scripts, era possível ter vários aplicativos coexistindo em uma única página sem conflitos, mas a versão 2 usa alguns recursos do webpack que causam erros quando dois ou mais aplicativos tentam renderizar-se na mesma página. Por esse motivo, ```react-app-rewired``` substituímos algumas das configurações internas do webpack ```react-scripts```. Isso corrige esses erros e permite que continuemos confiando no react-scripts o gerenciamento de nossas ferramentas de criação.
+
+Para ver como selecionamos e exibimos um micro front-end, vejamos App.js. Usamos o [React Router](https://reacttraining.com/react-router/) para combinar o URL atual com uma lista predefinida de rotas e renderizar um componente correspondente:
+
+```jsx
+<Switch>
+  <Route exact path="/" component={Browse} />
+  <Route exact path="/restaurant/:id" component={Restaurant} />
+  <Route exact path="/random" render={Random} />
+</Switch>
+```
+
+O Random componente não é tão interessante - apenas redireciona a página para um URL de restaurante selecionado aleatoriamente. Os componentes Browsee Restaurantsão assim:
+
+```jsx
+const Browse = ({ history }) => (
+  <MicroFrontend history={history} name="Browse" host={browseHost} />
+);
+const Restaurant = ({ history }) => (
+  <MicroFrontend history={history} name="Restaurant" host={restaurantHost} />
+);
+```
+
+Nos dois casos, renderizamos um MicroFrontendcomponente. Além do objeto de histórico (que se tornará importante posteriormente), especificamos o nome exclusivo do aplicativo e o host do qual o pacote configurável pode ser baixado. Esse URL orientado à configuração será semelhante http://localhost:3001ao executado localmente ou https://browse.demo.microfrontends.comem produção.
+
+Depois de selecionar um micro front-end App.js, agora o renderizamos MicroFrontend.js, que é apenas outro componente do React:
+
+```jsx
+class MicroFrontend extends React.Component {
+  render() {
+    return <main id={`${this.props.name}-container`} />;
+  }
+}
+
+```
+
+>|Esta não é a classe inteira, veremos mais métodos em breve.
+
+Ao renderizar, tudo o que fazemos é colocar um elemento de contêiner na página, com um ID exclusivo para o micro frontend. É aqui que diremos ao nosso micro frontend para se render. Usamos o React's componentDidMount como o gatilho para baixar e montar o micro frontend:
+
+
+>componentDidMount é um método de ciclo de vida dos componentes React, chamado pela estrutura logo após uma instância do nosso componente ter sido 'montada' no DOM pela primeira vez.
+
+
+>classe MicroFrontend…
+
+```jsx
+componentDidMount() {
+    const { name, host } = this.props;
+    const scriptId = `micro-frontend-script-${name}`;
+
+    if (document.getElementById(scriptId)) {
+      this.renderMicroFrontend();
+      return;
+    }
+
+    fetch(`${host}/asset-manifest.json`)
+      .then(res => res.json())
+      .then(manifest => {
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.src = `${host}${manifest['main.js']}`;
+        script.onload = this.renderMicroFrontend;
+        document.head.appendChild(script);
+      });
+  }
+  
+  ```
+  
+Primeiro, verificamos se o script relevante, que possui um ID exclusivo, já foi baixado; nesse caso, podemos processá-lo imediatamente. Caso contrário, buscamos o asset-manifest.jsonarquivo no host apropriado, a fim de procurar a URL completa do ativo principal do script. Depois de definir o URL do script, resta apenas anexá-lo ao documento, com um onloadmanipulador que renderiza o micro frontend:
+
+
+>Temos que buscar a URL do script em um arquivo de manifesto de ativos, porque react-scriptsgera arquivos JavaScript compilados que possuem hashes em seus nomes de arquivo para facilitar o cache.
+
+>class MicroFrontend…
+
+```jsx
+  renderMicroFrontend = () => {
+    const { name, history } = this.props;
+
+    window[`render${name}`](`${name}-container`, history);
+    // E.g.: window.renderBrowse('browse-container', history);
+  };
+  
+```
+
+
+No código acima, estamos chamando uma função global chamada algo como window.renderBrowse, que foi colocada lá pelo script que acabamos de baixar. Passamos o ID do <main> elemento em que o micro frontend deve renderizar-se, e um history objeto, que explicaremos em breve. **A assinatura desta função global é o principal contrato entre a aplicação do contêiner e as micro frontends**. É aqui que qualquer comunicação ou integração deve acontecer, mantendo-o bastante leve facilita a manutenção e a adição de novas micro front-ends no futuro. Sempre que desejamos fazer algo que exija uma alteração nesse código, devemos pensar muito sobre o que isso significa para o acoplamento de nossas bases de código e a manutenção do contrato.
+
+Há uma peça final, que está lidando com a limpeza. Quando nosso MicroFrontendcomponente desmonta (é removido do DOM), também queremos desmontar o micro frontend relevante. Há uma função global correspondente definida por cada micro front-end para esse fim, que chamamos de método de ciclo de vida React apropriado:
+
+
+>class MicroFrontend…
+
+
+```jsx
+
+  componentWillUnmount() {
+    const { name } = this.props;
+
+    window[`unmount${name}`](`${name}-container`);
+  }
+  
+ ```
+ 
+ Em termos de conteúdo próprio, tudo o que o contêiner processa diretamente é o cabeçalho de nível superior e a barra de navegação do site, pois são constantes em todas as páginas. O CSS para esses elementos foi escrito com cuidado para garantir que somente estilize elementos dentro do cabeçalho, portanto, não deve entrar em conflito com nenhum código de estilo dentro dos micro frontends.
+
+E esse é o fim do aplicativo de contêiner! É bastante rudimentar, mas isso nos dá um shell que pode baixar dinamicamente nossos micro frontends em tempo de execução e colá-los em algo coeso em uma única página. Esses micro frontends podem ser implantados independentemente até a produção, sem nunca fazer alterações em nenhum outro micro frontend ou no próprio contêiner.
+
+## Os micro frontends ##
+
+O lugar lógico para continuar essa história é com a função de renderização global à qual continuamos nos referindo. A página inicial do nosso aplicativo é uma lista filtrável de restaurantes, cujo ponto de entrada fica assim:
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+window.renderBrowse = (containerId, history) => {
+  ReactDOM.render(<App history={history} />, document.getElementById(containerId));
+  registerServiceWorker();
+};
+
+window.unmountBrowse = containerId => {
+  ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
+};
+
+```
+
+Normalmente, nos aplicativos React.js, a chamada para ReactDOM.renderestaria no escopo de nível superior, o que significa que, assim que esse arquivo de script é carregado, ele começa imediatamente a renderização em um elemento DOM codificado. Para esse aplicativo, precisamos poder controlar quando e onde a renderização ocorre, portanto, envolvemos-o em uma função que recebe o ID do elemento DOM como parâmetro e anexamos essa função ao windowobjeto global . Também podemos ver a função de desmontagem correspondente usada para limpeza.
+
+Enquanto já vimos como essa função é chamada quando o micro frontend é integrado a todo o aplicativo de contêiner, um dos maiores critérios de sucesso aqui é que podemos desenvolver e executar os micro frontend independentemente. Portanto, cada micro front-end também possui index.htmlum script embutido para renderizar o aplicativo em um modo "independente", fora do contêiner:
+
+```html
+
+<html lang="en">
+  <head>
+    <title>Restaurant order</title>
+  </head>
+  <body>
+    <main id="container"></main>
+    <script type="text/javascript">
+      window.onload = () => {
+        window.renderRestaurant('container');
+      };
+    </script>
+  </body>
+</html>
+
+```
+
+![](https://martinfowler.com/articles/micro-frontends/screenshot-order.png)
+
+>Figura 9: Cada micro front-end pode ser executado como um aplicativo independente fora do contêiner.
+
+A partir deste momento, os micro frontends são na maioria simples aplicativos antigos do React. O aplicativo ['browse'](https://github.com/micro-frontends-demo/browse) busca a lista de restaurantes no back-end, fornece <input> elementos para pesquisar e filtrar os restaurantes e renderiza os <Link>elementos do React Router , que navegam para um restaurante específico. Nesse ponto, passaríamos para o segundo micro frontend ['order'](https://github.com/micro-frontends-demo/restaurant-order) , que renderiza um único restaurante com seu menu.
+   
+![](https://martinfowler.com/articles/micro-frontends/demo-architecture.png)
+
+
+>Figura 10: Essas micro front-ends interagem apenas através de alterações de rota, não diretamente
+
+A última coisa que vale a pena mencionar sobre os nossos micro frontends é que ambos usam styled-componentspara todo o seu estilo. Essa biblioteca CSS-in-JS facilita a associação de estilos a componentes específicos; portanto, garantimos que os estilos de um micro frontend não vazarão e afetarão o contêiner ou outro micro frontend.
+
+## Comunicação entre aplicativos via roteamento ## 
+
+Nós mencionamos anteriormente que a comunicação entre aplicativos devem ser mantidos a um mínimo. Neste exemplo, o único requisito que temos é que a página de navegação precise informar à página do restaurante qual restaurante carregar. Aqui veremos como podemos usar o roteamento do lado do cliente para resolver esse problema.
+
+Todos os três aplicativos React envolvidos aqui estão usando o React Router para roteamento declarativo, mas foram inicializados de duas maneiras ligeiramente diferentes. Para o aplicativo de contêiner, criamos um <BrowserRouter>, que internamente instanciará um historyobjeto. Este é o mesmo historyobjeto que abordamos anteriormente. Usamos esse objeto para manipular o histórico do lado do cliente e também podemos usá-lo para vincular vários roteadores do React. Dentro de nossas micro frontends, inicializamos o roteador assim:
+   
+```jsx
+<Router history={this.props.history}>
+
+```
+
+Nesse caso, em vez de permitir que o React Router instancie outro objeto de histórico, fornecemos a instância que foi passada pelo aplicativo de contêiner. Todas as <Router>instâncias agora estão conectadas, portanto, as alterações de rota acionadas em qualquer uma delas serão refletidas em todas elas. Isso nos fornece uma maneira fácil de passar "parâmetros" de um micro front-end para outro, via URL. Por exemplo, no micro frontend de navegação, temos um link como este:
+   
+```jsx
+<Link to={`/restaurant/${restaurant.id}`}>
+
+```
+
+Quando esse link é clicado, a rota será atualizada no contêiner, que exibirá a nova URL e determinará que o micro frontend do restaurante deve ser montado e renderizado. A lógica de roteamento desse micro frontend extrairá o ID do restaurante da URL e renderizará as informações corretas.
+
+Esperamos que este exemplo de fluxo mostre a flexibilidade e o poder da URL humilde. Além de ser útil para compartilhar e marcar, nessa arquitetura específica, pode ser uma maneira útil de comunicar a intenção entre micro frontends. O uso do URL da página para esse fim marca muitas caixas:
+
+- Sua estrutura é um padrão aberto e bem definido
+- É globalmente acessível a qualquer código na página
+- Seu tamanho limitado incentiva o envio de apenas uma pequena quantidade de dados
+- É voltado para o usuário, o que incentiva uma estrutura que modela fielmente o domínio
+- É declarativo, não imperativo. Ou seja, "é aqui que estamos", em vez de "por favor, faça isso"
+- Obriga os micro frontends a se comunicarem indiretamente e a não conhecerem ou dependerem um do outro
+
+Ao usar o roteamento como nosso modo de comunicação entre micro frontends, as rotas que escolhemos constituem um contrato . Nesse caso, definimos a ideia de que um restaurante pode ser visualizado /restaurant/:restaurantIde não podemos mudar esse caminho sem atualizar todos os aplicativos que fazem referência a ele. Dada a importância deste contrato, deveríamos ter testes automatizados que verificam se o contrato está sendo cumprido.
+
+## Conteúdo comum ##
+
+Embora desejemos que nossas equipes e nossos micro front-ends sejam o mais independentes possível, há algumas coisas que devem ser comuns. Escrevemos anteriormente sobre como as [bibliotecas de componentes compartilhados](https://martinfowler.com/articles/micro-frontends.html#SharedComponentLibraries) podem ajudar com a consistência entre micro frontends, mas para esta pequena demonstração, uma biblioteca de componentes seria um exagero. Então, em vez disso, temos um pequeno [repositório de conteúdo comum](https://github.com/micro-frontends-demo/content) , incluindo imagens, dados JSON e CSS, que são veiculados pela rede para todas as micro frontends.
+
+Há outra coisa que podemos optar por compartilhar entre os micro frontends: dependências da biblioteca. Como descreveremos em breve , a duplicação de dependências é uma desvantagem comum dos micro frontends. Mesmo que o compartilhamento dessas dependências entre aplicativos tenha seu próprio conjunto de dificuldades, vale a pena falar sobre esse aplicativo de demonstração sobre como isso pode ser feito.
+
+O primeiro passo é escolher quais dependências compartilhar. Uma análise rápida do nosso código compilado mostrou que cerca de 50% dos pacotes foram contribuídos por reacte react-dom. Além de seu tamanho, essas duas bibliotecas são nossas dependências mais básicas, portanto sabemos que todos os micro frontends podem se beneficiar da sua extração. Por fim, são bibliotecas estáveis ​​e maduras, que geralmente introduzem alterações significativas em duas versões principais; portanto, os esforços de atualização entre aplicativos não devem ser muito difíceis.
+
+Quanto à extração real, tudo o que precisamos fazer é marcar as bibliotecas como [externas](https://webpack.js.org/configuration/externals/) em nossa configuração do webpack, o que podemos fazer com uma religação semelhante à descrita anteriormente .
+
+```jsx
+module.exports = (config, env) => {
+  config.externals = {
+    react: 'React',
+    'react-dom': 'ReactDOM'
+  }
+  return config;
+};
+
+```
+
+Em seguida, adicionamos algumas scripttags a cada index.html arquivo, para buscar as duas bibliotecas do nosso servidor de conteúdo compartilhado.
+
+```html
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <script src="%REACT_APP_CONTENT_HOST%/react.prod-16.8.6.min.js"></script>
+  <script src="%REACT_APP_CONTENT_HOST%/react-dom.prod-16.8.6.min.js"></script>
+</body>
+
+```
+
+Compartilhar código entre equipes é sempre uma coisa complicada de se fazer bem. Precisamos garantir que apenas compartilhemos coisas que realmente queremos que sejam comuns e que desejemos mudar em vários lugares ao mesmo tempo. No entanto, se tivermos cuidado com o que compartilhamos e o que não compartilhamos, há benefícios reais a serem obtidos.
+
+## A infraestrutura ##
+
+O aplicativo está hospedado na AWS, com infraestrutura principal (buckets S3, distribuições do CloudFront, domínios, certificados etc.), provisionados de uma só vez usando um [repositório centralizado](https://github.com/micro-frontends-demo/infra) do código Terraform. Cada micro frontend possui seu próprio repositório de origem com seu próprio pipeline de implantação contínua no [Travis CI](https://travis-ci.org/micro-frontends-demo/) , que cria, testa e implanta seus ativos estáticos nesses buckets S3. Isso equilibra a conveniência do gerenciamento centralizado da infraestrutura com a flexibilidade da implantação independente.
+
+Observe que cada micro front-end (e o contêiner) recebe seu próprio balde. Isso significa que ele tem livre domínio sobre o que está lá, e não precisamos nos preocupar com colisões de nomes de objetos ou regras conflitantes de gerenciamento de acesso de outra equipe ou aplicativo.
+
+---
+
+## Desvantagens ##
+
+No início deste artigo, mencionamos que existem compensações com micro frontends, assim como em qualquer arquitetura. Os benefícios que mencionamos têm um custo, que abordaremos aqui.
+
+## Tamanho da carga útil ##
+
+Pacotes configuráveis ​​JavaScript criados de forma independente podem causar duplicação de dependências comuns, aumentando o número de bytes que precisamos enviar pela rede para nossos usuários finais. Por exemplo, se todo micro front-end incluir sua própria cópia do React, forçaremos nossos clientes a baixar o React n vezes. Existe uma [relação direta](https://developers.google.com/web/fundamentals/performance/why-performance-matters/) entre o desempenho da página e o engajamento / conversão do usuário, e grande parte do mundo roda na infraestrutura da Internet muito mais lentamente do que aquelas em cidades altamente desenvolvidas, por isso temos muitos motivos para nos preocupar com o tamanho dos downloads.
+
+Este problema não é fácil de resolver. Existe uma tensão inerente entre nosso desejo de permitir que as equipes compilem seus aplicativos de forma independente, para que possam trabalhar autonomamente, e nosso desejo de criar nossos aplicativos de forma que possam compartilhar dependências comuns. Uma abordagem é externalizar dependências comuns de nossos pacotes compilados, como descrevemos para o aplicativo de demonstração. No entanto, assim que seguimos esse caminho, reintroduzimos algum acoplamento em tempo de compilação para nossas micro frontends. Agora, existe um contrato implícito entre eles que diz: "todos devemos usar essas versões exatas dessas dependências". Se houver uma mudança de dependência em uma dependência, podemos acabar precisando de um grande esforço de atualização coordenada e de um evento único de liberação de etapa de bloqueio. Isso é tudo o que estávamos tentando evitar com micro frontends!
+
+Essa tensão inerente é difícil, mas nem todas são más notícias. Primeiro, mesmo se optarmos por não fazer nada sobre dependências duplicadas, é possível que cada página individual ainda seja carregada mais rapidamente do que se tivéssemos construído um único frontend monolítico. O motivo é que, ao compilar cada página de forma independente, implementamos efetivamente nossa própria forma de divisão de código. Nos monólitos clássicos, quando qualquer página do aplicativo é carregada, geralmente fazemos o download do código-fonte e das dependências de todas as páginas de uma só vez. Ao criar de forma independente, qualquer carregamento de página único fará o download apenas da origem e das dependências dessa página. Isso pode resultar em carregamentos iniciais de página mais rápidos, mas navegação subseqüente mais lenta, pois os usuários são forçados a baixar novamente as mesmas dependências em cada página. Se formos disciplinados a não inchar nossos micro frontends com dependências desnecessárias, ou se soubermos que os usuários geralmente mantêm apenas uma ou duas páginas no aplicativo, é possível que consigamos uma redeganho em termos de desempenho, mesmo com dependências duplicadas.
+
+Existem muitos "may's" e "possivelmente's" no parágrafo anterior, o que destaca o fato de que cada aplicativo sempre terá suas próprias características de desempenho únicas. Se você deseja saber com certeza quais serão os impactos no desempenho de uma alteração específica, não há substituto para a realização de medições no mundo real, de preferência na produção. Vimos equipes agonizando com alguns kilobytes extras de JavaScript, apenas para baixar muitos megabytes de imagens de alta resolução ou executar consultas caras em um banco de dados muito lento. Portanto, embora seja importante considerar os impactos no desempenho de todas as decisões de arquitetura, certifique-se de saber onde estão os gargalos reais.
+
+## Diferenças de ambiente ##
+
+Deveríamos ser capazes de desenvolver um único micro front-end sem precisar pensar em todos os outros micro front-end sendo desenvolvidos por outras equipes. Podemos até executar nosso micro front-end em modo “autônomo”, em uma página em branco, em vez de dentro do aplicativo de contêiner que o abrigará na produção. Isso pode tornar o desenvolvimento muito mais simples, especialmente quando o contêiner real é uma base de código herdada e complexa, o que geralmente acontece quando estamos usando micro frontends para fazer uma migração gradual do velho mundo para o novo. No entanto, há riscos associados ao desenvolvimento em um ambiente bastante diferente da produção. Se nosso contêiner em tempo de desenvolvimento se comportar de forma diferente do contêiner de produção, podemos descobrir que nosso micro front-end está quebrado, ou se comporta de maneira diferente quando implantamos na produção. Particularmente preocupantes são os estilos globais que podem ser trazidos pelo contêiner ou por outros micro frontends.
+
+A solução aqui não é tão diferente de qualquer outra situação em que precisamos nos preocupar com diferenças ambientais. Se estamos desenvolvendo localmente em um ambiente que não é de produção semelhante, precisamos garantir que vamos integrar regularmente e implantar nosso micro frontend para ambientes que são como a produção, e nós devemos fazer o teste (manual e automático) nesses ambientes detectar problemas de integração o mais cedo possível. Isso não resolverá completamente o problema, mas, em última análise, é outra desvantagem que devemos considerar: o aumento da produtividade de um ambiente de desenvolvimento simplificado vale o risco de problemas de integração? A resposta vai depender do projeto!
+
+
+## Complexidade operacional e de governança ##
+
+A desvantagem final é uma paralela direta aos microsserviços. Como uma arquitetura mais distribuída, os micro frontends inevitavelmente levarão a ter mais coisas para gerenciar - mais repositórios, mais ferramentas, mais compilar / implantar pipelines, mais servidores, mais domínios etc. Então, antes de adotar essa arquitetura, existem algumas perguntas a serem feitas. deve considerar:
+
+- Você possui automação suficiente para provisionar e gerenciar de maneira viável a infraestrutura adicional necessária?
+- Seus processos de desenvolvimento, teste e release de front-end serão dimensionados para muitos aplicativos?
+- Você se sente confortável com as decisões sobre práticas de desenvolvimento de ferramentas e ferramentas cada vez mais descentralizadas e menos controláveis?
+- Como você garantirá um nível mínimo de qualidade, consistência ou governança em suas muitas bases de código de front-end independentes?
+
+Provavelmente poderíamos preencher outro artigo inteiro discutindo esses tópicos. O ponto principal que queremos destacar é que, quando você escolhe micro frontends, por definição, está optando por criar muitas coisas pequenas em vez de uma coisa grande. Você deve considerar se possui a maturidade técnica e organizacional necessária para adotar essa abordagem sem criar o caos.
+
+
+---
+
+## Conclusão ##
+
+À medida que as bases de código de front-end continuam a ficar mais complexas ao longo dos anos, vemos uma necessidade crescente de arquiteturas mais escaláveis. Precisamos ser capazes de traçar limites claros que estabeleçam os níveis certos de acoplamento e coesão entre entidades técnicas e de domínio. Deveríamos poder escalar a entrega de software em equipes independentes e autônomas.
+
+Embora longe da única abordagem, vimos muitos casos do mundo real em que as micro front-ends oferecem esses benefícios, e conseguimos aplicar a técnica gradualmente ao longo do tempo nas bases de código herdadas e também nas novas. Se os micro frontends são a abordagem certa para você e sua organização ou não, podemos apenas esperar que isso faça parte de uma tendência contínua em que a arquitetura e a engenharia de frontend sejam tratadas com a seriedade que sabemos que merece.
 
 
 
 
 
 --- 
+
+Autor: [Cam Jackson](https://camjackson.net/)
 
 [Artigo Original](https://martinfowler.com/articles/micro-frontends.html)
 
