@@ -179,11 +179,64 @@ Os métodos DOM inline e shadow diferem quando se trata de CSS. O CSS será enca
 No final, a implementação da lógica para microapps DOM inline e shadow ```<yumcha-portal>``` é simples. Recuperamos o conteúdo para um determinado microapp de onde ele foi inserido na página pela lógica do servidor como um ```<template>``` elemento HTML , clonamos e anexamos ao que LitElement chama renderRoot, que normalmente é o shadowDOM do elemento, mas também pode ser definido como o próprio elemento ( this) para o caso inline (non-shadowDOM).
 
 
+Mas espere! O conteúdo exibido pelo servidor microapp é uma página HTML inteira. Não podemos inserir a página HTML para o MicroApp, completo com as tags ```html```, ```head``` e ```body``` , no meio para o macroapp, podemos?
+
+Resolvemos esse problema, aproveitando uma peculiaridade da tag ```template```  na qual o conteúdo do microapp recuperado do servidor microapp está quebrado. Acontece que quando os navegadores modernos encontrar uma tag ```template``` , embora eles não “executem”, eles fazem parse, e ao fazê-lo remover conteúdo inválido, como as tags ```<html>```, ```<head>``` e ```<body>```, preservando seu conteúdo interno. Portanto, as tags `` <script>``  e ```<link>``` no ```<head>```, bem como o conteúdo do ```<body>```, são preservadas. É exatamente isso que queremos para inserir conteúdo microapp em nossa página.
+
+## Arquitetura de micro-front-end: o diabo está nos detalhes
+
+As micro frontend criarão raízes no ecossistema de aplicativos da Web se (a) se tornarem uma melhor abordagem arquitetônica; e (b) podemos descobrir como implementá-las de maneiras que atendam aos inúmeros requisitos práticos da web de hoje.
+
+Em termos da primeira pergunta, ninguém afirma que as micro frontends são a arquitetura certa para todos os casos de uso. Em particular, haveria poucas razões para o desenvolvimento greenfield de uma única equipe adotar micro frontends. Deixarei a questão de que tipos de aplicativos em que tipos de contextos poderiam se beneficiar mais de um padrão de micro-frontend para outros comentaristas.
+
+Em termos de implementação e viabilidade, vimos vários detalhes com os quais se preocupar, incluindo vários nem mencionados neste artigo - principalmente autenticação e segurança, duplicação de código e SEO. No entanto, espero que este artigo estabeleça uma abordagem básica de implementação para micro frontends que, com mais refinamento, possa atender aos requisitos do mundo real.
 
 
 
+## Bibliografia
+
+- [Micro Front Ends — Doing It Angular Style — Part 1](https://medium.com/outbrain-engineering/micro-front-ends-doing-it-angular-style-part-1-219c842fd02e)
+- [Micro Front Ends — Doing It Angular Style — Part 2](https://medium.com/outbrain-engineering/micro-front-ends-doing-it-angular-style-part-2-1393ced4ceab)
+- [Evolving an AngularJS application using microfrontends](https://engineering.contaazul.com/evolving-an-angularjs-application-using-microfrontends-2bbcac9c023a)
+- [Micro-Frontends](https://medium.com/@PepsRyuu/micro-frontends-341defa8d1d4)
+- [UI microservices — reversing the anti-pattern (micro frontends)](https://medium.com/@kitson.mac/ui-microservices-reversing-the-anti-pattern-375bc22287b0)
+- [UI microservices — an anti-pattern?](https://medium.com/@kitson.mac/ui-micro-services-40798d2e3ef4)
+- [Page Building using Micro-Frontends](https://medium.com/js-dojo/page-building-using-micro-frontends-c13c157958c8) takes a Yumcha-like approach of reverse proxy and SSIs, which I highly recommend.
+- [Micro-frontends resources](https://medium.com/@lucamezzalira/micro-frontends-resources-53b1ec7d512a)
+- [Podium](https://podium-lib.io/)
+- [I Don’t Understand Micro-Frontends](https://medium.com/@lucamezzalira/i-dont-understand-micro-frontends-88f7304799a9). This is a pretty good overview of types of micro-frontend architectures and use cases.
+- [Serverless Micro-frontends using Vue.js, AWS Lambda, and Hypernova](https://medium.com/js-dojo/serverless-micro-frontends-using-vue-js-aws-lambda-and-hypernova-835d6f2b3bc9)
+- [Micro Frontends](https://martinfowler.com/articles/micro-frontends.html): A great, comprehensive overview.
   
   
 
+## COMPREENDENDO O BÁSICO
 
+### O que são micro frontends?
+
+As micro frontends são um novo padrão no qual as UIs de aplicativos da Web (front ends) são compostas de fragmentos semi-independentes que podem ser construídos por diferentes equipes, usando diferentes tecnologias. As arquiteturas de micro front-end se parecem com arquiteturas de back-end, nas quais os back-ends são compostos a partir de microsserviços semi-independentes.
+
+### O que é arquitetura de micro-interface?
+
+Uma arquitetura de micro-front-end estabelece a abordagem para os elementos estruturais de uma estrutura de micro-front-end. Ele também define os relacionamentos entre eles, governando como os fragmentos da interface do usuário são montados e se comunicam, a fim de alcançar a experiência ideal do desenvolvedor e do usuário.
+
+### Os microsserviços podem ter interfaces de usuário?
+
+Sim, de certa forma eles podem. Os padrões de micro frontend geralmente adotam a abordagem em que um fragmento do micro frontend, talvez implementado como um componente da web de micro frontend, é emparelhado com um microsserviço para fornecer sua interface do usuário.
+
+
+### O que define um microsserviço?
+
+Um microsserviço é um elemento de uma arquitetura na qual os aplicativos são estruturados como uma coleção de serviços interoperantes. Se o front-end adotar o padrão de micro front-end, um microsserviço poderá ser emparelhado com um micro front-end.
+
+### Qual é a relação entre micro frontends e componentes da web?
+
+Micro frontends e componentes da web (elementos personalizados) podem estar relacionados de várias maneiras. Os componentes da Web são uma maneira natural baseada em marcação para descrever os microapps que compõem um aplicativo de micro-front-end. E os microapps individuais em um aplicativo de micro frontend podem ser construídos usando componentes da web.
+
+
+---
+
+Autor: [Bob Myers](https://www.linkedin.com/in/bobmyers/)
+
+[Artigo Original](https://www.toptal.com/front-end/micro-frontends-strengths-benefits)
 
