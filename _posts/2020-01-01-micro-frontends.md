@@ -11,7 +11,7 @@ categories: jekyll update
 ## CONTEÚDO ##
 
 * [Benefícios](#beneficios)
-    * [Atualizações incrementais]()
+    * [Atualizações incrementais](#Bases de código simples e dissociadas)
     * [Bases de código simples e dissociadas]()
     * [Implantação independente]()
     * [Equipes autônomas]()
@@ -76,7 +76,7 @@ Isso geralmente leva a uma arquitetura de micro frontends. Uma vez que uma equip
 
 O fim do jogo aqui é que temos mais liberdade para tomar decisões caso a caso em partes individuais de nosso produto e fazer atualizações incrementais em nossa arquitetura, nossas dependências e nossa experiência do usuário. Se houver uma mudança significativa em nossa estrutura principal, cada micro front-end poderá ser atualizado sempre que fizer sentido, em vez de ser forçado a parar o mundo e atualizar tudo de uma vez. Se quisermos experimentar novas tecnologias ou novos modos de interação, podemos fazê-lo de maneira mais isolada do que antes.
 
-## Bases de código simples e dissociadas
+## Bases de código simples e dissociadas ##
 
 O código fonte de cada micro front-end individual será, por definição, muito menor que o código-fonte de um único front-end monolítico. Essas bases de código menores tendem a ser mais simples e fáceis para os desenvolvedores trabalharem. Em particular, evitamos a complexidade decorrente do acoplamento não intencional e inadequado entre componentes que não devem se conhecer. Ao desenhar linhas mais grossas em torno dos [contextos limitados](https://martinfowler.com/bliki/BoundedContext.html) do aplicativo, dificultamos o surgimento de um acoplamento acidental.
 
