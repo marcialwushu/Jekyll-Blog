@@ -50,10 +50,64 @@ Thylmann reconhece que Manwin criou um monstro e que não há como voltar atrás
 
 "Não vejo isso mudando tão cedo", disse ele ao BuzzFeed News. "Essas poucas empresas simplesmente têm poder demais para surgir uma concorrência significativa".
 
+
+## Fabian Thylmann - Líderes na indústria pornô
+
+![](https://thepornagency.com/wp-content/uploads/2017/12/fabian-thylmann-primary.jpg)
+
+Fabian Thylmann é um investidor e empresário alemão. Ele é o fundador e ex-CEO da Mindgeek (anteriormente chamada Manwin), a maior empresa de pornografia do mundo. Entre outros, o Mindgeek controla os seguintes sites:
+
+- Babes.com
+- BDSM.xxx
+- Brazzers.com
+- Casting.xxx
+- Czech.xxx
+- DaneJones.com
+- DigitalPlayground.com
+- FakeAgent.com
+- FakeTaxi.com
+- Gaytube.com
+- Lesbea.com
+- MassageRooms.com
+- Mature.xxx
+- Men.com
+- Mofos.com
+- Mom.xxx
+- MyDirtyHobby.com
+- Peeperz.com
+- PornHub.com
+- PornIQ.com
+- PornMD.com
+- PublicAgent.com
+- PublicSex.xxx
+- RealityKings.com
+- RedTube.com
+- SeanCody.com
+- SexTube.com
+- Teen.xxx
+- Thumbzilla.com
+- Tube8.com
+- Tubes.xxx
+- Twistys.com
+- Webcams.com
+- WickedPictures.com
+- YouPorn.com
+
+A Mindgeek também é proprietária de muitas empresas de produção que produzem o conteúdo desses sites, incluindo Reality Kings & Digital Playground. Fabian não iniciou as empresas de produção, mas as comprou. Ele basicamente usou a indústria pornô como uma oportunidade de investimento de 10 anos. Ele usou o dinheiro que ganhou como desenvolvedor de software para comprar uma grande parte da indústria pornô do mundo e depois vendeu seu conglomerado, aproximadamente 10 anos depois, por 73 milhões de euros (aproximadamente US $ 97.000.000).
+
+[![](https://i.ytimg.com/vi/Kj542-yArUI/hqdefault.jpg)](https://youtu.be/Kj542-yArUI)
+
+O cineasta Jon Ronson é citado por ter dito: “ Fabian ficou tão rico que instalou em sua casa um aquário tão grande que um mergulhador tinha que vir toda semana e mergulhar e limpar o recife de coral… Você sabe que está indo bem quando você conseguir seu próprio mergulhador. Jon Ronson apresenta o Sr. Thylmann em seu novo audiolivro [O Efeito Borboleta com Jon Ronson](https://www.amazon.com/gp/product/B073JT718M/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B073JT718M&linkCode=as2&tag=thepornagency-20&linkId=4cec2768e7a747199bd89f1cef062143) (atualmente GRATUITO no [Audible.com](https://www.amazon.com/gp/product/B004GJ6BY0/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004GJ6BY0&linkCode=as2&tag=thepornagency-20&linkId=ec78c74e03994732f298a7bf317c7859) ).
+
+Fabian Thylmann não trabalha mais na indústria pornográfica, mas continua sua carreira como investidor na indústria de tecnologia.
+
+
 ---
 
 Autor: [Charlie Warzel](https://www.buzzfeednews.com/author/charliewarzel) 
 
 [Artigo Original](https://www.buzzfeednews.com/article/charliewarzel/the-man-who-changed-internet-porn-forever-predicts-a-bleak-f)
+
+[EXTRA](https://thepornagency.com/fabian-thylmann-porn-shot-callers/)
 
 Artigo original Publicado em 1 de novembro de 2015
