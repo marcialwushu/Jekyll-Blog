@@ -15,14 +15,14 @@ Uma competição de programação geralmente envolve o host que apresenta um con
 
 ## Conteúdo ##
 
-* 1	História
-* 2	Visão geral
-* 3	Competições Notáveis
-    * 3.1	Curto prazo
-    * 3.2 A	longo prazo
-        * 3.2.1	Inteligência artificial e aprendizado de máquina
-* 4	Concurso online e recursos de treinamento
-* 5	Veja também
-* 6	Referências
-* 7	Links externos
+* 1	[História]()
+* 2	[Visão geral]()
+* 3	[Competições Notáveis]()
+    * 3.1	[Curto prazo]()
+    * 3.2 [A	longo prazo]()
+        * 3.2.1	[Inteligência artificial e aprendizado de máquina]()
+* 4	[Concurso online e recursos de treinamento]()
+* 5	[Veja também]()
+* 6	[Referências]()
+* 7	[Links externos]()
 
