@@ -183,61 +183,24 @@ Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mu
 
 ## Competição de algoritmos ##
 
-![](https://icpc.baylor.edu/static/media/icpc-medium5.fedb9d34.png)
+|    |     |
+|---|------|
+|![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e25cf6844b1e97bfb8d61b0/cae8cf78af16b16104d66d50d3769a86/icpc-logo-4c-4x_d400.png)| Abreviação do Concurso Internacional de Programação Colegiada: ICPC Objeto: Alunos do ensino superior (bacharelado do primeiro ao mestrado do primeiro ano) Horário: Estação de Taiwan novembro-dezembro As estações asiáticas são de agosto a dezembro As Finais Mundiais são realizadas entre maio e julho : Organizadores da Fundação ICPC: As divisões de Taiwan são organizadas por universidades de Taiwan, por sua vez|
+|[2019TW](http://contest2019.icpc.tw/) , [2018TW](http://icpc2018.ntu.edu.tw/) , [2017TW](http://icpc2017.ndhu.edu.tw/)| |
+|![](https://code.google.com/codejam/contest/static/logo_image0.gif)|Alvo do Google Code Jam: The Masses: abril a julho|
+|![](https://images.ctfassets.net/b5f1djy59z3a/49zqJAOakoiXt0JIW7CsgT/755b36738f166cd2172f66376bebaf0c/logo_TCO20_white_footer.svg)|TopCoder Open Target: Período público: uma vez por ano, há uma grande variedade de competições, uma das quais é uma competição por algoritmos.|
+|![](http://www.firstpost.com/wp-content/uploads/2013/01/FacebookHackerCup.jpg)|Facebook Hacker Cup Público: Era Social: uma vez por ano, tempos incertos|
+|Taipé |Meta HP CodeWars: Escola profissional de nível médio (notas 1 a 3) Período do aluno: uma vez por ano, o tempo é incerto|
+||Objetivo do Concurso de Programação ACM SIGMOD: Estudantes universitários Período: fevereiro a abril|
+|NCPC|Abreviação do Concurso Nacional de Design de Software para Computadores da Faculdade: NCPC Alvo: Taiwan College Students Horário: setembro-outubro Organizado por: Taiwan Normal University e Sun Yat-Sen|
+|2019 , 2018 , 2017 | |
+|NCPU |Abreviação de concurso nacional para faculdades e universidades nacionais: NCPU Objetivo: Estudantes de faculdades particulares de Taiwan Horário: junho Organizado por: faculdades particulares Rotate Observações: Evento derivado da estação ICPC de Taiwan|
+|2019 , 2018 , 2017 | |
+|NCTU | Abreviação de Concurso Nacional do Programa Universitário de Ciência e Tecnologia: NCTU Objeto: Universidade de Ciência e Tecnologia de Taiwan Horário do aluno: junho Organizador: Universidade de Ciência e Tecnologia de Huwei Nota: Evento Derivativo da Estação ICPC de Taiwan|
+|2019 , 2018 , 2017 | |
+|NPSC|Abreviação de Competição Nacional de Programação da Internet: NPSC Alvo: estudantes do ensino médio de Taiwan e estudantes do ensino médio Período: novembro a dezembro Organizado por: Universidade de Taiwan|
 
-[2019TW](http://contest2019.icpc.tw/) , [2018TW](http://icpc2018.ntu.edu.tw/) , [2017TW](http://icpc2017.ndhu.edu.tw/)
-
-Abreviação do Concurso Internacional de Programação Colegiada: ICPC Objeto: Alunos do ensino superior (bacharelado do primeiro ao mestrado do primeiro ano) Horário: Estação de Taiwan novembro-dezembro As estações asiáticas são de agosto a dezembro As Finais Mundiais são realizadas entre maio e julho : Organizadores da Fundação ICPC: As divisões de Taiwan são organizadas por universidades de Taiwan, por sua vez
-
-
-![](https://code.google.com/codejam/contest/static/logo_image0.gif)
-
-Alvo do Google Code Jam: The Masses: abril a julho
-
-
-![](https://images.ctfassets.net/b5f1djy59z3a/49zqJAOakoiXt0JIW7CsgT/755b36738f166cd2172f66376bebaf0c/logo_TCO20_white_footer.svg)
-
-TopCoder Open Target: Período público: uma vez por ano, há uma grande variedade de competições, uma das quais é uma competição por algoritmos.
-
-
-![](http://www.firstpost.com/wp-content/uploads/2013/01/FacebookHackerCup.jpg)
-
-Facebook Hacker Cup Público: Era Social: uma vez por ano, tempos incertos
-
-
-Taipé
-
-Meta HP CodeWars: Escola profissional de nível médio (notas 1 a 3) Período do aluno: uma vez por ano, o tempo é incerto
-
-
-
-
-Objetivo do Concurso de Programação ACM SIGMOD: Estudantes universitários Período: fevereiro a abril
-
-
-NCPC
- 2019 , 2018 , 2017
-
-Abreviação do Concurso Nacional de Design de Software para Computadores da Faculdade: NCPC Alvo: Taiwan College Students Horário: setembro-outubro Organizado por: Taiwan Normal University e Sun Yat-Sen
-
-
-NCPU
- 2019 , 2018 , 2017
-
-Abreviação de concurso nacional para faculdades e universidades nacionais: NCPU Objetivo: Estudantes de faculdades particulares de Taiwan Horário: junho Organizado por: faculdades particulares Rotate Observações: Evento derivado da estação ICPC de Taiwan
-
-
-NCTU
- 2019 , 2018 , 2017
-
-Abreviação de Concurso Nacional do Programa Universitário de Ciência e Tecnologia: NCTU Objeto: Universidade de Ciência e Tecnologia de Taiwan Horário do aluno: junho Organizador: Universidade de Ciência e Tecnologia de Huwei Nota: Evento Derivativo da Estação ICPC de Taiwan
-
-
-NPSC
-
-Abreviação de Competição Nacional de Programação da Internet: NPSC Alvo: estudantes do ensino médio de Taiwan e estudantes do ensino médio Período: novembro a dezembro Organizado por: Universidade de Taiwan
-
-Competição de algoritmos
+## Competição de algoritmos ##
 
 TopCoder , introdução
 O maior site de concursos de programas dos Estados Unidos, incluindo concursos algorítmicos.
