@@ -126,6 +126,60 @@ A comunidade de programação em todo o mundo criou e manteve vários recursos d
 
 [WIKI](https://en.wikipedia.org/wiki/Competitive_programming)
 
+---
+
+## Programação Competitiva
+
+" O International Collegiate Programming Contest (ICPC) " é um concurso para estudantes de faculdades e universidades de todo o mundo. Ele testa a capacidade dos jogadores de projetar algoritmos e programas no local.
+
+O ICPC impulsionou a tendência da programação de algoritmos. Os departamentos de informação de muitas faculdades e universidades do mundo, seguindo o modelo de competição do ICPC, desenvolveram seus próprios sistemas de competição on-line em tempo real, que podem marcar, pontuar, tempo e estatísticas automaticamente. Os alunos não precisam ficar juntos, eles podem aprender habilidades de programação pela Internet. Após a competição, as perguntas da competição serão compiladas em um banco de perguntas e a função do programa de correção automática será aberta para os alunos praticarem a revisão após a competição. Este sistema é chamado de "juiz online".
+
+Ao se envolver nessa atividade, você pode não apenas estar familiarizado com programação, aprender algoritmos e treinar sua inteligência, mas também desenvolver a capacidade de aprender de forma independente e resolver problemas de forma independente - esse é o valor principal dos programadores. Portanto, essa atividade ganhou gradualmente a atenção de todos. O setor realiza competições de algoritmos para encontrar talentos excelentes; os círculos acadêmicos oferecem cursos para promover o desenvolvimento de algoritmos. Essa atividade é chamada " Programação Competitiva ".
+
+## Concurso Internacional de Programação Colegiada
+
+O ICPC é a maior e mais antiga competição na indústria da informação. Desde 1977, competições preliminares são realizadas todos os anos em todo o mundo, e equipes com desempenhos extraordinários são selecionadas para competir nas Finais Mundiais. Nas competições recentes, milhares de escolas e dezenas de milhares de concorrentes participaram.
+
+O ICPC é uma competição animada. Todo o evento inclui muitas atividades.Claro, o eixo principal é um jogo de computador ao vivo, mas também há shows de entretenimento, jantares, passeios pela cidade e assim por diante. Todo o processo de competição durou de dois a três dias. Havia mais para comer e brincar. Havia mais componentes de diversão do que competições. Foi uma experiência muito nova para os competidores.
+
+A competição do ICPC é composta por uma equipe de três homens e requer um professor como treinador líder. O principal papel do treinador é estar encarregado de entrar em contato com o evento com a conferência e fornecer aos jogadores detalhes da vida durante o evento, para que os jogadores possam jogar sem preocupações. O treinador age como um corretor.
+
+Competição de informática no local, todas as equipes se reuniram no local, uma equipe designou uma mesa, três cadeiras, um computador e um título em inglês. Depois que o anfitrião anuncia o início do jogo, todas as equipes começam a responder ao mesmo tempo.Os jogadores devem ler rapidamente as perguntas no livro de perguntas, depois escrever um programa para resolver o problema e carregar o código no árbitro para correção.
+
+Todas as respostas são corrigidas em tempo real e os resultados são respondidos em alguns minutos.Os resultados são apenas certos e errados.Você pode responder a resposta errada novamente. O método de cálculo da pontuação é baseado no número de respostas corretas, mas o número de respostas incorretas e o tempo de carregamento das respostas estão todos incluídos nos pontos de dedução como base secundária de classificação. Portanto, os jogadores devem tentar o seu melhor para responder às perguntas, e devem responder às perguntas o mais rápido possível. Para equipes com força no meio, a diferença entre vitória e derrota geralmente depende da eficiência de examinar e responder a perguntas. Movimentos lentos ou erros descuidados provavelmente darão nome a si mesmos.
+
+Os competidores têm cinco horas para resolver cerca de dez problemas algorítmicos.Nesse período, eles podem beber água, ir ao banheiro, saborear os lanches de luxo fornecidos pela conferência, rabiscar o título, remover o guindaste de origami, dormir, conversar. Amar e jogar jogos de computador; a única limitação é não se comunicar com pessoas de fora da equipe.
+
+As regras do jogo parecem frívolas, mas o processo é realmente muito urgente. Cinco horas para resolver dez problemas, mas apenas um computador. Até jogadores altamente qualificados quase não têm tempo para descansar e precisam trabalhar juntos para ganhar tempo. Normalmente, uma pessoa fica na frente do computador para responder a qualquer momento, fazendo pleno uso do computador e exercendo a pontualidade; as outras duas estão lendo o restante das perguntas, tecendo soluções em seus cérebros, esperando a oportunidade de se revezar. Durante a competição de cinco horas, os jogadores superam as restrições ambientais, ajustam a pressão psicológica e exercem seu potencial cerebral.Também pode ser considerado uma competição mental.
+
+Ainda existem muitos lugares interessantes no processo da competição, deixe que os competidores experimentem por si mesmos!
+
+>Notícias oficiais do ICPC: [ICPCNews](http://icpcnews.com/)
+>ICPC Ásia: [blog de Xijie Axiong](http://blog.sina.com.cn/cjhwang)
+>Notícias não oficiais japonesas: [Grupo japonês de ex-alunos do ACM-ICPC](https://jag-icpc.org/)
+>Notícias não oficiais chinesas: [Estação de informações do ACM / ICPC](http://acmicpc.info/) 
+>Impressões dos jogadores: [Concurso Regional de Jacarta do ACM-ICPC Ásia 2017 Registros ao longo do caminho Experiências](http://yqkqknct.com/2017/12/21/acm-icpc-asia-jakarta-regional-contest-2017-2/)
+>Impressões de treinadores: [Finais Mundiais do ACM-ICPC de 2016 - log da MZ](https://paper.dropbox.com/doc/2016-ACM-ICPC-World-Finals-MZs-log-TxDT6w6Vd4AtpXArJYA9P)
+>Perguntas em destaque: [Sobre o Diário de 2019](https://tmt514.github.io/icpcblog-weekly-2019)
+>Perguntas do calendário: [ICPC Live Archive](http://livearchive.onlinejudge.org/)
+
+De acordo com os regulamentos, as competições regionais do ICPC devem ter preliminares nacionais (ou mais de duas províncias). Taiwan sempre usou o NCPC como rodada preliminar, mas, na verdade, o NCPC não é uma rodada preliminar. Esse fenômeno ocorre porque o número de equipes participantes em Taiwan é muito pequeno e é impossível selecionar equipes. Até 2015, Taiwan começou a realizar formalmente preliminares on-line, seguindo os padrões de concorrência dos países asiáticos.
+
+I. Preliminares regionais (competição pela Internet): O líder do ICPC Taiwan organiza a competição e os professores de faculdades e universidades prestam assistência calorosa. Jogadores em casa e no exterior competiram pela Internet. Após o jogo, 40 a 80 equipes são selecionadas para participar da partida ao vivo com base na eficácia de combate do contratado naquele ano. Como as equipes estrangeiras precisam de tempo para se preparar para uma partida ao vivo no exterior, os jogos on-line costumam ser realizados cedo e serão realizados de 3 a 6 meses atrás.
+
+2. Competição nacional: Não tem nada a ver com o ICPC. O NCPC hospedado pelo Ministério da Educação de Taiwan competiu com estudantes de todo o país. Para equipes de destaque, o Ministério da Educação subsidia totalmente a participação no ICPC.
+
+Competições oficiais regionais (competições ao vivo): consulte o conteúdo apresentado anteriormente: jogadores nacionais e estrangeiros se reúnem para competir. Após a competição, o organizador avalia a eficácia do combate de cada competição regional de acordo com uma fórmula complicada e seleciona pelo menos uma equipe para participar das Finais Mundiais.
+
+Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mundo para participar das finais, e uma escola dos cinco continentes será selecionada como sede da competição. As faculdades e universidades de Taiwan eram fracas no passado e sempre eram abatidas por escolas estrangeiras e raramente chegavam às finais. Somente nos últimos dez anos houve sinais de melhoria, com as escolas estrangeiras avançando e recuando (resultado de anos de esforços meticulosos de um grupo de heróis desconhecidos); ao mesmo tempo, eles também participaram ativamente de competições regionais em outros países para ganhar ingressos para as Finais Mundiais. Atualmente, apenas a Universidade de Taiwan e a Universidade de Jiaotong, em Taiwan, podem participar das finais.
+
+
+
+
+---
+
+
+
 
 # Awesome Competitive Programming [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
