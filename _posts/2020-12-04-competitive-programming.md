@@ -202,24 +202,142 @@ Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mu
 
 ## Competição de algoritmos ##
 
-TopCoder , introdução
-O maior site de concursos de programas dos Estados Unidos, incluindo concursos algorítmicos.
+- [TopCoder](http://www.topcoder.com/) , [Introdução](https://docs.google.com/presentation/d/1rK14BWU3uizHwj-AG-RuH4tGV3L7D4mN46eEIkI53os/)ao maior site de concursos de programas dos Estados Unidos, incluindo concursos algorítmicos.
+- [Codeforces](http://codeforces.com/) O maior torneio algorítmico da Rússia.
+- [CodeChef](https://www.codechef.com/) - Maior competição de algoritmos da Índia.
+- [AtCoder](https://atcoder.jp/) - Maior competição de algoritmos do Japão.
+- [ITSA & PTC Online Programming Competition](https://sites.google.com/site/itsancku/) - Maior competição de algoritmos de Taiwan. Eventos regulares fornecidos pelo Ministério da Educação de Taiwan.
+- [Diário da Corrida](https://www.facebook.com/TaiwanCompetitiveProgrammingBlog/) - Competições regulares organizadas por estudantes de Taiwan.
 
-Codeforces
-O maior torneio algorítmico da Rússia.
+## Algorithm Question Bank
 
-CodeChef
-Maior competição de algoritmos da Índia.
 
-AtCoder
-Maior competição de algoritmos do Japão.
+|      |         |
+|-----|----------|
+|[Kattis](https://open.kattis.com/)|Juiz Online estabelecido pela empresa sueca Kattis.|
+|URI Online Judge|Juiz on-line da Universidade do Alto Uruguai e das Missões, Brasil.|
+|Sphere Online Judge|Juiz Online criado pelo Sphere Labs, Polônia.|
+|Juiz Online da HDU|Juiz Online, Universidade de Hangzhou Dianzi, China.|
+|Timus Online Judge|Juiz Online da Universidade de Ural, Rússia.|
+|UVa Online Judge|Juiz on-line na Universidade de Valladolid, Espanha. O mais antigo Juiz Online.|
+|ZeroJudge| um sistema de solução de programas para estudantes do ensino médio Juiz on-line estabelecido pela High School da Universidade Normal de Kaohsiung, em Taiwan.|
 
-ITSA & PTC Online Programming Competition
-Maior competição de algoritmos de Taiwan. Eventos regulares fornecidos pelo Ministério da Educação de Taiwan.
+## Site de ferramentas para juízes da UVa Online
 
-Diário da Corrida
-Competições regulares organizadas por estudantes de Taiwan.
-Algorithm Question Bank
+uHunt
+Você pode verificar seu progresso e classificação mundial no UVa Online Judge.
+Organizou uma lista de perguntas, adequadas para iniciantes praticarem passo a passo. Digite seu nome de usuário e ele aparecerá.
+
+uDebug
+Forneça um arquivo executável da solução UVa Online Judge.
+Digite seus próprios dados para gerar a saída correta para testar seu programa.
+
+Sorte ACM jardim gato , ACM jardim Rubi Coelho , infeliz jardim ACM cão , uniDog de ACM jardim
+Tradução do título do UVa Online Judge!
+Muito bom trabalho, por favor, seja grato!
+
+Classificação de Problemas no Arquivo em Espanhol
+Classificação de tópicos.
+Treinamento de programação
+
+Os 10 melhores sites de desafio de codificação para 2018
+Introdução abrangente.
+
+Exame de Habilidade de Programação de Computador PAT
+Exame de licença da China.
+
+Teste de Capacidade do Programa Universitário CPE
+Alguns professores de Taiwan se uniram para um exame de licença. Você entende.
+Campo de Competição de Algoritmo
+
+Acampamento de inverno do treinamento atlético da Universidade de Jiaotong, acampamento de verão
+Professores e alunos entusiasmados gerenciam automaticamente o acampamento. Materiais didáticos gratuitos e abertos.
+
+Campo de treinamento da competição do programa de verão de Tsinghua
+Estudantes entusiasmados gerenciam automaticamente o acampamento. Taxas e materiais não são divulgados.
+
+Campo de Treinamento do Concurso de Resolução de Programas da Universidade de Taiwan
+Estudantes entusiasmados gerenciam automaticamente o acampamento. Livros didáticos pagos e não divulgados também atraem patrocínios corporativos. Você entende.
+Notas da Aula sobre Competição de Algoritmos
+
+Palestra sobre Algoritmo da Agência de Informação da Escola Secundária Banqiao
+Alunos entusiasmados trabalham duro para compilar o livro.
+
+Palestra de Treinamento do Curso de Informações da Escola Secundária Jianguo
+Alunos entusiasmados trabalham duro para compilar o livro.
+
+Notas do curso PSPT da Universidade de Jiaotong
+Professor entusiasmado trabalha duro para compilar o livro.
+
+Notas de aula para os cursos da ACM na Success University
+Professores e alunos entusiasmados trabalham duro para compilar o livro.
+
+OI Wiki
+Os entusiastas da Internet trabalham duro para compilar o livro.
+
+Stanford CS 97SI: Introdução aos concursos de programação competitiva
+Estudantes entusiasmados trabalham duro nos cursos.
+
+CMU CS 15-295: Programação da competição e solução de problemas
+O trabalho duro do professor entusiasmado.
+
+Manual do Programador Competitivo
+Materiais de treinamento da equipe nacional IOI da Finlândia
+
+Biblioteca Pública da OI
+Relatório Técnico da Equipe Nacional da China IOI
+Livros de competição de algoritmo
+
+Pensamento matemático
+Editora Jiuzhang
+
+Como resolvê-lo
+George Pólya
+Tradução "Como resolver problemas"
+
+Programação Competitiva
+Felix Halim, Steven Halim
+Obras-primas da competição de algoritmo de Cingapura
+
+Guia de Programação Competitiva:
+Aprendendo e melhorando algoritmos através de concursos
+Antti Laaksonen
+Obras-primas da competição finlandesa de algoritmos
+
+프로그래밍 대회 에서 배우는 알고리즘 문제 해결
+구종 만
+Obras-primas do concurso de algoritmo coreano
+Tradução de "Algoritmos para problemas algorítmicos"
+
+プ ロ グ ラ ミ グ コ ン テ ト チ ャ レ ン ジ ブ ッ.
+Iwata Akiba Takuya, Kitagawa Eki, Yoichi
+Obras-primas do concurso de algoritmo japonês
+Tradução "Cultivando e praticando o cérebro lógico da programação: compartilhando conhecimento, experiência e solução de problemas em um concurso de programação de classe mundial"
+
+Clássico de entrada no concurso de algoritmo
+Liu Rujia
+Obras-primas do concurso de algoritmo chinês
+Tradução "Lançando boas bases: uma introdução clássica a concursos de programação e algoritmos"
+
+Guia de treinamento clássico sobre entrada em competição de algoritmo
+Chen Feng Liu Rujia
+Obras-primas do concurso de algoritmo chinês
+Tradução de "Melhorando a resolução de problemas de pensamento na programação: um guia de treinamento para a competição internacional de programação de algoritmos"
+Livros do concurso de algoritmos: Novos livros que não li
+
+Guia Avançado de Competição de Algoritmos
+
+Olimpíada da Informática
+
+Programação de computador CCF para alunos do ensino médio
+Links relacionados ao concurso de algoritmo
+
+Programação competitiva impressionante
+Série impressionante no github, não importa a bagunça.
+
+Consolidação de recursos relacionados ao treinamento de informações em Taiwan
+Consolidação de recursos relacionados ao treinamento de informações com base em estudantes do ensino médio de Taiwan.
+
 
 
 
