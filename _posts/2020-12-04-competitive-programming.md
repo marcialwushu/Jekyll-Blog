@@ -155,23 +155,108 @@ As regras do jogo parecem frívolas, mas o processo é realmente muito urgente. 
 Ainda existem muitos lugares interessantes no processo da competição, deixe que os competidores experimentem por si mesmos!
 
 >Notícias oficiais do ICPC: [ICPCNews](http://icpcnews.com/)
+
 >ICPC Ásia: [blog de Xijie Axiong](http://blog.sina.com.cn/cjhwang)
+
 >Notícias não oficiais japonesas: [Grupo japonês de ex-alunos do ACM-ICPC](https://jag-icpc.org/)
+
 >Notícias não oficiais chinesas: [Estação de informações do ACM / ICPC](http://acmicpc.info/) 
+
 >Impressões dos jogadores: [Concurso Regional de Jacarta do ACM-ICPC Ásia 2017 Registros ao longo do caminho Experiências](http://yqkqknct.com/2017/12/21/acm-icpc-asia-jakarta-regional-contest-2017-2/)
+
 >Impressões de treinadores: [Finais Mundiais do ACM-ICPC de 2016 - log da MZ](https://paper.dropbox.com/doc/2016-ACM-ICPC-World-Finals-MZs-log-TxDT6w6Vd4AtpXArJYA9P)
+
 >Perguntas em destaque: [Sobre o Diário de 2019](https://tmt514.github.io/icpcblog-weekly-2019)
+
 >Perguntas do calendário: [ICPC Live Archive](http://livearchive.onlinejudge.org/)
+
 
 De acordo com os regulamentos, as competições regionais do ICPC devem ter preliminares nacionais (ou mais de duas províncias). Taiwan sempre usou o NCPC como rodada preliminar, mas, na verdade, o NCPC não é uma rodada preliminar. Esse fenômeno ocorre porque o número de equipes participantes em Taiwan é muito pequeno e é impossível selecionar equipes. Até 2015, Taiwan começou a realizar formalmente preliminares on-line, seguindo os padrões de concorrência dos países asiáticos.
 
-I. Preliminares regionais (competição pela Internet): O líder do ICPC Taiwan organiza a competição e os professores de faculdades e universidades prestam assistência calorosa. Jogadores em casa e no exterior competiram pela Internet. Após o jogo, 40 a 80 equipes são selecionadas para participar da partida ao vivo com base na eficácia de combate do contratado naquele ano. Como as equipes estrangeiras precisam de tempo para se preparar para uma partida ao vivo no exterior, os jogos on-line costumam ser realizados cedo e serão realizados de 3 a 6 meses atrás.
+1. Preliminares regionais (competição pela Internet): O líder do ICPC Taiwan organiza a competição e os professores de faculdades e universidades prestam assistência calorosa. Jogadores em casa e no exterior competiram pela Internet. Após o jogo, 40 a 80 equipes são selecionadas para participar da partida ao vivo com base na eficácia de combate do contratado naquele ano. Como as equipes estrangeiras precisam de tempo para se preparar para uma partida ao vivo no exterior, os jogos on-line costumam ser realizados cedo e serão realizados de 3 a 6 meses atrás.
 
 2. Competição nacional: Não tem nada a ver com o ICPC. O NCPC hospedado pelo Ministério da Educação de Taiwan competiu com estudantes de todo o país. Para equipes de destaque, o Ministério da Educação subsidia totalmente a participação no ICPC.
 
 Competições oficiais regionais (competições ao vivo): consulte o conteúdo apresentado anteriormente: jogadores nacionais e estrangeiros se reúnem para competir. Após a competição, o organizador avalia a eficácia do combate de cada competição regional de acordo com uma fórmula complicada e seleciona pelo menos uma equipe para participar das Finais Mundiais.
 
 Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mundo para participar das finais, e uma escola dos cinco continentes será selecionada como sede da competição. As faculdades e universidades de Taiwan eram fracas no passado e sempre eram abatidas por escolas estrangeiras e raramente chegavam às finais. Somente nos últimos dez anos houve sinais de melhoria, com as escolas estrangeiras avançando e recuando (resultado de anos de esforços meticulosos de um grupo de heróis desconhecidos); ao mesmo tempo, eles também participaram ativamente de competições regionais em outros países para ganhar ingressos para as Finais Mundiais. Atualmente, apenas a Universidade de Taiwan e a Universidade de Jiaotong, em Taiwan, podem participar das finais.
+
+## Competição de algoritmos ##
+
+![](https://icpc.baylor.edu/static/media/icpc-medium5.fedb9d34.png)
+
+[2019TW](http://contest2019.icpc.tw/) , [2018TW](http://icpc2018.ntu.edu.tw/) , [2017TW](http://icpc2017.ndhu.edu.tw/)
+
+Abreviação do Concurso Internacional de Programação Colegiada: ICPC Objeto: Alunos do ensino superior (bacharelado do primeiro ao mestrado do primeiro ano) Horário: Estação de Taiwan novembro-dezembro As estações asiáticas são de agosto a dezembro As Finais Mundiais são realizadas entre maio e julho : Organizadores da Fundação ICPC: As divisões de Taiwan são organizadas por universidades de Taiwan, por sua vez
+
+
+![](https://code.google.com/codejam/contest/static/logo_image0.gif)
+
+Alvo do Google Code Jam: The Masses: abril a julho
+
+
+![](https://images.ctfassets.net/b5f1djy59z3a/49zqJAOakoiXt0JIW7CsgT/755b36738f166cd2172f66376bebaf0c/logo_TCO20_white_footer.svg)
+
+TopCoder Open Target: Período público: uma vez por ano, há uma grande variedade de competições, uma das quais é uma competição por algoritmos.
+
+
+![](http://www.firstpost.com/wp-content/uploads/2013/01/FacebookHackerCup.jpg)
+
+Facebook Hacker Cup Público: Era Social: uma vez por ano, tempos incertos
+
+
+Taipé
+
+Meta HP CodeWars: Escola profissional de nível médio (notas 1 a 3) Período do aluno: uma vez por ano, o tempo é incerto
+
+
+
+
+Objetivo do Concurso de Programação ACM SIGMOD: Estudantes universitários Período: fevereiro a abril
+
+
+NCPC
+ 2019 , 2018 , 2017
+
+Abreviação do Concurso Nacional de Design de Software para Computadores da Faculdade: NCPC Alvo: Taiwan College Students Horário: setembro-outubro Organizado por: Taiwan Normal University e Sun Yat-Sen
+
+
+NCPU
+ 2019 , 2018 , 2017
+
+Abreviação de concurso nacional para faculdades e universidades nacionais: NCPU Objetivo: Estudantes de faculdades particulares de Taiwan Horário: junho Organizado por: faculdades particulares Rotate Observações: Evento derivado da estação ICPC de Taiwan
+
+
+NCTU
+ 2019 , 2018 , 2017
+
+Abreviação de Concurso Nacional do Programa Universitário de Ciência e Tecnologia: NCTU Objeto: Universidade de Ciência e Tecnologia de Taiwan Horário do aluno: junho Organizador: Universidade de Ciência e Tecnologia de Huwei Nota: Evento Derivativo da Estação ICPC de Taiwan
+
+
+NPSC
+
+Abreviação de Competição Nacional de Programação da Internet: NPSC Alvo: estudantes do ensino médio de Taiwan e estudantes do ensino médio Período: novembro a dezembro Organizado por: Universidade de Taiwan
+
+Competição de algoritmos
+
+TopCoder , introdução
+O maior site de concursos de programas dos Estados Unidos, incluindo concursos algorítmicos.
+
+Codeforces
+O maior torneio algorítmico da Rússia.
+
+CodeChef
+Maior competição de algoritmos da Índia.
+
+AtCoder
+Maior competição de algoritmos do Japão.
+
+ITSA & PTC Online Programming Competition
+Maior competição de algoritmos de Taiwan. Eventos regulares fornecidos pelo Ministério da Educação de Taiwan.
+
+Diário da Corrida
+Competições regulares organizadas por estudantes de Taiwan.
+Algorithm Question Bank
 
 
 
