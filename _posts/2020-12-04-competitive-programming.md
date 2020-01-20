@@ -15,16 +15,16 @@ Uma competição de programação geralmente envolve o host que apresenta um con
 
 ## Conteúdo ##
 
-* 1	[História](#história)
-* 2	[Visão geral](#visão-geral)
-* 3	[Competições Notáveis](#competições-notáveis)
-    * 3.1	[Curto prazo](#curto-prazo)
+* 1 [História](#história)
+* 2 [Visão geral](#visão-geral)
+* 3 [Competições Notáveis](#competições-notáveis)
+    * 3.1 [Curto prazo](#curto-prazo)
     * 3.2 [A longo prazo](#a-longo-prazo)
-        * 3.2.1	[Inteligência artificial e aprendizado de máquina](#inteligência-artificial-e-aprendizado-de-máquina)
-* 4	[Concurso online e recursos de treinamento](#concurso-online-e-recursos-de-treinamento)
-* 5	[Veja também](#veja-também)
-* 6	[Referências](#referências)
-* 7	[Links externos](#links-externos)
+        * 3.2.1 [Inteligência artificial e aprendizado de máquina](#inteligência-artificial-e-aprendizado-de-máquina)
+* 4 [Concurso online e recursos de treinamento](#concurso-online-e-recursos-de-treinamento)
+* 5 [Veja também](#veja-também)
+* 6 [Referências](#referências)
+* 7 [Links externos](#links-externos)
 
 ## História ## 
 
@@ -215,8 +215,8 @@ Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mu
 |      |         |
 |-----|----------|
 |[Kattis](https://open.kattis.com/)|Juiz Online estabelecido pela empresa sueca Kattis.|
-|URI Online Judge|Juiz on-line da Universidade do Alto Uruguai e das Missões, Brasil.|
-|Sphere Online Judge|Juiz Online criado pelo Sphere Labs, Polônia.|
+|[URI Online Judge](https://www.urionlinejudge.com.br/)|Juiz on-line da Universidade do Alto Uruguai e das Missões, Brasil.|
+|[Sphere Online Judge](https://www.spoj.com/)|Juiz Online criado pelo Sphere Labs, Polônia.|
 |Juiz Online da HDU|Juiz Online, Universidade de Hangzhou Dianzi, China.|
 |Timus Online Judge|Juiz Online da Universidade de Ural, Rússia.|
 |UVa Online Judge|Juiz on-line na Universidade de Valladolid, Espanha. O mais antigo Juiz Online.|
@@ -338,7 +338,7 @@ Série impressionante no github, não importa a bagunça.
 Consolidação de recursos relacionados ao treinamento de informações em Taiwan
 Consolidação de recursos relacionados ao treinamento de informações com base em estudantes do ensino médio de Taiwan.
 
-
+[CSIE.NTNU.EDU.TW](http://www.csie.ntnu.edu.tw/~u91029/CompetitiveProgramming.html)
 
 
 
