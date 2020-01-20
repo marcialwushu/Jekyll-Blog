@@ -17,14 +17,14 @@ Uma competição de programação geralmente envolve o host que apresenta um con
 
 * 1	[História](#história)
 * 2	[Visão geral](#visão-geral)
-* 3	[Competições Notáveis]()
-    * 3.1	[Curto prazo]()
-    * 3.2 [A longo prazo]()
-        * 3.2.1	[Inteligência artificial e aprendizado de máquina]()
-* 4	[Concurso online e recursos de treinamento]()
-* 5	[Veja também]()
-* 6	[Referências]()
-* 7	[Links externos]()
+* 3	[Competições Notáveis](#competições-notáveis)
+    * 3.1	[Curto prazo](#curto-prazo)
+    * 3.2 [A longo prazo](#a-longo-prazo)
+        * 3.2.1	[Inteligência artificial e aprendizado de máquina](#inteligência-artificial-e-aprendizado-de-máquina)
+* 4	[Concurso online e recursos de treinamento](#concurso-online-e-recursos-de-treinamento)
+* 5	[Veja também](#veja-também)
+* 6	[Referências](#referências)
+* 7	[Links externos](#links-externos)
 
 ## História ## 
 
@@ -80,16 +80,16 @@ A comunidade de programação em todo o mundo criou e manteve vários recursos d
 
 |Nome	|Descrição	|Local na rede Internet|
 |-----|----------:|:---------------------|
-|CodeChef	|Mantido pelo Directi, ele organiza um concurso de 10 dias e alguns concursos curtos todos os meses (um estilo IOI e outro estilo ICPC da ACM) e fornece uma plataforma de hospedagem para instituições de ensino gratuitamente. Os dois principais vencedores do concurso longo ganham prêmios em dinheiro, enquanto os 10 melhores do mundo recebem uma camiseta.|	www .codechef .com|
-|CodeCup	|Competição anual anual de programação de jogos de tabuleiro de IA organizada pela Olimpíada Holandesa em Informática desde 2003. [11] [12]	|codecup .nl|
-|Codeforces	|Recurso russo, mantido pela ITMO University , que geralmente oferece breves freqüentes (até dois por semana). Recursos especiais: capacidade de verificar a exatidão das soluções de outros concorrentes durante a "fase de hacking", concursos virtuais, treinamentos etc.|codeforces .com|
+|CodeChef	|Mantido pelo Directi, ele organiza um concurso de 10 dias e alguns concursos curtos todos os meses (um estilo IOI e outro estilo ICPC da ACM) e fornece uma plataforma de hospedagem para instituições de ensino gratuitamente. Os dois principais vencedores do concurso longo ganham prêmios em dinheiro, enquanto os 10 melhores do mundo recebem uma camiseta.|	www.codechef.com|
+|CodeCup	|Competição anual anual de programação de jogos de tabuleiro de IA organizada pela Olimpíada Holandesa em Informática desde 2003. [11] [12]	|codecup.nl|
+|Codeforces	|Recurso russo, mantido pela ITMO University , que geralmente oferece breves freqüentes (até dois por semana). Recursos especiais: capacidade de verificar a exatidão das soluções de outros concorrentes durante a "fase de hacking", concursos virtuais, treinamentos etc.|codeforces.com|
 |CodinGame	|Quebra-cabeças (dificuldade crescente), código de golfe . Realiza competições online regulares ( desafios de IA , problemas de otimização )|	www.codingame.com |
 |HackerEarth	|Empresa sediada em Bangalore , Índia , que oferece concursos on-line como o ambiente, com o objetivo de fornecer soluções de avaliação de recrutamento.	|www.hackerearth.com |
 |HackerRank	|O HackerRank oferece problemas de programação em diferentes domínios da Ciência da Computação. Ele também hospeda Codesprints anuais que ajudam a conectar os codificadores e as startups do Vale do Silício.	|hackerrank.com|
 |Projeto Euler	|Grande coleção de problemas matemáticos computacionais (isto é, não diretamente relacionados à programação, mas frequentemente exigindo habilidades de programação para resolver).|	projecteuler.net |
 |Topcoder|	Empresa e recurso dos EUA, que organiza concursos e também fornece problemas industriais como uma espécie de trabalho independente; oferece dezenas de breves concursos e vários longos ("maratonas") todos os anos. Recurso específico - os participantes têm a chance de verificar a correção das soluções de outros competidores após a fase de codificação e antes do teste automático final (a chamada "fase de desafio").|	www.topcoder.com |
 |UVa Online Judge|	Contém mais de 4.500 problemas para praticar. Realiza competições online regulares.	uva .onlinejudge .org
-AtCoder	Sediada no Japão, a Atcode oferece concursos de programação on-line semanalmente. Os concursos são oferecidos nos idiomas japonês e inglês.	| www.atcoder.jp |
+|AtCoder	|Sediada no Japão, a Atcode oferece concursos de programação on-line semanalmente. Os concursos são oferecidos nos idiomas japonês e inglês.	| www.atcoder.jp |
 |LeetCode	|Contém mais de 1.000 problemas para a prática e oferece concursos de programação semanal e quinzenal.|	www.leetcode.com |
 
 ## Veja também ##
@@ -113,6 +113,12 @@ AtCoder	Sediada no Japão, a Atcode oferece concursos de programação on-line s
 13. "Desafio de programação da inteligência artificial halita" . www.halite.io .
 14. Dois Sigma anuncia o lançamento público de Halite . tech.cornell.edu .
 15. "O Halite ajuda estudantes e desenvolvedores a competir para criar uma melhor IA no Google Cloud Platform" .
+
+## Links externos ##
+
+**Projeto de código aberto para a execução de concursos**
+
+[Sistema de gerenciamento de concursos](https://github.com/cms-dev/cms) Ferramenta de código aberto em Python para executar e gerenciar um concurso de programação em um servidor [IOI 2012 e IOI 2013](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics) .
 
 
 
