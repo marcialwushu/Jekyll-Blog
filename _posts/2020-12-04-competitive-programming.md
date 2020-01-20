@@ -78,20 +78,43 @@ Na maioria das competições acima, como o número de competidores é bastante g
 
 A comunidade de programação em todo o mundo criou e manteve vários recursos da Internet dedicados à programação competitiva. Eles oferecem concursos autônomos com ou sem prêmios menores. Também os arquivos anteriores de problemas são um recurso popular para treinamento em programação competitiva. Esses incluem:
 
-Nome	Descrição	Local na rede Internet
-CodeChef	Mantido pelo Directi, ele organiza um concurso de 10 dias e alguns concursos curtos todos os meses (um estilo IOI e outro estilo ICPC da ACM) e fornece uma plataforma de hospedagem para instituições de ensino gratuitamente. Os dois principais vencedores do concurso longo ganham prêmios em dinheiro, enquanto os 10 melhores do mundo recebem uma camiseta.	www .codechef .com
-CodeCup	Competição anual anual de programação de jogos de tabuleiro de IA organizada pela Olimpíada Holandesa em Informática desde 2003. [11] [12]	codecup .nl
-Codeforces	Recurso russo, mantido pela ITMO University , que geralmente oferece breves freqüentes (até dois por semana). Recursos especiais: capacidade de verificar a exatidão das soluções de outros concorrentes durante a "fase de hacking", concursos virtuais, treinamentos etc.	codeforces .com
-CodinGame	Quebra-cabeças (dificuldade crescente), código de golfe . Realiza competições online regulares ( desafios de IA , problemas de otimização )	www .codingame .com
-HackerEarth	Empresa sediada em Bangalore , Índia , que oferece concursos on-line como o ambiente, com o objetivo de fornecer soluções de avaliação de recrutamento.	www .hackerearth .com
-HackerRank	O HackerRank oferece problemas de programação em diferentes domínios da Ciência da Computação. Ele também hospeda Codesprints anuais que ajudam a conectar os codificadores e as startups do Vale do Silício.	hackerrank .com
-Projeto Euler	Grande coleção de problemas matemáticos computacionais (isto é, não diretamente relacionados à programação, mas frequentemente exigindo habilidades de programação para resolver).	projecteuler .net
-Topcoder	Empresa e recurso dos EUA, que organiza concursos e também fornece problemas industriais como uma espécie de trabalho independente; oferece dezenas de breves concursos e vários longos ("maratonas") todos os anos. Recurso específico - os participantes têm a chance de verificar a correção das soluções de outros competidores após a fase de codificação e antes do teste automático final (a chamada "fase de desafio").	www .topcoder .com
-UVa Online Judge	Contém mais de 4.500 problemas para praticar. Realiza competições online regulares.	uva .onlinejudge .org
-AtCoder	Sediada no Japão, a Atcode oferece concursos de programação on-line semanalmente. Os concursos são oferecidos nos idiomas japonês e inglês.	www .atcoder .jp
-LeetCode	Contém mais de 1.000 problemas para a prática e oferece concursos de programação semanal e quinzenal.	www .leetcode .com
-Veja também 
-Code golf
+|Nome	|Descrição	|Local na rede Internet|
+|-----|----------:|:---------------------|
+|CodeChef	|Mantido pelo Directi, ele organiza um concurso de 10 dias e alguns concursos curtos todos os meses (um estilo IOI e outro estilo ICPC da ACM) e fornece uma plataforma de hospedagem para instituições de ensino gratuitamente. Os dois principais vencedores do concurso longo ganham prêmios em dinheiro, enquanto os 10 melhores do mundo recebem uma camiseta.|	www .codechef .com|
+|CodeCup	|Competição anual anual de programação de jogos de tabuleiro de IA organizada pela Olimpíada Holandesa em Informática desde 2003. [11] [12]	|codecup .nl|
+|Codeforces	|Recurso russo, mantido pela ITMO University , que geralmente oferece breves freqüentes (até dois por semana). Recursos especiais: capacidade de verificar a exatidão das soluções de outros concorrentes durante a "fase de hacking", concursos virtuais, treinamentos etc.|codeforces .com|
+|CodinGame	|Quebra-cabeças (dificuldade crescente), código de golfe . Realiza competições online regulares ( desafios de IA , problemas de otimização )|	www.codingame.com |
+|HackerEarth	|Empresa sediada em Bangalore , Índia , que oferece concursos on-line como o ambiente, com o objetivo de fornecer soluções de avaliação de recrutamento.	|www.hackerearth.com |
+|HackerRank	|O HackerRank oferece problemas de programação em diferentes domínios da Ciência da Computação. Ele também hospeda Codesprints anuais que ajudam a conectar os codificadores e as startups do Vale do Silício.	|hackerrank.com|
+|Projeto Euler	|Grande coleção de problemas matemáticos computacionais (isto é, não diretamente relacionados à programação, mas frequentemente exigindo habilidades de programação para resolver).|	projecteuler.net |
+|Topcoder|	Empresa e recurso dos EUA, que organiza concursos e também fornece problemas industriais como uma espécie de trabalho independente; oferece dezenas de breves concursos e vários longos ("maratonas") todos os anos. Recurso específico - os participantes têm a chance de verificar a correção das soluções de outros competidores após a fase de codificação e antes do teste automático final (a chamada "fase de desafio").|	www.topcoder.com |
+|UVa Online Judge|	Contém mais de 4.500 problemas para praticar. Realiza competições online regulares.	uva .onlinejudge .org
+AtCoder	Sediada no Japão, a Atcode oferece concursos de programação on-line semanalmente. Os concursos são oferecidos nos idiomas japonês e inglês.	| www.atcoder.jp |
+|LeetCode	|Contém mais de 1.000 problemas para a prática e oferece concursos de programação semanal e quinzenal.|	www.leetcode.com |
+
+## Veja também ##
+
+- Code golf
+
+## Referências ##
+
+1. "Google Code Jam" . google.com . Página visitada em 20/02/2016 .
+2. "Patrocinador TCO12: Google - TCO 12" . topcoder.com . Arquivado a partir do original em 16 de fevereiro de 2012.
+3. "Copo do hacker de Facebook" . Facebook . Página visitada em 20/02/2016 .
+4. Desafios de programação (Skiena & Revilla) ISBN 0387001638 , ISBN 978-0387001630  
+5. "Concursos mensais do CodeChef" .
+6. "Programadores de todo o mundo competem no CodeChef SnackDown - ExchangeMedia" .
+7. "Codeforces concursos" . Página visitada em 2018-10-12 .
+8. "Problemas de programação e competições :: HackerRank" . HackerRank . Página visitada em 20/02/2016 .
+9. "Problemas de programação e competições :: HackerRank" . HackerRank . Página visitada em 20/02/2016 .
+10. "CodeCup" . www.codecup.nl .
+11. Lasse Hakulinen. Pesquisa sobre Competições de Informática: Desenvolvimento de Tarefas - Olympiads in Informatics, 2011, vol. 5, 12–25.
+12. Wevers, Lesley (2014). "Pesquisa em árvore de Monte-Carlo para Poly-Y" (PDF) . Universidade de Twente . Arquivado a partir do original (PDF) em 13 de abril de 2017 . Consultado em 16 de setembro de 2018 .
+13. "Desafio de programação da inteligência artificial halita" . www.halite.io .
+14. Dois Sigma anuncia o lançamento público de Halite . tech.cornell.edu .
+15. "O Halite ajuda estudantes e desenvolvedores a competir para criar uma melhor IA no Google Cloud Platform" .
+
+
 
 ---
 
