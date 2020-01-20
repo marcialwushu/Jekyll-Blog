@@ -9,6 +9,8 @@ categories: jekyll update
 
 >Campeonato aberto sobre programação Yandex . Algoritmo , 22 de agosto de 2013.
 
+<h1>CP</h1>
+
 A programação competitiva é um esporte mental geralmente realizado pela Internet ou por uma rede local , envolvendo participantes que tentam programar de acordo com as especificações fornecidas. Os participantes são chamados de programadores esportivos . A programação competitiva é reconhecida e suportada por várias empresas multinacionais de software e Internet, como Google [1] [2] e Facebook . [3] Existem várias organizações que hospedam competições de programação regularmente.
 
 Uma competição de programação geralmente envolve o host que apresenta um conjunto de problemas lógicos ou matemáticos aos competidores (que podem variar em número de dezenas a vários milhares), e os competidores são obrigados a escrever programas de computador capazes de resolver cada problema. O julgamento é baseado principalmente no número de problemas resolvidos e no tempo gasto para escrever soluções bem-sucedidas, mas também pode incluir outros fatores (qualidade da saída produzida, tempo de execução, tamanho do programa etc.)
