@@ -9,7 +9,7 @@ categories: jekyll update
 
 >Campeonato aberto sobre programação Yandex . Algoritmo , 22 de agosto de 2013.
 
-<h1>CP</h1>
+
 
 A programação competitiva é um esporte mental geralmente realizado pela Internet ou por uma rede local , envolvendo participantes que tentam programar de acordo com as especificações fornecidas. Os participantes são chamados de programadores esportivos . A programação competitiva é reconhecida e suportada por várias empresas multinacionais de software e Internet, como Google [1] [2] e Facebook . [3] Existem várias organizações que hospedam competições de programação regularmente.
 
@@ -80,19 +80,92 @@ Na maioria das competições acima, como o número de competidores é bastante g
 
 A comunidade de programação em todo o mundo criou e manteve vários recursos da Internet dedicados à programação competitiva. Eles oferecem concursos autônomos com ou sem prêmios menores. Também os arquivos anteriores de problemas são um recurso popular para treinamento em programação competitiva. Esses incluem:
 
-|Nome	|Descrição	|Local na rede Internet|
-|-----|----------:|:---------------------|
-|CodeChef	|Mantido pelo Directi, ele organiza um concurso de 10 dias e alguns concursos curtos todos os meses (um estilo IOI e outro estilo ICPC da ACM) e fornece uma plataforma de hospedagem para instituições de ensino gratuitamente. Os dois principais vencedores do concurso longo ganham prêmios em dinheiro, enquanto os 10 melhores do mundo recebem uma camiseta.|	www.codechef.com|
-|CodeCup	|Competição anual anual de programação de jogos de tabuleiro de IA organizada pela Olimpíada Holandesa em Informática desde 2003. [11] [12]	|codecup.nl|
-|Codeforces	|Recurso russo, mantido pela ITMO University , que geralmente oferece breves freqüentes (até dois por semana). Recursos especiais: capacidade de verificar a exatidão das soluções de outros concorrentes durante a "fase de hacking", concursos virtuais, treinamentos etc.|codeforces.com|
-|CodinGame	|Quebra-cabeças (dificuldade crescente), código de golfe . Realiza competições online regulares ( desafios de IA , problemas de otimização )|	www.codingame.com |
-|HackerEarth	|Empresa sediada em Bangalore , Índia , que oferece concursos on-line como o ambiente, com o objetivo de fornecer soluções de avaliação de recrutamento.	|www.hackerearth.com |
-|HackerRank	|O HackerRank oferece problemas de programação em diferentes domínios da Ciência da Computação. Ele também hospeda Codesprints anuais que ajudam a conectar os codificadores e as startups do Vale do Silício.	|hackerrank.com|
-|Projeto Euler	|Grande coleção de problemas matemáticos computacionais (isto é, não diretamente relacionados à programação, mas frequentemente exigindo habilidades de programação para resolver).|	projecteuler.net |
-|Topcoder|	Empresa e recurso dos EUA, que organiza concursos e também fornece problemas industriais como uma espécie de trabalho independente; oferece dezenas de breves concursos e vários longos ("maratonas") todos os anos. Recurso específico - os participantes têm a chance de verificar a correção das soluções de outros competidores após a fase de codificação e antes do teste automático final (a chamada "fase de desafio").|	www.topcoder.com |
-|UVa Online Judge|	Contém mais de 4.500 problemas para praticar. Realiza competições online regulares.	uva .onlinejudge .org
-|AtCoder	|Sediada no Japão, a Atcode oferece concursos de programação on-line semanalmente. Os concursos são oferecidos nos idiomas japonês e inglês.	| www.atcoder.jp |
-|LeetCode	|Contém mais de 1.000 problemas para a prática e oferece concursos de programação semanal e quinzenal.|	www.leetcode.com |
+<table class="wikitable sortable jquery-tablesorter">
+
+<thead><tr>
+<th style="min-width:25%" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Name
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Description
+</th>
+<th style="min-width:15%" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><a href="/wiki/Website" title="Website">Website</a>
+</th></tr></thead><tbody>
+<tr>
+<td><a href="/wiki/CodeChef" title="CodeChef">CodeChef</a>
+</td>
+<td>Maintained by Directi, it hosts a 10-day-long contest and a couple of short contests every month (one IOI styled and other ACM ICPC styled), and provides a contest hosting platform to educational institutions for free. The top two winners of the long contest win cash prizes while the top 10 global get a tee-shirt.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://www.codechef.com">www<wbr>.codechef<wbr>.com</a></span>
+</td></tr>
+<tr>
+<td>CodeCup
+</td>
+<td>Annual international <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">AI</a> board game programming competition organized by the Dutch Olympiad in Informatics since 2003.<sup id="cite_ref-hak11_11-1" class="reference"><a href="#cite_note-hak11-11">[11]</a></sup><sup id="cite_ref-les14_12-1" class="reference"><a href="#cite_note-les14-12">[12]</a></sup>
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://CodeCup.nl">codecup<wbr>.nl</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/Codeforces" title="Codeforces">Codeforces</a>
+</td>
+<td>Russian resource, maintained by <a href="/wiki/ITMO_University" title="ITMO University">ITMO University</a>, which mostly provides frequent (up to two per week) short contests. Special features: ability to check correctness of other contestants' solutions during "hacking phase", virtual contests, trainings etc.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://codeforces.com">codeforces<wbr>.com</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/CodinGame" title="CodinGame">CodinGame</a>
+</td>
+<td><a href="/wiki/Puzzle" title="Puzzle">Puzzles</a> (increasing difficulty), <a href="/wiki/Code_golf" title="Code golf">code golf</a>. Hosts regular online competitions (<a href="/wiki/Artificial_intelligence" title="Artificial intelligence">AI</a> сhallenges, <a href="/wiki/Optimization_problem" title="Optimization problem">optimization problems</a>)
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://www.codingame.com">www<wbr>.codingame<wbr>.com</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/HackerEarth" title="HackerEarth">HackerEarth</a></td>
+<td><a href="/wiki/Bangalore" title="Bangalore">Bangalore</a>, <a href="/wiki/India" title="India">India</a> based company providing online contest like environment aiming at providing recruitment assessment solutions.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://www.hackerearth.com">www<wbr>.hackerearth<wbr>.com</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/HackerRank" title="HackerRank">HackerRank</a>
+</td>
+<td>HackerRank offers programming problems in different domains of Computer Science. It also hosts annual Codesprints which help connect the coders and Silicon Valley startups.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://hackerrank.com">hackerrank<wbr>.com</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/Project_Euler" title="Project Euler">Project Euler</a></td>
+<td>Large collection of computational math problems (i.e. not directly related to programming but often requiring programming skills for solving).
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://projecteuler.net">projecteuler<wbr>.net</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/Topcoder" title="Topcoder">Topcoder</a>
+</td>
+<td>US resource and company, which organizes contests and also provides industrial problems as a kind of free-lance job; it offers dozens of short contests and several long ("marathons") every year. Specific feature - participants have a chance to check correctness of other contestants' solutions after coding phase and before final automatic testing (so called "challenge phase").
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://www.topcoder.com">www<wbr>.topcoder<wbr>.com</a></span>
+</td></tr>
+<tr>
+<td><a href="/wiki/UVa_Online_Judge" title="UVa Online Judge">UVa Online Judge</a>
+</td>
+<td>Contains over 4,500 problems for practising. Hosts regular online competitions.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://uva.onlinejudge.org">uva<wbr>.onlinejudge<wbr>.org</a></span>
+</td></tr>
+<tr>
+<td>AtCoder
+</td>
+<td>Based in Japan, Atcode offers online programming contests on a weekly basis. The contests are offered in the Japanese and English language.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://www.atcoder.jp">www<wbr>.atcoder<wbr>.jp</a></span>
+</td></tr>
+<tr>
+<td>LeetCode
+</td>
+<td>Contains over 1,000 problems for practice and offers weekly and biweekly programming contests.
+</td>
+<td><span class="url"><a rel="nofollow" class="external text" href="https://www.leetcode.com">www<wbr>.leetcode<wbr>.com</a></span>
+</td></tr></tbody><tfoot></tfoot></table>
+
+
 
 ## Veja também ##
 
