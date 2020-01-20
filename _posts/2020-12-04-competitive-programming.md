@@ -217,27 +217,20 @@ Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mu
 |[Kattis](https://open.kattis.com/)|Juiz Online estabelecido pela empresa sueca Kattis.|
 |[URI Online Judge](https://www.urionlinejudge.com.br/)|Juiz on-line da Universidade do Alto Uruguai e das Missões, Brasil.|
 |[Sphere Online Judge](https://www.spoj.com/)|Juiz Online criado pelo Sphere Labs, Polônia.|
-|Juiz Online da HDU|Juiz Online, Universidade de Hangzhou Dianzi, China.|
-|Timus Online Judge|Juiz Online da Universidade de Ural, Rússia.|
-|UVa Online Judge|Juiz on-line na Universidade de Valladolid, Espanha. O mais antigo Juiz Online.|
-|ZeroJudge| um sistema de solução de programas para estudantes do ensino médio Juiz on-line estabelecido pela High School da Universidade Normal de Kaohsiung, em Taiwan.|
+|[Juiz Online da HDU](http://acm.hdu.edu.cn/)|Juiz Online, Universidade de Hangzhou Dianzi, China.|
+|[Timus Online Judge](http://acm.timus.ru/)|Juiz Online da Universidade de Ural, Rússia.|
+|[UVa Online Judge](http://uva.onlinejudge.org/)|Juiz on-line na Universidade de Valladolid, Espanha. O mais antigo Juiz Online.|
+|[ZeroJudge](http://zerojudge.tw/)| um sistema de solução de programas para estudantes do ensino médio Juiz on-line estabelecido pela High School da Universidade Normal de Kaohsiung, em Taiwan.|
 
 ## Site de ferramentas para juízes da UVa Online
 
-uHunt
-Você pode verificar seu progresso e classificação mundial no UVa Online Judge.
-Organizou uma lista de perguntas, adequadas para iniciantes praticarem passo a passo. Digite seu nome de usuário e ele aparecerá.
+|     |       |
+|----|--------|
+|uHunt|Você pode verificar seu progresso e classificação mundial no UVa Online Judge.Organizou uma lista de perguntas, adequadas para iniciantes praticarem passo a passo. Digite seu nome de usuário e ele aparecerá.|
+|uDebug|Forneça um arquivo executável da solução UVa Online Judge.Digite seus próprios dados para gerar a saída correta para testar seu programa.|
+|[Lucky ACM](http://luckycat.kshs.kh.edu.tw/)  , [Ruby ACM](http://rubyacm.blogspot.com/)  , [Unfortunate ACM](http://unfortunatedog.blogspot.tw/), [uniDog ACM](http://pcshic.github.io/uniDog/)|Tradução do título do UVa Online Judge!Muito bom trabalho, por favor, seja grato!|
+|Classificação de Problemas no Arquivo em Espanhol|Classificação de tópicos.|
 
-uDebug
-Forneça um arquivo executável da solução UVa Online Judge.
-Digite seus próprios dados para gerar a saída correta para testar seu programa.
-
-Sorte ACM jardim gato , ACM jardim Rubi Coelho , infeliz jardim ACM cão , uniDog de ACM jardim
-Tradução do título do UVa Online Judge!
-Muito bom trabalho, por favor, seja grato!
-
-Classificação de Problemas no Arquivo em Espanhol
-Classificação de tópicos.
 Treinamento de programação
 
 Os 10 melhores sites de desafio de codificação para 2018
