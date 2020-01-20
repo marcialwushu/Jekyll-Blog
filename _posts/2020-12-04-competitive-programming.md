@@ -222,113 +222,107 @@ Quarto, as Finais Mundiais: Mais de 100 equipes serão selecionadas de todo o mu
 |[UVa Online Judge](http://uva.onlinejudge.org/)|Juiz on-line na Universidade de Valladolid, Espanha. O mais antigo Juiz Online.|
 |[ZeroJudge](http://zerojudge.tw/)| um sistema de solução de programas para estudantes do ensino médio Juiz on-line estabelecido pela High School da Universidade Normal de Kaohsiung, em Taiwan.|
 
-## Site de ferramentas para juízes da UVa Online
+## Site de ferramentas para UVa Online Judge
 
 |     |       |
 |----|--------|
-|uHunt|Você pode verificar seu progresso e classificação mundial no UVa Online Judge.Organizou uma lista de perguntas, adequadas para iniciantes praticarem passo a passo. Digite seu nome de usuário e ele aparecerá.|
-|uDebug|Forneça um arquivo executável da solução UVa Online Judge.Digite seus próprios dados para gerar a saída correta para testar seu programa.|
+|[uHunt](http://uhunt.felix-halim.net/)|Você pode verificar seu progresso e classificação mundial no UVa Online Judge.Organizou uma lista de perguntas, adequadas para iniciantes praticarem passo a passo. Digite seu nome de usuário e ele aparecerá.|
+|[uDebug](http://www.udebug.com/)|Forneça um arquivo executável da solução UVa Online Judge.Digite seus próprios dados para gerar a saída correta para testar seu programa.|
 |[Lucky ACM](http://luckycat.kshs.kh.edu.tw/)  , [Ruby ACM](http://rubyacm.blogspot.com/)  , [Unfortunate ACM](http://unfortunatedog.blogspot.tw/), [uniDog ACM](http://pcshic.github.io/uniDog/)|Tradução do título do UVa Online Judge!Muito bom trabalho, por favor, seja grato!|
-|Classificação de Problemas no Arquivo em Espanhol|Classificação de tópicos.|
+|[Classificação de Problemas no Arquivo em Espanhol](http://www.cs.uleth.ca/~cheng/contest/hints.html)|Classificação de tópicos.|
 
-Treinamento de programação
+## Treinamento de programação
 
-Os 10 melhores sites de desafio de codificação para 2018
-Introdução abrangente.
+- [Os 10 melhores sites de desafio de codificação para 2018](https://medium.com/coderbyte/the-10-best-coding-challenge-websites-for-2018-12b57645b654) Introdução abrangente.
+- [Exame de Habilidade de Programação de Computador PAT](https://www.patest.cn/) Exame de licença da China.
+- [Teste de Capacidade do Programa Universitário CPE](https://cpe.cse.nsysu.edu.tw/) Alguns professores de Taiwan se uniram para um exame de licença. Você entende.
 
-Exame de Habilidade de Programação de Computador PAT
-Exame de licença da China.
+## Campo de Competição de Algoritmo
 
-Teste de Capacidade do Programa Universitário CPE
-Alguns professores de Taiwan se uniram para um exame de licença. Você entende.
-Campo de Competição de Algoritmo
+- [Acampamento de inverno do treinamento atlético da Universidade de Jiaotong, acampamento de verão](https://pcca.tw/). Professores e alunos entusiasmados gerenciam automaticamente o acampamento. Materiais didáticos gratuitos e abertos.
 
-Acampamento de inverno do treinamento atlético da Universidade de Jiaotong, acampamento de verão
-Professores e alunos entusiasmados gerenciam automaticamente o acampamento. Materiais didáticos gratuitos e abertos.
+- [Campo de treinamento da competição do programa de verão de Tsinghua](https://sites.google.com/view/ioncamp2019/). Estudantes entusiasmados gerenciam automaticamente o acampamento. Taxas e materiais não são divulgados.
 
-Campo de treinamento da competição do programa de verão de Tsinghua
-Estudantes entusiasmados gerenciam automaticamente o acampamento. Taxas e materiais não são divulgados.
+- [Campo de Treinamento do Concurso de Resolução de Programas da Universidade de Taiwan](https://ioicamp2020.csie.org/). Estudantes entusiasmados gerenciam automaticamente o acampamento. Livros didáticos pagos e não divulgados também atraem patrocínios corporativos. Você entende.
 
-Campo de Treinamento do Concurso de Resolução de Programas da Universidade de Taiwan
-Estudantes entusiasmados gerenciam automaticamente o acampamento. Livros didáticos pagos e não divulgados também atraem patrocínios corporativos. Você entende.
-Notas da Aula sobre Competição de Algoritmos
+## Notas da Aula sobre Competição de Algoritmos
 
-Palestra sobre Algoritmo da Agência de Informação da Escola Secundária Banqiao
+- [Palestra sobre Algoritmo da Agência de Informação da Escola Secundária Banqiao](https://sites.google.com/site/pcshic/). 
 Alunos entusiasmados trabalham duro para compilar o livro.
 
-Palestra de Treinamento do Curso de Informações da Escola Secundária Jianguo
+- [Palestra de Treinamento do Curso de Informações da Escola Secundária Jianguo](http://pisces.ck.tp.edu.tw/~peng/). 
 Alunos entusiasmados trabalham duro para compilar o livro.
 
-Notas do curso PSPT da Universidade de Jiaotong
+- [Notas do curso PSPT da Universidade de Jiaotong](https://drive.google.com/folderview?id=0BydVf1xpoCSQdzZUWGZzQWtEZnM&usp=sharing&tid=0BydVf1xpoCSQM0lHMWU3cTZJaW8). 
 Professor entusiasmado trabalha duro para compilar o livro.
 
-Notas de aula para os cursos da ACM na Success University
+- [Notas de aula para os cursos da ACM na Success University](https://nckuacm.github.io/). 
 Professores e alunos entusiasmados trabalham duro para compilar o livro.
 
-OI Wiki
+- [OI Wiki](https://oi-wiki.org/)
 Os entusiastas da Internet trabalham duro para compilar o livro.
 
-Stanford CS 97SI: Introdução aos concursos de programação competitiva
+- [Stanford CS 97SI: Introdução aos concursos de programação competitiva](http://web.stanford.edu/class/cs97si/)
 Estudantes entusiasmados trabalham duro nos cursos.
 
-CMU CS 15-295: Programação da competição e solução de problemas
+- [CMU CS 15-295: Programação da competição e solução de problemas](https://contest.cs.cmu.edu/295/)
 O trabalho duro do professor entusiasmado.
 
-Manual do Programador Competitivo
+- [Manual do Programador Competitivo](https://cses.fi/book.html)
 Materiais de treinamento da equipe nacional IOI da Finlândia
 
-Biblioteca Pública da OI
+- [Biblioteca Pública da OI](https://github.com/enkerewpo/OI-Public-Library)
 Relatório Técnico da Equipe Nacional da China IOI
-Livros de competição de algoritmo
 
-Pensamento matemático
+## Livros de competição de algoritmo
+
+- [Pensamento matemático](http://www.chiuchang.com.tw/catalog/detail.php?bid=212)
 Editora Jiuzhang
 
-Como resolvê-lo
+- [Como resolvê-lo](http://press.princeton.edu/titles/669.html)
 George Pólya
 Tradução "Como resolver problemas"
 
-Programação Competitiva
+- [Programação Competitiva](https://cpbook.net/)
 Felix Halim, Steven Halim
 Obras-primas da competição de algoritmo de Cingapura
 
-Guia de Programação Competitiva:
-Aprendendo e melhorando algoritmos através de concursos
+- [Guia de Programação Competitiva: Aprendendo e melhorando algoritmos através de concursos](https://cses.fi/book/)
 Antti Laaksonen
 Obras-primas da competição finlandesa de algoritmos
 
-프로그래밍 대회 에서 배우는 알고리즘 문제 해결
+- [프로그래밍 대회 에서 배우는 알고리즘 문제 해결](http://book.algospot.com/)
 구종 만
 Obras-primas do concurso de algoritmo coreano
 Tradução de "Algoritmos para problemas algorítmicos"
 
-プ ロ グ ラ ミ グ コ ン テ ト チ ャ レ ン ジ ブ ッ.
+- [プ ロ グ ラ ミ グ コ ン テ ト チ ャ レ ン ジ ブ ッ](http://d.hatena.ne.jp/iwiwi/20120111/1326198766).
 Iwata Akiba Takuya, Kitagawa Eki, Yoichi
 Obras-primas do concurso de algoritmo japonês
 Tradução "Cultivando e praticando o cérebro lógico da programação: compartilhando conhecimento, experiência e solução de problemas em um concurso de programação de classe mundial"
 
-Clássico de entrada no concurso de algoritmo
+- [Clássico de entrada no concurso de algoritmo](http://code.google.com/p/aoapc-book/)
 Liu Rujia
 Obras-primas do concurso de algoritmo chinês
 Tradução "Lançando boas bases: uma introdução clássica a concursos de programação e algoritmos"
 
-Guia de treinamento clássico sobre entrada em competição de algoritmo
+- [Guia de treinamento clássico sobre entrada em competição de algoritmo](http://code.google.com/p/aoapc-book/)
 Chen Feng Liu Rujia
 Obras-primas do concurso de algoritmo chinês
 Tradução de "Melhorando a resolução de problemas de pensamento na programação: um guia de treinamento para a competição internacional de programação de algoritmos"
-Livros do concurso de algoritmos: Novos livros que não li
 
-Guia Avançado de Competição de Algoritmos
+## Livros do concurso de algoritmos: Novos livros que não li
 
-Olimpíada da Informática
+- [Guia Avançado de Competição de Algoritmos](https://github.com/lydrainbowcat/tedukuri)
+- [Olimpíada da Informática](https://www.zhihu.com/question/292823177/answer/482678569)
+- [Programação de computador CCF para alunos do ensino médio](http://www.noi.cn/)
 
-Programação de computador CCF para alunos do ensino médio
-Links relacionados ao concurso de algoritmo
+## Links relacionados ao concurso de algoritmo
 
-Programação competitiva impressionante
+- [Awesome Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 Série impressionante no github, não importa a bagunça.
 
-Consolidação de recursos relacionados ao treinamento de informações em Taiwan
+- [Consolidação de recursos relacionados ao treinamento de informações em Taiwan](https://github.com/goodjack/awesome-cs-training)
 Consolidação de recursos relacionados ao treinamento de informações com base em estudantes do ensino médio de Taiwan.
 
 [CSIE.NTNU.EDU.TW](http://www.csie.ntnu.edu.tw/~u91029/CompetitiveProgramming.html)
