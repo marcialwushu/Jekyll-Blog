@@ -50,7 +50,7 @@ Agora você tem algum conhecimento básico do formato do arquivo APK e podemos c
 Antes de começarmos a inspecionar arquivos APK, primeiro precisamos acessá-los. Isso é simples ao trabalhar com seus próprios aplicativos, pois você já deve ter acesso aos APKs deles. Aplicativos de terceiros podem ser extraídos de qualquer dispositivo em que estejam instalados:
 
 ```
-adb pull ` adb shell pm path 'com.pspdfkit.viewer' | cut  -d  ':'  -f 2 ` visualizador de pdf.apk
+adb pull `adb shell pm path 'com.pspdfkit.viewer' | cut -d ':' -f 2` pdf-viewer.apk
 
 ```
 
@@ -60,7 +60,7 @@ adb pull ` adb shell pm path 'com.pspdfkit.viewer' | cut  -d  ':'  -f 2 ` visual
 Como afirmado anteriormente, um APK é basicamente um arquivo zip. Assim, podemos usar qualquer ferramenta de descompactação ou navegador de arquivos com suporte para arquivos zip para examinar o conteúdo de um APK. Isso, no entanto, tem um caso de uso muito limitado:
 
 
-- Podemos extrair recursos e ativos que não são processados ​​ou são apenas otimizados durante o processo de compilação. Isso inclui assetsrecursos brutos (in ```res/raw```) e .pngdrawables (que são otimizados, mas ainda estão no formato PNG).
+- Podemos extrair recursos e ativos que não são processados ou são apenas otimizados durante o processo de compilação. Isso inclui assetsrecursos brutos (in ```res/raw```) e .pngdrawables (que são otimizados, mas ainda estão no formato PNG).
 - Não podemos obter muitas informações dos .dexarquivos, pois esses são arquivos binários.
 - Não é possível ler recursos binários ( [XML binário](https://en.wikipedia.org/wiki/Binary_XML) e ```resources.arsc```) ou um binário ```AndroidManifest.xml```.
 
@@ -115,8 +115,8 @@ Já vimos como inspecionar APKs e desmontar arquivos Dex em códigos de bytes pe
 
 Vamos usar essas duas ferramentas:
 
-- [dex2jar](https://github.com/pxb1988/dex2jar) é o conjunto de ferramentas para trabalhar com arquivos Android .dexe Java .class.
-- O [Java Decompiler](http://jd.benow.ca/) (JD-GUI) é um utilitário que exibe o código-fonte Java para .classou .jararquivos com código de bytes Java.
+- [dex2jar](https://github.com/pxb1988/dex2jar) é o conjunto de ferramentas para trabalhar com arquivos Android ```.dex``` e Java ```.class```.
+- O [Java Decompiler](http://jd.benow.ca/) (JD-GUI) é um utilitário que exibe o código-fonte Java para ```.class``` ou ```.jar``` arquivos com código de bytes Java.
 
 O primeiro passo é converter o [bytecode Dalvik](https://source.android.com/devices/tech/dalvik/dalvik-bytecode.html) do nosso APK no arquivo JAR com o bytecode Java. Usaremos o prático ```d2j-dex2jar``` do pacote dex2jar:
 
