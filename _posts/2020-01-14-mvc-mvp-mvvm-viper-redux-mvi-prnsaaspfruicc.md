@@ -200,11 +200,42 @@ Mas há muitas desvantagens, especialmente se você tentar usar o Redux no conte
 - Qualquer forma de ação assíncrona requer a introdução de elementos mágicos como ```redux-thunk```, o que introduz uma curva de aprendizado adicional.
 - A execução de operações pontuais (como "mostrar um brinde") é difícil, porque você só observa o "estado atual", o que significa que uma ação deve de alguma forma emitir um estado para "START_SHOWING_TOAST" e "STOP_SHOWING_TOAST" para que o efeito seja semelhante a chamando ```view.showToast()``` ou ```showToastEvent.call()```.
 - A única loja contém todo o estado do aplicativo; portanto, o estado resultante pode ser facilmente uma grande árvore com muitos dados, onde devemos garantir que cada visualização tenha seu próprio ID exclusivo para que não substituam acidentalmente os estados uns dos outros. Cada visualização deve saber como acessar o subestado pretendido apenas para eles.
-Também devemos garantir que cada elemento no Estado seja imutável, incluindo listas / coleções (ajuda do Kotlin).
-Criar uma nova cópia imutável do estado só é útil se você realmente reter os valores anteriores como "história"; caso contrário, a mutação no local + a notificação dos observadores é um mecanismo muito mais simples (e menos dispendioso).
+- Também devemos garantir que cada elemento no Estado seja imutável, incluindo listas / coleções (ajuda do Kotlin).
+- Criar uma nova cópia imutável do estado só é útil se você realmente reter os valores anteriores como "história"; caso contrário, a mutação no local + a notificação dos observadores é um mecanismo muito mais simples (e menos dispendioso).
+
+
+Então Redux desvantagens no Android em suma:
+
+- todas as ações são serializadas e inevitavelmente atrasadas, aguardando o middleware executar operações assíncronas - criando um UX lento
+- apesar de tentar facilitar a gestão do estado, apenas torna a gestão do estado mais difícil
+- torna as operações assíncronas e as operações pontuais simples muito mais difíceis
+- se isso ainda não estiver evidente, CURVA SUPER ALTA DE APRENDIZAGEM, se você quiser tornar QUALQUER COISA mais complexa do que um simples aplicativo Todo
+- agrupar dados e estado transitório em um único "objeto imutável" torna a persistência adequada do estado Android muito difícil ou impossível
+
+
+No geral, o que o Redux tenta fazer é abstrair as chamadas de método da View para o Presenter / ViewModel, criando um objeto que é passado para uma fila (como o Flux) - substitua as chamadas de método pela emissão de eventos.
+
+Em seguida, mescle todos os apresentadores para armazenar seu estado em um único local e crie cópias do estado sempre que for alterado.
+O suposto benefício, é claro, seria a facilidade de teste do redutor. Mas você geralmente exige alguma forma de estrutura para obter um "loop de eventos imutáveis" confiável para o seu estado.
+
+Se você me perguntar, há tanto "para desenhar o resto da porra da coruja", que eu argumentaria que o Redux não está pronto para produção , e é preciso muito esforço para entrar em uma forma que possa modelar adequadamente os requisitos do mundo real.
 
 
 
+### MVI: intenção de exibição do modelo
+
+O MVI é praticamente a mesma coisa que o Flux (várias lojas, o view emite ações), com alguns aspectos do Redux (cópias de estado imutáveis ​​e redutores de estado), implementados no RxJava.
+Os pontos principais:
+
+- Intentions: o mesmo que Actions in Flux - emissão de eventos da View. O "despachante" é o Observável que resulta da mesclagem das ações em um único fluxo.
+- Model: o estado da visualização que é imutável e copiado cada vez que é alterado
+- Reducers: igual ao Redux - avalia o novo valor do estado atual com base na chamada atual do método
+
+Desvantagem:
+
+- Cada chamada de método é substituída por uma classe de dados selada e fluxos de eventos modelados pelo Observables, para que cada ação seja implementada por meio de operadores RxJava. Isso pode resultar em alta curva de aprendizado e difícil de raciocinar.
+
+Obviamente, também temos a desvantagem mencionada junto com o Redux:
 
 
 
