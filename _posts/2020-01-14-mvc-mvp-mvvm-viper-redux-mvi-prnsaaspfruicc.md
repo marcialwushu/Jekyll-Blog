@@ -137,6 +137,81 @@ A desvantagem é:
 - o ViewModel armazena o estado, portanto, devemos poder persistir / restaurar o estado do ViewModel quando o processo é recriado (que geralmente é específico do Android)
 - As chamadas de método para o View são substituídas pela emissão de eventos; portanto, é necessário implementar alguma forma do padrão Observer - normalmente a combinação de PublishSubject / BehaviorSubject, mas as pessoas tentam fazer com que o LiveData funcione como um PublishSubject e isso não acontece.
 
+Nesse caso, a curva de aprendizado é a sobrecarga possível e não há problemas / limitações reais inerentes à idéia real por trás dela (exceto que vincula um ViewModel a uma única exibição, da mesma forma que o MVP). Vá MVVM!
+
+### CLEAN: Arquitetura Limpa
+
+Na verdade, esse é o item mais estranho da lista, pois na verdade é uma arquitetura. Nomeadamente “[Camada de apresentação de domínio de dados](https://martinfowler.com/bliki/PresentationDomainDataLayering.html)” (ou [Arquitetura hexagonal](http://java-design-patterns.com/patterns/hexagonal/) ). Assim, você pode ter uma "arquitetura limpa" enquanto segue o MVVM na camada de apresentação, por exemplo.
+
+Os pontos principais da arquitetura CLEAN são:
+
+- Separação estrita de "recuperação de dados", "lógica de negócios" real + gerenciamento do estado do aplicativo e "estado de exibição"
+- Todas as implementações específicas usadas (por exemplo, carregamento de imagens, acesso ao banco de dados) estão ocultas em interfaces que não vazam detalhes da implementação: isolamento de dependências
+
+O suposto benefício é que você pode conectar qualquer módulo a qualquer momento e substituí-lo por outro. Além disso, os módulos de dados / domínio podem teoricamente ser compartilhados entre diferentes versões do mesmo aplicativo (pense em telefone vs TV).
+Além disso, ter objetos específicos da camada significa que o mapeamento entre eles pode ser testado.
+
+A desvantagem é:
+
+
+- Se você não precisar compartilhar módulos com vários projetos, forçar a separação é uma sobrecarga: pois você precisa de objetos específicos de camada e mapeamento entre
+- Mencionei o mapeamento entre objetos definidos em 3 camadas diferentes? Isso é muito código clichê.
+- A navegação deve ser uma responsabilidade da camada de domínio, mas é um problema comum que as pessoas abusem das Atividades e tornem o estado da navegação implicitamente parte da pilha de tarefas. Se quiséssemos ter controle completo sobre o estado do nosso aplicativo, teríamos apenas 1 Atividade que exibe o estado atual. Isso geralmente é ignorado, deixando a implementação "limpa" impura.
+- Ocultar certas coisas sob interfaces pode ser difícil, muitas vezes as pessoas ainda vazam detalhes ou sua abstração não lida adequadamente com o funcionamento de sua biblioteca de opções (por exemplo, SQLite vs Realm - instância global singleton versus instâncias contadas ref-local).
+
+Pessoalmente, aconselho manter as respostas da API e os objetos do banco de dados separados. Esse é um mapeamento que normalmente vale a pena introduzir: a resposta do servidor não deve definir acidentalmente quais dados estamos tentando armazenar e em qual formato.
+
+A ideia é boa, mas às vezes [você simplesmente não vai precisar](https://martinfowler.com/bliki/Yagni.html) .
+
+Mas também esteja ciente de que às vezes você faz.
+
+### REDUX: bem, apenas Redux, embora deva ser chamado de ActionCreator-Action-Dispatcher-Middleware-Reducer-Store-Middleware-View
+
+O Redux é uma das mais recentes “arquiteturas” que vieram à luz, uma visão do [padrão Flux](https://github.com/facebook/flux/) original que possuía uma Loja por Visualização (“componente”).
+
+Fluxo , em poucas palavras:
+
+- Actions: o objeto que encapsula uma ação, basicamente a Visualização emitindo um evento em vez de chamar um método em um apresentador / modelo de exibição
+- Dispatcher: uma fila de eventos (onde as ações são colocadas), é semelhante ao contrato que permitiu à View chamar métodos no apresentador / viewmodel
+- Store: armazena o estado e emite eventos de alteração (basicamente o viewmodel) e também se inscreve para ações no expedidor
+- View: observa as alterações de estado emitidas pela loja
+
+
+Portanto, o Flux era basicamente o MVVM com emissão de eventos da View para o ViewModel (agora Store) via Dispatcher (uma fila de eventos).
+
+- - - - -
+
+**O Redux** "aprimora" o design original, criando um único armazenamento global único que armazena o estado de todas as visualizações existentes no aplicativo e o estado do aplicativo, incluindo o estado de navegação e tudo o mais, dados carregados no momento, independentemente de os dados serem carregados. sendo carregado no momento ou se você deve mostrar um indicador de carregamento em algum segmento do aplicativo. Tudo em um grande objeto.
+
+No Redux, esse estado é modificado por Reducers que modifica os bits e partes do estado global do aplicativo - mas não existe: um novo objeto é criado com as alterações aplicadas. Geralmente, tem a assinatura ```(State, Action) -> State``` e pode ser modelado com o ```scan()``` operator.
+
+Os supostos benefícios são os seguintes:
+
+- o Estado é imutável e cada alteração feita nele cria um novo Estado; portanto, se mantivermos um histórico de Ações e Estados, teremos um instantâneo de tudo no aplicativo - e se algo der errado, podemos “ver o que está errado "(time-travel debugging)
+- cada ação emitida pela Visualização é adiada para permitir enfileirá-las: o processamento de cada ação é forçado a ser uma execução serial (um requisito necessário para sempre ter o estado mais recente no redutor e sempre fornecer o estado mais recente para os assinantes do store)
+- ele tenta imitar certos aspectos de programação funcional e outras linguagens como [Elm](https://guide.elm-lang.org/architecture/), então provavelmente é ótimo
+
+Considerando a maioria das amostras disponíveis envolvendo Redux não são mais complexos do que uma aplicação Todo que não tem ligações de rede, há a persistência do estado, e operações de outra forma não assíncronas em geral, pode ser tentador para começar a usá-lo - especialmente se você já viu  [time-travel debugging (de Todo apps) em live action.](https://www.youtube.com/watch?v=xsSnOQynTHs)
+
+Mas há muitas desvantagens, especialmente se você tentar usar o Redux no contexto do Android:
+
+- Implementações comuns do Redux agrupar o estado do aplicativo e os dados carregados no momento, **impossibilitando salvar o estado do aplicativo no Bundle ```onSaveInstanceState()``` , o que pode resultar em erros enigmáticos**.
+- Carregar dados de fontes de dados locais ou remotas é difícil, porque deve ser implementado como um Middleware (pois é uma operação assíncrona de "efeito colateral") para garantir que a ordem de execução da ação esteja correta ~ e a explicação dos middlewares é que “Você consegue curry a função para que você possa, por exemplo, adicionar um registrador que imprima texto”.
+- Qualquer forma de ação assíncrona requer a introdução de elementos mágicos como ```redux-thunk```, o que introduz uma curva de aprendizado adicional.
+- A execução de operações pontuais (como "mostrar um brinde") é difícil, porque você só observa o "estado atual", o que significa que uma ação deve de alguma forma emitir um estado para "START_SHOWING_TOAST" e "STOP_SHOWING_TOAST" para que o efeito seja semelhante a chamando ```view.showToast()``` ou ```showToastEvent.call()```.
+- A única loja contém todo o estado do aplicativo; portanto, o estado resultante pode ser facilmente uma grande árvore com muitos dados, onde devemos garantir que cada visualização tenha seu próprio ID exclusivo para que não substituam acidentalmente os estados uns dos outros. Cada visualização deve saber como acessar o subestado pretendido apenas para eles.
+Também devemos garantir que cada elemento no Estado seja imutável, incluindo listas / coleções (ajuda do Kotlin).
+Criar uma nova cópia imutável do estado só é útil se você realmente reter os valores anteriores como "história"; caso contrário, a mutação no local + a notificação dos observadores é um mecanismo muito mais simples (e menos dispendioso).
+
+
+
+
+
+
+
+
+
+
 
 
 
