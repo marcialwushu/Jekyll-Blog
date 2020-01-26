@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MVC / MVP / MVVM / CLEAN / VIPER / REDUX / MVI / PRNSAASPFRUICC - construindo abstrações para criar abstrações (e porque são bonitas e populares)"
+title:  "MVC/MVP/MVVM/CLEAN/VIPER/REDUX/MVI/PRNSAASPFRUICC - construindo abstrações para criar abstrações (e porque são bonitas e populares)"
 date:   2020-01-14 17:59:38 -0200
 categories: jekyll update
 ---
@@ -222,9 +222,9 @@ Se você me perguntar, há tanto "para desenhar o resto da porra da coruja", que
 
 
 
-### MVI: intenção de exibição do modelo
+### MVI: Model-View-Intent
 
-O MVI é praticamente a mesma coisa que o Flux (várias lojas, o view emite ações), com alguns aspectos do Redux (cópias de estado imutáveis ​​e redutores de estado), implementados no RxJava.
+O MVI é praticamente a mesma coisa que o Flux (multiple stores, view emits actions), com alguns aspectos do Redux (cópias de immutable state e state reducers), implementados no RxJava.
 Os pontos principais:
 
 - Intentions: o mesmo que Actions in Flux - emissão de eventos da View. O "despachante" é o Observável que resulta da mesclagem das ações em um único fluxo.
