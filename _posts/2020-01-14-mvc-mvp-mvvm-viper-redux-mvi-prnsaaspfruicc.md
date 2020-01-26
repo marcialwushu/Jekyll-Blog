@@ -237,16 +237,87 @@ Desvantagem:
 
 Obviamente, também temos a desvantagem mencionada junto com o Redux:
 
+- Implementações comuns agrupam dados e estados juntos, tornando a persistência do pacote difícil / impossível.
+
+Se lermos a página sobre MVI, veremos o seguinte:
 
 
 
+>DO ARTIGO “APLICATIVOS REATIVOS COM INTENÇÃO DE MODELO - PARTE1 - MODELO”:
+
+>Contudo, Pessoalmente, acho que na maioria das vezes é melhor não salvar o estado, mas recarregar a tela inteira, como estamos fazendo no primeiro aplicativo.Pense em um aplicativo NewsReader exibindo uma lista de artigos de notícias. Quando nosso aplicativo é encerrado e salvamos o estado e 6 horas depois o usuário reabre nosso aplicativo e o estado é restaurado, nosso aplicativo pode exibir conteúdo desatualizado. Talvez não armazenar o modelo / estado e simplesmente recarregar os dados seja melhor nesse cenário.
+
+O que é uma loucura, porque eu posso induzir a morte de qualquer aplicativo que eu abra apenas abrindo o Skype e / ou a Câmera, e tenho certeza que iniciar a câmera leva menos tempo que 6 horas - e eu tenho um Nexus 5X com 2,5 GB de RAM.
+
+Ignorar o [contrato de atividade](https://plus.google.com/+DianneHackborn/posts/FXCCYxepsDU) é uma solução abaixo do ideal, especialmente se estamos tentando melhorar a capacidade de manutenção e a confiabilidade, em vez de apenas introduzir bugs e frustração do usuário.
+
+Se você vir uma classe ViewState e ela não tiver @Parcelize anotações, provavelmente não é uma implementação pronta para produção.
+
+Sempre [teste seu aplicativo contra a morte do processo para saber o que acontece em caso de baixa memória](https://stackoverflow.com/questions/49046773/singleton-object-becomes-null-after-app-is-resumed/49107399#49107399) .
+
+Para mais informações sobre essa arquitetura, consulte [a cadeia de comentários abaixo](https://medium.com/@chessmani/you-really-dont-need-to-understand-that-much-and-there-really-no-need-for-all-those-functional-4c50f6c495ac).
 
 
+### PRNSAASPFRUICC: Production-Ready Native Single-Atom-State Purely Functional Reactive Composable UI Components
+
+Sinceramente, acabei de adicionar isso à lista para o valor de choque da abreviação.
+
+Mas você pode conferir a [proposição original](https://gist.github.com/bkase/dbfc79353ed67a27a822) e a [biblioteca que o acompanha: cyklic](https://github.com/bkase/cyklic) (razoavelmente sem manutenção), também é outra visão sobre a emissão de eventos a partir da visualização, executando-os através de um redutor (desta vez chamado de "Driver") e possui um start/stopmétodo . No geral, é MVI-ish.
+
+### Menção honrosa: RIBs (Router Interactor Builder)
+
+Embora eu não tenha usado [RIBs](https://github.com/uber/RIBs) , o Uber supostamente resolveu o problema de construtor automático e quebra de [hierarquias profundas de escopo](https://eng.uber.com/deep-scope-hierarchies/) , além de fornecer eventos adequados (via RxJava) para informar quando isso acontece.
+
+Isso é mencionado como um padrão de arquitetura da camada de apresentação, pois possibilita que a hierarquia do escopo contenha o estado, enquanto as visualizações são apenas uma exibição do estado atual.
+
+Para que isso aconteça, eles usam uma arquitetura de atividade única, para que a árvore do escopo forneça as informações de navegação para "que exibição deve estar mostrando" também. Com isso, eles realmente resolvem o problema "a exibição atual determina o atual Presenter / ViewModel em vez do contrário".
 
 
+### Menção honrosa: Reactive Workflows
+
+Não havia um exemplo de código-fonte aberto de fluxos de trabalho reativos, mas foi com isso que a [Square trocou seus ViewPresenters originais do MVP do tipo Mortar](https://www.youtube.com/watch?v=mvBVkU2mCF4).
+
+Desde então, fui informado de que alguém chamado Blake Oliveira tentou recriar uma parte dessa arquitetura [neste repositório](https://github.com/blakelee/ReactiveWorkflows).
+
+A essência disso é que um "fluxo de trabalho" pode ser compartilhado em várias telas, e o "fluxo de trabalho" contém uma máquina de estados para descrever o estado atual (um pouco redutor neste aspecto).
+
+Mais importante ainda, o fluxo de trabalho define um contrato para quais eventos ele pode emitir, e a visualização os assina.
+E os fluxos de trabalho podem ser encadeados, mas não tenho certeza sobre essa parte :)
+
+Para fazer com que os fluxos de trabalho gerenciem o estado do aplicativo independentemente da camada de apresentação, eles usam uma arquitetura de atividade única.
+
+
+### A recomendação atual: Componentes da arquitetura Android do Google - LiveData (e ViewModel)
+
+O Google lançou o [Architecture Components para Android](https://developer.android.com/topic/libraries/architecture/index.html) , certo? Eles têm [documentação sobre como usá-lo](https://developer.android.com/topic/libraries/architecture/guide.html) e até [exemplos que mostram como usá-lo na vida real e até escrevem testes para ele](https://github.com/googlesamples/android-architecture-components) .
+
+![](https://miro.medium.com/max/960/1*-yY0l4XD3kLcZz0rO1sfRA.png)
+
+
+>A arquitetura final fornecida pelo Architecture Components ( [daqui](https://developer.android.com/topic/libraries/architecture/guide.html) )
+
+Ele lida com casos de borda melhor que o MVP, e exige menos mágica do que o MVI, e é definitivamente mais pronto para produção (e menos confuso!) Que o Redux.
+
+E tudo isso torna mais fácil seguir o [guia oficial do Android sobre “salvar estado”](https://developer.android.com/topic/libraries/architecture/saving-states.html) , em vez de usar atalhos como implementadores de MVP / MVI / Redux - e encher nosso aplicativo de comportamento imprevisível e erros frustrantes para o usuário final.
+
+Sempre teste contra a [morte do processo](https://stackoverflow.com/questions/49046773/singleton-object-becomes-null-after-app-is-resumed/49107399#49107399) . Esquecer a entrada do usuário é um bug. Afinal, a Atividade não é apenas uma visualização.
+
+## Conclusão
+
+Isso pode ter sido um artigo longo e muito demorado (também demorou muito para ser escrito!), Mas no geral, eu diria que, por enquanto, o AAC é o vencedor claro - que é uma variante do MVVM específica para Android .
+
+Enquanto usamos ```LiveData``` para emitir dados e ```PublishSubject``` para eventos pontuais, as coisas devem funcionar como esperado (exceto em fragmentos: sempre remova os observadores ```onDestroyView()``` em Fragmentos).
+
+O AAC resolve alguns problemas comuns que podem surgir ao escrever um aplicativo Android. No entanto, ao fazê-lo, ele visa reduzir a complexidade da solução, em vez de adicionar camadas adicionais de complexidade (como Redux e “currying com middlewares” apenas para chamar uma declaração de log, etc.).
+
+
+Portanto, até que os coordenadores de fluxo ou os fluxos de trabalho reativos apareçam no uso diário, eu diria que, por enquanto, o MVVM é o vencedor, e o AAC ajuda com isso de maneira bastante elegante. A biblioteca de paginação será incrível.
 
 
 ---
+
+Autor: [Gabor Varadi](https://proandroiddev.com/@Zhuinden?source=follow_footer--------------------------follow_footer-)
+
 
 [Artigo Original](https://proandroiddev.com/mvc-mvp-mvvm-clean-viper-redux-mvi-prnsaaspfruicc-building-abstractions-for-the-sake-of-building-18459ab89386)
 
