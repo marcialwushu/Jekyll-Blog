@@ -18,11 +18,17 @@ O que é o JavaScript que atrai tantos devotos da literatura? Eu tenho algumas t
  
  ## A Mãe de todas as revisões de código
  
+ 
  ![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e376a07663eaa488ffabb77/793467a98b4d36a06cd811444bc4b331/inline_fat_24192442505358_raw.png)
  
 Recentemente, tive um sonho em que pedi a Hemingway e quatro outras luminárias literárias que escrevessem algum JavaScript para mim; especificamente uma função que retornou uma série de fibonacci de um determinado comprimento. Curiosamente, cada autor optou por resolver o problema de uma maneira diferente. Na verdade, eles se saíram muito bem - até onde eu sei, todas as soluções funcionam como anunciadas (sim, até a de Andre Breton). Aqui está o que eu tenho:
+
+
  
  ## Ernest Hemingway
+ 
+ 
+ 
  
  
  ```js
