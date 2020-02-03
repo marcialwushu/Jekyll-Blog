@@ -95,7 +95,7 @@ Vamos, agora, analisar os 3 itens, ponto a ponto:
 
 Este item está relacionado a esta linha de código:
 
-```
+```java
 public static void main(final String args[]) {
 ```
 
@@ -103,7 +103,7 @@ public static void main(final String args[]) {
 
 Ele está dizendo que o array de args[] deveria estar no tipo String, e não no nome da variável, deixando o código desta maneira:
 
-```
+```java
 public static void main(final String[] args) {
 ```
 
@@ -112,7 +112,7 @@ public static void main(final String[] args) {
 
 Este item está relacionado a esta linha de código:
 
-```
+```java
 System.out.println(new Calculadora().calcularValorLiquido(100.00));
 ```
 
@@ -122,7 +122,7 @@ Como estamos imprimindo a saída no console, ele diz que é uma má prática faz
 
 Este item está relacionado a esta linha de código:
 
-```
+```java
 final double valorLiquido = valorBruto - icms - ipi;
 ```
 
@@ -132,7 +132,7 @@ Basicamente, ele está dizendo que não há necessidade de eu criar a variável 
 Sendo assim, este trecho de código mudaria para:
 
 
-```
+```java
 public double calcularValorLiquido(final double valorBruto) {
 
 	final double icms = valorBruto * 0.12;
@@ -145,7 +145,7 @@ public double calcularValorLiquido(final double valorBruto) {
 Desta forma, nosso código final completo ficou assim:
 
 
-```
+```java
 package br.com.orlandoburli.calculadora;
 
 import java.util.logging.Logger;
