@@ -16,9 +16,9 @@ Porém, existem mais tipos de pagamentos móveis do que pagamentos por telefone 
 
 # Soluções de ponto de venda
 
-## Pagamentos por comunicação de campo próximo (NFC)
+## Near-field communication (NFC) payments
 
-O uso de pagamentos por comunicação de campo próximo (NFC) está crescendo rapidamente no Reino Unido. As carteiras digitais usando NFC para máquinas de cartão sem contato incluem Apple Pay, Samsung Pay e Google Pay. Mas como isso funciona?
+O uso de pagamentos por Near-field communication (NFC) está crescendo rapidamente no Reino Unido. As carteiras digitais usando NFC para máquinas de cartão sem contato incluem Apple Pay, Samsung Pay e Google Pay. Mas como isso funciona?
 
 Os telefones NFC se comunicam com as máquinas de cartão habilitadas para NFC usando a identificação por radiofrequência nas proximidades. Os celulares não precisam tocar no ponto de venda para transferir informações, ou seja, dinheiro, mas precisam estar a alguns centímetros do terminal.
 
@@ -30,15 +30,15 @@ A NFC envolve uma transferência direta, quase instantânea, de dados criptograf
 
 >O iPhone usa o reconhecimento de impressões digitais para finalizar cada pagamento do Apple Pay, contribuindo para a tecnologia NFC já segura.
 
-## Pagamentos baseados em ondas sonoras
+## Sound waves-based payments
 
 Os pagamentos móveis baseados em ondas sonoras (ou com sinais de som) representam uma solução mais recente e avançada que funciona para a maioria dos telefones celulares. As transações são processadas - sem a necessidade de internet - por meio de ondas sonoras exclusivas contendo dados criptografados sobre o pagamento. As ondas sonoras são enviadas de um terminal para o telefone celular para transmitir detalhes do pagamento, onde após o telefone do cliente converter esses dados em sinais analógicos que finalizam a transação.
 
 Em vez de usar tecnologia embutida como NFC, sua carteira móvel, aplicativo bancário ou terminal de cartão só precisa de uma instalação simples de software. Não há necessidade de hardware extra. Isso a torna uma solução acessível, especialmente em áreas e países onde as pessoas não podem comprar os smartphones mais recentes, mas contam com uma tecnologia mais básica para processar pagamentos.
 
-## Pagamentos de transmissão segura magnética (MST)
+## Magnetic secure transmission (MST) payments
 
-Uma terceira maneira de pagar com um telefone celular em um terminal de cartão é através da transmissão segura magnética (MST). O Samsung Pay usa pagamentos MST e NFC para pagamentos por telefone celular sem contato.
+Uma terceira maneira de pagar com um telefone celular em um terminal de cartão é através da Magnetic secure transmission (MST). O Samsung Pay usa pagamentos MST e NFC para pagamentos por telefone celular sem contato.
 
 MST é quando um telefone emite um sinal magnético imitando a tira magnética no cartão de crédito do pagador, que o terminal do cartão capta e processa como se um cartão físico fosse passado pela máquina. Algumas máquinas de cartão podem exigir uma atualização de software para aceitar o MST, mas a maioria dos novos terminais já a aceita.
 
@@ -46,9 +46,9 @@ A transmissão magnética segura é tão segura quanto a NFC, em parte porque am
 
 # Pagamentos na loja e remotos
 
-## Carteiras móveis
+## Mobile wallets
 
-Uma carteira móvel (também chamada carteira digital) armazena informações de pagamento em um dispositivo móvel, geralmente em um aplicativo. As carteiras móveis podem utilizar diferentes tecnologias no processo de pagamento, mais freqüentemente NFC, mas outras modalidades, como códigos QR, foram usadas por alguns serviços.
+Uma Mobile wallets (também chamada carteira digital) armazena informações de pagamento em um dispositivo móvel, geralmente em um aplicativo. As carteiras móveis podem utilizar diferentes tecnologias no processo de pagamento, mais freqüentemente NFC, mas outras modalidades, como códigos QR, foram usadas por alguns serviços.
 
 O Apple Pay é um exemplo que abrange várias categorias, permitindo pagamentos sem contato nos terminais do cartão (usando autenticação de impressão digital por telefone), compras no aplicativo e pagamentos na Internet.
 
@@ -58,9 +58,9 @@ As carteiras digitais são muito seguras de usar. Geralmente, eles trabalham com
 
 Além dos cartões de crédito e débito, também é possível anexar cartões de fidelidade, cartões de embarque, bilhetes e outros documentos importantes em carteiras móveis.
 
-## Pagamentos com código de resposta rápida (QR)
+## Quick response (QR) code payments
 
-Os códigos QR (abreviação de "resposta rápida") têm muitos usos e são frequentemente encontrados em publicidade, em rótulos de produtos e nos locais mais aleatórios. Nem todo mundo sabe que pode ser usado para pagar pelas coisas também. Ele funciona através de certos aplicativos bancários nos quais seus cartões já estão associados e outros aplicativos de lojas e fornecedores aos quais os detalhes do cartão podem ser conectados.
+Os códigos QR (abreviação de "Quick response") têm muitos usos e são frequentemente encontrados em publicidade, em rótulos de produtos e nos locais mais aleatórios. Nem todo mundo sabe que pode ser usado para pagar pelas coisas também. Ele funciona através de certos aplicativos bancários nos quais seus cartões já estão associados e outros aplicativos de lojas e fornecedores aos quais os detalhes do cartão podem ser conectados.
 
 Para usar um exemplo americano de [pagamentos na loja](https://www.mobiletransaction.org/pos-applications/) por meio de um código QR, os clientes do Walmart podem usar o aplicativo Walmart Pay, onde seu método de pagamento está conectado, e simplesmente pagar na loja digitalizando um código QR na finalização da compra através do aplicativo.
 
@@ -75,9 +75,9 @@ Algumas empresas de comércio eletrônico usam códigos QR no checkout do site c
 
 # Pagamentos remotos
 
-## Pagamentos pela Internet
+## Internet payments
 
-Muitas pessoas simplesmente pagam na internet no navegador do telefone (por exemplo, Safari, Chrome) ou em aplicativos, desde que haja sinal de rede WiFi ou 3G / 4G. Existem várias maneiras de pagar dessa maneira. Por exemplo, você pode inserir manualmente os detalhes do cartão em um site para pagar um pedido (como em um computador), cobrar automaticamente um cartão bancário anexado a um aplicativo móvel, usar o PayPal ou seguir um link para uma [fatura digital](https://www.mobiletransaction.org/invoice-apps-for-small-business-uk/) enviada a você por e-mail.
+Muitas pessoas simplesmente pagam na internet no navegador do telefone (por exemplo, Safari, Chrome) ou em aplicativos, desde que haja sinal de rede WiFi ou 3G/4G. Existem várias maneiras de pagar dessa maneira. Por exemplo, você pode inserir manualmente os detalhes do cartão em um site para pagar um pedido (como em um computador), cobrar automaticamente um cartão bancário anexado a um aplicativo móvel, usar o PayPal ou seguir um link para uma [fatura digital](https://www.mobiletransaction.org/invoice-apps-for-small-business-uk/) enviada a você por e-mail.
 
 ![](https://www.mobiletransaction.org/wp-content/uploads/2018/05/mobile-browser-payment-manual-entry-1200x675px-800x450.jpg)
 
@@ -88,19 +88,19 @@ Antes de 2010, isso era conhecido como pagamentos por protocolo de aplicativo se
 
 Mas os tempos mudaram o cenário dos pagamentos rapidamente e, agora, os telefones costumam usar uma linguagem de marcação mais recente, com acesso total à Internet.
 
-## Pagamentos por SMS
+## SMS payments
 
 Os pagamentos por SMS - também chamados de SMS premium - significam simplesmente o pagamento de produtos ou serviços por meio de uma mensagem de texto. Depois de enviar uma mensagem de texto com as informações relevantes para o número de telefone do beneficiário certo, o valor do pagamento é adicionado à sua conta de celular. Com efeito, você está pagando através do seu provedor de rede telefônica, talvez através de débito direto ou pagamento conforme o uso - da maneira como costuma pagar pelo uso do telefone.
 
 Há alguns anos, os pagamentos por SMS eram um dos métodos mais populares de usar telefones celulares para pagar bens ou serviços (mesmo para pagamentos de pessoa a pessoa) ou doar para instituições de caridade, e por boas razões, devido à sua simplicidade - tudo o usuário precisa de um telefone com capacidade de texto e cartão SIM ou contrato telefônico pré-pago. Com o aumento de smartphones mais avançados, no entanto, outros modos de pagamento móvel tiveram um crescimento mais rápido.
 
 
-## Faturamento direto da operadora
-O faturamento direto da operadora (DCB) - também chamado de faturamento direto da operadora - é uma maneira de pagar por sua operadora de celular, em vez de usar os detalhes do banco ou do cartão. Uma maneira de fazer isso é digitar seu número de telefone em uma página de pagamento ou em um aplicativo. Depois de seguir algumas etapas de autenticação para confirmar que você é o proprietário desse número (por exemplo, confirmando uma mensagem de texto). O pagamento será deduzido da sua conta telefônica ou cartão SIM pré-pago, como nos pagamentos por SMS.
+## Direct carrier billing
+O Direct carrier billing (DCB) - também chamado de faturamento direto da operadora - é uma maneira de pagar por sua operadora de celular, em vez de usar os detalhes do banco ou do cartão. Uma maneira de fazer isso é digitar seu número de telefone em uma página de pagamento ou em um aplicativo. Depois de seguir algumas etapas de autenticação para confirmar que você é o proprietário desse número (por exemplo, confirmando uma mensagem de texto). O pagamento será deduzido da sua conta telefônica ou cartão SIM pré-pago, como nos pagamentos por SMS.
 
 Serviços digitais como o Google Play e a App Store oferecem a opção de pagamento pelo DCB. Também é usado para votação na TV, doações de caridade e assinaturas de conteúdo digital.
 
-## Banco móvel
+## Mobile banking
 
 Em alguns países, como a Suécia e o Reino Unido, o banco móvel se mostrou popular por transferir dinheiro entre particulares ou pagar contas.
 
