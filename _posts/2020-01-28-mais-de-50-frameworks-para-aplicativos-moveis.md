@@ -69,6 +69,113 @@ Hoje em dia, é possível criar aplicativos móveis usando HTML, CSS e Javascrip
 [![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://rhomobile.com/)
 
 
+## jQuery Mobile Framework
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/c204cc5961e55b9b9b54adb669a2f484/jQuery-Mobile-framework.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://jquerymobile.com/)
+
+
+## Onsen UI
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/1fbe8c62fba04badab8d4f79af769857/Onsen-UI.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://onsen.io/)
+
+## Apache Flex
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/590f2a024e78d159116f5b2fd2cf1fd1/Apache-Flex.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://flex.apache.org/)
+
+## eMobc – Mobile Application Development Framework
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/ce036a4b7f55382832706fa35ce820e6/eMobc.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.emobc.com/)
+
+
+## ChocolateChip-UI
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/e76b970d486e680d7d1937745f4c3faa/ChocolateChip-UI.jpg)
+
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://chocolatechip-ui.com/)
+
+## DHTMLX Touch
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/8e6aa660530d493c5bd777252e2ad8bd/DHTMLX-Touch.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://dhtmlx.com/docs/products/dhtmlxTouch/)
+
+## Corona Labs
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/390766f39b058be2a5eb4228fae62f5f/Corona-Labs.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://coronalabs.com/)
+
+## Framework7
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/618ce623ff501eb1fac1d0652de3ef34/Framework7.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.idangero.us/framework7/)
+
+## Gideros
+
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/07eead9eb3fe85e0d85b541f31ba26f1/Gideros.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://giderosmobile.com/)
+
+## jQTouch
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/ac0a4115e2c8e343d3a5a391c2d6326a/jQTouch.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://jqtjs.com/)
+
+
+## Kivy
+
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/f66c4029906f45e36a1ddd978b9d9d1d/Kivy.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://kivy.org/#home)
+
+## Xamarin
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/b2e62868ca454b9b4208cac6c28be32d/Xamarin.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://xamarin.com/platform)
+
+## Mobify.js
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/f0a6cbf6d1d9744ddc087402bac09786/Mobify-js.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://www.mobify.com/mobifyjs/)
+
+
+## NeoMAD
+
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/108373385c08a83c9742ac8b65ab9d59/NeoMAD.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://neomades.com/en/)
+
+
+## NSB/AppStudio
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/4a31a33e2ecff6883bb02af34f3f2b2c/NSB-AppStudio.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://www.nsbasic.com/)
+
+
+## qooxdoo
+
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a8f46bb7792cbd540c80d62cee2c1afe/qooxdoo.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://qooxdoo.org/)
+
 
 
 
