@@ -38,6 +38,40 @@ Hoje em dia, é possível criar aplicativos móveis usando HTML, CSS e Javascrip
 
 [![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://lungo.tapquo.com/)
 
+## Mobile Angular UI
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/1d1d81b2819fd7a922a0f49179473a67/Mobile-Angular-UI.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://mobileangularui.com/)
+
+## Kendo UI
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/c8fe0bbbb955e0fbb3e59f433eb38895/Kendo-UI.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.telerik.com/kendo-ui)
+
+## Sencha Touch
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/ff91ba110c9f05c843db8019aa7b2346/Sencha-Touch.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.sencha.com/products/touch/#overview)
+
+## PhoneGap
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/42c58024b96f7f514d761da9fa566df3/PhoneGap.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://phonegap.com/)
+
+## RhoMobile
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/fe8a5eb41df99b303c767c5f1996c721/RhoMobile.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://rhomobile.com/)
+
+
+
+
+
 
 ---
 
