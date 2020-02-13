@@ -244,6 +244,48 @@ Hoje em dia, é possível criar aplicativos móveis usando HTML, CSS e Javascrip
 
 ## PropertyCross
 
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/8c79276ace1582423d00e861d6bfad3c/PropertyCross.jpg)
+
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://propertycross.com/)
+
+## EMY
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/c5fd9f7010a0d5d8d3639790ecc2fea1/EMY.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.emy-library.org/)
+
+## Lavaca
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/b8bd3f68f5c59432d8aaa5d729863c6a/Lavaca.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://getlavaca.com/)
+
+## mgwt
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/0a54c78153c24fd49c8a2d3144dd3be9/mgwt.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.m-gwt.com/)
+
+## DevExtreme
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/d5263f45639a63443a5b6b93f08e362f/DevExtreme.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://js.devexpress.com/)
+
+
+## Appcelerator
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/e0ee890e796e30684b00fe048bdadb67/Appcelerator.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](http://www.appcelerator.com/)
+
+## Codename One
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/f3d237f837052f1447ad0bf9cff9024f/Codename-One.jpg)
+
+[![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e442fc056a57c8f8411c9e4/a180331651b0319f1b1c319742c8251d/FONTE.png)](https://www.codenameone.com/)
+
 
 
 
