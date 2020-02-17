@@ -289,7 +289,65 @@ ipd -p infura -p pinata -d cloudflare
 
 ```
 
+E é isso que vejo depois que os uploads terminam:
+
+```
+✔ 🙌 SUCCESS!
+ℹ 🔄 Updated DNS TXT interplanetarygatsby.com to:
+ℹ 🔗 dnslink=/ipfs/QmSNf4sScZUmpNqBWAAs9S5tC4XkQRNepA3KbF4aipGGeq
+```
+
+Isso me faz sorrir toda vez com o simples esforço dele 😌
+
+Existem algumas etapas únicas que você precisa seguir para chegar lá:
+
+1. Compre um domínio
+2. Inscreva-se para uma conta Cloudflare
+3. Mova a zona DNS do seu domínio para o Cloudflare
+4. Conecte seu [domínio](https://www.cloudflare.com/distributed-web-gateway/#connectingyourwebsite) ao gateway IPFS
+5. Obtenha suas [chaves de API](https://support.cloudflare.com/hc/en-us/articles/200167836-Where-do-I-find-my-CloudFlare-API-key-)
+
+Entre executar essas etapas de configuração e aguardar a propagação das informações do DNS, tudo isso pode levar algumas horas.
+
+É por isso que coloquei essa parte neste capítulo de bônus e deixei as instruções básicas zero-config. Com o tempo, removeremos cada vez mais atritos e tornaremos a primeira experiência feliz ainda mais feliz 😃⬅️🧹🥌
+
+Portanto, depois que as etapas 1 a 5 forem concluídas, a última coisa a ser feita é adicionar as credenciais do domínio e da API Cloudflare ao .envarquivo do seu site :
+
+
+```
+# dwebsite/.env
+IPFS_DEPLOY_CLOUDFLARE__ZONE=example.com
+# _dnslink.subdomain.example.com also works below; zone stays the same
+IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
+IPFS_DEPLOY_CLOUDFLARE__API_KEY=paste-your-cloudflare-api-key-here
+IPFS_DEPLOY_CLOUDFLARE__API_EMAIL=the-email-you-used-to-sign-up
+```
+
+Agora vá em frente, atire ```ipd -d cloudflare``` e conte a todos esses outdoors! 📣📣📣
+
+៚
+
+
 ---
+
+## Postface: Uma Chamada para Rolinhos 
+
+Enquanto escrevia este guia, [deparei -me com o emoji “curling stone”](https://emojipedia.org/curling-stone/) e senti uma conexão instantânea com ele.
+
+
+![](https://agentofuser.com/991c75c2e5be29ccfb7f243b83b1c18e/curling-simpsons-loop-once.gif)
+
+Para ser sincero, sempre achei a idéia de enrolar um pouco ... estranha. Mas todo um esporte de equipe dedicado a remover freneticamente o atrito de um caminho apenas para que esse artefato peculiar possa graciosamente e sem esforço deslizar seu caminho para um objetivo é tão ... emocionante.
+
+É assim que eu quero que o [ipfs-deploy](https://github.com/ipfs-shipyard/ipfs-deploy) se sinta para o usuário. Uma experiência suave como seda pousando-os na web distribuída sem suar a camisa e uma multidão selvagem e animada torcendo-os.
+
+Se isso soa como o seu tipo de esporte, diga olá nas [questões](https://github.com/agentofuser/ipfs-deploy/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-asc) e vamos polir algumas coisas!
+
+
+
+
+---
+Autor: [Helder S Ribeiro](https://twitter.com/agentofuser)
 
 [Artigo Original](https://agentofuser.com/ipfs-deploy/)
 
