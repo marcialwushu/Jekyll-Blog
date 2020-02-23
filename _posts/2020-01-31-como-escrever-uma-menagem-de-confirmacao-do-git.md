@@ -146,7 +146,144 @@ and turns it back into a chess game.
 ```
 
 
+Enviar mensagens com corpos não é tão fácil de escrever com a opção ```-m```  É melhor escrever a mensagem em um editor de texto adequado. Se você ainda não possui um editor configurado para uso com o Git na linha de comando, leia [esta seção do Pro Git](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) .
+
+Em qualquer caso, a separação do sujeito do corpo compensa ao navegar no log. Aqui está a entrada completa do log:
+
+```
+$ git log
+commit 42e769bdf4894310333942ffc5a15151222a87be
+Author: Kevin Flynn <kevin@flynnsarcade.com>
+Date:   Fri Jan 01 00:00:00 1982 -0200
+
+ Derezz the master control program
+
+ MCP turned out to be evil and had become intent on world domination.
+ This commit throws Tron's disc into MCP (causing its deresolution)
+ and turns it back into a chess game.
+ ```
+ 
+ E agora ```git log --oneline```, que imprime apenas a linha de assunto:
+
+
+```
+$ git log --oneline
+42e769 Derezz the master control program
+```
+
+
+Ou, ```git shortlog``` que grupos confirma por usuário, mostrando novamente apenas o assunto da concisão:
+
+```
+$ git shortlog
+Kevin Flynn (1):
+      Derezz the master control program
+
+Alan Bradley (1):
+      Introduce security program "Tron"
+
+Ed Dillinger (3):
+      Rename chess program to "MCP"
+      Modify chess program
+      Upgrade chess program
+
+Walter Gibbs (1):
+      Introduce protoype chess program
+      
+```
+
+Existem vários outros contextos no Git em que a distinção entre linha de assunto e corpo entra em ação - mas nenhum deles funciona corretamente sem a linha em branco no meio.
+
+## 2. Limite a linha de assunto para 50 caracteres ##
+
+50 caracteres não é um limite rígido, apenas uma regra de ouro. Manter as linhas de assunto nesse comprimento garante que elas sejam legíveis e força o autor a pensar por um momento sobre a maneira mais concisa de explicar o que está acontecendo.
+
+
+>Dica: Se você está tendo dificuldade para resumir, pode estar cometendo muitas alterações ao mesmo tempo. Lute por [confirmações atômicas](https://www.freshconsulting.com/atomic-commits/) (um tópico para uma postagem separada).
+
+A interface do GitHub está totalmente ciente dessas convenções. Ele avisará se você ultrapassar o limite de 50 caracteres:
+
+![](https://i.imgur.com/zyBU2l6.png)
+
+E truncará qualquer linha de assunto com mais de 72 caracteres com reticências:
+
+![](https://i.imgur.com/27n9O8y.png)
+
+
+Então, atire para 50 caracteres, mas considere 72 o limite máximo.
+
+## 3. Coloque em maiúscula a linha de assunto ##
+
+Isto é tão simples quanto parece. Comece todas as linhas de assunto com uma letra maiúscula.
+
+Por exemplo:
+
+- Acelere para 88 milhas por hora
+
+Ao invés de:
+
+- acelerar para 88 milhas por hora
+
+
+## 4. Não termine a linha de assunto com um período ##
+
+A pontuação à direita é desnecessária nas linhas de assunto. Além disso, o espaço é precioso quando você tenta mantê-los com 50 caracteres ou menos .
+
+Exemplo:
+
+- Abra as portas do compartimento
+
+Ao invés de:
+
+- Abra as portas do compartimento.
 
 
 
+## 5. Use o humor imperativo na linha de assunto ##
 
+Humor imperativo significa apenas "falado ou escrito como se estivesse dando um comando ou instrução". Alguns exemplos:
+
+- Limpe seu quarto
+- Feche a porta
+- Tirar o lixo
+
+Cada uma das sete regras sobre as quais você está lendo agora está escrita no imperativo (“Coloque o corpo em 72 caracteres”, etc.).
+
+O imperativo pode parecer um pouco rude; é por isso que não costumamos usá-lo. Mas é perfeito para o Git confirmar linhas de assunto. Uma razão para isso é que o **próprio Git usa o imperativo sempre que cria um commit em seu nome** .
+
+Por exemplo, a mensagem padrão criada ao usar ```git merge``` lê:
+
+```
+Merge branch 'myfeature'
+```
+
+E ao usar ```git revert```:
+
+```
+Revert "Add the thing with the stuff"
+
+This reverts commit cc87791524aedd593cff5a74532befe7ab69ce9d.
+```
+
+Ou ao clicar no botão "Mesclar" em uma solicitação de recebimento do GitHub:
+
+```
+Merge pull request #123 from someuser/somebranch
+```
+
+Então, quando você escreve suas mensagens de confirmação no imperativo, está seguindo as convenções internas do Git. Por exemplo:
+
+- Refatorar o subsistema X para facilitar a leitura
+- Atualizar a documentação de introdução
+- Remover métodos obsoletos
+- Release version 1.0.0
+
+Escrever dessa maneira pode ser um pouco estranho no começo. Estamos mais acostumados a falar com humor indicativo , que tem tudo a ver com relatar fatos. É por isso que as mensagens de confirmação geralmente terminam assim:
+
+- Corrigido o erro com Y
+- Mudando o comportamento de X
+
+E às vezes as mensagens de confirmação são escritas como uma descrição de seu conteúdo:
+
+- Mais correções para coisas quebradas
+- Novos métodos API agradáveis
