@@ -287,3 +287,95 @@ E às vezes as mensagens de confirmação são escritas como uma descrição de 
 
 - Mais correções para coisas quebradas
 - Novos métodos API agradáveis
+
+
+Para remover qualquer confusão, aqui está uma regra simples de acertar sempre.
+
+**Uma linha de assunto de confirmação do Git formada corretamente deve sempre ser capaz de concluir a seguinte frase** :
+
+- Se aplicado, esse commit será sua linha de assunto aqui
+
+Por exemplo:
+
+- Se aplicado, esse commit refatorará o subsistema X para facilitar a leitura
+- Se aplicado, esse commit atualizará a documentação de introdução
+- Se aplicado, esse commit removerá métodos obsoletos
+- Se aplicado, este commit lançará a versão 1.0.0
+- Se aplicado, esse commit mesclará a solicitação de recebimento nº 123 do usuário / filial
+
+Observe como isso não funciona para outras formas não imperativas:
+
+- Se aplicado, esse commit corrigirá um erro com Y
+- Se aplicado, esse commit alterará o comportamento de X
+- Se aplicado, esse commit corrigirá mais as coisas quebradas
+- Se aplicado, esse commit adicionará novos métodos de API
+
+
+>Lembre-se: O uso do imperativo é importante apenas na linha de assunto. Você pode relaxar essa restrição ao escrever o corpo.
+
+## 6. Enrole o corpo com 72 caracteres ##
+
+O Git nunca quebra o texto automaticamente. Ao escrever o corpo de uma mensagem de confirmação, você deve observar a margem direita e quebrar o texto manualmente.
+
+A recomendação é fazer isso com 72 caracteres, para que o Git tenha espaço de sobra para recuar o texto, mantendo tudo com menos de 80 caracteres no geral.
+
+Um bom editor de texto pode ajudar aqui. É fácil configurar o Vim, por exemplo, para agrupar texto com 72 caracteres quando você estiver escrevendo um commit do Git. Tradicionalmente, no entanto, IDEs ter sido terrível ao apoio inteligente para quebra de texto nas mensagens (embora em versões recentes, IntelliJ IDEA tem finalmente começado melhor sobre isso).
+
+## 7. Use o corpo para explicar o que e por que versus como ##
+
+Este [commit do Bitcoin Core](https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6) é um ótimo exemplo de explicação do que mudou e por quê:
+
+```
+commit eb0b56b19017ab5c16c745e6da39c53126924ed6
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Fri Aug 1 22:57:55 2014 +0200
+
+   Simplify serialize.h's exception handling
+
+   Remove the 'state' and 'exceptmask' from serialize.h's stream
+   implementations, as well as related methods.
+
+   As exceptmask always included 'failbit', and setstate was always
+   called with bits = failbit, all it did was immediately raise an
+   exception. Get rid of those variables, and replace the setstate
+   with direct exception throwing (which also removes some dead
+   code).
+
+   As a result, good() is never reached after a failure (there are
+   only 2 calls, one of which is in tests), and can just be replaced
+   by !eof().
+
+   fail(), clear(n) and exceptions() are just never called. Delete
+   them.
+   
+```
+
+Dê uma olhada no [diff completo](https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6) e pense em quanto tempo o autor está economizando colegas e futuros comprometedores, dedicando um tempo para fornecer esse contexto aqui e agora. Se não o fizesse, provavelmente estaria perdido para sempre.
+
+Na maioria dos casos, você pode deixar de fora detalhes sobre como uma alteração foi feita. O código geralmente é auto-explicativo a esse respeito (e se o código é tão complexo que precisa ser explicado em prosa, é para isso que servem os comentários de origem). Apenas se concentre em esclarecer as razões pelas quais você fez a alteração em primeiro lugar - a maneira como as coisas funcionavam antes da mudança (e o que havia de errado nisso), a maneira como elas funcionam agora e por que você decidiu resolvê-la da maneira que fazia .
+
+O futuro mantenedor que agradece você pode ser você mesmo!
+
+## Dicas ##
+
+### Aprenda a amar a linha de comando. Deixe o IDE para trás.
+
+Por tantas razões quanto os subcomandos do Git, é aconselhável adotar a linha de comando. Git é incrivelmente poderoso; Os IDEs também são, mas cada um de maneiras diferentes. Eu uso um IDE todos os dias (IntelliJ IDEA) e usei outros extensivamente (Eclipse), mas nunca vi a integração do IDE para o Git que pudesse começar a corresponder à facilidade e ao poder da linha de comando (depois que você o souber).
+
+Certas funções IDE relacionadas ao Git são inestimáveis, como chamar git rm quando você exclui um arquivo e fazer as coisas certas git quando você renomeia um. Onde tudo desmorona é quando você começa a tentar confirmar, mesclar, refazer ou fazer análises sofisticadas de histórico por meio do IDE.
+
+Quando se trata de exercer todo o poder do Git, é a linha de comando até o fim.
+
+Lembre-se de que, se você usa o Bash, o Zsh ou o Powershell, existem [scripts de](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell) [conclusão de](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh) [tabulação](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash) que diminuem muito o esforço de lembrar os subcomandos e comutadores.
+
+## Leia Pro Git ##
+
+O livro Pro Git está disponível online gratuitamente, e é fantástico. Aproveitar-se!
+
+
+---
+
+Autor: [Chris Beams](https://chris.beams.io/)
+
+[Artigo Original](https://chris.beams.io/posts/git-commit/)
+
