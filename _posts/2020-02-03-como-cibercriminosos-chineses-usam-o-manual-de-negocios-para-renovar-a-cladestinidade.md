@@ -99,5 +99,6 @@ As redes de crimes cibernéticos da China estão crescendo rapidamente em escopo
 ---
 
 Autor: [Anne An](https://www.mcafee.com/blogs/author/anne-an/)
+
 [Artigo Original](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/how-chinese-cybercriminals-use-business-playbook-to-revamp-underground)
 
