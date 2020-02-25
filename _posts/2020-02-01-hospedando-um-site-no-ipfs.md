@@ -9,7 +9,7 @@ Este é um tutorial rápido que ensinará como hospedar um site estático simple
 
 ## Etapa 1. Instale o IPFS
 
-Instale o IPFS conforme descrito em https://ipfs.io/docs/install/
+Instale o IPFS conforme descrito em <https://ipfs.io/docs/install/>
 
 ## Etapa 2. Crie um site estático simples
 
@@ -29,7 +29,7 @@ Tudo o que você precisa é de uma página html estática simples, desde que TOD
 </ html >
 ```
 
-```
+```css
 h1 {
   cor : verde;
 }
@@ -77,6 +77,7 @@ ou visualizando ```https://gateway.ipfs.io/ipns/<peerID>``` (observe que o diret
 ---
 
 Autor: [Gio d'Amelio](https://github.com/giodamelio)
+
 [Artigo Original](https://ipfs.io/ipfs/QmdPtC3T7Kcu9iJg6hYzLBWR5XCDcYMY7HV685E3kH3EcS/2015/09/15/hosting-a-website-on-ipfs/)
 
 
