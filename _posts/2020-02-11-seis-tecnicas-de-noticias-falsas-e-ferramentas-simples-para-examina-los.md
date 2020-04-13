@@ -494,18 +494,90 @@ Uma análise cuidadosa do relatório mostrou que não se tratava de uma avaliaç
 Outra evidência contrária apareceu em uma pesquisa do [Pew Research Center](http://www.pewresearch.org/fact-tank/2018/03/28/most-poles-accept-jews-as-fellow-citizens-and-neighbors-but-a-minority-do-not/ft_18-03-26_polandholocaustlaws_map/), sediada nos EUA, com  18 países da Europa Central e Oriental, que mostrou que a Ucrânia tinha a menor porcentagem de atitudes anti-semitas na Europa. Na Rússia, diz o documento, esse nível é quase três vezes maior.
 
 
+O site [Ukraine.ru](https://ukraina.ru/exclusive/20180330/1020148044.html) criticou a metodologia da Pew, argumentando que perguntando aos entrevistados "Você gostaria de ver os judeus como seus concidadãos?" não era indicativo de amor ou aversão aos judeus.
+
+A pesquisa do Pew, [crença religiosa e nacionalismo pertencente à Europa Central e Oriental](http://www.pewforum.org/2017/05/10/religious-belief-and-national-belonging-in-central-and-eastern-europe/) , contém uma seção de metodologia que explica a pesquisa. É importante analisar e entender a metodologia.
+
+### 6.2 Interpretação incorreta dos resultados
+
+Um dos atributos da propaganda é a tentativa de parecer verdadeira e autêntica. Portanto, reivindicações propagandistas recorrem frequentemente a resultados distorcidos da pesquisa.
+
+O site pró-Kremlin da Rússia, [Ukraina.ru](https://ukraina.ru/news/20171028/1019446507.html),  publicou uma matéria sobre as últimas perspectivas da  [Fitch Ratings](https://www.fitchratings.com/site/pr/1031435) para a Ucrânia, concentrando-se apenas nos elementos negativos e ignorando a previsão geral estável. Usando apenas a primeira frase do relatório da Fitch, o Ukraina.ru afirmou que a Ucrânia tinha a terceira maior economia paralela do mundo, depois do Azerbaijão e da Nigéria.
+
+A primeira frase do relatório da Fitch diz: "Os ratings da Ucrânia refletem fraca liquidez externa, um alto ônus da dívida pública e fragilidades estruturais, em termos de um setor bancário fraco, restrições institucionais e riscos geopolíticos e políticos".
 
 
+Esta é a única informação que o Ukraina.ru retirou da perspectiva da Fitch, ignorando completamente a frase que se segue: “Esses fatores são equilibrados com maior credibilidade e coerência das políticas, o perfil de pagamento da dívida administrável a curto prazo do soberano e um histórico de apoio bilateral e multilateral ”.
+
+O melhor método para refutar tal deturpação é encontrar e explorar o relatório completo.
+
+Outra [alegação](https://ukraina.ru/news/20170621/1018805184.html) manipuladora do Ukraina.ru foi que a maioria dos ucranianos não está interessada em viajar com isenção de visto para a UE.
+
+A fonte dessa alegação falsa é uma pesquisa da [Democratic Initiatives Foundation](https://dif.org.ua/article/visa-free-regime-for-ukraine-public-opinion),  realizada no início de junho de 2018.
 
 
+Uma das perguntas foi: "Qual é a importância da introdução do regime de isenção de visto nos países da UE para você?" Os resultados mostraram que 10% responderam “muito importante”, 29% escolheram “importante”, 24%  disseram “um pouco importante”, 34%  optaram por “não importante” e quase 4% responderam que era difícil dizer.
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e94cf0ccaf8b965715ced40/1fcc0e3a8ef1a0e641a06c8869f5e3ad/Bezviz.jpg)
 
 
+Apenas 34% disseram que as viagens sem visto para países da UE não eram importantes.
+
+Mas a mídia russa decidiu combinar “um pouco importante” e “não importante” para produzir 58% e alegou que a maioria dos ucranianos não estava nem um pouco interessada nessa oportunidade.
+
+No entanto, quando você adiciona os números que responderam "muito importante", "importante" e "um pouco importante", obtém 63%. Isso indica que 63% dos ucranianos sentem que as viagens sem visto têm algum nível de importância.
+
+### 6.3 Comparações inválidas
+
+[O Ukraina.ru](https://ukraina.ru/sn/20180219/1019958965.html) publicou um artigo alegando que os preços dos alimentos na Ucrânia cresceram iguais aos da Europa em fevereiro de 2018. Essa afirmação é baseada em [uma postagem no Facebook](https://www.facebook.com/Nikolay.Azarov/posts/1973039472736418) do ex-primeiro-ministro ucraniano Mykola Azarov. A alegação de Azarov foi baseada nos  [dados da RIA Novosti](https://rian.com.ua/infografika/20180203/1031962047/ceny-na-produkty-ukraine-europe.html) apresentados em um infográfico atraente, mas questionável.
+
+De acordo com o  [índice de custo de vida de Numbeo](https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2018&region=150) , a Ucrânia é o país menos caro da Europa, juntamente com Moldávia, Macedônia e Albânia. O site também compara os preços dos gêneros alimentícios em várias cidades do mundo, mostrando que os preços ucranianos têm, em média, um longo caminho a percorrer antes de atingirem os níveis europeus. Portanto, a comparação de números absolutos sem considerar outros indicadores é incorreta, determinou o [Stopfake](https://www.stopfake.org/en/fake-ukrainian-food-prices-nearly-equal-eu-levels/) .
+
+Tente diferenciar os números e fatos reais das informações falsas. Muitas vezes, esses tipos de falsificações incluem alguns números reais, além de números de fontes suspeitas e falsas.
+
+Em um exemplo canadense que circula nas mídias sociais desde 2015, parece que o Canadá gasta mais dinheiro com refugiados do que com aposentados.
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e94cf0ccaf8b965715ced40/5bfbf1ddf7f163b9f6ca4d95d2125396/Canada.jpg)
+
+Não era verdade, de acordo com [informações](http://www.cic.gc.ca/english/helpcentre/answer.asp?qnum=098&top=11) do governo canadense . Alguns refugiados assistidos pelo governo recebem uma pequena quantia mensal em seu primeiro ano no Canadá - cerca de US $ 800 para uma única pessoa - e um subsídio de instalação único de cerca de US $ 900. Eles também podem obter um empréstimo de algumas centenas de dólares para aluguel ou outros depósitos. Às vezes, existem pequenos subsídios únicos para mulheres grávidas, recém-nascidos e crianças pequenas na escola. Mas os refugiados assistidos pelo governo precisam pagar o custo de sua viagem ao Canadá e seu exame médico inicial - com juros.
+
+Os requerentes de asilo no Canadá não recebem assistência social até serem residentes permanentes, quando são elegíveis para assistência social provincial como qualquer outra pessoa. Os refugiados patrocinados em particular não são elegíveis para nenhuma assistência social - eles são de responsabilidade financeira de seus patrocinadores durante o período do patrocínio, que geralmente dura cerca de um ano.
+
+Por outro lado, os canadenses idosos mais velhos, na faixa de renda mais baixa, recebem pelo menos US $ 1.300 por mês por meio de suplementos de renda garantida e pensões para velhice, diz o [site do governo](https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments/tab1-1.html) .
+
+E um [estudo](http://mbc.metropolis.net/assets/uploads/files/wp/2004/WP04-04.pdf) de 2004 indica que a grande maioria da renda dos refugiados é obtida com o emprego, e não com a assistência social, dentro de sete anos após sua chegada ao Canadá. Às vezes, eles têm um desempenho melhor do que os migrantes de classe executiva ou familiar.
+
+Mas o mito persiste e as versões surgiram nos EUA, descobriu [Snopes](https://www.snopes.com/fact-check/refugees-paid-retirees/) , assim como na Austrália, segundo a [ABC News](http://www.abc.net.au/mediawatch/transcripts/s2191987.htm) . A página de maior tráfego no site do grupo Conselho Canadense para Refugiados [desmascara o mito](http://ccrweb.ca/en/pensioners-myth) .
+
+![](https://trello-attachments.s3.amazonaws.com/5d7e8031eaec3e42c24aade0/5e94cf0ccaf8b965715ced40/b332e55f18ef238848b8aca55e961fcc/Canada1.jpg)
 
 
+### Um breve resumo
+
+Aqui está o que você precisa prestar atenção ao ler pesquisas de opinião pública e outras pesquisas:
+
+- A metodologia está descrita?
+- Como as perguntas são formuladas? Às vezes, eles são criados para manipular e sugerir certas respostas.
+- Qual é a amostra de entrevistados: por idade, local de residência e outras características? A amostra é estatisticamente correta?
+- Qual é a reputação do pesquisador? Ele é conhecido na comunidade profissional?
+- Quem pagou pela pesquisa? Centros de pesquisa sérios nunca escondem seus clientes se divulgam os dados.
+- Compare e compare o resultado da pesquisa com outros dados e descobertas. Se eles são notavelmente diferentes, os resultados devem ser questionados.
+
+## Um kit de primeiros-socorros
+
+Essas dicas classificam e descrevem os métodos mais comuns de fraude com estatísticas e oferecem maneiras rápidas que todos podem usar para verificar informações. Este é um "kit de verificação de fatos de primeiros socorros" e também é um ponto de partida para se aprofundar em qualquer uma das direções sugeridas.
+
+Convido todos os leitores a dar feedback e complementar essas informações. Eu vou ser feliz para discutir o seu feedback via [e-mail](olga.urkova@gmail.com) , [Twitter](https://twitter.com/olga_yurkova) , e [Facebook](https://www.facebook.com/olga.urkova) .
+
+Para uma compreensão mais profunda de como verificar as informações, também convido você a visitar a seção [Ferramentas](https://www.stopfake.org/en/category/tools/) no site do StopFake.
+
+Consulte também [a página de recursos da GIJN sobre verificação e verificação de fatos](https://gijn.org/fact-checking-verification/) .
 
 
 
 
 ---
+
+Autor: [Olga Yurkova](https://twitter.com/olga_yurkova) : é cofundadora do projeto ucraniano de verificação de fatos StopFake  e cofundadora do Forbidden Facts, um projeto internacional que visa desmascarar notícias falsas e ensinar as pessoas sobre os mecanismos por trás disso.
 
 [GIJN.ORG](https://gijn.org/six-fake-news-techniques-and-simple-tools-to-vet-them/#photomanipulation)
