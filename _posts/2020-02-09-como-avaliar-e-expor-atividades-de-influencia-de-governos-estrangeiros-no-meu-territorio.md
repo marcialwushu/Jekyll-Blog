@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como avaliar e expor as atividades de influência de governos estrangeiros no meu território? Emprestado da revisão das agências de inteligência dos EUA"
-date:   2020-04-13 17:59:38 -0200
+date:   2020-02-09 17:59:38 -0200
 categories: jekyll update
 ---
 
