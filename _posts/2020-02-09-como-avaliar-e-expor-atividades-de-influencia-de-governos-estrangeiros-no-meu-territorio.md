@@ -171,5 +171,7 @@ Avaliamos que a Rússia aprenderá com o impacto da eleição presidencial dos E
 ---
 
 Autor: CIA, FBI e da Agência de Segurança Nacional
+
 Tradução para chinês: Lin Yi-ying
+
 [NextGen Security Forum](https://nsforum.tw/foreign-activities-intentions-elections-attribution/)
