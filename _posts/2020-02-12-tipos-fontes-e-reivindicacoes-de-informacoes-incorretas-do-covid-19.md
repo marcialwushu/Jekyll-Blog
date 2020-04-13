@@ -131,16 +131,16 @@ O risco de não reconhecer a diversidade no cenário da desinformação do coron
 
 ## Referências ##
 
-- Bounegru, L., Gray, J., Venturini, T., Mauri, M. 2018.  Um Guia de Campo para 'Notícias Falsas' e Outros Transtornos da Informação. Amsterdã: Public Data Lab. (Acesso em março de 2020). https://fakenews.publicdatalab.org/
-- EUvsDISINFO. 2020. 'Atualização do Relatório Especial do SEAE: Avaliação Breve de Narrativas e Desinformação em torno da Pandemia do COVID-19'. EUvsDISINFO. (Acesso em março de 2020). https://euvsdisinfo.eu/ eeas-special-report-update-short-assessment-of- narratives-and-desinformation-around-the-covid- 19-pandemic /
+- Bounegru, L., Gray, J., Venturini, T., Mauri, M. 2018.  Um Guia de Campo para 'Notícias Falsas' e Outros Transtornos da Informação. Amsterdã: Public Data Lab. (Acesso em março de 2020). [https://fakenews.publicdatalab.org/](https://fakenews.publicdatalab.org/)
+- EUvsDISINFO. 2020. 'Atualização do Relatório Especial do SEAE: Avaliação Breve de Narrativas e Desinformação em torno da Pandemia do COVID-19'. EUvsDISINFO. (Acesso em março de 2020). [https://euvsdisinfo.eu/ eeas-special-report-update-short-assessment-of- narratives-and-desinformation-around-the-covid- 19-pandemic /](https://euvsdisinfo.eu/eeas-special-report-update-short-assessment-of-narratives-and-disinformation-around-the-covid-19-pandemic/)
 - Graves, L. 2016. Decidindo o que é verdade: o surgimento da verificação de fatos políticos no jornalismo americano. Nova York: Columbia University Press.
-- Hollowood, E., Mostrous, A. 2020. 'Notícias falsas no tempo do C-19'. Tartaruga. (Acesso em março de 2020). https: // members.tortoisemedia.com/2020/03/23/the- infodemic-fake-news-coronavirus / content.html
-- Paris, B., Donovan, J. 2019. Deepfakes e Cheap Fakes: The Manipulation of Audio and Evidence Visual. Dados e sociedade. (Acesso em março de 2020). https: // dataociety. net / wp-content / uploads / 2019/09 / DS_Deepfakes_ Cheap_FakesFinal-1-1.pdf
-- Philips, W., Milner, R. 2017. A Internet ambivalente: travessuras, imparcialidade e antagonismo online . Cambridge, Reino Unido: Polity Press.
-- Scott, M. 2020. 'Os grupos privados do Facebook estão repletos de notícias falsas sobre coronavírus'. Politico. (Acesso em março de 2020). https://www.politico.eu/article/ facebook-misinformation-fake-news-coronavirus- covid19 /
+- Hollowood, E., Mostrous, A. 2020. 'Notícias falsas no tempo do C-19'. Tartaruga. (Acesso em março de 2020). [https: // members.tortoisemedia.com/2020/03/23/the- infodemic-fake-news-coronavirus / content.html](https://members.tortoisemedia.com/2020/03/23/the-infodemic-fake-news-coronavirus/content.html)
+- Paris, B., Donovan, J. 2019. Deepfakes e Cheap Fakes: The Manipulation of Audio and Evidence Visual. Dados e sociedade. (Acesso em março de 2020). [https: // dataociety. net / wp-content / uploads / 2019/09 / DS_Deepfakes_ Cheap_FakesFinal-1-1.pdf](https://datasociety.net/wp-content/uploads/2019/09/DS_Deepfakes_Cheap_FakesFinal-1-1.pdf)
+- Philips, W., Milner, R. 2017. [A Internet ambivalente: travessuras, imparcialidade e antagonismo online](https://www.wiley.com/en-us/The+Ambivalent+Internet%3A+Mischief%2C+Oddity%2C+and+Antagonism+Online-p-9781509501274) . Cambridge, Reino Unido: Polity Press.
+- Scott, M. 2020. 'Os grupos privados do Facebook estão repletos de notícias falsas sobre coronavírus'. Politico. (Acesso em março de 2020). [https://www.politico.eu/article/ facebook-misinformation-fake-news-coronavirus- covid19 /](https://www.politico.eu/article/facebook-misinformation-fake-news-coronavirus-covid19/)
 - Vraga, E., Bode, V. 2020. 'Definindo desinformação e compreendendo sua natureza limitada: usando conhecimentos e evidências para descrever desinformação' Comunicação Política 37 (1): 136-144. [https: // doi. org / 10.1080 / 10584609.2020.1716500](https://doi.org/10.1080/10584609.2020.1716500).
-- Wardle, C. 2019. 'Guia Essencial do Primeiro Esboço para a Compreensão do Transtorno da Informação'. Reino Unido:  Primeiro rascunho. (Acesso em março de 2020). https://firstdraftnews.org/wp-content/uploads/2019/10/InformationDisorderDigitalAW.pdf? x76701
-- Wardle, C. 2017. 'Notícias falsas. É complicado.' Reino Unido: Primeiro rascunho. (Acesso em março de 2020). https://firstdraftnews.org/latest/fake-news-complicated/
+- Wardle, C. 2019. 'Guia Essencial do Primeiro Esboço para a Compreensão do Transtorno da Informação'. Reino Unido:  Primeiro rascunho. (Acesso em março de 2020). [https://firstdraftnews.org/wp-content/uploads/2019/10/InformationDisorderDigitalAW.pdf? x76701](https://firstdraftnews.org/wp-content/uploads/2019/10/Information_Disorder_Digital_AW.pdf?x76701)
+- Wardle, C. 2017. 'Notícias falsas. É complicado.' Reino Unido: Primeiro rascunho. (Acesso em março de 2020). [https://firstdraftnews.org/latest/fake-news-complicated/](https://firstdraftnews.org/latest/fake-news-complicated/)
 
 ## Agradecimentos ##
 
