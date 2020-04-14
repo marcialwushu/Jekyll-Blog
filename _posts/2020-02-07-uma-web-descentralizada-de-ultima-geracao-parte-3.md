@@ -76,7 +76,7 @@ O OpenZeppelin é uma estrutura de código aberto para criar contratos inteligen
 
 Além disso, ao lidar com o Ethereum, o pipeline de desenvolvimento pode ser complicado. O **Truffle Suite** oferece algumas ferramentas que devem facilitar sua vida: um IDE, um pipeline de testes, uma maneira simples de atualizar seus contratos (com migrações) e uma ferramenta para criar um novo blockchain on-the-fly para seus testes. É o canivete suíço do desenvolvedor Ethereum.
 
-[**Truffle Suite | Ferramentas doces para contratos inteligentes**](https://truffleframework.com/)
+[**Truffle Suite**](https://truffleframework.com/) | Ferramentas doces para contratos inteligentes
 
 O conjunto de ferramentas Truffle torna o desenvolvimento dapp mais fácil e consistente.
 
