@@ -51,7 +51,7 @@ Tudo bom? Agora, vamos dar uma olhada nessas 5 soluções:
 
 ## 1. GUN
 
-https://gun.eco
+[https://gun.eco](https://gun.eco/)
 
 GUN é:
 
@@ -60,7 +60,7 @@ GUN é:
 - **Independente de armazenamento**. Os adaptadores atuais incluem armazenamento de arquivos, armazenamento local (no navegador), IPFS e S3.
 - Codificado em **JavaScript** e super fácil de usar (consulte os [documentos da API](https://gun.eco/docs/API) ).
 - **Altamente escalável** : capaz de realizar mais de 20 milhões de operações de API/s.
-- Apoiado por VC e [levantou US $ 1,5 milhão em 2018](https://techcrunch.com/2018/05/23/gun-raises-more-than-1-5m-for-its-decentralized-database-system/).
+- VC-backed e [levantou US $ 1,5 milhão em 2018](https://techcrunch.com/2018/05/23/gun-raises-more-than-1-5m-for-its-decentralized-database-system/).
 
 O roteiro está disponível [aqui](https://gun.eco/docs/Roadmap).
 
