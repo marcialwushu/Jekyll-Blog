@@ -24,7 +24,7 @@ Os detalhes de contato também podem ser visualizados quando conectado ao site! 
 >Exemplo de um ID de usuário da página do Instagram da Starbucks
 
 - Agora abra uma nova guia e cole o seguinte URL. Substitua " ID " pelo número de identificação encontrado na sua página de interesse.
-- https://i.instagram.com/api/v1/users/ID/info/ (por exemplo, https://i.instagram.com/api/v1/users/1034466/info )
+- https://i.instagram.com/api/v1/users/ID/info/ (por exemplo, <https://i.instagram.com/api/v1/users/1034466/info> )
 
 Agora você poderá ver as informações que a conta comercial preencheu!
 
@@ -101,34 +101,6 @@ Além disso, quando você estiver confortável pesquisando no Twitter, tente 'fa
 ![](https://osintcurio.files.wordpress.com/2019/07/screenshot-2019-07-30-at-22.07.59.png)
 
 >Não se esqueça de selecionar 'Últimas' para ver as postagens mais recentes!
-
-## Procurando fotos mais antigas marcadas para um local
-
-Depois que a @technisette postou um blog sobre como pesquisar no Instagram, sabíamos que precisávamos fazer uma 'parte 2'. Então, se você já conhece o básico , aqui estão alguns extras!
-
-Procurando detalhes de contato da conta comercial sem ferramentas
-Na primeira parte, falamos sobre a recuperação de detalhes de contato das contas comerciais do Instagram com a ajuda do addon Chrome Helper Tools for Instagram . Esse complemento ainda pode ajudá-lo a determinar se uma conta é uma conta 'comercial' ou não. Onde, no primeiro blog, destacamos que você precisará de um telefone celular para visualizar os detalhes de contato, temos uma solução melhor para você agora!
-
-Os detalhes de contato também podem ser visualizados quando conectado ao site! @ Sector035 encontrou uma maneira como :
-
-Certifique-se de fazer login na sua conta do Instagram (pesquisa) em um navegador da web
-Visite a conta em que está interessado e verifique se é uma conta comercial. Você pode verificar usando as Ferramentas auxiliares , mas também pode tentar a sua sorte, continuando os próximos passos.
-Agora precisamos recuperar o ID do usuário do Instagram. Você pode fazer isso clicando com o botão direito do mouse em algum lugar da página de interesse onde não há contato (por exemplo, no lado direito ou esquerdo) e selecione 'Exibir fonte da página' (ou use Ctrl + U, isso funciona na maioria dos navegadores).
-Pesquise, usando Ctrl + F, a profilePage_ (o número atrás de 'profilePage_' é o número que você precisa copiar.)
-
-Exemplo de um ID de usuário da página do Instagram da Starbucks
-Agora abra uma nova guia e cole o seguinte URL. Substitua " ID " pelo número de identificação encontrado na sua página de interesse.
-https://i.instagram.com/api/v1/users/ ID / info /
-(por exemplo, https://i.instagram.com/api/v1/users/1034466/info )
-Agora você poderá ver as informações que a conta comercial preencheu!
-
-Se observarmos o exemplo usado da Starbucks, seu resultado será semelhante a este:
-
-
-Você verá que o 'is_business' está definido como TRUE e poderá ver o endereço de e-mail e o número de telefone
-Também há muitas outras coisas interessantes a serem reunidas aqui ao lado dos detalhes de contato! Como o 'instagram_location_id', por exemplo. Se você copiar esse número e colocá-lo atrás de 'facebook.com' (facebook.com/22092443056), ele fornecerá a conta do Facebook da Starbucks!
-
-Outras coisas que podem ser interessantes são a quantidade exata de seguidores / seguidores e muito mais. Então vá e dê um pico🙂
 
 
 ## Procurando fotos mais antigas marcadas para um local
