@@ -130,53 +130,6 @@ Também há muitas outras coisas interessantes a serem reunidas aqui ao lado dos
 
 Outras coisas que podem ser interessantes são a quantidade exata de seguidores / seguidores e muito mais. Então vá e dê um pico🙂
 
-Procurando conteúdo excluído do Instagram
-Todos sabemos que o conteúdo on-line pode ser removido tão rápido quanto foi carregado. Portanto, procurar qualquer conteúdo excluído pode ser interessante.
-
-Há pouco tempo, escrevemos um blog sobre como encontrar conteúdo excluído , com uma seção que explica especificamente como encontrar quaisquer postagens / perfis de mídia social que foram excluídos.
-No blog, nos referimos ao Archive.org como um bom recurso para encontrar postagens antigas do Instagram, com um exemplo do perfil do Instagram de DJ Hardwell (clique aqui para o perfil arquivado e aqui para o perfil atual).
-
-
-Esquerda: Archive.org
-Direita: Instagram.com/hardwell
-Ao analisar pessoas famosas, há uma grande chance de que outras contas imitem as de pessoas famosas. Por exemplo; existem várias contas da estrela da realidade Kim Kardashian onde elas repostam tudo o que ela faz no Instagram ou postam tudo o que postam no Snapchat em uma conta do Instagram .
-
-Ao examinar essas 'contas de fãs', você poderá encontrar quaisquer dados que já tenham sido excluídos.
-
-Outra maneira de procurar conteúdo excluído é usar o Google .
-
-Como você deve saber, existem muitos sites diferentes que também usam as postagens do Instagram para exibir em seus sites. Ao usar o Google Dork, você pode encontrar sites usando postagens do Instagram e pode encontrar algum conteúdo excluído. Isso porque esses sites podem ficar um pouco atrasados ​​nas postagens reais do Instagram.
-
-Use: -site: instagram.com palavra-chave do instagram -twitter
--site: instagram = para excluir resultados do site instagram.com
-instagram = para se concentrar nas postagens do Instagram
-keyword = substituir 'keyword' pela palavra-chave ou nome de usuário que você está procurando .
--twitter = porque o Twitter fornece muitos falsos positivos nesses resultados.
-
-Exemplo: -site: instagram.com instagram hardwell -twitter
-
-
-Exemplo: -site: instagram.com instagram hardwell -twitter
-Ou você pode tentar configurar uma ferramenta de monitoramento da web para detectar qualquer alteração em um site. Esse tipo de ferramenta pode capturar o que está mudando na página e, dessa forma, você não perderá nenhuma postagem.
-
-Pesquisando no Twitter o conteúdo do Instagram
-Outra maneira de encontrar contas do Instagram de pessoas em que você possa estar interessado ou qualquer postagem relacionada a um tópico específico é pelo Twitter.
-
-O Twitter mudou muito recentemente. Felizmente, @Dutch_osintguy escreveu um blog sobre como navegar por tudo isso. E existem ótimas maneiras de explorar o Twitter e encontrar perfis ou postagens do Instagram.
-
-Primeiro, você não precisará de uma conta no Twitter para pesquisar no Twitter. Basta navegar no Twitter.com/explore para usar a barra de pesquisa superior.
-
-Agora, para pesquisar o conteúdo do Instagram, use as seguintes consultas de pesquisa:
-- instagram.com/p (exibirá tweets contendo 'instagram.com/p')
-- fonte: Instagram party (exibirá tweets contendo a palavra 'party' com Publicações no Instagram. Altere a palavra 'festa' para o que você estiver procurando.)
-- filtro do instagram: links (tweets que contêm um URL e a palavra 'Instagram'.)
-
-Ao executar essas consultas, mude para os tweets 'Mais recentes' para ver as postagens mais recentes.
-
-Além disso, quando você estiver confortável pesquisando no Twitter, tente 'fazer malabarismos com as consultas' e criar consultas mais abrangentes para encontrar exatamente o que está procurando. Por exemplo: instagram.com/p próximo a: Amsterdã dentro de: 24km
-
-
-Não se esqueça de selecionar 'Últimas' para ver as postagens mais recentes!
 
 ## Procurando fotos mais antigas marcadas para um local
 
