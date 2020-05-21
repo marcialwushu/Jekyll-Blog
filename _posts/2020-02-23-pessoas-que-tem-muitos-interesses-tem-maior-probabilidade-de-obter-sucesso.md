@@ -103,10 +103,45 @@ Deseja aprender uma habilidade nova e valiosa para adicionar à sua caixa de fer
 
 Meu exemplo favorito de conhecimento de alta qualidade e fácil acesso é uma garota de 12 anos chamada [Adilyn Malcolm](https://www.youtube.com/watch?v=OgzdDp5qfdI) , que aprendeu a dançar dubstep em questão de meses, assistindo constantemente pequenos clipes de outras pessoas online, praticando e repetindo até que ela dominasse cada segmento e pudesse executar uma dança inteira na perfeição.
 
+[![](https://i.ytimg.com/vi/OgzdDp5qfdI/hqdefault.jpg)](https://youtu.be/OgzdDp5qfdI)
+
+
+Imagine Adilyn tentando aprender como dubstep antes do Youtube. Provavelmente não haveria um estúdio de dança local especializado em dubstep. Se assim fosse, o professor provavelmente não seria de classe mundial. Em seguida, Adilyn não seria capaz de gastar obsessivamente horas aprendendo sobre isso. Se algum vídeo do dubstep existisse, ela teria que convencer os pais a gastar US $ 20 por peça. O YouTube, por outro lado, proporcionou a Adilyn a chance de aprender com muitos professores e artistas de classe mundial, sem nenhum custo e em sua própria programação. Hoje, uma pesquisa no YouTube por "learn dubstep" [retorna mais de 1 milhão de resultados](https://www.youtube.com/results?search_query=learn+dubstep)!
+
+E se isso não for impressionante o suficiente, considere Michael Sayman , de 13 anos . Ele aprendeu a codificar via Google. Um de seus jogos para celular se tornou um dos 100 principais aplicativos do mundo, superando a Starbucks e o Yelp. Ou assista [Amira Willighagen](https://www.youtube.com/watch?v=UJ3u5w9NYjQ), de 11 anos, a cantar magistralmente ópera depois de se ensinar com vídeos do YouTube por quatro anos. Algo grande está acontecendo aqui, e esses jovens prodígios são seus precursores.
+
+Como Isaac Newton proclamou a famosa frase: "Se eu já vi mais, é por estar sobre os ombros dos gigantes". Na era de hoje, temos mais ombros para apoiar do que nunca.
+
+
+## Polymath Advantage 4: É mais fácil do que nunca abrir caminho para um novo campo, setor ou conjunto de habilidades.
+
+Embora a explosão do conhecimento esteja impossibilitando ou pelo menos mais difícil para alguém saber tudo, também tornou mais fácil encontrar uma combinação grande e atípica de campos ou habilidades. É mais fácil do que nunca ser um polímata.
+
+Aqui está o porquê:
+
+Primeiro, uma das principais maneiras pelas quais surgem novos conjuntos de habilidades, indústrias e campos é combinando-os com os antigos:
+
+
+![](https://miro.medium.com/max/1018/1*xbeu5OFSq1Ehsozr6EeIng.png)
+
+
+Segundo, o [número de novos campos acadêmicos](http://blogs.nature.com/news/2014/05/global-scientific-output-doubles-every-nine-years.html) e indústrias de negócios está aumentando exponencialmente.
+
+E, finalmente, à medida que o número de novas habilidades aumenta, o número de combinações possíveis aumenta exponencialmente. Cada novo pedaço de conhecimento pode teoricamente ser combinado com qualquer outro pedaço de conhecimento. Cada nova inovação cria o potencial de exponencialmente mais inovações.
+
+
+![](https://miro.medium.com/max/1248/0*SwYJtk6lCpZ43WsE.)
 
 
 
+Se você tiver um bloco de construção (A), poderá fazer apenas uma combinação (A). Se você tiver dois (A e B), poderá fazer três combinações (A, B, A + B). Depois de chegar a quatro blocos de construção, você obtém 15 combinações possíveis e os números crescem dramaticamente a partir daí. Agora considere que existem milhares e milhares de disciplinas, indústrias e habilidades. Cada novo cria o potencial para dezenas de milhares a mais.
 
+Abaixo estão alguns dos muitos milhares de campos que foram criados muito recentemente por meio da combinação:
+
+![](https://miro.medium.com/max/1388/1*lgh7uSPmVeVa8AlUgox6Xg.png)
+
+
+Resumindo: quando eu estava no ensino médio, lembro-me de ler como um jovem Leonardo Da Vinci estava frustrado por ter nascido em um período em que tudo que merecia ser descoberto já havia sido descoberto. Essa citação ficou comigo, porque foi escrita por um dos maiores inventores da história da humanidade. É útil lembrar a citação de Da Vinci, porque é a mesma coisa hoje. Quase TODA a descoberta potencial que a humanidade fará será no futuro.
 
 
 
