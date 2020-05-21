@@ -141,7 +141,152 @@ Abaixo estão alguns dos muitos milhares de campos que foram criados muito recen
 ![](https://miro.medium.com/max/1388/1*lgh7uSPmVeVa8AlUgox6Xg.png)
 
 
-Resumindo: quando eu estava no ensino médio, lembro-me de ler como um jovem Leonardo Da Vinci estava frustrado por ter nascido em um período em que tudo que merecia ser descoberto já havia sido descoberto. Essa citação ficou comigo, porque foi escrita por um dos maiores inventores da história da humanidade. É útil lembrar a citação de Da Vinci, porque é a mesma coisa hoje. Quase TODA a descoberta potencial que a humanidade fará será no futuro.
+**Resumindo**: quando eu estava no ensino médio, lembro-me de ler como um jovem Leonardo Da Vinci estava frustrado por ter nascido em um período em que tudo que merecia ser descoberto já havia sido descoberto. Essa citação ficou comigo, porque foi escrita por um dos maiores inventores da história da humanidade. É útil lembrar a citação de Da Vinci, porque é a mesma coisa hoje. Quase TODA a descoberta potencial que a humanidade fará será no futuro.
+
+
+## Polymath Advantage 5: Prova a sua carreira no futuro.
+
+>"Não são os mais fortes ou os mais inteligentes que sobreviverão, mas aqueles que podem gerenciar melhor a mudança." Charles Darwin
+
+
+O que as seis profissões a seguir têm em comum?
+
+1. Desenvolvedor de aplicativos
+2. Gerente de mídia social
+3. Engenheiro sem motorista
+4. Especialista em computação em nuvem
+5. Cientista de Big Data
+6. Criador de conteúdo do YouTube
+
+
+Resposta: Nenhuma delas existia há 15 anos. Imagine o poder que você teria se pudesse voltar no tempo, dominar essas habilidades e, em seguida, ser um dos melhores do mundo quando atingir grandes proporções? Na verdade, não precisamos adivinhar. Você teria uma boa chance de ser um milionário. A manchete abaixo mostra o quão valioso é um engenheiro de automóveis sem motorista.
+
+![](https://miro.medium.com/max/1400/0*SxtWh_5wtrHItFvW.)
+
+Então, quais habilidades serão valiosas em 20 anos? Você sabe?
+
+Não? Nem eu. Nem ninguém.
+
+Portanto, surge a pergunta: como fazemos investimentos em conhecimento agora que serão recompensados no futuro?
+
+Eu diria que um polímato está muito melhor posicionado do que um especialista. Um polímata pode pegar as habilidades que ela aprendeu e combiná-las de novas maneiras rapidamente para dominar novos campos. Por outro lado, um especialista cujos campos se tornem obsoletos provavelmente levaria muito mais tempo para se adaptar à mudança e teria que começar de novo.
+
+Em um ambiente de mudanças aceleradas, teremos que nos tornar polímatas para sobreviver. Nós vamos ter uma dúzia de carreiras. Cada um vai exigir novas habilidades.
+
+
+## Polymath Advantage 6: Ele define você para resolver problemas mais complexos.
+
+Muitos dos maiores problemas que a sociedade e os indivíduos enfrentam se beneficiam de soluções que integram várias disciplinas.
+Vamos tomar a obesidade como exemplo. Como mostra o gráfico abaixo, dieta e obesidade são responsáveis por quatro das quinze principais causas de morte nos Estados Unidos. Milhões de mortes que são completamente evitáveis.
+
+
+![](https://miro.medium.com/max/1400/0*azW0XeVLvI0hnl8c.)
+
+
+Do lado de fora, você poderia facilmente dizer que resolver a crise da obesidade é um problema fácil. Apenas coma menos e se exercite mais. Direita? Não é bem assim.
+
+O gráfico abaixo do livro [Diversity Bonus](https://www.amazon.com/Diversity-Bonus-Knowledge-Compelling-Interests/dp/0691176884/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1515502694&sr=8-1) do pesquisador Scott Page mostra uma parte da complexidade da epidemia de obesidade. Como você pode ver, são necessários muitos campos diferentes para resolver esse problema: fisiologia do exercício, genética, psicologia comportamental, sociologia, economia, marketing, psicologia geral, sistema educacional, nutrição.
+
+
+![](https://miro.medium.com/max/1400/0*BsJg1QQn4eXc5Wj4.)
+
+## Polymath Advantage 7: Ajuda você a se destacar e competir na economia global.
+
+![](https://miro.medium.com/max/1034/0*VLhNxbX8C8VG9PHa.)
+
+
+Um dos modelos mentais mais fundamentais da economia é a oferta e a demanda ( [veja modelos mentais mais valiosos](https://www.mentalmodelclub.com/mental-model-club-v2.html?utm_source=Medium&utm_medium=article&utm_campaign=16&utm_content=CTA1) ). É relevante para o mercado de trabalho, para bens e serviços, para o mundo das idéias e para muitos outros lugares.
+
+Nesse modelo, há duas maneiras de aumentar quanto de um prêmio de preço você comanda:
+
+
+1. Diminua o suprimento (mova a curva azul para a esquerda).
+2. Aumente a demanda (mova a curva vermelha para a direita).
+
+
+Você pode ter as habilidades mais valiosas do mundo, mas se todos também tiverem essas habilidades, você é uma mercadoria. Tornando-se um polímata e desenvolvendo um conjunto de habilidades únicas que poucas pessoas possuem, você poderá se diferenciar e cobrar mais.
+
+
+
+Quer um teste rápido para ver se você tem conhecimento raro e valioso? Depois, pergunte a si mesmo a mesma pergunta que o bilionário Peter Thiel, um dos principais investidores do Vale do Silício, pede a candidatos que ele pode contratar e fundadores que ele pode financiar: “Qual é a única coisa em que você acredita que é verdade que ninguém mais concorda com você? em?" Essa pergunta simples informa rapidamente se você tem ou não idéias raras e valiosas. Se você não consegue criar nada, isso indica que você pode não ser um pensador original como pensava.
+
+Esse modelo mental é amplamente compartilhado entre os principais investidores e intérpretes do mundo, como demonstram as seguintes citações:
+
+
+>“Você quer ser ganancioso quando os outros têm medo. Você quer ter medo quando os outros são gananciosos. É simples assim." - Warren Buffett, fundador da Berkshire Hathaway
+
+>"Para entrar no topo da distribuição de desempenho, você precisa escapar da multidão." - Howard Marks, fundador da Oaktree Capital (patrimônio líquido de mais de US $ 2 bilhões)
+
+>"Você não pode ganhar dinheiro concordando com a visão de consenso." - Ray Dalio, fundador da Bridgewater Associates (maior fundo de hedge do mundo)
+
+>“Os melhores projetos provavelmente serão negligenciados, e não trombeteados por uma multidão; os melhores problemas para resolver são geralmente os que ninguém mais tenta resolver. ” - Peter Thiel, fundador do PayPal e investidor bilionário (patrimônio líquido de US $ 3,3 bilhões)
+
+>"Você precisa ser impar para ser o número 1." -Dr. Seuss
+
+>A fraqueza de uma arte é seu dogma. E quando estou competindo contra um indivíduo de uma disciplina diferente, tento encontrar o dogma dessa disciplina. Quando estou competindo com alguém dentro de uma disciplina, tento encontrar seu dogma pessoal. - Josh Waitzkin, Grande Mestre em Xadrez e Campeão Mundial de Tai Chi
+
+
+## Bottom Line: Torne-se anti-frágil
+
+Ser um polímata será o novo normal, e os polímatas que sintetizam diversas habilidades para criar inovações revolucionárias e resolver problemas complexos terão um enorme impacto. Os generalistas que falham em sintetizar seu conhecimento em valor para os outros têm dificuldades em sua carreira, talvez com um conhecimento enciclopédico impressionante, mas sem impacto real.
+
+
+Enquanto isso, os especialistas correm o risco de ficar presos no sucesso. Eles constroem um conjunto restrito de habilidades e reputação e se tornam muito bem pagos por isso. Mas suas carreiras são frágeis. À medida que suas profissões desaparecem ou evoluem, torna-se quase impossível mudar sem ter que recomeçar.
+
+Os polímatos, por outro lado, são o que Nassim Taleb chama de "anti-frágil". Mudanças no ambiente os tornam mais fortes. À medida que surgem novos paradigmas de negócios ou aumentam suas paixões, eles podem rapidamente combinar seus conjuntos de habilidades existentes de várias maneiras.
+
+Agora que você vê como é importante se tornar um polímata moderno, a próxima pergunta lógica é: como?
+
+
+Eu criei um recurso para ajudá-lo com isso ...
+
+
+## Como se tornar um polímata moderno
+
+>"Os maiores cientistas também são artistas." - Einstein
+
+A idéia de se tornar um polímata moderno pode ser avassaladora. Por onde você começa? Que campo você aprende primeiro? Como você encontra tempo? Como você traduz o que aprende em valor do mundo real? ”
+Quando comecei a aprender através dos campos, tropecei. Lembro-me, por exemplo, de pegar um livro didático de biologia, que eu não estudava desde o ensino médio, e tentar aplicá-lo à minha vida. Era lento e não tão útil. Em outras palavras, eu escolhi a disciplina errada (para mim) e usei o método errado para aprendê-la. Após muitas tentativas e erros, aprendi técnicas que tornam mais rápido e fácil atravessar campos
+
+Durante as centenas de horas que passei pesquisando como ser um polímata e entrevistando polímatas, uma das chaves que descobri são os modelos mentais.
+
+Primeiro, os modelos mentais transcendem as disciplinas. Eles são os links invisíveis que conectam as disciplinas:
+
+
+![](https://miro.medium.com/max/1384/1*C0F66T0B3dbodXSvdQuhVg.png)
+
+Por exemplo, depois de aprender a “Regra 80/20”, que afirma que, em muitos domínios, 20% de seus esforços produzem 80% de seus resultados, você pode usar esse modelo mental para melhorar a eficiência e o impacto em todas as áreas do seu trabalho. vida, bem como todos os campos que você estuda para sempre. Você pode identificar os 20% dos relacionamentos que causam 80% do seu sentimento de conexão. Você pode identificar os 20% de clientes que criam 80% dos seus negócios. Você pode identificar os 20% de tarefas que criam 80% de sua produtividade. E assim por diante!
+
+Além disso, os modelos mentais ajudam você a aprender várias habilidades com muito mais rapidez, porque deram a você uma base estável de conhecimento útil e universal que você pode usar pelo resto da vida. Portanto, quando você entra em qualquer nova disciplina, mesmo que não tenha experiência direta com esse campo, notará rapidamente os modelos mentais que pode usar.
+
+
+Em resumo, [os modelos mentais são fundamentais para se tornar um polímata melhor](https://medium.com/the-mission/this-is-exactly-how-you-should-train-yourself-to-be-smarter-infographic-86d0d42ad41c).
+
+Em nosso Clube do Modelo Mental do Mês, mergulhamos em um modelo mental diferente a cada mês que o ajudará a se tornar um polímata. Também mostramos como combinar esses modelos para tomar melhores decisões e obter avanços criativos. Ao aderir, você recebe imediatamente nosso melhor Manual de Domínio.
+
+
+[Acesse nosso melhor Manual de Domínio nos próximos minutos >>](https://www.mentalmodelclub.com/mental-model-club-v2.html?utm_source=Medium&utm_medium=article&utm_campaign=16&utm_content=CTA2)
+
+Se você está apenas aprendendo sobre modelos mentais pela primeira vez, meu curso gratuito por e-mail ajudará você a começar. Minha equipe e eu passamos dezenas de horas criando isso. Por dentro, você aprenderá os modelos que esses bilionários usam para tomar decisões de negócios e investimentos - ferramentas que você pode aplicar imediatamente à sua vida e negócios. Você também aprenderá como usar esses modelos naturalmente em sua vida cotidiana.
+
+[Inscreva-se no mini-curso gratuito aqui >>](https://seminal.lpages.co/mental-model-list-give-away-article-16-medium-new/?utm_source=Medium&utm_medium=article&utm_campaign=16&utm_content=CTA3)
+
+
+---
+
+Author: Michael Simmons
+
+
+[Artigo Original](https://medium.com/accelerated-intelligence/modern-polymath-81f882ce52db)
+
+
+
+
+
+
+
+
+
 
 
 
