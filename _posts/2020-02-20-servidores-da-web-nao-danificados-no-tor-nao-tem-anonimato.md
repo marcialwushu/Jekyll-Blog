@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Servidores da Web não danificados no Tor não têm anonimato"
+title:  "Falhas em Servidores Web no Tor não mantem anonimato"
 date:   2020-02-20 17:59:38 -0200
 categories: jekyll update
 ---
