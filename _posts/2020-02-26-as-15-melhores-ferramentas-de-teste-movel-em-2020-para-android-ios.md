@@ -410,6 +410,7 @@ Link para download: [Mobile Labs Trust](http://mobilelabsinc.com/products/trust/
 
 ## 26) DeviceAnywhere do Keynote (Android e iOS)
 
+
 ![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Testing-Tools-24-150x150.jpg)
 
 - DeviceAnywhere é uma ferramenta de teste móvel projetada pela Keynote Systems, Inc. conhecida como Keynote Mobile Testing
@@ -419,7 +420,7 @@ Link para download: [Mobile Labs Trust](http://mobilelabsinc.com/products/trust/
 Link para download: [Keynote DeviceAnywhere](http://www.keynotedeviceanywhere.com/key-programs/kda/mobile-testing.html)
 
 
-##27) Keynote Mobile Testing Tools (Android and iOS)
+## 27) Keynote Mobile Testing Tools (Android and iOS)
 
 ![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Testing-Tools-25-150x150.jpg)
 
@@ -661,6 +662,208 @@ Link para download: [NeoLoad](http://www.neotys.com/product/overview-neoload.htm
 - Ferramenta proprietária que realiza testes em vários dispositivos, sistemas operacionais e locais
 
 Link para download: [Marlin Mobile](http://www.marlinmobile.com/)
+
+
+## 48) Crittercism (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Performance-Testing-Tools-4-300x64.jpg)
+
+- O Crittercism é um sistema de gerenciamento de desempenho de aplicativos móveis para fornecer aplicativos móveis de qualidade
+- Compatível com aplicativos híbridos Android, iOS e Windows Phone em vários dispositivos
+- O código-fonte aberto e a ferramenta gratuita fornecem monitoramento de desempenho de aplicativos móveis e relatórios de falhas para várias plataformas e estruturas
+
+Download Link: [Crittercism](http://www.crittercism.com/)
+
+
+---
+
+# Emuladores móveis para testar sites on-line em dispositivos móveis
+
+##49) Google Mobile Friendly Test tool (Android and iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-300x73.jpg)
+
+- Esta ferramenta compreende diferentes dispositivos, como celulares, tablets, telefones multimídia e telefones em destaque, etc.
+- Suporta Android, iOS e Windows Phone e ajuda a evitar erros comuns, suporta designs de sites responsivos
+- É uma ferramenta gratuita que ajuda a tornar o site otimizado para celular
+
+Link para download: [Google Mobile Friendly Test tool](https://developers.google.com/webmasters/mobile-sites/)
+
+
+##50) Mobile phone emulator (iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-2-260x300.jpg)
+
+
+- O emulador de telefone celular permite testar a exibição do site no terminal móvel projetado por Pixmobi
+- Este emulador permite visualizar designs em diferentes telefones, como iPhone4 e HTC HD 2
+- Permite definir orientações diferentes, mostra o navegador padrão e outras informações técnicas
+
+Link para download: [Mobile phone emulator](http://www.mobilephoneemulator.com/)
+
+
+## 51) MobiReady (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-3.jpg)
+
+- MobiReady é uma ferramenta de teste on-line da dotMobi, permite testar seu site para verificar se é compatível com dispositivos móveis ou não
+- Ajuda a testar o site em vários parâmetros como um todo ou em uma única página
+- Fornece relatórios gratuitos, juntamente com uma análise aprofundada conforme os padrões do setor
+
+Link para download: [MobiReady](http://ready.mobi/)
+
+
+## 52) ScreenFly (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-4-150x150.jpg)
+
+- Screenfly é um emulador que suporta 25 dispositivos e 5 tipos de tablets com plataformas diferentes, como Android, iOS, BlackBerry etc.
+- Verifica a aparência do seu site em diferentes dispositivos, ativa a rolagem e gira a exibição
+- Ajuda a testar elementos visuais e interfaces em dispositivos com diferentes resoluções
+
+Link para download: [Screenfly](http://quirktools.com/screenfly/)
+
+
+## 53) GoMoMeter (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-5.jpg)
+
+- O GoMoMeter é um emulador que identifica a velocidade dos sites em smartphones e atribui uma pontuação de 4
+- O GoMoMeter analisa seu site e fornece recomendações para torná-lo compatível com dispositivos móveis e suporta plataformas e tecnologias como Android, iOS, HTML5 e aplicativos da web
+- Este software livre de código aberto verifica a velocidade de carregamento do site e fornece relatórios de falhas e análises móveis
+
+Link para Download : [GoMoMeter](http://anna.femath.com/imd470/gomometer)
+
+
+## 54) MobileTest.me (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-6-300x171.jpg)
+
+- O emulador me é usado para testar o estado atual do seu site em smartphones e tablets
+- Suporta dispositivos como Apple iPhone 5, HTC ONE, Google Nexus 7, Apple iPad Mini etc.
+- Rápido e suporta palavras-chave para reduzir o tempo necessário para a realização de testes
+
+Link para download: [me](http://mobiletest.me/)
+
+
+## 55) Genymotion (Android)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Emulators-7-300x62.jpg)
+
+- É um emulador rápido, simples e fácil de usar para desenvolvedores e testadores de controle de qualidade
+- Emulador Android baseado em AOSP que testa seus aplicativos Android
+- Suporta 20 dispositivos pré-configurados, aceleração de CPU e OpenGL, API Java e dispositivos personalizados
+
+Link para download: [Genymotion](https://www.genymotion.com/#!/)
+
+
+---
+
+# Ferramenta de teste A / B de otimização móvel
+
+## 56) Taplytics (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Optimization-1-150x150.jpg)
+
+- O Taplytics é uma ferramenta de teste A / B e multivariada que oferece suporte à plataforma iOS e Android.
+- Fornece análises avançadas, segmentação personalizada
+- Fácil de configurar e conhecida como a primeira plataforma visual de testes A / B do mundo para aplicativos nativos
+- Uma ferramenta comercial que permite o teste A / B baseado em código para testes A / B complexos e em destaque, mas o plano básico está disponível gratuitamente para até 25.000 usuários
+
+Link para download: [Taplytics](https://taplytics.com/)
+
+
+---
+
+# Ferramenta para registro de defeitos e teste de dispositivos móveis
+
+## 57) Snaffu (Android)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-Defect-Logging-1-150x150.jpg)
+
+- Snaffu é uma ferramenta de relatório de bugs no aplicativo que suporta registro de bugs fácil e eficaz para Android
+- Reforce os recursos da ferramenta de rastreamento de problemas, como o problema, que é direcionado para a ferramenta do seu aplicativo
+- Não requer experiência anterior, os usuários não registrados também podem usar a ferramenta, pois facilita o relatório colaborativo de problemas junto com a responsabilidade do usuário
+- Também possui recursos como relatórios de falhas, gravação de vídeo, capturas de tela com anotação, enfileiramento de problemas
+- Ferramenta gratuita integrada a frameworks como Selendroid e Appium
+
+Download Link: [Snaffu](http://www.thesnaffu.com/)
+
+---
+
+# Serviços de teste de aplicativos móveis e provedores de serviços
+
+## 58) Ubertesters (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-App-Testing-Services-1.jpg)
+
+- A plataforma Ubertesters ajuda a executar e controlar o teste beta móvel
+- Fácil de configurar, suporta Android e iOS e permite que o App Project Manager controle o processo de teste
+- A ferramenta de código aberto contém relatórios de edição e marcação de erros no aplicativo
+- Econômico e ajuda a acelerar os testes
+
+Link para download: [Ubertesters](http://ubertesters.com/)
+
+
+##59) Applause (Android and iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-App-Testing-Services-2-300x78.jpg)
+
+
+- Applause é uma empresa de ferramentas de qualidade de aplicativos de 360 graus
+- O principal diferenciador da empresa é sua comunidade uTest, composta por mais de 200.000 usuários que fornecem testes de aplicativos "in-the-wild"
+- Applause combina serviços de teste in-the-wild, automação de teste, gerenciamento beta móvel e análise de sentimento móvel
+- Applause é uma ferramenta de análise móvel que permite o gerenciamento beta móvel
+- Permite testes funcionais, testes de usabilidade, testes de localização, testes de carga e testes de segurança para aplicativos Android e iOS
+
+Download Link: [Applause](http://www.applause.com/mobile-app-testing)
+
+
+## 60) UserTesting (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-App-Testing-Services-3-300x80.jpg)
+
+- O UserTesting permite testar seus aplicativos em dispositivos Android e iOS
+- O gravador móvel trabalha com as coisas exibidas no dispositivo móvel, e o criador do aplicativo é usado para encontrar a área de trabalho e as áreas não funcionais do aplicativo
+- Serviço gratuito que pode ser usado para detectar e corrigir erros/defeitos mais cedo e mais facilmente
+
+Link para download: [UserTesting](https://www.usertesting.com/product/mobile-application-testing)
+
+
+## 61) AWS Device Farm (Android e iOS)
+
+![](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/02/Mobile-App-Testing-Services-4-150x150.jpg)
+
+- O Amazon Web Services Device Farm é um serviço usado para melhorar a qualidade dos aplicativos Android, iOS e Fire OS em dispositivos reais, como smartphones e tablets
+- Realiza testes em minutos e se integra a ferramentas de desenvolvimento como Jenkins
+- Personalize testes com estruturas de código aberto como Appium, Calabash
+
+Link para download: [AWS Device Farm](https://aws.amazon.com/device-farm/)
+
+
+# Conclusão
+
+O teste de aplicativos para dispositivos móveis é uma tarefa interessante, mas às vezes pode se tornar complexo devido a alguns recursos avançados adicionados conforme a necessidade de novas tecnologias em mudança. O uso dessas ferramentas de teste móvel nos testes de automação de aplicativos móveis reduz a complexidade e ajuda a torná-lo mais rápido e flexível, com a proporção certa de segurança e robustez !!
+
+
+---
+
+
+[Artigo Original](https://www.softwaretestinghelp.com/best-mobile-testing-tools/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
