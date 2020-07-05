@@ -5,7 +5,7 @@ date:   2020-02-25 17:59:38 -0200
 categories: jekyll update
 ---
 
-## 45 normas da família ISO 27000 - Gestão da Segurança da Informação
+## Normas da família ISO 27000 - Gestão da Segurança da Informação
 
 Olá amigos do Portal GSTI!
 
@@ -136,9 +136,49 @@ Para saber mais sobre cada uma destas normas, basta consultá-las no site oficia
 
 **ISO/IEC 27050-2** - Descoberta eletrônica - Parte 2: Orientação para governança e gerenciamento de descoberta eletrônica
 
+**ISO/IEC 27070** - estabelecerá requisitos de segurança para estabelecer root virtualizadas de confiança na nuvem.
+
+**ISO/IEC 27071** - recomendará controles de segurança para estabelecer conexões confiáveis entre dispositivos e serviços [em nuvem]
+
+**ISO/IEC 27099** - identificará os requisitos de gerenciamento de segurança da informação para os provedores de serviços da PKI Trust.
+
+**ISO/IEC 27100** - será uma visão geral dos conceitos de segurança cibernética.
+
+**ISO/IEC 27101** - será uma diretriz para o desenvolvimento de estruturas de segurança cibernética.
+
+**ISO/IEC 27102:2019** - cobre os seguros cibernéticos ( sic ).
+
+**ISO/IEC TR 27103:2018** - explica como a ISO27k e outras normas ISO e IEC podem ser aplicadas à 'segurança cibernética' (termo não definido).
+
+**ISO/IEC 27400** - cobrirá de segurança e privacidade para Internet of Things.
+
+**ISO/IEC 27402** - abordará aspectos de segurança e privacidade das coisas da IoT .
+
+**ISO/IEC TR 27550: 2019** - abrange a engenharia de privacidade em sistemas de TIC.
+
+**ISO/IEC 27551** - especificará requisitos para autenticação de entidade impossível de vincular com base em atributos
+
+**ISO/IEC 27553** - especificará requisitos para autenticação biométrica em dispositivos móveis.
+
+**ISO/IEC 27554** - aconselhará sobre o uso da ISO 31000 para avaliar o risco relacionado ao gerenciamento de identidades.
+
+**ISO/IEC 27555** - oferecerá orientações sobre a exclusão de dados pessoais (PII).
+
+**ISO/IEC 27556** - gerará uma estrutura centrada no usuário para lidar com PII com base nas preferências de privacidade.
+ 
+**ISO/IEC 27557** - diz respeito ao gerenciamento de riscos de privacidade de uma organização.
+ 
+**ISO/IEC 27558** - (possivelmente se tornará “ISO / IEC 27006-2”) será um padrão de acreditação para certificadores de conformidade com PIMS.
+ 
+**A ISO/IEC 27559** - será uma estrutura para des identificação de dados para melhorar a privacidade.
+ 
+**ISO/IEC 27560** - especificará a estrutura de informações do registro de consentimento de privacidade.
+
+**ISO/IEC TS 27570** - oferecerá orientação de privacidade para cidades inteligentes.
+
 **ISO/IEC 27701** - Tecnologia da informação - Técnicas de segurança - Sistemas de gerenciamento de segurança da informação - Sistema de gerenciamento de informações de privacidade (PIMS).
 
-**ISO 27799** - Gerenciamento da segurança da informação em saúde usando a ISO/IEC 27002 - orienta as organizações do setor de saúde sobre como proteger informações pessoais de saúde usando a ISO/IEC 27002.
+**ISO 27799: 2016** - Gerenciamento da segurança da informação em saúde usando a ISO/IEC 27002 - orienta as organizações do setor de saúde sobre como proteger informações pessoais de saúde usando a ISO/IEC 27002.
 
 Diversas outras normas desta família estão em fase de estudos e/ou sendo propostas, afinal podemos notar que diversas outras áreas de negócio ainda não são contempladas, assim como assuntos específicos na estrutura de segurança da informação e sessões específicas da norma 27002.
 
@@ -161,6 +201,8 @@ Diversas outras normas desta família estão em fase de estudos e/ou sendo propo
 Autor: [Fernando Palma](https://www.portalgsti.com.br/perfil/fernandopalma/)
 
 [Artigo Original](https://www.portalgsti.com.br/2013/12/as-normas-da-familia-iso-27000.html)
+
+[Referencia complementar](https://www.iso27001security.com/html/iso27000.html)
 
 
 
