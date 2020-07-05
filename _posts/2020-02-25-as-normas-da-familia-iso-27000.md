@@ -21,15 +21,15 @@ Mesmo para quem tem familiaridade com as normas ISO 27001/02 e ISO 27005, sugiro
 
 2. **ISO/IEC 27001** : a norma que define os requisitos para um Sistema de Gestão da Segurança da Informação (SGSI ).
 
-O SGSI é descrito como um sistema parte do sistema de gestão global da organização, com base em uma abordagem de risco do negócio, para estabelecer, implementar, operar, monitorar, revisar, manter e melhorar a segurança da informação. O SGSI inclui estrutura organizacional, políticas, atividades de planejamento, responsabilidades, práticas, procedimentos, processos e recursos. A publicação é muito conhecida entre estudantes de concursos de TI .
+- O SGSI é descrito como um sistema parte do sistema de gestão global da organização, com base em uma abordagem de risco do negócio, para estabelecer, implementar, operar, monitorar, revisar, manter e melhorar a segurança da informação. O SGSI inclui estrutura organizacional, políticas, atividades de planejamento, responsabilidades, práticas, procedimentos, processos e recursos. A publicação é muito conhecida entre estudantes de concursos de TI .
 
-A **ISO 27001**: é a principal norma que uma organização deve utilizar como base para obter a certificação empresarial em gestão da segurança da informação . Por isso, é conhecida como a única norma internacional auditável que define os requisitos para um Sistema de Gestão de Segurança da Informação ( SGSI ).
+- A **ISO 27001**: é a principal norma que uma organização deve utilizar como base para obter a certificação empresarial em gestão da segurança da informação . Por isso, é conhecida como a única norma internacional auditável que define os requisitos para um Sistema de Gestão de Segurança da Informação ( SGSI ).
 
 3. **ISO/IEC 27002** : é um código de práticas com um conjunto completo de controles que auxiliam aplicação do Sistema de Gestão da Segurança da Informação.
 
-É recomendável que a norma seja utilizada em conjunto com a ISO 27001, mas pode ser também consultada de forma independente com fins de adoção das boas práticas. 
+- É recomendável que a norma seja utilizada em conjunto com a ISO 27001, mas pode ser também consultada de forma independente com fins de adoção das boas práticas. 
 
-Outro fato curioso é que esta é a única norma em gestão da segurança para qual existem certificações profissionais, do centro de exames Exin. Caso deseje saber um pouco mais, consulte o nosso guia para certificação ISO 27002.
+- Outro fato curioso é que esta é a única norma em gestão da segurança para qual existem certificações profissionais, do centro de exames Exin. Caso deseje saber um pouco mais, consulte o nosso guia para certificação ISO 27002.
 
 4. **ISO/IEC 27003** : uma das minhas prediletas e curiosamente s menos conhecida entre as 05 primeiras normas desta família. A ISO 27003 contém um conjunto de diretrizes para a implementação do SGSI. Enquanto a 27001 disponibiliza apenas requisitos, aqui obtemos uma orientação detalhada.
 
@@ -47,25 +47,25 @@ Outro fato curioso é que esta é a única norma em gestão da segurança para q
 
 11. **ISO/IEC 27010** : aborda um guia para a comunicação em gestão da segurança da informação tanto no escopo da organização como fora dela (sobretudo para entre empresas do mesmo setor). Perceba que o objetivo não é delimitar controles de segurança para a informação e sim prover auxílio para quem deseja evoluir com as práticas através de contatos e network entre partes de um mesmo segmento de mercado que buscam aprimorar a gestão da segurança da informação.
 
-Pessoalmente, tenho pouca intimidade com esta norma, assim como muitas citadas deste ponto em diante. Entretanto, uma das questões mais interessante que observei ao ter um primeiro contato com esta, é o fato de orientar a como compartilhar informações que precisam ser acessadas por outras empresas ou órgãos governamentais mesmo sendo classificadas como sigilosas.
+- Pessoalmente, tenho pouca intimidade com esta norma, assim como muitas citadas deste ponto em diante. Entretanto, uma das questões mais interessante que observei ao ter um primeiro contato com esta, é o fato de orientar a como compartilhar informações que precisam ser acessadas por outras empresas ou órgãos governamentais mesmo sendo classificadas como sigilosas.
 
 12. **ISO/IEC 27011** : guia de gestão da segurança da informação para empresas de telecomunicações.
 
 13. **ISO 27012** : no histórico da ISO, esta norma foi proposta para gestão da segurança da informação em organizações da administração pública, mas foi cancelada. No site oficial da ISO ela hoje não está entre as normas publicadas oficialmente.
 
-Existem informações também de uma nova proposta com a numeração ISO 27012 o padrão específico da indústria de finanças, mas este papel acabou sendo assumido pela ISO 27015, descrita adiante.
+- Existem informações também de uma nova proposta com a numeração ISO 27012 o padrão específico da indústria de finanças, mas este papel acabou sendo assumido pela ISO 27015, descrita adiante.
 
 14. **ISO/IEC 27013** : trata-se de um guia para implementar a ISO 27001 em uma organização de forma integrada com a ISO 20000 (norma que atribui os requisitos para gestão de serviços de tecnologia da informação). Interessante, sim?
 
 15. **ISO/IEC 27014** : técnicas para governança da segurança da informação. Este objetivo é buscado pro tal norma através de uma especificação de como avaliar, dirigir, controlar e comunicar todas as práticas internas da empresa relacionadas a segurança da informação, de forma que sejam compreendidas e estejam alinhadas com necessidades da área de negócio
 
-Observação: as próximas 02 normas estabelecem diretrizes e controles para segmentos específicos do mercado, e isso volta a ocorrer na ISO 27799 . Algumas delas ainda estão em elaboração.
+- Observação: as próximas 02 normas estabelecem diretrizes e controles para segmentos específicos do mercado, e isso volta a ocorrer na ISO 27799 . Algumas delas ainda estão em elaboração.
 
 16. **ISO/IEC 27015** : aborda a gestão da segurança da informação para serviços financeiros. Pode ser interpretada como uma norma que fornece controles e diretrizes complementares a ISO 27002 para empresas e departamentos deste segmento.
 
 17. **ISO/IEC 27016** : o mesmo raciocínio da 27015, só que para o setor de economia.
 
-Observação : perceba que a partir da próxima norma, o foco muda para tópicos específicos em tecnologia da informação.
+- Observação : perceba que a partir da próxima norma, o foco muda para tópicos específicos em tecnologia da informação.
 
 18. **ISO/IEC 27017** : controles específicos para cloud computing .
 
