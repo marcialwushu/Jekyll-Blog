@@ -132,7 +132,13 @@ Inclui guias para declaração de uma política de gestão de incidentes de segu
 
 Para saber mais sobre cada uma destas normas, basta consultá-las no site oficial da ISO ( International Organization for Standardization ).
 
-**ISO/IEC 27050**: esta norma ainda está em fase de elaboração (informação atualizada em Novembro de 2016). Versa sobre padrões forenses digitais com objetivo de contribuir para a captura de evidências digitais. Será lançada como uma continuação de outras normas da família que já tratam do tema. 
+**ISO/IEC 27050-1** - Descoberta eletrônica - Parte 1: Visão geral e conceitos
+
+**ISO/IEC 27050-2** - Descoberta eletrônica - Parte 2: Orientação para governança e gerenciamento de descoberta eletrônica
+
+**ISO/IEC 27701** - Tecnologia da informação - Técnicas de segurança - Sistemas de gerenciamento de segurança da informação - Sistema de gerenciamento de informações de privacidade (PIMS).
+
+**ISO 27799** - Gerenciamento da segurança da informação em saúde usando a ISO/IEC 27002 - orienta as organizações do setor de saúde sobre como proteger informações pessoais de saúde usando a ISO/IEC 27002.
 
 Diversas outras normas desta família estão em fase de estudos e/ou sendo propostas, afinal podemos notar que diversas outras áreas de negócio ainda não são contempladas, assim como assuntos específicos na estrutura de segurança da informação e sessões específicas da norma 27002.
 
