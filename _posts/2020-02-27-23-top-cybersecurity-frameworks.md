@@ -81,8 +81,122 @@ Para alcançar os níveis de segurança desejados, o FedRAMP colabora com especi
 
 A HIPAA (Lei de Portabilidade e Responsabilidade do Seguro de Saúde) contém várias diretrizes para permitir que as organizações implementem controles suficientes para garantir informações de saúde de funcionários ou clientes. Os padrões da HIPAA também exigem que as organizações de saúde cumpram, pois coletam e armazenam informações de saúde para todos os pacientes. Os padrões compreendem diferentes requisitos de segurança que precisam que as organizações demonstrem um entendimento claro de como implementá-los e usá-los. Tais requisitos incluem o treinamento de funcionários de todos os níveis, as melhores práticas para coletar e armazenar dados de saúde. Além disso, o HIPAA exige que as empresas criem e mantenham procedimentos apropriados para a realização de avaliações de risco. O processo também deve incluir métodos para gerenciar riscos identificados.
 
+## 15. GDPR 
+
+O GDPR (Regulamento Geral de Proteção de Dados) é uma das mais recentes estruturas promulgadas para proteger informações de identificação pessoal pertencentes a cidadãos europeus. A estrutura de regulamentação fornece um conjunto de requisitos de segurança obrigatórios que organizações em diferentes partes do mundo devem implementar. Como tal, é um quadro global que protege os dados de todos os cidadãos da UE. A não conformidade leva a enormes penalidades, e isso levou a maioria das empresas a cumprir com os requisitos. Os requisitos do GDPR incluem a implementação de controles adequados para restringir o acesso não autorizado aos dados armazenados. Essas são medidas de controle de acesso, como privilégios mínimos e controles de acesso baseados em funções e esquemas de autenticação multifator. As organizações ou sites também devem obter o consentimento do proprietário dos dados antes de poderem usá-los por razões como marketing ou publicidade. As violações de dados resultantes da incapacidade de uma empresa de implementar controles de segurança equivalem a não conformidade.
+
+
+## 16. FISMA
+
+A FISMA (Lei Federal de Gerenciamento de Sistemas de Informação) é um framework  projetado para agências federais. O padrão de conformidade descreve um conjunto de requisitos de segurança que as agências governamentais podem usar para aprimorar sua postura de segurança cibernética. Os padrões de segurança visam determinar que as agências federais implementem medidas adequadas para proteger os sistemas de informações críticas de diferentes tipos de ataques. Além disso, o framework  exige que fornecedores ou terceiros que interagem com uma agência governamental estejam em conformidade com as recomendações de segurança estipuladas. O principal objetivo do padrão de segurança é permitir que as agências federais desenvolvam e mantenham programas altamente eficazes de segurança cibernética. Para conseguir isso, o padrão consiste em uma estrutura abrangente de segurança cibernética, com nove etapas para proteger as operações do governo e os ativos de TI. Esses são:
+
+1. Categorizando informações com relação aos níveis de segurança
+
+2. Identifique controles mínimos de segurança para proteger as informações
+
+3. Refine os controles usando avaliações de risco
+
+4. Documente os controles e desenvolva um plano de segurança
+
+5. Implementar controles necessários
+
+6. Avaliar a eficácia dos controles implementados
+
+7. Determinar riscos de segurança para sistemas ou dados federais
+
+8. Autorizar o uso de sistemas de informações seguros
+
+9. Monitoramento contínuo dos controles implementados
+
+
+## 17. NY DFS 
+
+O NY DFS (Departamento de Serviços Financeiros de Nova York) é um framework de segurança cibernética que abrange todas as instituições que operam sob registros, cartas constitutivas ou licenças do DFS. O framework consiste em vários requisitos de segurança cibernética que podem melhorar as posturas de segurança de organizações financeiras e de terceiros com os quais eles interagem para diferentes negócios. Entre outros, o NY DFS exige que as organizações identifiquem ameaças à segurança que podem afetar suas redes ou sistemas de informação. Além disso, a estrutura exige que as empresas adotem o framework de segurança suficiente para proteger todos os ativos de TI dos riscos identificados. Não obstante, as organizações cobertas pelo DFS de NY devem implementar sistemas para detectar eventos de segurança cibernética.
+
+## 18. NERC CIP 
+
+O NERC CIP (Proteção de infraestrutura crítica da North American Electric Reliability Corporation) é um framework de cibersegurança que contém padrões para proteger infraestruturas e ativos críticos. No total, a estrutura possui nove padrões, incluindo 45 requisitos. Por exemplo, o padrão de relatório de sabotagem exige que uma organização elétrica relate ocorrências incomuns e distúrbios de segurança aos órgãos relevantes. O padrão crítico de identificação de ativos cibernéticos torna obrigatório para uma entidade documentar todos os ativos cibernéticos considerados críticos. Além disso, o padrão de pessoal e treinamento exige que os funcionários tenham acesso a ativos cibernéticos críticos para concluir o treinamento de segurança e conscientização. Outros padrões incluídos na estrutura NERC CIP são perímetro de segurança eletrônica, resposta a incidentes, gerenciamento de segurança de sistemas.
+
+## 19. SCAP 
+
+O SCAP, ou Security Content Automation Protocol, é um padrão de regulamento que contém especificações de segurança para padronizar a comunicação de produtos e ferramentas de segurança. O objetivo das especificações é padronizar os processos pelos quais os programas de software de segurança comunicam problemas de segurança, informações de configuração e vulnerabilidades. Por meio das especificações padronizadas, o SCAP pretende permitir que uma empresa avalie, expresse e organize dados de segurança usando critérios e formatos universais. Dessa forma, o software de segurança pode permitir que uma empresa mantenha a segurança da empresa utilizando processos como verificar e instalar patches de segurança automaticamente. Outros estão testando e verificando as configurações de segurança dos sistemas implementados e investigando incidências que podem comprometer a segurança do sistema ou da rede.
+
+
+## 20. ANSI
+
+O ANSI (American National Standards Institute) framework contém padrões, informações e relatórios técnicos que descrevem os procedimentos para a implementação e manutenção dos Sistemas de Controle e Automação Industrial (IACS). A estrutura se aplica a todas as organizações que implementam ou gerenciam sistemas IACS. A estrutura consiste em quatro categorias, conforme definido pelo ANSI. A primeira categoria contém informações fundamentais, como modelos de segurança, terminologias e conceitos. A segunda categoria aborda os aspectos envolvidos na criação e manutenção de programas de segurança cibernética do SIGC. A terceira e quarta categorias descrevem os requisitos para integração segura do sistema e requisitos de segurança para o desenvolvimento do produto, respectivamente.
+
+
+## 21. NIST SP 800-12
+
+O framework fornece uma visão geral do controle e da segurança do computador dentro de uma organização. Além disso, o NIST SP 800-12 se concentra nos diferentes controles de segurança que uma organização pode implementar para obter uma defesa reforçada de segurança cibernética. Embora a maioria dos requisitos de controle e segurança tenha sido projetada para agências federais e governamentais, eles são altamente aplicáveis a organizações privadas que buscam aprimorar seus programas de segurança cibernética. O NIST SP 800-12 permite às empresas manter políticas e programas para proteger dados e infraestrutura de TI confidenciais.
+
+
+## 22. NIST SP 800-14 
+
+O NIST SP 800-14 é uma publicação exclusiva que fornece descrições detalhadas dos princípios de segurança usados com freqüência. A publicação permite que as organizações entendam tudo o que precisa ser incluído nas políticas de segurança cibernética. Como resultado, as empresas garantem o desenvolvimento de políticas e programas holísticos de segurança cibernética, cobrindo dados e sistemas essenciais. Além disso, as publicações descrevem medidas específicas que as empresas devem usar para fortalecer as políticas de segurança já implementadas. No total, a estrutura do NIST SP 800-14 descreve oito princípios de segurança, com um total de 14 práticas de segurança cibernética.
+
+
+## 23. NIST SP 800-26
+
+Enquanto o framework do NIST SP 800-14 discute os vários princípios de segurança usados para proteger informações e ativos de TI, o NIST SP 800-26 fornece diretrizes para o gerenciamento da segurança de TI. A implementação de políticas de segurança por si só não pode permitir que uma empresa obtenha segurança cibernética ideal, pois exige avaliações e avaliações frequentes. Por exemplo, a publicação contém descrições para a realização de avaliações e práticas de risco para gerenciar riscos identificados. É uma estrutura altamente útil que garante que as organizações mantenham políticas eficazes de segurança cibernética. Uma combinação de diferentes publicações do NIST pode garantir que as empresas mantenham programas adequados de segurança cibernética.
+
+#### Referência
+
+1. https://www.iso.org/isoiec-27001-information-security.html
+
+2. https://www.iso27001security.com/html/27002.html
+
+3. https://www.nist.gov/cyberframework
+
+4. https://www.iasme.co.uk/audited-iasme-governance/
+
+5. https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html
+
+6. https://www.cisecurity.org/controls/
+
+7. https://nvd.nist.gov/800-53
+
+8. http://www.isaca.org/cobit/pages/default.aspx
+
+9. https://www.coso.org/Pages/default.aspx
+
+10. https://www.etsi.org/cyber-security/tc-cyber-roadmap
+
+11. https://hitrustalliance.net/hitrust-csf/
+
+12. https://www.it-cisq.org/
+
+13. https://www.ncsc.gov.uk/collection/10-steps-to-cyber-security
+
+14. https://www.fedramp.gov/
+
+15. https://www.hhs.gov/hipaa/index.html
+
+16. https://gdpr-info.eu/
+
+17. https://www.dhs.gov/cisa/federal-information-security-modernization-act
+
+18. https://www.dfs.ny.gov/docs/legal/regulations/adoptions/dfsrf500txt.pdf
+
+19. https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-013-1.pdf
+
+20. https://www.open-scap.org/features/standards/
+
+21. https://www.ansi.org/
+
+22. https://csrc.nist.gov/CSRC/media/Publications/sp/800-12/rev-1/draft/documents/sp800_12_r1_draft.pdf
+
+23. https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=890092
+
+24. https://csrc.nist.gov/publications/detail/sp/800-26/archive/2001-11-01
+
+
+
 
 ---
+
+Autor: [George Mutune](https://cyberexperts.com/author/georgemutune/)
 
 [Artigo Original](https://cyberexperts.com/cybersecurity-frameworks/)
 
