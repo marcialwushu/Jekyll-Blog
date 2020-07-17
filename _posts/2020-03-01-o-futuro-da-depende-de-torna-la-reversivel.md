@@ -84,10 +84,42 @@ Enquanto isso, outros pesquisadores estavam explorando abordagens alternativas p
 
 Infelizmente, a idéia ainda estava à frente de seu tempo. A tecnologia convencional de semicondutores melhorou rapidamente entre os anos 90 e o início dos anos 2000 e, portanto, o campo da computação reversível definhava. No entanto, foram feitos alguns progressos. Por exemplo, em 2004, Krishna Natarajan (uma estudante que eu estava orientando na Universidade da Flórida) e mostrei em simulações detalhadas que uma nova e simplificada família de circuitos para computação reversível chamada lógica adiabática de dois níveis, ou 2LAL, poderia se dissipar tão pouco como 1 eV de energia por transistor por ciclo - cerca de 0,001% da energia normalmente usada pelos sinais lógicos nessa geração de CMOS. Ainda assim, um computador reversível prático ainda precisa ser construído usando essa ou outras abordagens.
 
+Não resta muito tempo para desenvolver máquinas reversíveis, porque o progresso na tecnologia convencional de semicondutores pode parar em breve. E se isso acontecer, o setor poderá estagnar, tornando o progresso muito mais difícil. Portanto, chegou a hora de buscar essa tecnologia, pois provavelmente levará pelo menos uma década para que os computadores reversíveis se tornem práticos.
+
+A necessidade mais crucial é de novas tecnologias de dispositivos reversíveis. Os transistores CMOS convencionais - especialmente os menores e mais modernos - vazam muita corrente para produzir circuitos adiabáticos muito eficientes. Transistores maiores baseados em tecnologia de fabricação mais antiga vazam menos, mas teriam que ser operados muito lentamente, o que significa que muitos dispositivos precisariam ser usados ​​para acelerar a computação por meio de operação paralela. Empilhá-los em camadas pode gerar circuitos adiabáticos compactos e com baixo consumo de energia, mas, no momento, essa fabricação 3D ainda é bastante cara. E o CMOS pode ser um beco sem saída em qualquer caso.
 
 
+Felizmente, existem algumas alternativas promissoras. Uma é usar eletrônicos supercondutores rápidos para construir circuitos reversíveis, que já demonstraram dissipar menos energia por dispositivo do que o limite de Landauer quando operados reversivelmente. Os avanços nesse domínio foram feitos por pesquisadores da Universidade Nacional de Yokohama , da Stony Brook University e da Northrop Grumman. Enquanto isso, uma equipe liderada por Ralph Merkle no Institute for Molecular Manufacturingem Palo Alto, Califórnia, projetou máquinas moleculares reversíveis em escala nanométrica, que, em teoria, poderiam consumir cem bilhões de biliões da energia da tecnologia de computação atual, enquanto ainda alternavam as escalas de tempo em nanossegundos. O problema é que a tecnologia para fabricar esses dispositivos atomicamente precisos ainda precisa ser inventada.
 
+Independentemente de essas abordagens serem bem-sucedidas, os físicos que estão trabalhando no desenvolvimento de novos conceitos de dispositivos precisam manter em mente o objetivo da operação reversível. Afinal, essa é a única maneira que qualquer novo substrato de computação pode superar os recursos práticos da tecnologia CMOS de fim de linha em muitas ordens de magnitude, em oposição a apenas algumas no máximo.
 
+---
+
+## Computando com pequena lógica de link
+
+![](https://spectrum.ieee.org/image/Mjk0NDgyNw.jpeg)
+
+>Ilustração: James Provost
+
+**Ralph Merkle** e seus colegas imaginam fazer cálculos usando a "lógica de link" nanomecânica, um componente básico para o qual é mostrado aqui. Esse dispositivo contém duas barras móveis [cinza escuro], conectadas de forma que apenas uma barra de cada vez possa ser deslocada de sua posição central. Essas barras mediam algumas centenas de átomos de diâmetro e seus pontos de articulação seriam quase sem atrito. Assim, um grande número deles conectados da maneira correta poderia realizar cálculos, assim como os transistores fazem hoje. A diferença é que um pequeno sistema de lógica de link seria reversível.
+
+---
+
+**Para ser claro**, a computação reversível não é nada fácil. De fato, os obstáculos de engenharia são enormes. A obtenção de computação reversível eficiente com qualquer tipo de tecnologia provavelmente exigirá uma revisão completa de toda a nossa infraestrutura de design de chips. Também teremos que treinar grande parte da força de trabalho de engenharia digital para usar as novas metodologias de design. Eu acho que o custo total de todos os novos investimentos em educação, pesquisa e desenvolvimento que serão necessários nas próximas décadas provavelmente vai chegar a bilhões de dólares. É um tiro na lua da computação do futuro.
+
+Mas, na minha opinião, a dificuldade desses desafios seria uma desculpa muito ruim para não enfrentá-los. Nesse momento, chegamos a um momento histórico na evolução da tecnologia de computação e precisamos escolher um caminho em breve.
+
+Se continuarmos em nosso curso atual, isso significaria desistir do futuro da computação e aceitar que a eficiência energética de nosso hardware em breve chegará ao platô. Mesmo conceitos não convencionais, como a computação neural analógica ou baseada em picos , chegarão a um limite se eles não forem projetados para serem reversíveis. E mesmo um avanço na computação quântica ajudaria a acelerar significativamente algumas classes de computação altamente especializadas, e não a computação em geral.
+
+Mas se decidirmos abrir caminho para essa nova trilha da computação reversível, podemos continuar a encontrar maneiras de continuar melhorando a computação no futuro. A física não conhece um limite superior para a quantidade de computação reversível que pode ser realizada usando uma quantidade fixa de energia. Até onde sabemos, um futuro ilimitado para a computação nos espera, se tivermos coragem suficiente para aproveitá-lo.
+
+Este artigo aparece na edição impressa de setembro de 2017 como "Jogando a computação para trás".
+
+---
+
+Autor: [Michael P. Frank](https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?mpfrank)
+
+[Artigo Original](https://spectrum.ieee.org/computing/hardware/the-future-of-computing-depends-on-making-it-reversible)
 
 
 
