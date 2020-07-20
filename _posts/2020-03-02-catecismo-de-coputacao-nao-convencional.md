@@ -87,37 +87,37 @@ Financiamento: Este material é baseado no trabalho apoiado pela National Scienc
 - Borkar, S. (2006). “Eletrônica além do CMOS em nanoescala”, em Proceedings of Design Automation Conference , (Nova York: A Associação de Máquinas de Computar), 807-808.
 - [Google Scholar](http://scholar.google.com/scholar_lookup?title=%E2%80%9CElectronics+beyond+nano-scale+CMOS,%E2%80%9D&author=S.+Borkar&conference=Proceedings+of+the+Design+Automation+Conference&publication_year=2006&pages=807%E2%80%93808)
 - Cerf, VG (2014). Computação não convencional. Comum. ACM 57, 7. doi: 10.1145 / 2656433
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1145/2656433) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Unconventional+computing&author=V.+G.+Cerf&journal=Commun.+ACM&publication_year=2014&volume=57&pages=7&doi=10.1145/2656433)
 - Crutchfield, JP, Ditto, WL e Sinha, S. (2010). Introdução à questão focal: computação intrínseca e projetada: processamento de informações em sistemas dinâmicos - além da hegemonia digital. Caos 20, 037101. doi: 10.1063 / 1.3492712
-- Resumo Pubmed | Texto completo em Pubmed | Texto completo em CrossRef | Google Scholar
+- [Resumo Pubmed](http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&Cmd=ShowDetailView&TermToSearch=20887067) | [Texto completo em Pubmed](http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&cmd=prlinks&retmode=ref&id=20887067) | [Texto completo em CrossRef](http://dx.doi.org/10.1063/1.3492712) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Introduction+to+focus+issue:+intrinsic+and+designed+computation:+information+processing+in+dynamical+systems-beyond+the+digital+hegemony&author=J.+P.+Crutchfield&author=W.+L.+Ditto&author=S.+Sinha&journal=Chaos&publication_year=2010&volume=20&pages=037101&doi=10.1063/1.3492712&pmid=20887067)
 - Davis, M. (2004). "O mito da hipercomputação", em Alan Turing: Vida e Legado de um Grande Pensador , ed. C. Teuscher (Berlim: Springer-Verlag), 195-212.
-- Google Scholar
+- [Google Scholar](http://scholar.google.com/scholar_lookup?title=%E2%80%9CThe+myth+of+hypercomputation,%E2%80%9D&author=M+Davis&publication_year=2004&pages=195%E2%80%93212)
 - de Castro, LN (2006). Fundamentos da computação natural: conceitos básicos, algoritmos e aplicativos . Boca Raton, FL: CRC Press.
-- Google Scholar
+- [Google Scholar](http://scholar.google.com/scholar_lookup?title=Fundamentals+of+Natural+Computing:+Basic+Concepts,+Algorithms,+and+Applications&author=L.+N.+de+Castro&publication_year=2006)
 - Fenn, J. (2008). Compreendendo os ciclos de hype do Gartner . Disponível em: http://www.gartner.com/technology/research/methodologies/hype-cycle.jsp
-- Google Scholar
+- [Google Scholar](http://scholar.google.com/scholar_lookup?title=Understanding+Gartner%E2%80%99s+Hype+Cycles&author=J.+Fenn&publication_year=2008)
 - Gros, C. (2012). Empurrando a barreira da complexidade: retornos decrescentes nas ciências. Sistema complexo. 21, 183–192.
-- Google Scholar
+- [Google Scholar](http://scholar.google.com/scholar_lookup?title=Pushing+the+complexity+barrier:+diminishing+returns+in+the+sciences&author=C.+Gros&journal=Complex+Syst.&publication_year=2012&volume=21&pages=183%E2%80%93192)
 - Han, J.-W. e Meyyappan, M. (2014). O dispositivo feito de nada. IEEE Spectr. 51, 30–35.
-- Google Scholar
+- [Google Scholar](http://scholar.google.com/scholar_lookup?title=The+device+made+of+nothing&author=J.-W.+Han&author=M.+Meyyappan&journal=IEEE+Spectr.&publication_year=2014&volume=51&pages=30%E2%80%9335)
 - Lloyd, S. (2000). Limites físicos finais à computação. Nature 406, 1047-1054. doi: 10.1038 / 35023282
-- Resumo Pubmed | Texto completo em Pubmed | Texto completo em CrossRef | Google Scholar
+- [Resumo Pubmed](http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&Cmd=ShowDetailView&TermToSearch=10984064) | [Texto completo em Pubmed](http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&cmd=prlinks&retmode=ref&id=10984064) | [Texto completo em CrossRef](http://dx.doi.org/10.1038/35023282) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Ultimate+physical+limits+to+computation&author=S.+Lloyd&journal=Nature&publication_year=2000&volume=406&pages=1047%E2%80%931054&doi=10.1038/35023282&pmid=10984064)
 - Markov, IM (2014). Limites nos limites fundamentais da computação. Nature 512, 147-154. doi: 10.1038 / nature13570
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1038/nature13570) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Limits+on+fundamental+limits+to+computation&author=I.+M.+Markov&journal=Nature&publication_year=2014&volume=512&pages=147%E2%80%93154&doi=10.1038/nature13570)
 - Sery, G., Borkar, S. e De, V. (2002). "A vida é CMOS: por que perseguir a vida depois?", Em Proceedings of the 39th Design Automation Conference , (Nova York: A Association for Computing Machinery), 78-83.
-- Google Scholar
+- [Google Scholar](http://scholar.google.com/scholar_lookup?title=%E2%80%9CLife+is+CMOS:+why+chase+the+life+after?,%E2%80%9D&author=G.+Sery&author=S.+Borkar&author=V.+De&conference=Proceedings+of+the+39th+Design+Automation+Conference&publication_year=2002&pages=78%E2%80%9383)
 - Shapiro, J. (1994). George H. Heilmeier. IEEE Spectr. 31, 56-59. doi: 10.1109 / 6.284787
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1109/6.284787) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=George+H.+Heilmeier&author=J.+Shapiro&journal=IEEE+Spectr.&publication_year=1994&volume=31&pages=56%E2%80%9359&doi=10.1109/6.284787)
 - Stepney, S. (2012). Programação de computadores não convencionais: dinâmica, desenvolvimento, auto-referência. Entropy 14, 1939-1952. doi: 10.3390 / e14101939
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.3390/e14101939) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Programming+unconventional+computers:+dynamics,+development,+self-reference&author=S.+Stepney&journal=Entropy&publication_year=2012&volume=14&pages=1939%E2%80%931952&doi=10.3390/e14101939)
 - Stepney, S., Braunstein, SL, Clark, JA, Tyrrell, A., Adamatzky, A., Smith, RE, et al. (2005). Jornadas em computação não clássica I: um grande desafio para a pesquisa em computação. Int. J. Parallel Emergent Distrib. Syst. 20, 5-19. doi: 10.1080 / 17445760500033291
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1080/17445760500033291) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Journeys+in+non-classical+computation+I:+a+grand+challenge+for+computing+research&author=S.+Stepney&author=S.+L.+Braunstein&author=J.+A.+Clark&author=A.+Tyrrell&author=A.+Adamatzky&author=R.+E.+Smith&journal=Int.+J.+Parallel+Emergent+Distrib.+Syst.&publication_year=2005&volume=20&pages=5%E2%80%9319&doi=10.1080/17445760500033291)
 - Teuscher, C. e Sipper, M. (2002). Hipercomputação: hype ou computação? Comum. ACM 45, 23–24. doi: 10.1145 / 545151.545170
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1145/545151.545170) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Hypercomputation:+hype+or+computation?&author=C.+Teuscher&author=M.+Sipper&journal=Commun.+ACM&publication_year=2002&volume=45&pages=23%E2%80%9324&doi=10.1145/545151.545170)
 - Weiser, M. (1991). O computador do século XXI. Sci. Sou. 265, 66-75. doi: 10.1038 / scientificamerican0991-94
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1038/scientificamerican0991-94) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=The+computer+of+the+21st+century&author=M.+Weiser&journal=Sci.+Am.&publication_year=1991&volume=265&pages=66%E2%80%9375&doi=10.1038/scientificamerican0991-94)
 - Wright, A. (2014). Big data atende a grande ciência. Comum. ACM 57, 13–15. doi: 10.1145 / 2617660
-- Texto completo em CrossRef | Google Scholar
+- [Texto completo em CrossRef](http://dx.doi.org/10.1145/2617660) | [Google Scholar](http://scholar.google.com/scholar_lookup?title=Big+data+meets+big+science&author=A.+Wright&journal=Commun.+ACM&publication_year=2014&volume=57&pages=13%E2%80%9315&doi=10.1145/2617660)
 
 
 
