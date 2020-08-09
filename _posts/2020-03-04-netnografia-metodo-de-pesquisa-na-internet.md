@@ -155,3 +155,69 @@ SaysLaRed que aproveita a vantagem desta técnica "não intrusiva" para apresent
 - A netnografia, como método investigativo, poderia ter, além do marketing, aplicação em processos de treinamento ou outros campos, onde as necessidades e interesses dos internautas são explorados.
 
 
+## BIBLIOGRAFIA
+
+- CERF, Vincent (2000): "A Internet no século XXI: a onda imparável". Palestra proferida em 23 de maio de 2000 na Universidade Aberta da Catalunha. Instituto Interdisciplinar da Internet (IN3).
+- COLORDO PRUTSKY, Dalith (2004): "Comunidades virtuais" em http : // www. monographs .com / trabajo16 / virtual-Communities / virtual-Communities.shtml [12/03/2006]
+- DiceLaRed (2003): "Estudo do serviço ADSL em comunidades virtuais. Netnografia de ADSL em Espanha" em [03/12/2006]
+- elmundo.es (2003): "Netnografia. Novo método para sondar a rede" publicado na Revista Eletrônica TECNOLOGIA Y CIENCIA em http://www.peru.com/tecnologia/idocs/2003/10/11/DetalleDocumento_104292.asp [ 15/04/2006]
+- Interlink Headline News Nº 3445 de 06 de julho de 2004. ISSN 1514-349X em http://www.ilhn.com/ediciones/3445.html [13/03/2006]
+- JUNG ROCAHL, Paula e Sandra PORTELLA MONTARDO (2005): "Netnografia: incursões metodológicas na cibercultura" em www.compos.com.br/e-compos [13/03/2006]
+- KOTAMRAJU, Nalini P. (2005): " Art versus Code" em Howard, Philip N e Steve JONES (2005): Society on line. Internet em contexto. Editorial UOC. Barcelona Espanha.
+- KOZINETS, Robert V. (2002). O que a antropologia pode agregar ao marketing? em gsbwww.chicagogsb.edu/kilts/research/workshop/WorkshopPapers/UniversityofChicago_Present.pdf [14/04/2006]
+- MERCER, Neil (2001): Palavras e Mentes. Como usamos a linguagem para pensar juntos. Ed. Paidós. Barcelona Espanha.
+- Analista da Dice La Red em http://www.blackbox.ec/cne/boletines/bol43.htm [14/04/2006]
+- REDONDAS, Julio (2003): "Netnografia e Identidades. Analista DiceLaRed publicado em 24/09/2003 em http://netnografia.blogspot.com/ [12/03/2006]
+- REDONDAS, Julio (2003): "Netnografias: um olhar para a vanguarda da pesquisa comercial" analista DiceLaRed . Publicado em 19/09/2003 em http://www.blackbox.ec/cne/boletines/bol43.htm [12/03/2006]
+- REVISTA CUATRO BARRIOS DIGITAL (s / f): http://www.cuatrobarrios.com.ar/rinconsoftyhard.htm [15/04/2006]
+- SÁ, Simone Pereira de (2001): Netnografias em redes digitais. Trabalho apresentado ao Grupo de Tecnologias da Informação da Comunicação e Sociedade, X Campus, Universidade de Brasília.
+
+
+## LINKS INTERESSANTES
+
+- http://www.baquia.com/noticias.php?idnoticia=00003.20030919
+- Site interessante sobre a aplicação da netnografia em pesquisas comerciais.
+- http://www.compos.org.br/e-compos/adm/documentos/dezembro2005_paula_sandra.pdf
+- Página brasileira onde são discutidos o processo de treinamento e o curso de netnografia.
+- http://www.eulatic.org/ginews/doc201.htm
+- Descrição do processo de aplicação da netnografia.
+- http://www.telepolis.com/cgi-bin/web/DISTRITODOCVIEW?url=/ingresosonline/doc/internet/netnografias.htm
+- Ele enfatiza a dinâmica de desenvolvimento da netnografia em comunidades virtuais.
+- http://www.cibersociedad.net/congres2004/foros/conversa.php?idioma=es&tematica=251&grup=21&id=903
+- Grupo de trabalho que, por meio do fórum, discute novas metodologias na web.
+- http://www.ciadvertising.org/SA/spring_04/adv391k/karen/NetnoMethod.htm
+- Página em inglês, onde Kozinets lança as bases do trabalho netnográfico.
+- http://www.buzzmaps.net/files/DiceLaRed-NNG-ADSL-10031.pdf .
+- Pesquisa netnográfica desenvolvida pela DiceLaRed, com resultados interessantes.
+- http://www.andrealanza.it/mktgrete/Mktgrete2005/MktgRete_5.ppt
+- Apresentação italiana da netnografia como método de análise comercial.
+- http://www.paraperiodistas.com/ampliar.php?idSeccion=17&idNoticia=213
+- Exclusivamente para jornalistas de netnografia na comunicação de notícias.
+- http://reposcom.portcom.intercom.org.br/bitstream/1904/17474/1/R1430-1.pdf
+- Web em português que relaciona a aplicação da netnografia no marketing.
+- http://www.qualitative-research.net/fqs-texte/2-04/2-04dholakiazhang-s.htm
+- Site de perspectivas de pesquisa qualitativa na área de comércio digital.
+- http://www.diversica.com/tecnologia/archivos/2003/11/que-dicen-saber-los-usuarios-de-internet-sobre-el-colesterol.php
+- Uma netnografia realizada em comunidades virtuais de saúde.
+- http://www.buzzmaps.net/files/DiceLaRed-NNG-ADSL-10031.pdf .
+- Investigação netnográfica do sentimento do consumidor em torno de uma empresa.
+- http://abladias.blogspot.com/2005/09/el-color-poltico-de-la-blogosfera.html
+- Netnografia na percepção geral de diferentes políticos espanhóis na Internet.
+- http://www.digitalassetsdeployment.com/es/articulos.html?idArt=113
+- Comentário reflexivo sobre o trabalho das empresas em suas mensagens na Internet.
+- http://66.249.93.104/search?q=cache:Wv1wMRVg4mIJ:www.buzzmaps.net/files/DiceLaRed_boletin_pda_may04.pdf+netnografia&hl=es&gl=es&ct=clnk&cd=53
+- Relaciona a metodologia da pesquisa netnográfica em conversas on-line.
+- http://gti-famecos-pucrs.blogspot.com/
+- Site interessante que descreve a ocorrência dos métodos usados na cibercultura.
+- http: //www.monographs.com/works16/virtual-Communities/virtual-Communities.shtml
+- Residência sobre o método netnográfico em comunidades virtuais.
+
+ 
+---
+
+Autor: [Osbaldo Washington Turpo Gebera](https://www.monografias.com/usuario/perfiles/osbaldo_washington_turpo_gebera)
+
+[Artigo Original](https://www.monografias.com/trabajos57/netnografia/netnografia.shtml)
+
+
+
