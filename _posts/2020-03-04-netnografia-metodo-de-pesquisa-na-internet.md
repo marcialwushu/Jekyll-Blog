@@ -158,7 +158,7 @@ SaysLaRed que aproveita a vantagem desta técnica "não intrusiva" para apresent
 ## BIBLIOGRAFIA
 
 - CERF, Vincent (2000): "A Internet no século XXI: a onda imparável". Palestra proferida em 23 de maio de 2000 na Universidade Aberta da Catalunha. Instituto Interdisciplinar da Internet (IN3).
-- COLORDO PRUTSKY, Dalith (2004): "Comunidades virtuais" em http : // www. monographs .com / trabajo16 / virtual-Communities / virtual-Communities.shtml [12/03/2006]
+- COLORDO PRUTSKY, Dalith (2004): "Comunidades virtuais" em http://www.monographs.com/trabajo16/virtual-Communities/virtual-Communities.shtml [12/03/2006]
 - DiceLaRed (2003): "Estudo do serviço ADSL em comunidades virtuais. Netnografia de ADSL em Espanha" em [03/12/2006]
 - elmundo.es (2003): "Netnografia. Novo método para sondar a rede" publicado na Revista Eletrônica TECNOLOGIA Y CIENCIA em http://www.peru.com/tecnologia/idocs/2003/10/11/DetalleDocumento_104292.asp [ 15/04/2006]
 - Interlink Headline News Nº 3445 de 06 de julho de 2004. ISSN 1514-349X em http://www.ilhn.com/ediciones/3445.html [13/03/2006]
