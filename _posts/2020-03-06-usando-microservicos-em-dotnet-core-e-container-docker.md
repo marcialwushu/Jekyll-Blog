@@ -63,8 +63,119 @@ A imagem a seguir mostra o estilo de arquitetura de microsserviços.
 
 >Existem vários componentes em uma arquitetura de microsserviços além dos próprios microsserviços.
 
-Começamos com um cliente que interage com um servidor usando uma autenticação usando o provedor de identidade que gerencia as informações de identidade e fornece serviços de autenticação em uma rede distribuída. Para garantir essa interação, precisamos de um ponto de entrada do cliente que é o API Gateway . É um único ponto de contato do cliente que, por sua vez, retorna respostas de microsserviços subjacentes e às vezes uma resposta agregada de vários microsserviços, em nosso esquema, temos quatro serviços que usam o Gerenciamento que mantém os nós para o serviço. E para manter o controle de serviços e endereços de serviço e endpoints, usamos o Service Discovery.
+Começamos com um cliente que interage com um servidor usando uma autenticação usando o **provedor de identidade** que gerencia as informações de identidade e fornece serviços de autenticação em uma rede distribuída. Para garantir essa interação, precisamos de um ponto de entrada do cliente que é o **API Gateway** . É um único ponto de contato do cliente que, por sua vez, retorna respostas de microsserviços subjacentes e às vezes uma resposta agregada de vários microsserviços, em nosso esquema, temos quatro serviços que usam o **Gerenciamento** que mantém os nós para o serviço. E para manter o controle de serviços e endereços de serviço e endpoints, usamos o **Service Discovery**.
 
+
+Temos **CDN** que é uma rede de distribuição de conteúdo para servir recursos estáticos. Por exemplo, páginas e conteúdo da web em uma rede distribuída e o **Conteúdo Estático** são recursos estáticos como páginas e conteúdo da web.
+
+Falaremos mais detalhadamente sobre o API Gateway:
+
+![](https://miro.medium.com/max/700/1*dfH4NJ1D8w5zY3U3DRNrPw.png)
+
+>Gateway API
+
+Um gateway de API está localizado entre os clientes e os serviços. Ele atua como um proxy reverso, roteando solicitações de clientes para serviços. Ele também pode executar várias tarefas multifuncionais, como autenticação, encerramento de SSL e limitação de taxa. Se você não implantar um gateway, os clientes deverão enviar solicitações diretamente aos serviços de front-end.
+
+Isso cria um acoplamento entre o cliente e o servidor. O cliente deve saber como cada serviço foi dividido. isso torna a manutenção do cliente mais difícil e os serviços de refatoração.
+
+Agora, precisamos implantar nossos serviços no contêiner, para fazer isso, usaremos o Docker.
+
+## Container Docker
+
+![](https://miro.medium.com/max/700/1*qamIVeRVa8gc9Efzt6swFQ.png)
+
+
+Docker é uma ferramenta que facilita a criação, implantação e execução de aplicativos usando uma abordagem de contêiner.
+
+Esses contêineres são leves e levam menos tempo para inicializar do que os servidores tradicionais. Esses contêineres também aumentam o desempenho e reduzem custos, ao mesmo tempo em que fornecem gerenciamento adequado de recursos. Outra vantagem do Docker é que não é mais necessário pré-alocar RAM para cada container.
+
+### Microsserviço usando ASP.NET Core
+
+E antes de começarmos a modelar nossa arquitetura de microsserviços usando as estratégias e técnicas deste curso, precisamos de um problema para resolver, e é aqui que entra este estudo de caso. E nosso estudo de caso é baseado em agendamento de consultas médicas.
+
+#### Ambiente de Pré-requisitos
+
+- Visual Studio 2019 ou 2017 tem suporte integrado para Docker
+- O Windows 10 é necessário para a instalação do Docker.
+- SDK do .NET Core
+- Docker para Windows
+- Ferramentas Docker
+
+#### Criando uma solução de aplicativo Asp.NET Core 3
+
+Comecei com essa solução antiga, o aplicativo N-Layered e inclui APIs da Web. E precisamos mudar isso para microsserviços.
+
+GitHub: https://github.com/didourebai/Plateforme.AlloTabib-Before
+
+![](https://miro.medium.com/max/700/1*qMmzM4mOnoxxH74E1IXUJQ.png)
+
+>Arquitetura monolítica em camadas N
+
+Este aplicativo possui esta estrutura:
+
+- Camada de serviço: inclui todas as APIs usadas e integra a estrutura swagger.
+
+![](https://miro.medium.com/max/700/1*fdrpi31RW8k4IDphUuJfgQ.png)
+
+>APIs da Web e Swagger
+
+![](https://miro.medium.com/max/700/1*C8LXlio4_XPdc9COqxtWbA.png)
+
+>API de conta de usuário
+
+- Camada de aplicativo e domínio: esta é a camada de negócios.
+- Duas aplicações web: usando MVC 4 e AngularJS.
+- A camada de infraestrutura é a camada de acesso ao banco de dados.
+
+Criamos uma nova solução em branco para incluir todos os projetos de API que são nossos serviços:
+
+![](https://miro.medium.com/max/700/1*Q3qGdjW3fwjJxzHW_5gCPQ.png)
+
+>Visual Studio 2019
+
+![](https://miro.medium.com/max/700/1*MxvFDiZJX7TpjKezeTGw7w.png)
+
+>API com Docker habilitado
+
+Ou se pudermos usar o Docker com um orquestrador Kubernetes, ele está pronto para o aplicativo da Web principal:
+
+![](https://miro.medium.com/max/700/1*aCDByTsVUKm1ptJUsPBjOQ.png)
+
+>Docker e Kubernetes
+
+![](https://miro.medium.com/max/700/1*c-c2XBxUm5mCfz9w6PehIQ.png)
+
+>API
+
+### Envie imagens do Docker para o Azure Container Registry
+
+![](https://miro.medium.com/max/700/1*HW1PI2e2bGAT-qRndsjQXA.png)
+
+## HTTP Client Factory
+
+Para garantir um aplicativo em nuvem resiliente, precisamos implementar uma comunicação resiliente com os aposentados.
+Para implementar isso, usamos a melhor biblioteca para novas tentativas e o sql breaker é o Poly, um código aberto. Portanto, você pode manipular ou implementar HttpClient em sua aplicação com Http Factory em .net Core.
+
+
+## Orquestradores no Azure
+
+Podemos usar o Kubernetes com Docker ou Service Fabric se nossos microsserviços forem baseados em processos simples e forem mais usados ​​para serviços com estado.
+
+
+![](https://miro.medium.com/max/700/1*Q-w8sjfEaAtRgAELmt7jfw.png)
+
+>Orquestradores no Azure
+
+
+## Conclusão
+
+Este artigo foi uma visão geral sobre microsserviços com Docker, microsserviços permitem evoluir, implantar e dimensionar partes do aplicativo de forma independente, mas não podemos usar essa arquitetura para aplicativos pequenos porque é dedicada a desafios de software distribuído e para aplicativos escalonáveis e em evolução de longo prazo.
+
+---
+
+Autor: [Rebai Hamida](https://medium.com/@didourebai?source=follow_footer--------------------------follow_footer-----------)
+
+[Artigo Original](https://medium.com/@didourebai/using-microservices-in-net-core-and-docker-container-c202785dd295)
 
 
 
