@@ -164,6 +164,133 @@ Estas são atualmente as pessoas mais importantes dentro do movimento:
 Incluí uma breve descrição de cada uma dessas figuras proeminentes.
 
 
+## Max More
+
+Max More é o diretor da Alcor (uma instituição de preservação criogênica, um método que se enquadra no transumanismo, sobre o qual escreverei mais adiante). Ele nasceu na Irlanda, cresceu em Bristol (Inglaterra), estudou em Oxford (Inglaterra) e fez sua pesquisa de doutorado na University of South Carolina (Estados Unidos). Em sua dissertação, ele investigou o que é a morte e a continuidade do eu ao longo do tempo.
+
+Durante seus estudos, ele mudou seu sobrenome de O'Connor para More. Em entrevista à revista Wired , ele afirmou que o novo sobrenome “reflete realmente a essência do meu objetivo: melhorar sempre, nunca ficar parado. Eu seria melhor em tudo, ficaria mais inteligente, mais apto e mais saudável. O novo sobrenome deve lembrá-lo de seguir em frente.
+
+
+## Natasha Vita-More
+
+Natasha Vita-More é a esposa de Max More. Atualmente é presidente da Humanity Plus. Humanity Plus é um instituto guarda-chuva que se compromete a espalhar o transumanismo. Ela é a iniciadora do projeto Primo Posthuman, sobre o qual escreverei mais tarde.
+
+Em 1981, ela teve uma gravidez ectópica que levou a um aborto espontâneo. No hospital, descobriu-se que levaria apenas alguns minutos para ela morrer. Este foi o gatilho para seu interesse pelo transumanismo. Há uma passagem em Mensmachine em que ela percebeu que o corpo humano é um mecanismo frágil e insidioso que está sangrando e condenado à morte.
+
+![](https://www.peterjoosten.net/wp-content/uploads/2016/05/Natasha-Vita-More-1024x580.jpg)
+
+## Ray Kurzweil
+
+Ray Kurzweil é engenheiro-chefe do Google. Em 1999, ele recebeu a Medalha Nacional de Tecnologia e Inovação do presidente Bill Clinton, o maior prêmio para especialistas em tecnologia nos Estados Unidos. Ele é autor de vários livros sobre o futuro tecnológico, incluindo The Singularity is Near , e escreve artigos em seu blog Kurzweil.ai.
+
+Ele é um palestrante muito procurado sobre novas tecnologias e transumanismo. Ele faz muitas pesquisas sobre a emulação do cérebro humano em um computador, mais sobre isso depois. O documentário Transcedent Man é sobre sua vida e as ideias que segue. Ele espera que, como seres humanos no ano de 2040 , possamos permanecer jovens para sempre com a modificação genética, nanorrobôs e outros métodos.
+
+![](https://www.peterjoosten.net/wp-content/uploads/2016/05/Ray-Kurzweil-1024x578.jpg)
+
+## Zoltan Istvan
+
+O americano Zoltan Istvan participou em 2016 em nome do Partido Transhumanista nas eleições presidenciais nos Estados Unidos [link abaixo]. Como resultado, ele logo foi visto pela mídia como o líder do movimento transhumanista. Ele acredita que nas próximas décadas a ideologia transumanista se tornará a tendência dominante.
+
+Anteriormente, ele viajou o mundo por seu trabalho para a National Geographic Magazine como jornalista e fotógrafo. Ele escreveu o livro The Transhumanist Wager, que é vagamente baseado em sua própria experiência.
+
+
+![](https://www.peterjoosten.net/wp-content/uploads/2016/05/Zoltan-Istvan-1024x576.jpg)
+
+## Dimitri Itskov
+
+Dimitri Iskov é um milionário russo da tecnologia e fundador da iniciativa 2045, também chamada de projeto Avartar . A iniciativa 2045 é uma organização que estabeleceu como objetivo “criar tecnologia que permita que a personalidade de uma pessoa seja transferida para um portador não biológico mais sofisticado, e estenda a vida para possibilitar a imortalidade”.
+
+Até 2045, também conhecida como fase D, a iniciativa definiu uma série de outras metas intermediárias em seu manifesto. Em 2020, por exemplo, um cérebro humano deve ser transplantado para um corpo artificial pela primeira vez.
+
+Uma visão geral das fases e objetivos é fornecida na figura abaixo:
+
+![](https://futuroexponencial.com/wp-content/uploads/2017/08/2045-image.jpeg)
+
+## Ben Goertzel
+
+O brasileiro Ben Goertzel é o fundador do CEO da Singularity.NET. O objetivo da empresa é criar uma rede descentralizada de superinteligência com tecnologia blockchain. Ele completou sua pesquisa de PhD em matemática na Temple University, Estados Unidos.
+
+Além de sua função na Singularity.NET, ele também é diretor de ciência da Hanson Robotics, a empresa de robôs que está envolvida com Bina48 (mais sobre isso depois) e Sophia (ela se tornou o primeiro robô a se tornar um cidadão na Arábia Saudita).
+
+
+## Outros transumanistas
+
+Além dos mencionados acima, existem outros pensadores, líderes e artistas importantes dentro do transumanismo. Alguns deles eu mencionei na visão geral dos movimentos, outros você vai ler mais tarde neste artigo.
+
+
+- **Tim Cannon** é o fundador da Grindhouse Wetware. Ele é um precursor do movimento Grinder, que inclui Stelarc e Lepth Anonym, entre outros. Você pode ler mais sobre isso na seção cyborgs.
+- **Aubrey de Gray** é gerontologista britânica e diretora da organização sem fins lucrativos Strategies for Engineered Negligible Senescence (SENS). Ele se concentra em métodos médicos e biológicos para prolongar a vida.
+- **Giulio Prisco** é um futurista e escritor italiano. Apoiador do cosmismo.
+- **Steve Umbrello** é Diretor Operacional do Instituto de Ética e Tecnologias Emergentes (IEET). Ele enfatiza o transumanismo cosmopolita.
+- **Lincoln Cannon** é um filósofo e um membro proeminente de uma parte da igreja Mórmon que vê as idéias do transumanismo em linha com a fé.
+- **Mike LaTorra** defende a integração do budismo com o transumanismo. Ele aponta enfaticamente para a theravada, uma velha tradição que mostra que o corpo deve ser transcendido.
+- **Bina Rothblatt** e Bruce Duncan são figuras proeminentes dentro da Fundação Movimento Terasem. Este movimento investiga as possibilidades de upload mental.
+- **David Pearce** é uma figura proeminente dentro de todo o movimento transhumanista, mas acima de tudo conhecido por sua perspectiva hedonista.
+- **James Hughes** é diretor do Instituto de Ética e Tecnologias Emergentes (IEET). Ele defende o transumanismo democrático. Ele explicou isso em seu livro Citizen Cyborg.
+- **Peter Thiel** é um capitalista de risco americano e, junto com Elon Musk, foi um dos fundadores da empresa Paypal. Ele é o modelo do transumanismo libertário.
+- O americano **Gennady Stolyarov II** lidera dois movimentos políticos transumanistas nos Estados Unidos. Ele é o autor do livro infantil Death is wrong .
+- O americano **Newton Lee** é um cientista da computação e compilador do Transhumanist Handbook .
+- O espanhol **José Cordeiro** é um dos poucos líderes europeus do movimento transhumanista
+
+Conforme mencionado, alguns desses caracteres são discutidos com mais detalhes posteriormente neste artigo.
+
+## Apoiadores do transumanismo
+
+Que tipo de pessoa apoia esse movimento? Em seu livro, o escritor Mark Mensmachine examina os próprios transumanistas. Sua perspectiva corresponde à imagem que tenho quando participo de reuniões e congressos sobre o tema.
+
+A maioria dos visitantes são homens, europeus do norte ou americanos. Outra coisa que me impressiona é o nível de pensamento dos participantes. A maioria é empregada na ciência, por exemplo, em biotecnologia, biologia médica ou economia. Você também pode deduzir da lista de conhecidos apoiadores dos movimentos transhumanistas. Eles são freqüentemente ateus, esta é a ausência de fé em um ou mais deuses.
+
+A linha vermelha nas conversas que O'Connel tem é a imagem que os transumanistas têm do corpo humano: é um corpo humano ineficiente, lento e mortal. Para ilustrar isso durante as palestras, costumo chamá-lo de "pedaço de carne" ou "bolsa d'água". Os defensores do transumanismo querem aplicar sua (freqüentemente) racionalidade científica e progresso a seus próprios corpos.
+
+![](https://www.peterjoosten.net/wp-content/uploads/2016/05/transhumanisme-1024x576.jpg)
+
+>Alguns transumanistas querem viver (além) virtualmente como no filme Avatar.
+
+---
+
+>Nesta parte, você leu sobre os argumentos que defendem esse desenvolvimento. O homem se torna divino?
+
+## Apoiadores e adversários
+
+Antes de escrever sobre os argumentos de apoiadores e oponentes, gostaria de levantar outro ponto. Em um artigo no Correspondent, Lynn Berger escreve que os proponentes e oponentes desse desenvolvimento não são fundamentalmente diferentes de qualquer outra tecnologia. “É uma espécie de espelho de diversão que amplia e distorce nossos medos mais profundos e maiores desejos, mas não muda fundamentalmente.”
+
+
+>É uma espécie de espelho do riso que amplia e distorce nossos medos mais profundos e maiores desejos. Lynn Berger (jornalista)
+
+Em um artigo anterior sobre o futuro do homem, deparei com a distinção entre pensadores do Iluminismo e a reação a isso de pensadores conservadores do século XVIII. Essa é a diferença entre progressão e preservação, entre mudança e convencionalidade.
+
+Para retornar à declaração de Berger; o desejo dos proponentes é a vida eterna e o aprimoramento da humanidade. O medo dos oponentes é que apagemos a natureza humana e nos destruamos.
+
+Acho que é bom manter essa diferença fundamental na política e na filosofia de vida em mente.
+
+## Argumentos para o transumanismo
+
+Anders Sandberg disse em uma entrevista ao NRC que deveria ser um direito humano melhorar tecnologicamente o corpo ou o cérebro. Ele acredita que o transumanismo é outro passo lógico em nossa evolução como seres humanos.
+
+As pessoas vêm se aprimorando há muito tempo em todos os tipos de formas artificiais, como usando roupas ou óculos, indo à escola e tomando vacinas. Tomar uma aspirina já é interferir para tornar sua vida melhor e para viver uma vida melhor.
+
+>Com o smartphone, já terceirizamos parte do nosso cérebro para computadores. Anders Sandberg (transhumanista)
+
+Sandberg acrescenta: “Ou com um smartphone que, na verdade, já terceirizamos parte de nosso cérebro para computadores”. Sandberg, portanto, defende o “direito à liberdade morfológica”. Na parte sobre o upload mental, isso vem à luz com ainda mais força, mas é a liberdade de determinar sua aparência como pessoa.
+
+## A melhoria como um dever
+
+Natasha Vita-Mora também fala no mesmo artigo que Sandberg. Ela acredita que é nosso dever como seres humanos transcender a nós mesmos. “As pessoas sempre trataram de problemas e exploraram novas áreas. Não vejo como não vai acontecer que as pessoas se aperfeiçoem: como espécie, somos muito inovadores, muito competitivos, muito empreendedores para simplesmente perecer ”.
+
+Esses argumentos de que o aperfeiçoamento está no cerne da natureza humana e que sempre o fizemos, encontro muito com o transumanismo. Da mesma forma, em uma entrevista com Zoltan Istvan. Ele acredita que quase todos são a favor de melhores cuidados de saúde, melhor ciência e melhor tecnologia.
+
+Torna-se diferente quando se trata de introduzir a tecnologia no corpo. Não pode ser louco o suficiente para Istvan. “Um terceiro braço por meio da modificação genética, vida eterna por meio de todos os tipos de tecnologias ou deixar a Terra, não é fantástico?”
+
+## Beneficia a sociedade
+
+Embora o transumanismo pareça ter um traço narcisista , Sandberg e Vita-More estão convencidos de que os benefícios superam os de um indivíduo.
+
+Com pessoas mais inteligentes e saudáveis, a sociedade inova mais rápido;
+À medida que as pessoas vivem mais, ficam mais conscientes de seu impacto no planeta;
+Se pessoas inteligentes viverem mais, podemos pensar melhor sobre questões importantes, como as mudanças climáticas.
+Isso também está de acordo com um argumento que apresentei em uma entrevista com o professor Maartje Schermer [link inferior]. Esse argumento segue as seguintes linhas:
+
+
 
 
 
