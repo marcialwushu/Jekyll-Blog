@@ -23,15 +23,15 @@ Este objetivo é baseado principalmente no progresso tecnológico e científico.
 Abaixo está um resumo com os pontos mais importantes.
 
 
-># 1 O transhumanismo é um movimento filosófico com o objetivo de romper as fronteiras biológicas do homem por meio da ciência e da tecnologia. Exemplos disso são a expansão das habilidades físicas e cognitivas, bem como a busca pela imortalidade.
+>#1 O transhumanismo é um movimento filosófico com o objetivo de romper as fronteiras biológicas do homem por meio da ciência e da tecnologia. Exemplos disso são a expansão das habilidades físicas e cognitivas, bem como a busca pela imortalidade.
 
-># 2 O transhumanismo é subdividido em diversos substratos , que diferem muito em suas visões políticas, filosóficas e até religiosas.
+>#2 O transhumanismo é subdividido em diversos substratos , que diferem muito em suas visões políticas, filosóficas e até religiosas.
 
-># 3 Os defensores do transhumanismo acreditam que usar a tecnologia para melhorar a nós mesmos é o que nos torna humanos. Os oponentes têm medo especialmente do abuso de poder por parte de empresas ou governos e da perda de humanidade pela rendição à tecnologia.
+>#3 Os defensores do transhumanismo acreditam que usar a tecnologia para melhorar a nós mesmos é o que nos torna humanos. Os oponentes têm medo especialmente do abuso de poder por parte de empresas ou governos e da perda de humanidade pela rendição à tecnologia.
 
-># 4 Algumas das formas e métodos ainda parecem ficção científica, como suspensão criogênica, upload mental e superinteligência. No entanto, existem cientistas e empresas em todos esses domínios fazendo pesquisas e inovações.
+>#4 Algumas das formas e métodos ainda parecem ficção científica, como suspensão criogênica, upload mental e superinteligência. No entanto, existem cientistas e empresas em todos esses domínios fazendo pesquisas e inovações.
 
-># 5 Além dos avanços na tecnologia, o impacto do transumanismo é amplamente dependente de fatores econômicos, sociais, culturais e políticos. No atual modelo capitalista , corremos o risco de vermos cada vez mais o corpo como um produto e de haver uma diferença biológica entre grupos de pessoas.
+>#5 Além dos avanços na tecnologia, o impacto do transumanismo é amplamente dependente de fatores econômicos, sociais, culturais e políticos. No atual modelo capitalista , corremos o risco de vermos cada vez mais o corpo como um produto e de haver uma diferença biológica entre grupos de pessoas.
 
 No restante deste artigo, esses pontos serão discutidos, com uma fundamentação e outros insights.
 
