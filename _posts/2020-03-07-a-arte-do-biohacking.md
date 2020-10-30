@@ -68,8 +68,19 @@ Vamos parar por um momento. Mais importante ainda, somos um blog de mindfulness,
 
 ### Aplicativos móveis de biohacking
 
-Existem centenas de aplicativos na loja de aplicativos que são tecnicamente aplicativos de biohacking, pela nossa ampla definição de biohacking. Ainda mais, o biohacking inclui dieta, meditação, análises, ASMR e outras formas de aplicativos. Vamos nos concentrar em um que parece ser o mais eficaz e popular: a indução de áudio de batida binaural . Não são necessários implantes de biohacking. No entanto, e quanto à ética do biohacking? Bem, alguns usuários de aplicativos como o aplicativo iDoser de alta classificação ultrapassaram os limites do que pode ser feito com batidas binaurais - alterando ondas cerebrais para induzir sonhos lúcidos, efeitos alucinógenos semelhantes a drogas , sexualidade aprimorada e muito mais. Além disso, deixaremos você ponderar sobre a ética de um aplicativo que pode alterar seu humor em minutos. Digamos que a potente indução de batimento binaural pode ser uma experiência e tanto.
+Existem centenas de aplicativos na loja de aplicativos que são tecnicamente aplicativos de biohacking, pela nossa ampla definição de biohacking. Ainda mais, o biohacking inclui dieta, meditação, análises, ASMR e outras formas de aplicativos. Vamos nos concentrar em um que parece ser o mais eficaz e popular: [a indução de áudio de batida binaural](https://www.binauralblog.com/brief-history-of-binaural-beats) . Não são necessários implantes de biohacking. No entanto, e quanto à ética do biohacking? Bem, alguns [usuários de aplicativos como o aplicativo iDoser de alta classificação ultrapassaram](https://www.binauralblog.com/the-art-of-biohacking/https/i-Doser.com) os limites do que pode ser feito com batidas binaurais - alterando ondas cerebrais para induzir sonhos lúcidos, [efeitos alucinógenos semelhantes a drogas](https://www.binauralblog.com/how-to-simulate-marijuana-high) , sexualidade aprimorada e muito mais. Além disso, deixaremos você ponderar sobre a ética de um aplicativo que pode [alterar seu humor em minutos](https://i-doser.com/). Digamos que a potente indução de batimento binaural pode ser uma experiência e tanto.
 
+
+### Apps de biohacking para computador
+
+[Você pode experimentar o biohacking baseado em software gratuitamente hoje](https://i-doser.com/software.html) . Pela definição de biohacking, este é um desdobramento do biohacking móvel, ou usando batidas binaurais para induzir certos estados de espírito de experiências - a mesma ética de biohacking mencionada acima se aplica. Para esclarecer, antes mesmo de seu software móvel predominante, a [iDoser desenvolveu a Plataforma de Áudio Mind para computadores PC e Mac](https://www.binauralblog.com/mindful-productivity-software/) . Ainda mais, o iDoser tem sido a forma preferida de aplicativos de biohacking baseados em software por décadas. Sempre foi totalmente gratuito e até inclui algumas sequências de indução de biohacking muito boas para experimentar. Em conclusão, nunca recomendaríamos tentar implantes de biohacking, mas verificar [alguns softwares de indução gratuitos é menos radical](https://i-doser.com/). Mesmo alguém com conhecimento limitado sobre biohacking pode experimentá-lo em seu computador doméstico ou laptop hoje.
+
+
+![](https://www.binauralblog.com/wp-content/uploads/2020/10/TheArtOfBiohacking.jpg)
+
+---
+
+[Artigo Original](https://www.binauralblog.com/the-art-of-biohacking/)
 
 
 
