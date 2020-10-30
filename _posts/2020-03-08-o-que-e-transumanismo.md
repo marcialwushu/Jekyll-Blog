@@ -285,16 +285,323 @@ Torna-se diferente quando se trata de introduzir a tecnologia no corpo. Não pod
 
 Embora o transumanismo pareça ter um traço narcisista , Sandberg e Vita-More estão convencidos de que os benefícios superam os de um indivíduo.
 
-Com pessoas mais inteligentes e saudáveis, a sociedade inova mais rápido;
-À medida que as pessoas vivem mais, ficam mais conscientes de seu impacto no planeta;
-Se pessoas inteligentes viverem mais, podemos pensar melhor sobre questões importantes, como as mudanças climáticas.
-Isso também está de acordo com um argumento que apresentei em uma entrevista com o professor Maartje Schermer [link inferior]. Esse argumento segue as seguintes linhas:
+- Com pessoas mais inteligentes e saudáveis, a sociedade inova mais rápido;
+- À medida que as pessoas vivem mais, ficam mais conscientes de seu impacto no planeta;
+- Se pessoas inteligentes viverem mais, podemos pensar melhor sobre questões importantes, como as mudanças climáticas.
+
+Isso também está de acordo com um argumento que apresentei em uma entrevista com o professor Maartje Schermer. Esse argumento segue as seguintes linhas:
+
+- Para resolver a crise climática, precisamos de uma forma avançada de inteligência artificial.
+- Para fazer avançar a tecnologia, como a inteligência artificial, podemos precisar de uma inteligência humana melhor.
+- Para conseguir isso, talvez tenhamos de aplicar deliberadamente a modificação genética em humanos.
+
+Ao aumentar a inteligência humana e a possibilidade de pensar mais sobre isso por meio de uma extensão da vida útil, provavelmente podemos lidar com grandes questões globais .
+
+Durante as palestras, às vezes digo que seria bom se Albert Einstein ou Stephen Hawking ainda estivessem vivos hoje. Esse raciocínio, é claro, também tem seu lado negativo: e se tiranos e ditadores tivessem as mesmas opções?
+
+## Nietzsche entendeu mal
+
+O filósofo alemão Nietzsche escreveu em Aldus Zarahoestra já falava em 1883 sobre o chamado “**Ubermensch**“. Parece que ele já está se referindo a uma pessoa (fisicamente) melhorada, mas isso não é verdade. Isso porque os nacional-socialistas alemães o vincularam à raça no início do século XX. Eles deliberadamente reivindicaram o termo, distorceram o significado e até introduziram uma nova palavra: o “Untermensch”.
+
+Nunca foi isso que Nietzsche quis dizer com isso, muito menos seu uso pelos nazistas na perseguição de judeus. Nietzsche referiu-se ao termo como uma pessoa que se desligou do sistema, que pensou por si mesma e se distanciou do comportamento de rebanho.
+
+Para contextualizar: ele escreveu isso precisamente em uma época após o Iluminismo e o progresso (científico) em que a crença nas religiões estava vacilando. É também daí que vem sua outra declaração famosa “Deus está morto”.
+
+
+## Ubermensch
+
+Nietzsche percebeu que cabe ao indivíduo dar o propósito e o significado de sua própria existência. A pessoa comum não era capaz de fazer isso, o “Ubermensch” era. Embora em um ensaio de 2009, Stefan Lorenz Sorgner tenha sinalizado uma grande sobreposição entre as ideias de Nietzsche e o transumanismo, acho que o filósofo seria cético sobre as ideias.
+
+Suspeito que Nietzsche acreditava que o aprimoramento tecnológico e físico levaria ao progresso cultural e psicológico do homem.
 
 
 
+![](https://www.peterjoosten.net/wp-content/uploads/2016/05/The-Matrix-transhumanisme-1024x576.jpg)
+
+>No filme Matrix, acho que o conceito elaborado de habilidades de download foi totalmente desenvolvido.
+
+
+---
+
+>Nesta parte, escrevo sobre críticas ao transumanismo.
+
+## Críticas ao transumanismo
+
+Eu dividi as críticas mais comuns ao transumanismo nas seguintes categorias:
+
+1. Hacking
+2. Desigualdade
+3. Poder (e pensamento conspiratório)
+4. Eugenia
+5. Capitalismo
+6. O negócio
+7. Humanidade
+
+Elaborei os pontos de crítica abaixo.
+
+## 1 Hacking
+
+Quanto mais nós, como humanos, dependemos da tecnologia, maiores serão as consequências adversas se a tecnologia for hackeada. Esse também é um dos desafios mais importantes que o autor Don Simborg formula em uma entrevista. Um exemplo contemporâneo é o ex-vice-presidente dos Estados Unidos, Dick Cheney.
+
+Ele desligou a conexão Bluetooth de seu marca-passo porque temia que o dispositivo pudesse ser hackeado de outra forma. Anteriormente, o famoso **hacker Barnaby Jack** havia demonstrado que hackear marca-passos era possível.
+
+## 2 Desigualdade
+
+O argumento mais citado contra o transumanismo é o medo da crescente desigualdade. Blay Whitby, da University of Sussex (Inglaterra), aponta para o passado em uma entrevista ao The Guardian. “A história está cheia de consequências desagradáveis nas quais um grupo se sentiu superior a outro.”
+
+
+>A história está repleta de consequências desagradáveis ​​nas quais um grupo se sentia superior a outro. Blay Whitby (University of Sussex)
+
+No caso das pessoas melhoradas, elas são, na verdade, biologicamente superiores às pessoas naturais, um ponto que Harari também destaca em seu livro 21 Lições para o Século 21.
+
+## Analogia com smartphone
+
+Os transumanistas freqüentemente resistem a essa ideia apontando para a disponibilidade de outras tecnologias. Carros e smartphones, por exemplo, eram muito caros no início, mas se tornaram mais baratos e mais amplamente disponíveis.
+
+Na entrevista acima mencionada com o NRC, Anders Sandberg reconhece que a desigualdade de acesso pode variar de acordo com a tecnologia. Uma interface cérebro-computador altamente avançada pode precisar ser configurada para um indivíduo, tornando-a extremamente cara.
+
+Mas, segundo ele, isso não é motivo para não fazer nada. “Você também não para de inovar carros, porque nem todos podem comprá-los diretamente.”
 
 
 
+## 3 Poder (e pensamento conspiratório)
+
+Qual é o papel do poder no desenvolvimento e implementação de ideias transhumanistas? Em 2016 assisti a uma palestra do filósofo e antropólogo Marcel Messing no Studium Generale da TU Delft.
+
+Ocasionalmente, ele disse algumas coisas que me preocupam. Ele argumentou que grandes empresas e instituições como a CIA, Monsanto e a conferência **Bilderberg** investem muito dinheiro em ciência, tecnologia e ideias de transumanismo. Segundo ele, a agenda deles é aumentar seu poder e suprimir a humanidade.
+
+Ele deu um passo além ao explicar que os filmes de Hollywood sobre esse tema (como Avartar, I Am Legend ou The Matrix ) fazem uma lavagem cerebral em nós e nos preparam para esse futuro mecânico. Embora eu ache as idéias de Messing fascinantes e divertidas, na minha opinião elas são muito dependentes de teorias da conspiração e do pensamento da conspiração.
+
+## 4 eugenia
+
+Um ponto legítimo de atenção que Messing mencionou é o conceito de eugenia em. Esta é a aplicação destrutiva de ideias transumanistas por poderosos estados-nação.
+
+A eugenia está reduzindo o fator humano na humanidade. É um estudo científico para melhorar uma raça. O conceito é baseado na ideia de que existem raças superiores e inferiores na população humana. Na Alemanha nazista, essa ideia foi concretizada com a deportação de judeus, homossexuais e outros, aos olhos dos nazistas, pessoas desviantes.
+
+A ligação com o transumanismo é que o estado determina como as pessoas podem ser melhoradas, de modo a impor a eugenia de cima.
+
+## 5 capitalismo
+
+Nosso sistema econômico atual é baseado no capitalismo. No bacharelado em Administração de Empresas, fiz alguns cursos de Economia, mas não estou perto de ser economista. Para os economistas, provavelmente estou indo longe demais, mas: uma característica do capitalismo é a ênfase no crescimento (econômico). Nas últimas décadas, esse crescimento foi conseguido em grande parte com o uso de máquinas, na forma de industrialização ou digitalização.
+
+O transumanismo às vezes parece ser o último bastião que ainda não foi tocado (ou pelo menos razoavelmente minimamente) pelo capitalismo: o corpo e a vida. É uma questão política, ética, filosófica e humana até que ponto queremos permitir isso. Agora você nasceu com certas qualidades e um corpo que você possui. E se você tiver que pagar para substituir partes de seu corpo? Ou se sua inteligência e consciência estiverem em um computador, na internet ou em um robô?
+
+A ligação entre capitalismo e transumanismo é alimentada principalmente pelos seguintes fluxos de dinheiro. Empresas de tecnologia no Vale do Silício (Califórnia, Estados Unidos) desenvolvem tecnologias para expandir as capacidades humanas, investem nelas e validam ativamente as ideias em entrevistas. Por exemplo, Ray Kurzweil é funcionário da Alphabet (a empresa-mãe do Google) e Peter Thiel é um importante capitalista de risco em empresas de tecnologia na região.
+
+## 6 Negócios
+
+Outro aspecto dentro do capitalismo é o poder dos negócios. Por exemplo, um enorme monopólio foi criado em torno da tecnologia da Internet com empresas como Apple, Google, Amazon e Facebook.
+
+Essas empresas (ou seus sucessores) que oferecem tecnologias que afetam as pessoas geralmente têm objetivos diferentes do bem-estar humano. Eles são movidos pela maximização dos lucros e pelos interesses dos acionistas. Qual é o perigo se essas empresas administrarem essas técnicas exclusivamente? Libby Emmons aponta em uma coluna que a aparente liberação das limitações da biologia humana pode levar à supressão corporativa e perda de autonomia.
+
+## Estudo de caso: chip cerebral
+
+Anders Sandberg admite que é uma questão importante que requer muito mais pesquisas. Nas palestras, costumo citar o chip cerebral (ainda fictício) que você pode usar para se conectar à internet. Você está disposto a colocar isso em seu cérebro, o que aumenta enormemente sua inteligência, mas por outro lado, o chip é propriedade de uma empresa.
+
+Tive essa conversa com Esther Keymolen da Universidade de Tilburg em uma entrevista. Ela conduz pesquisas sobre a confiança do usuário em empresas de tecnologia. Embora ela ache a ideia fascinante, ela não o faria sozinha com base no comportamento atual das empresas de tecnologia.
+
+
+## 7 Humanidade
+
+Talvez a questão mais importante seja o que o transumanismo significa para nossa humanidade. É a restrição de nossas possibilidades, como o tempo na terra, exatamente o que nos torna humanos?
+
+Em seu livro Everything is F```*```cked , Mark Manson afirma que a escassez e os limites determinam o que tem valor. “Os limites dos nossos anos de vida significam que temos ambições, desejos e prazos que nos colocam em movimento e nos permitem viver momentos felizes.”
+
+>A limitação dos nossos anos de vida significa que temos ambições, desejos e prazos que nos movem e permitem viver momentos felizes. Mark Manson (autor)
+
+E se tudo o que os transumanistas querem agora realmente se tornar realidade? Então, tudo o que a futura pessoa deseja fica imediatamente, ilimitado e eternamente disponível. É muito provável que isso leve a um vazio existencial . Afinal, você não precisa mais definir prioridades. Tudo é igualmente inútil e ao mesmo tempo valioso. Somos nós, como pessoas, psicologicamente capazes disso?
+
+## Alma
+
+Na leitura mencionada anteriormente de Messing, descobri que este é seu argumento mais forte. Ele se referiu a idéias como a alma, senso de propósito, sentimento, livre arbítrio, compaixão, perdão e consciência. Marcel Messing: “Isso nos torna humanos. Isso nos distingue de um robô. Não importa o quão inteligentemente possamos mapear nossos cérebros, não podemos quantificar, capturar ou rotular um ser humano.“
+
+Brincar tem razão. No momento, nem sempre podemos localizar adequadamente aspectos fisiológicos desse tipo e medi-los em processos químicos, hormonais e energéticos.
+
+Mas acho uma pena que Messing esteja tão focado nas limitações do progresso tecnológico. Acredito que o uso da tecnologia nos torna humanos, assim como nossa curiosidade , experimentação e assunção de riscos.
+
+Acho que seria útil usar a dimensão humana como ponto de partida para avaliar técnicas, mas não acho que seja um argumento para impedir o progresso . Talvez as pessoas melhoradas possam sentir mais, ter um sentimento mais preciso, ter mais acesso às suas emoções, ter um maior senso de significado e uma consciência interconectada.
+
+## Resposta
+
+Em Mensmachine, Max More é confrontado com uma série de críticas. Eu gostaria de incluir sua resposta sobre isso. “As pessoas apresentam todos os tipos de respostas instintivas, baseadas em todos aqueles mitos que nos assustam ao cruzar nossas fronteiras. Você os conhece: a torre de Babel, ou Prometeu que rouba o fogo dos deuses. Mas as pessoas sempre encontrarão coisas que ainda não estão aqui assustadoras. Depois que se tornam realidade, eles aceitam essas coisas. “
+
+
+>As pessoas sempre acharão terríveis as coisas que ainda não foram ouvidas. Max More (transhumanista)
+
+Ele definitivamente tem razão. Na história, a introdução da anestesia era vista como desumana (afinal, você tem que sentir que está sendo operado), as mulheres tinham medo de estar em um trem (porque então o útero deles balançava para fora do útero) e algumas pessoas não gostariam de ter um telefone em sua casa (porque então os espíritos malignos poderiam entrar).
+
+No entanto, volto ao meu último argumento no parágrafo anterior: acho que faz sentido avaliar tecnologias individuais e suas soluções para a humanidade. No caso de anestesia, trens e linhas telefônicas, o rendimento parece ser positivo no balanço.
+
+![](https://www.peterjoosten.net/wp-content/uploads/2016/05/self-less-transhumanisme-1024x544.jpg)
+
+>O filme Self/less é sobre a ideia de poder copiar o cérebro para outro corpo.
+
+---
+
+**Nesta parte, escrevo sobre vários métodos, formas, conceitos e ideias do transumanismo.**
+
+## Ideias de Transumanismo
+
+Eu escrevi outro artigo sobre a [tecnologia do transumanismo](https://superhumantalks.com/transhumanism-technology/)!
+
+**Nesta parte, escrevo sobre as possíveis consequências da introdução das tecnologias mencionadas.**
+
+## Consequências
+
+No passado, as habilidades físicas determinavam seu sucesso no mundo. Hoje em dia, isso se aplica cada vez mais às suas habilidades cognitivas. Qual será o impacto se você puder baixar inteligência, conforme descrevi nas seções sobre upload mental e mente coletiva?
+
+Zoltan Istvan está convencido de que ele e sua esposa não precisam mais economizar para o ensino superior de seus filhos. Em um artigo de opinião, ele afirma que em 15 anos suas filhas poderão fazer o download imediato de todo o conhecimento de uma Universidade em seu cérebro. Isso também significa que você não precisa mais ter aulas de piano?
+
+Na minha experiência, praticar e aprender um instrumento musical, esporte, linguagem ou qualquer outra coisa é apenas um treinamento do personagem. Trata-se de perseverança , disciplina e contato interpessoal. Acho que é uma habilidade que deve ser internalizada. Ou sou ingênuo e essas qualidades em breve serão tão fáceis de baixar quanto um aplicativo no seu smartphone?
+
+
+## Governo
+
+Os governos são cada vez mais confrontados com tecnologias em aceleração, não apenas em espaços públicos como a cidade inteligente, mas também com a questão de como seus habitantes querem usá-la. Anteriormente, escrevi um artigo sobre a influência da tecnologia e o papel que ela desempenha no governo.
+
+Um aspecto disso é a legislação e os regulamentos. Em meu artigo sobre o futuro do homem, vou ainda mais fundo nisso. Você pode pensar em um direito à soberania física , igualdade e o direito de não melhorar a si mesmo ou de se vincular a uma máquina. Na comunidade ciborgue, Richard Mackinnon começou formulando cinco direitos para os chamados “mutantes”.
+
+## Narcisista
+
+As maiores limitações do transumanismo que experimento são a ênfase nas pessoas e no consumismo. Você poderia dizer o lado narcisista do aperfeiçoamento humano.
+
+- A ênfase na elevação do homem significa que às vezes perdemos de vista o resto do mundo . Enquanto um relatório das Nações Unidas sobre a biodiversidade de 2019 mostra que a natureza está se deteriorando em todo o mundo a uma taxa sem precedentes. Nos últimos cinquenta anos, quase metade de todos os ecossistemas marinhos e marinhos foram seriamente afetados pela atividade humana.
+- Nosso mundo gira em torno do capitalismo, consumismo e crescimento econômico. Não que me considere um comunista e muitas vezes me engano, mas considerar o corpo humano um produto comercial parece-me um passo na direção errada. Ou como meu convidado do podcast, Maxim Februari, expressou isso em uma coluna. É então também presa da tendência de nós, consumidores, de arruinar, destruir, queimar e demolir tudo em busca de cada vez mais barato e mais dinheiro?
+
+## O mais
+
+Como escrevi antes, o transumanismo se divide em vários movimentos, com cosmopolitas, democratas e pós-humanistas talvez reconhecendo e enfrentando os desafios acima.
+
+Mas isso não altera o fato de que o transumanismo tem a aparência contrária. Por exemplo, o crítico cultural esloveno Slavoj Žižek se pergunta o que significa o sinal de mais no nome Humanidade +. Ele filosofa sobre duas opções: ou representa o resto da humanidade ou significa que um grupo de pessoas melhora às custas de outros. Ele espera, como eu, o primeiro, mas suspeita do segundo.
+
+
+## Solução
+
+Acho que as soluções não são tanto tecnológicas, mas não tecnológicas. Concordo com as idéias de Andrew Keen em seu livro How to fix the future [link abaixo]. Eu também o entrevistei sobre isso para meu canal no YouTube [link abaixo].
+
+Devo salientar que, em um sentido mais amplo, ele está falando sobre a influência adversa de poderosas empresas de tecnologia, mas acho que suas ideias também podem ser aplicadas ao transumanismo.
+
+- **Negócios** . As empresas fazem produtos e serviços que refletem e nos respeitam como pessoas;
+- **Usuários** . Os consumidores fazem escolhas conscientes sobre quais produtos e serviços usam ou não;
+- **Legislação** . Os governos fazem e aplicam leis para proteger seus habitantes;
+- **Cidadania** . Os cidadãos unem-se em grupos de interesse para exercer influência (política);
+- **Educação** . Os alunos e estudantes estão cientes do impacto da tecnologia e das escolhas, com as quais podem cumprir o seu papel de empresários envolvidos (ponto 1), utilizadores (ponto 2) ou cidadãos (ponto 4).
+
+Além dessas funções, permanece a questão de quais objetivos e valores eles são usados. Em meu artigo sobre o futuro do homem, dei um início a isso [link abaixo]. Na minha opinião, seria bom avaliar as tecnologias individualmente e por caso, comparando-as aos nossos valores.
+
+
+
+## Caso
+
+Como exemplo deste exercício, tomo suspensão criogênica. É uma questão humana e social como valores como segurança, autonomia, dignidade e realização são desafiados por isso. A parte complicada é que não é apenas uma consideração individual que pode ser diferente para todos, mas também é uma questão mais ampla .
+
+Por exemplo: caso seja permitido por lei no nosso país (por exemplo, existem regras em matéria de segurança), está então à disposição de todos (igualdade) e pode fazer a escolha por outras pessoas, como o seu filho (autonomia).
+
+
+## Futuro
+
+Acho que a direção mais provável do transumanismo está no espaço. Este é um tema que explorei em meu podcast em entrevistas com Angelo Vermeulen e Ans Hekkenberg [link abaixo]. O corpo humano como o conhecemos evoluiu ao longo de milhões de anos na Terra, com oxigênio, recursos naturais e gravidade. Mas esse corpo não é de todo útil no espaço, em colônias na Lua ou em Marte.
+
+Muito resumidamente: queremos ajustar o corpo humano para que possa lidar melhor com os raios cósmicos, a falta de gravidade ou outros inconvenientes cósmicos?
+
+
+## Homo Universum
+
+De acordo com o astrônomo inglês Lord Martin Rees, é improvável que as leis e regulamentos da Terra se tornem tão abertos que permitamos métodos avançados de aprimoramento humano. Ele prevê um cenário em que um grupo de pessoas deixará a Terra para sempre para se estabelecer em Marte. Lá, a legislação é muito menos rigorosa ou até inexistente.
+
+
+>O futuro do transumanismo está no universo. Peter Joosten
+
+
+Pelo contrário, é provavelmente uma boa ideia permitir conceitos transumanistas. Pense na modificação genética contra radiação, olhos biônicos ou suspensão criogênica para viajar pelo universo por milhares de anos. Surge assim um ramo da espécie humana, e possivelmente o Homo Sapiens ao lado do Homo Universum (em latim, espaço é o Universo, por isso surgiu esse nome).
+
+Pode parecer especulativo, mas os primeiros sinais já são visíveis. Por exemplo, os astronautas da estação espacial ISS fizeram um experimento em 2019 com modificação genética com **CRISPR / cas9** para investigar os efeitos dos danos ao DNA pela radiação espacial.
+
+O filme O Titã brinca com a ideia de adaptar geneticamente os astronautas para que sejam mais resistentes ao espaço.
+
+---
+
+**Qual é a minha conclusão?**
+
+## Conclusão
+
+Começo com uma história pessoal sobre como minhas palestras e apresentações sobre esse assunto às vezes são recebidas.
+
+O líder da discussão olhou para a sala. “Há alguma pergunta para os palestrantes?” Foi a já mencionada noite no De Balie em Amsterdã sobre o papel da tecnologia em nossas vidas. A noite foi montada em torno do filme Matrix, lançado vinte anos antes.
+
+Uma mulher na primeira fila olhou para mim. "Por que você quer tudo isso?" A perplexidade gravada em seu rosto. Até pelo contexto: em comparação com os outros dois palestrantes, fui o mais progressista no uso de tecnologia na minha vida. Não me chamei de transhumanista, isso não fez diferença para os presentes.
+
+## Inevitável
+
+Na época, achei que não era capaz de responder sua pergunta corretamente. No caminho para casa, no trem para casa, pensei no que diria da próxima vez.
+
+Acredito que os desenvolvimentos no transumanismo são inevitáveis. Você ainda pode especular sobre a viabilidade de alguns dos métodos, como suspensão criogênica ou upload mental. Isso também se aplica à linha do tempo dos desenvolvimentos. Mas, em um sentido geral, muitas forças, interesses e fluxos de dinheiro estão focados em fazer mais pesquisas científicas para aumentar o bem-estar humano.
+
+
+## Experimentar
+
+Onde agora olhamos com consternação para algumas das ideias aqui descritas, pode ser normal para as gerações futuras. Porque cresceram em um contexto social, cultural e econômico completamente diferente. Assim como as gerações anteriores não podiam imaginar o que era a internet ou como você poderia estar continuamente acessível ao mundo com um telefone celular.
+
+É por isso que sou fascinado pelo transumanismo. Visto que tenho a convicção de que é inevitável, quero agora vivenciá- lo o máximo possível e investigar o que significa . Eu faço isso experimentando novas tecnologias, lendo muito sobre ela e entrevistando outros especialistas.
+
+
+## Nem tudo é tecnologia
+
+Apesar do meu otimismo quanto ao progresso, não precisamos fazer nada agora. Se não tivermos cuidado, vamos rolar silenciosamente na “sociedade automática”. Esse é um termo que o filósofo Bernard Stiegler usa para designar uma sociedade em que as pessoas estão sujeitas a sistemas econômicos-digitais.
+
+>Se não tomarmos cuidado, cairemos silenciosamente em uma sociedade automática. Bernard Stiegler (filosoof)
+
+Acredito que, como seres humanos, não temos que nos adaptar mais à digitalização, mas que devemos usar novas tecnologias para a liberdade, autonomia, segurança, privacidade, dignidade e outros valores humanos importantes. No mundo do futuro, no que me diz respeito, o bem-estar é primordial e levamos em consideração as fronteiras humanitárias e planetárias , como Kate Rayworth também escreve em seu livro De Donut Economie.
+
+Em suma, o futuro (transhumanista) não é, em minha opinião, tão simples e estéril como na maioria das histórias de ficção científica.
+
+
+## Mundo melhor
+
+Minha visão é que usamos o progresso científico e as novas tecnologias para reduzir a desigualdade social, para preservar a diversidade na natureza e nas pessoas e para tornar o mundo um pouco melhor e mais bonito. Nesse sentido, concordo com o artigo de opinião de Joi Ito, do MIT Media Lab, que chama de “a responsabilidade da imortalidade” [link abaixo].
+
+Se nós, como seres humanos, podemos lidar com isso com responsabilidade? Acho que sim. É justamente o uso da tecnologia que nos torna humanos , assim como nossa curiosidade, nossa ânsia de experimentar e arriscar comportamentos. Assim como você aprende a lidar com responsabilidades desde a criança até o adolescente e o adulto, o mesmo acontece com a humanidade.
+
+Se não aprendermos a assumir responsabilidades, pode se tornar um filme de ficção científica. Aquele em que as coisas não acabam bem para nós, humanos.
+
+
+## Lista de leitura
+
+Estes são outros artigos sobre transumanismo:
+
+- O que é [tecnologia do transumanismo](https://superhumantalks.com/transhumanism-technology/) ?
+- O que são [livros sobre transumanismo](https://superhumantalks.com/transhumanism-books/) ?
+- O que são [filmes de transumanismo](https://superhumantalks.com/transhumanism-movies/) ?
+- O que é [arte transumanista](https://superhumantalks.com/transhumanism-art/) ?
+
+**Eu fiz esses vídeos neste tópico.**
+
+- [Entrevista](https://www.youtube.com/watch?v=nAQK2etOaPg) com Aubrey de Gray sobre a imortalidade.
+- [Entrevista](https://youtu.be/o8K-dpBpJHE) com Andrew Keen sobre regulamentação de tecnologia.
+
+
+Usei esses livros de não ficção neste artigo.
+
+A propósito, este é um artigo extenso sobre [livros sobre transumanismo](https://superhumantalks.com/transhumanism-books/) . 📖
+
+- Livro para ser uma máquina
+- Livro The Singularity is Near
+- Livro  Homo Deus
+- Livro 21 lições para o século 21
+- Reserve a aposta Transhumanist
+- A morte do livro está errada
+- Livro Assim Falava Zaratustra
+- Respostas resumidas de livros para as grandes questões
+- Livro The Prospect of Immortality
+- Book Mind Children
+- Reserve The Age of Em
+- Book Life 3.0
+- Livro Next Nature
+
+---
+
+Autor: [Peter Joosten](https://superhumantalks.com/author/admin/) MSc
+[Artigo Original](https://superhumantalks.com/what-is-transhumanism/)
 
 
 
