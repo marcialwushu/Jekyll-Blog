@@ -98,10 +98,52 @@ Há mais alguns detalhes técnicos sobre o documento.
 
 Aqui nós vemos,
 
-O resultado hash do documento original ( 65728d… ).
-O que está escrito no blockchain Bitcoin. Geralmente é o valor hash com um cabeçalho exclusivo (aqui é STAMPD ## para stampd.io).
-Depois que esta transação é extraída no blockchain Bitcoin, esta transação é incluída em um bloco (o número do bloco aqui é 342489 ).
-O ID da transação ( 7c3b97… ) é o mesmo que vemos acima.
+1. O resultado hash do documento original ( 65728d… ).
+2. O que está escrito no blockchain Bitcoin. Geralmente é o valor hash com um cabeçalho exclusivo (aqui é STAMPD ## para stampd.io).
+3. Depois que esta transação é extraída no blockchain Bitcoin, esta transação é incluída em um bloco (o número do bloco aqui é 342489 ).
+4. O ID da transação ( 7c3b97… ) é o mesmo que vemos acima.
+
+### Verificação
+
+Desde que o blockchain ainda esteja ativo e em execução, usando o ID de transação, sempre é possível recuperar o hash gravado no blockchain. Se recebermos um documento e desejarmos verificar se este é o original, podemos comparar o hash calculado do documento fornecido com este registro. Se o valor do hash for idêntico, o documento é exatamente o documento original cujo hash foi registrado anteriormente. Também a partir do ID da transação, podemos obter o momento em que a transação foi concluída. Isso serve como um carimbo de data/hora, como uma prova de quando o documento original é hash e gravado.
+
+O detalhe técnico acima também mostra como verificar isso com base no ID da transação. Aqui está um dos vários links.
+
+<https://blockchain.info/tx/7c3b974209609c6d10a6ad8d2bbff4e3ca4f695287c527a8d9bfff7dcab63b62>
+
+É um explorador de blockchain público, não algo fornecido pelo provedor de serviços (stampd.io). O ID da transação está embutido no URL. Mesmo stampd.io não está mais em serviço, o registro ainda está no blockchain do Bitcoin e ainda pode ser verificado a qualquer momento.
+
+Aqui está a saída do link.
+
+![](https://miro.medium.com/max/700/0*xErZuEOHwoe1OIlH)
+
+>Usando o ID da transação, o registro pode ser encontrado no explorador de blockchain Bitcoin
+
+O que vemos do explorador de blockchain é que,
+
+1. Este ID de transação é encontrado no blockchain Bitcoin.
+2. A Hora Recebida serve como um carimbo de data / hora onde esta transação foi feita.
+3. O Script de Saída mostra os dados sendo gravados em blockchain Bitcoin.
+4. Os dados contêm (a) cabeçalho e (b) o valor hash, começa com 65728d 
+
+...
+
+5. Este valor hash é usado para verificar um determinado documento.
+
+
+## Resumo
+
+Este é o primeiro tipo de serviço notarial, principalmente na comprovação da existência de determinado documento com carimbo de data/hora. Como é bastante simples, o requisito de blockchain não é alto. Mesmo o blockchain de Bitcoin, que fornece um pouco de espaço para gravar dados, é bom o suficiente para esse tipo de serviço.
+
+No próximo artigo falaremos sobre a prova de existência de documento com informações de propriedade.
+
+
+---
+
+Autor: [KC Tam](https://medium.com/@kctheservant?source=post_sidebar--------------------------post_sidebar-----------)
+
+
+[Artigo Original](https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d)
 
 
 
