@@ -124,10 +124,7 @@ O que vemos do explorador de blockchain é que,
 1. Este ID de transação é encontrado no blockchain Bitcoin.
 2. A Hora Recebida serve como um carimbo de data / hora onde esta transação foi feita.
 3. O Script de Saída mostra os dados sendo gravados em blockchain Bitcoin.
-4. Os dados contêm (a) cabeçalho e (b) o valor hash, começa com 65728d 
-
-...
-
+4. Os dados contêm (a) cabeçalho e (b) o valor hash, começa com 65728d...
 5. Este valor hash é usado para verificar um determinado documento.
 
 
