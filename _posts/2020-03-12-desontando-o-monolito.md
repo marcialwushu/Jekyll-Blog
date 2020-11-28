@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Desmontando o Monolito"
+title:  "I-Tier - Desmontando o Monolito"
 date:   2020-03-12 17:59:38 -0200
 categories: jekyll update
 ---
 
-Nós completamos recentemente um projeto de um ano para migrar o tráfego na web US Groupon a partir de uma aplicação monolítica Ruby on Rails para uma nova pilha Node.js com resultados substanciais.
+Nós [completamos recentemente](https://engineering.groupon.com/2013/node-js/geekon-i-tier/) um projeto de um ano para migrar o tráfego na web US Groupon a partir de uma aplicação monolítica Ruby on Rails para uma nova pilha Node.js com resultados substanciais.
 
 Todo o frontend da web do Groupon nos EUA tem sido uma única base de código Rails desde seu início. A base de código do front-end cresceu rapidamente, o que dificultou a manutenção e desafiou o envio de novos recursos. Como solução para esse monólito gigantesco, decidimos redesenhar o frontend dividindo-o em peças pequenas, independentes e mais gerenciáveis. No centro deste projeto, reconstruímos cada seção principal do site como um aplicativo Node.js independente. Também reconstruímos a infraestrutura para fazer todos os aplicativos independentes funcionarem juntos. O resultado foi o nível de interação (I-Tier).
 
@@ -101,3 +101,41 @@ Estávamos procurando uma solução para um problema muito específico - lidar c
 
 Escrevemos protótipos usando várias pilhas de software e os testamos. Publicaremos um acompanhamento mais detalhado com os detalhes, mas no geral descobrimos que o Node.js é uma boa opção para esse problema muito específico.
 
+## Abordagem, continuação ...
+
+Em seguida, adicionamos uma camada de roteamento na parte superior que encaminha os usuários ao aplicativo apropriado com base na página que eles estavam visitando:
+
+![](https://engineering.groupon.com/wp-content/blogs.dir/3/files/2013/10/arch6.png)
+
+Construímos o serviço de roteamento Groupon (que chamamos de Grout) como um módulo nginx. Isso nos permite fazer muitas coisas interessantes, como conduzir testes A / B entre diferentes implementações do mesmo aplicativo em servidores diferentes.
+
+E para fazer com que todos esses aplicativos da web independentes funcionem perfeitamente juntos, construímos serviços separados para compartilhar layouts e estilo, mantendo a configuração compartilhada e gerenciando tratamentos de teste A / B. Publicaremos mais detalhes sobre esses serviços no futuro.
+
+Tudo isso fica na frente de nossa API e nada na camada de front-end pode se comunicar diretamente com um banco de dados ou serviço de back-end. Isso nos permite construir uma única camada de API federada que atende aos nossos aplicativos da web e móveis:
+
+![](https://engineering.groupon.com/wp-content/blogs.dir/3/files/2013/10/arch7a.png)
+
+Estamos trabalhando na unificação de nossos sistemas de back-end, mas, no curto prazo, ainda precisamos oferecer suporte a nossos back-ends dos EUA e da Europa. Portanto, projetamos nosso front-end para funcionar nos dois back-ends ao mesmo tempo:
+
+![](https://engineering.groupon.com/wp-content/blogs.dir/3/files/2013/10/arch9b.png)
+
+## Resultados
+
+Acabamos de migrar nosso front-end dos EUA de Ruby para nossa nova infraestrutura Node.js. O antigo front-end monolítico foi dividido em aproximadamente 20 aplicativos da web separados, cada um dos quais uma reescrita limpa. No momento, estamos atendendo a 50 mil rpm desses servidores em um dia normal, mas esperamos múltiplos desse tráfego durante a temporada de férias. E esse número aumentará muito à medida que migrarmos pelo tráfego de nossos outros 48 países.
+
+Estes são os benefícios que vimos até agora:
+
+- Os carregamentos de páginas são mais rápidos em toda a linha - normalmente em 50%. Parte disso se deve a mudanças na tecnologia e parte porque tivemos a chance de reescrever todas as nossas páginas da web para ficarem muito mais finas. E ainda esperamos obter ganhos significativos aqui à medida que implementamos mudanças adicionais.
+- Estamos atendendo à mesma quantidade de tráfego com menos hardware em comparação com a pilha antiga.
+- As equipes podem implementar mudanças em seus aplicativos de forma independente.
+- Conseguimos fazer alterações de design e recursos em todo o site muito mais rapidamente do que conseguiríamos com nossa arquitetura antiga.
+
+
+No geral, essa migração tornou possível para nossas equipes de desenvolvimento enviar páginas mais rapidamente com menos interdependências e removeu algumas das limitações de desempenho de nossa plataforma antiga. Mas temos muitas outras melhorias planejadas para o futuro e publicaremos detalhes em breve.
+
+
+---
+
+Autor: [Adam Geitgey](https://engineering.groupon.com/author/ageitgey/)
+
+[Artigo Original](https://engineering.groupon.com/2013/misc/i-tier-dismantling-the-monoliths/)
