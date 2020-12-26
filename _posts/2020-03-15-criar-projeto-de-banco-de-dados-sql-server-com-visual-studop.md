@@ -26,3 +26,80 @@ Vamos começar!!
 
 ![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image001.png)
 
+2. Selecione SQL Server >> SQL Server Database Project. Agora, digite o nome do projeto e pressione OK.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image002.jpg)
+
+3. Depois que o projeto é criado, podemos ver o projeto de banco de dados no Solution Explorer.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image003.jpg)
+
+4. Clique com o botão direito em DemoDatabase Project e em Import >> .dacpac ou Database / Script para importar scripts do banco de dados existente.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image004.jpg)
+
+5. Em seguida, selecionamos Banco de dados >> Selecione a conexão.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image005.jpg)
+
+6. Insira as credenciais e o nome do banco de dados >> conectar
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image006.png)
+
+7. Agora, podemos ver o nome do servidor, o nome do banco de dados em Conexão do banco de dados de origem >> Iniciar
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image007.png)
+
+8. Importou com sucesso todos os scripts para logins, esquemas, tabelas, procedimentos, etc. >> Selecione Concluir 
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image008.jpg)
+
+9. Todos os scripts são importados para a solução - agora podemos adicionar ou alterar scripts a partir daqui.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image009.png)
+
+10. Vamos criar uma réplica do banco de dados azure que importamos para a solução no servidor local - clique com o botão direito nas propriedades e selecione Destino
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image010.png)
+
+11. Para publicar scripts no banco de dados, selecione Publicar
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image011.png)
+
+12. Agora, selecione o servidor e banco de dados onde devemos publicar os scripts - botão Editar
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image012.jpg)
+
+13. Insira o nome do servidor, a autenticação e selecione o banco de dados no menu suspenso. Pressione Test Connection apenas para garantir que as informações fornecidas estão corretas. Em seguida, pressione OK.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image013.png)
+
+14. Podemos salvar um perfil usando o botão Salvar perfil como - para que não tenhamos que inserir novamente as configurações relacionadas à conexão na próxima vez. Depois disso, podemos gerar script ou publicar as alterações diretamente no banco de dados.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image014.jpg)
+
+15. Se pressionarmos Generate Script, podemos ver o script comparado na nova aba do Visual Studio. Podemos verificar o script e depois disso pressione Executar
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image015.png)
+
+16. As alterações são publicadas com sucesso no banco de dados local.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image016.jpg)
+
+17. Podemos verificar nosso banco de dados usando o SQL Server Management Studio.
+
+![](https://csharpcorner.azureedge.net/article/create-sql-server-database-project-with-visual-studio/Images/image017.png)
+
+Todas as tabelas, procedimentos, visualizações, etc. foram preenchidos como estão. Não precisamos escrever nenhum script de migração como costumávamos fazer para a migração do banco de dados.
+
+E depois disso, sempre que houver alterações nas tabelas ou nos procedimentos basta fazer as alterações nos scripts da solução e publicá-los no banco de dados - o VS irá criar o alter script de acordo.
+
+Assim, gerenciar nosso banco de dados agora se torna mais fácil usando o SQL Server Database Project.
+
+---
+
+Autor: [Srashti Jain](https://www.c-sharpcorner.com/members/srashti-jain)
+
+[Artigo Original](https://www.c-sharpcorner.com/article/create-sql-server-database-project-with-visual-studio/)
+
+
