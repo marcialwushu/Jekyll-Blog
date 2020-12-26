@@ -11,19 +11,19 @@ Neste post, tentarei convencê-lo de que usar projetos de banco de dados SSDT (S
 
 Um data warehouse contém vários objetos de banco de dados, como tabelas, visualizações, procedimentos armazenados, funções e assim por diante. Estamos muito acostumados a usar projetos SSDT BI (anteriormente BIDS) para SSIS (Integration Services), SSAS (Analysis Services) e SSRS (Reporting Services). No entanto, é menos comum usar SSDT para armazenar o DDL (linguagem de definição de dados) para objetos de banco de dados.
 
-![](data/image-asset.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset.jpeg?raw=true)
 
 Abaixo está um exemplo de como você poderia estruturar seu projeto de banco de dados (estou mostrando apenas algumas tabelas e visualizações nas capturas de tela para abreviar). Você não precisa estruturá-lo dessa forma, mas neste projeto ele é classificado primeiro por esquema, depois por tipo de objeto (tabela, visão, etc), então por objeto (nome da tabela e seu DDL, etc).
 
-![](data/image-asset-1.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-1.jpeg?raw=true)
 
 O conteúdo dos itens no projeto SSDT DB são as instruções 'Criar Tabela', as instruções 'Criar Visualização', as instruções 'Criar Esquema' e assim por diante. Isso se baseia no “desenvolvimento de banco de dados declarativo” que se concentra no estado final desejado para um objeto. Por exemplo, aqui está o início para uma visualização DimDate:
 
-![](data/image-asset-2.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-2.jpeg?raw=true)
 
 Como a visão DimDate reside no esquema DW, o projeto de banco de dados me faria o favor de gerar um erro se o esquema DW ainda não existisse, como segue:
 
-![](data/image-asset-3.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-3.jpeg?raw=true)
 
 O Team Foundation Server se integra bem com projetos de banco de dados (ou seja, para armazenar scripts para objetos de banco de dados, como tabelas, exibições e funções), Integration Services, Analysis Services e Reporting Services.
 
@@ -37,7 +37,7 @@ A próxima grande coisa a saber é que existe um mecanismo para gerenciar mudan�
 
 Agora, digamos que você esteja pronto para promover essa nova coluna para Dev, QA ou Produção. É aqui que fica divertido. No projeto de banco de dados, você pode fazer uma operação de 'Comparação de esquema' que irá comparar os objetos de banco de dados entre o projeto e o banco de dados. Ele detectará a diferença e criará o script do script 'Alterar Tabela' necessário para usar em sua implantação na Produção.
 
-![](data/image-asset-4.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-4.jpeg?raw=true)
 
 A saída acima nos diz que há uma diferença de tipo de dados entre o projeto e o banco de dados para uma coluna de endereço. Isso nos ajuda a reconciliar as diferenças, então podemos gerar um script que teria uma instrução Alter Table para a coluna de endereço (embora, no caso acima, o endereço seja varchar (150) no banco de dados, o que provavelmente significa que o desenvolvedor ETL ampliou a coluna mas esqueci de voltar ao projeto de banco de dados - então ainda há muito julgamento ao comparar o projeto ao Dev).
 
@@ -64,17 +64,17 @@ Benefícios adicionais * se * você estiver usando um projeto de banco de dados 
 
 Use sintaxe embutida. Para ser realmente eficaz para a tabela DDL, acho que realmente requer trabalhar -de- o projeto DB -para- o banco de dados, que é uma mudança de hábito se você está acostumado a trabalhar diretamente no SSMS (Management Studio). Para ser justo, ainda trabalho no SSMS o tempo todo, mas tenho o SSMS e o SSDT abertos ao mesmo tempo e não deixo o SSDT ficar obsoleto. O motivo pelo qual considero isso tão importante está relacionado à sintaxe embutida - se você acabar querendo gerar DDL a partir do SSMS para "recuperar" seu projeto de banco de dados, nem sempre será tão limpo quanto você deseja. Tome o seguinte, por exemplo:
 
-![](data/image-asset-5.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-5.jpeg?raw=true)
 
 No script acima eu tenho algumas restrições padrão (que são nomeadas porque quem quer os nomes de restrição geradas pelo banco de dados feios para nossos padrões e nossas chaves estrangeiras e tal, certo?!?). As restrições são todas embutidas - fáceis de ler. Se você fosse criar o script da tabela mostrada acima do SSMS, ele geraria instruções Alter Table para cada uma das restrições. Exceto para tabelas muito pequenas, torna-se impossível validar que o DDL é exatamente como você deseja que seja. Portanto, sugiro usar a sintaxe embutida para que as instruções SQL do seu projeto de banco de dados sejam todas claras e fáceis de ler.
 
 **Armazene DML relevante no projeto (Build = None)**.  Se você tiver algumas instruções DML (linguagem de manipulação de dados) que são mantidas manualmente e precisam ser promovidas para outro ambiente, isso as torna uma excelente candidata para serem armazenadas no projeto de banco de dados. Como o projeto de banco de dados só entende DDL quando constrói o projeto, a propriedade 'Build' para cada script DML SQL precisará ser definida como Nenhum para evitar erros. Alguns exemplos:
 
-![](data/image-asset-6.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-6.jpeg?raw=true)
 
 **Construa o projeto com freqüência**. Você será impopular entre seus colegas de trabalho se verificar algo que não funciona. Então você vai querer desenvolver o hábito de fazer uma compilação com frequência (cerca de uma vez por dia se você estiver alterando ativamente os objetos de banco de dados), e sempre logo depois de fazer o check-in. Você pode encontrar as opções de compilação se clicar com o botão direito do mouse no projeto no Solution Explorer. Às vezes, você vai querer escolher Rebuild porque então validará todos os objetos na solução, independentemente de terem sido alterados ou não (enquanto a opção Build apenas cria objetos que detecta alterados, portanto, embora Rebuild demore mais, é mais completo).
 
-![](data/image-asset-7.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-7.jpeg?raw=true)
 
 Mais uma dica a respeito da construção - se uma operação de comparação de esquema achar que existe uma tabela no banco de dados, mas não no projeto, verifique a propriedade de construção. Se for definido como Nenhum para um objeto DDL real, ele será acidentalmente ignorado na operação de comparação de esquema. Resumindo: defina todos os objetos DDL para construir e qualquer DML relevante para não construir.
 
@@ -82,11 +82,11 @@ Mais uma dica a respeito da construção - se uma operação de comparação de 
 
 **Salve as configurações de comparação de esquema (SCMP) em seu projeto**.  Para torná-lo rápido e fácil de usar (e mais provavelmente toda a sua equipe vai aderir a ele), gosto de salvar as configurações de comparação de esquema diretamente no projeto. Você pode ter vários SCMPs salvos: Projeto para Dev DB, Dev DB para QA DB, QA DB para Prod DB e assim por diante. É uma grande economia de tempo porque você deseja dizer ao esquema compare para ignorar coisas como usuários, permissões e funções, porque quase sempre eles diferem entre os ambientes. Ao salvar o SCMP, você pode evitar a tediosa desmarcação desses itens toda vez que gerar a comparação.
 
-![](data/SSDT_schemacompare2.jpg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/SSDT_schemacompare2.jpg?raw=true)
 
 **Faça um 'Gerar Script' para a Comparação de Esquema; Não use rotineiramente o botão Atualizar**.  Logo à direita do botão Atualizar (que eu gostaria que fosse menos proeminente) está o botão Gerar Script. Isso criará as instruções Create e Alter relevantes que ele detecta como necessárias com base nas diferenças encontradas. O script permite que você valide o script antes de ser executado e salve o histórico de exatamente quais mudanças estão sendo implementadas quando (assumindo que está sendo feito manualmente e você não está fazendo implementações contínuas automatizadas para Prod). Também prefiro gerar o script em vez de deixar o SSDT fazer uma publicação direta porque os itens que foram retirados ainda fazem parte de uma publicação e normalmente não queremos isso (embora dependa de como você lida com a ramificação do controle de origem). 
 
-![](data/image-asset-8.jpeg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/image-asset-8.jpeg?raw=true)
 
 Já que estamos falando sobre os scripts gerados pelo projeto DB: algumas coisas a saber. Primeiro, você precisará executar o script no modo SQLCMD (no SSMS, ele se encontra no menu Consulta). Em segundo lugar, os scripts nem sempre são perfeitos. Para mudanças simples, eles funcionam muito bem, mas às vezes as coisas ficam complicadas e você precisa 'manipulá-las'. Por exemplo,  pode haver dados em uma tabela e o script tem uma instrução de verificação no início que evita qualquer alteração e pode precisar ser removido ou tratado de forma diferente.
 
