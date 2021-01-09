@@ -39,7 +39,7 @@ A tabela abaixo fornece mais detalhes sobre a aplicabilidade de cada endpoint ao
 |Forma de pagamento	|Captura de Pagamento	|:white_check_mark: sim|
 |Forma de pagamento	|Reembolsar Pagamento	|:white_check_mark: sim|
 |Forma de pagamento|	Solicitação de entrada (BETA)|	:white_check_mark: sim|
-|Configuração	|Criar token de autorização	|: x: Não|
+|Configuração	|Criar token de autorização	|:x: Não|
 |Configuração	|Autenticação de Provedor	|:x: Não|
 |Configuração|	Obtenha credenciais	|:x: Não|
 
