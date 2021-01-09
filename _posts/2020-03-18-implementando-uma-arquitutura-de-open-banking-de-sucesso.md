@@ -11,13 +11,13 @@ Este artigo explicará quais são os principais requisitos que você precisa con
 
 ## Arquitetura de Open Banking Proposta
 
-![](data/wso2-open-banking-architecture-6.png)
+![](data/wso2-open-banking-architecture-6.jpg)
 
 Nosso objetivo é expor com segurança os dados e serviços internos a terceiros externos com o consentimento do cliente por meio de APIs RESTful. Assim, terceiros podem consumir essas APIs e gerar novos serviços para os clientes do banco. No entanto, não se trata apenas de expor APIs e implementar uma camada de gerenciamento de consentimento, há muitos outros requisitos ao implementar uma plataforma de banco aberto, como gerenciamento de API, segurança de API e outros requisitos funcionais e operacionais.
 
 ## Requisitos Chave
 
-![](data/wso2-open-banking-architecture-3.png)
+![](data/wso2-open-banking-architecture-3.jpg)
 
 ## Especificação API
 
@@ -31,20 +31,20 @@ Depois que a especificação da API é definida e exposta externamente, os banco
 
 Ao compartilhar dados de clientes com terceiros, os bancos precisam obter o consentimento do cliente. Ao fazer isso, primeiro o banco precisa identificar fortemente o cliente. Autenticar usuários apenas por meio de um fator de autenticação não é suficiente. Deve haver autenticação multifator onde pelo menos uma combinação de dois fatores de conhecimento, propriedade e herança deve ser usada.
 
-![](data/wso2-open-banking-architecture-2.png)
+![](data/wso2-open-banking-architecture-2.jpg)
 
 Bancos diferentes usam combinações diferentes de fatores de autenticação de básico, SMSOTP, Vasco, impressão digital, voz, Facebook, Google e muito mais. Além disso, bancos diferentes usam abordagens diferentes para autenticar usuários . A abordagem de redirecionamento e a abordagem desacoplada são abordagens de autenticação amplamente utilizadas em diferentes países. Além disso, as abordagens incorporadas, mistas e delegadas também podem ser usadas.
 
-![](data/wso2-open-banking-architecture-5.png)
+![](data/wso2-open-banking-architecture-5.jpg)
 
 A abordagem de redirecionamento é onde o usuário do banco é redirecionado para o portal de autenticação do banco a partir do aplicativo de terceiros. Depois que o usuário for autenticado e receber o consentimento, o usuário será redirecionado de volta ao aplicativo de terceiros. Esse redirecionamento pode ser feito por meio de um navegador ou por meio de um aplicativo móvel.
 
 
-![](data/wso2-open-banking-architecture-4.png)
+![](data/wso2-open-banking-architecture-4.jpg)
 
 A abordagem dissociada é onde o usuário do banco não será redirecionado para o portal de autenticação do banco, mas o aplicativo de terceiros identifica o usuário e faz uma chamada de canal de apoio para o banco dizendo que o aplicativo de terceiros precisa obter o consentimento desse usuário específico. Em seguida, o banco liga para o cliente, talvez por meio de um aplicativo móvel do banco para obter o consentimento do usuário. Assim que o banco receber o consentimento do usuário, ele compartilhará as informações necessárias com o aplicativo de terceiros. Nosso [artigo sobre autenticação forte do cliente](https://wso2.com/library/articles/2019/06/strong-customer-authentication-and-dynamic-linking-for-psd2/) fornece mais detalhes.
 
-![](data/wso2-open-banking-architecture-1.png)
+![](data/wso2-open-banking-architecture-1.jpg)
 
 Quando um cliente faz um pagamento, ele precisa passar por todas as etapas de autenticação e fornecer seu consentimento todas as vezes, mesmo que essa transação não tenha um risco. Ter que passar por todas as etapas de autenticação iterativamente pode levar a uma experiência ruim do usuário. Deve haver um recurso para identificar o nível de risco de uma transação e, se for baixo, o banco pode isentar o usuário de passar por todos os fatores de autenticação. Isso é o que chamamos de [Análise de Risco de Transação (TRA)](https://wso2.com/articles/2019/05/a-deep-dive-of-transaction-risk-analysis-for-open-banking-and-psd2) .
 
