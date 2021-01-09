@@ -11,7 +11,7 @@ Pix estará disponível para pessoas e empresas. Ambos precisam ter uma chave id
 
 Nesta etapa, vamos explicar como estender a implementação do protocolo do provedor de pagamento para permitir que as lojas ofereçam Pix como um método de pagamento adicional para seus clientes.
 
-![](data/BCexplica_pagamentos_instantaneos.jpg)
+![](https://github.com/marcialwushu/Jekyll-Blog/blob/master/_posts/data/BCexplica_pagamentos_instantaneos.jpg?raw=true)
 
 >Esses são alguns dos benefícios de um ecossistema de pagamentos instantâneos destacados pelo BCB
 
