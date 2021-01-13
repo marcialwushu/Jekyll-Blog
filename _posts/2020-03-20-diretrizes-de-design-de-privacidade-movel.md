@@ -79,6 +79,207 @@ Existem categorias de informações que podem ser consideradas "sensíveis" e qu
 
 **Usuário**: o usuário final de aplicativos e serviços relacionados.
 
+## Transparência, escolha e controle - colocando o usuário primeiro
+
+Um aspecto fundamental para fomentar a confiança e a confiança nos aplicativos é ser abrir com os usuários e informá-los:
+
+- quem está coletando e usando suas informações pessoais
+- porque as informações pessoais estão sendo usadas
+- quais informações pessoais estão sendo compartilhadas, com quem e para quem quais propósitos.
+
+Os usuários devem ter informações suficientes para fazer uma escolha informada sobre se deve usar um aplicativo e as consequências de fazer isso. Algumas dessas informações podem ser óbvias antes que um usuário faça download ou ativa um aplicativo e, portanto, não faz divulgações adicionais sobre um aplicativo necessário.
+
+### Em resumo:
+
+- **Seja transparente**: diga aos usuários quem você é, o que informações pessoais de que você precisa, o que você pretendo fazer com isso e quem você pretende compartilhe com (e por quê!) - mas não sobrecarregue-os com instruções!
+- **Ajude os usuários a gerenciar sua privacidade**: Torne-os ciente do padrão de privacidade de um aplicativo configurações.
+- **Dê aos usuários escolhas fáceis de entender e mecanismos para gerenciar sua privacidade**: Faça é fácil, não é difícil - eles vão gostar mais de você por isso.
+
+### Diretriz
+
+**TCC1**
+
+**Não acesse ou colete sub-repticiamente informação pessoal. Um aplicativo não deve secretamente acessar e coletar pessoal informações sobre usuários.**
+
+Os usuários devem ser informados sobre o coleta e uso de seu pessoal informações antecipadamente, permitindo-lhes para tomar decisões informadas sobre usando um aplicativo ou serviço.
+
+### Implementação
+
+Antes que um usuário baixe ou ative um aplicação, ele ou ela deve ser apresentado com informação sobre:
+
+- quais informações pessoais um o aplicativo acessará, coletará e usará
+- quais informações pessoais serão armazenado (no dispositivo e remotamente)
+- quais informações pessoais serão compartilhado, com quem será compartilhado
+- e com que propósito
+- quanto tempo serão as informações pessoais manteve
+- quaisquer termos e condições de uso afetando a privacidade de um usuário.
+
+Avisar o usuário e tornar esta informação fácil de descobrir e compreender. Mantê-la simples e facilitam a escolha do exercício. Permitir que o usuário rejeite a instalação ou
+ativação se eles não desejarem seus informações a serem usadas conforme explicado a eles.
+
+Garanta a usabilidade e evite o uso excessivo prompts que vão sobrecarregar o usuário. Considerar a experiência do usuário.
+
+### Caso de uso e exemplos
+
+Um aplicativo não deve acessar a localização de um usuário se o aplicativo não é um aplicativo de serviço baseado em localização. E se os dados de localização são secundários para o aplicativo e necessários para atender a outros objetivos comerciais, então você precisa obter o consentimento ativo de um usuário (consulte a seção ‘privacidade do local’
+seção abaixo).
+
+Um aplicativo não deve acessar e usar o contato detalhes mantidos no catálogo de endereços de um dispositivo, a menos que este seja parte da funcionalidade de aplicativos claramente explicada para do utilizador.
+
+Transparência é a chave. Diga aos usuários quais informações você precisa e por que você precisa - mantenha sua palavra. Se você mudar de ideia posteriormente e quiser usar informações pessoais para outra finalidade que é diferente do que você disse originalmente aos usuários, então você precisará voltar a eles e contar sobre quaisquer novos usos e obtenha seu acordo.
+
+### Diretriz
+
+**TCC2**
+
+**Identifique-se para os usuários**
+
+Os usuários devem saber quem está coletando ou usando suas informações pessoais e como eles podem entrar em contato com essa entidade para mais informações ou para exercer seu
+direitos
+
+### Implementação
+
+Antes que um usuário baixe ou ative um aplicação, ele ou ela deve ser informado a identidade de quaisquer entidades que irão coletar ou usar informações pessoais no âmbito do
+aplicativo, incluindo uma empresa ou indivíduo nome e país de origem. Os usuários devem ter acesso fácil (por meio de um link ou item de menu) para resumir os detalhes de contato do organização.
+
+### Caso de uso e exemplos
+
+A página de destino do aplicativo é um excelente lugar para publicar principais fatos de privacidade, informações de contato e fornecer um hiperlink para uma declaração de privacidade mais detalhada. Não existe uma solução única para fornecer aos usuários informações sobre você, sua organização, seus privacidade e o que você fará com seus dados. Estar criativo e incentive os usuários a explorar a melhor forma de gerenciar sua privacidade - mas não os sobrecarregue e mantenha-o simples e fácil.
+
+### Diretriz
+
+**TCC3**
+
+**Deixe os usuários exercerem seus direitos.**
+
+Forneça aos usuários o suficiente informações para que eles possam razoavelmente deve saber como acessar e corrija qualquer informação pessoal você pode manter sobre eles.
+
+### Implementação
+
+Forneça um breve e genuinamente informativo declaração de privacidade explicando de forma clara e simples termos como as pessoas podem obter uma cópia de seus informações pessoais ou corrigir e atualizar informações fornecidas por eles ou mantidas por você.
+
+
+### Caso de uso e exemplos
+
+Como acima, a página de destino do aplicativo pode fornecer um lugar eficaz para fornecer aos usuários um aviso simples e claro ou direcione-os a informações mais detalhadas sobre como para exercer quaisquer direitos de privacidade.
+
+
+### Diretriz
+
+**TCC4**
+
+**Minimize as informações que você coleta e limitar seu uso.**
+
+Informações coletadas por um a aplicação deve ser razoável, não excessivo e usado dentro do escopo das expectativas do usuário e outras fins comerciais legítimos como notificados aos usuários.
+
+### Implementação
+
+Pense em quais informações pessoais você precisa e então justifica. É realmente necessário? Você é obrigado a coletá-lo, compartilhá-lo ou mantê-lo para atender a uma necessidade comercial ou obrigação legal? Um aplicativo deve acessar, coletar e usar apenas as informações mínimas exigidas:
+
+- para fornecer, operar ou manter o inscrição
+- para atender aos objetivos de negócios identificados que você disse ao usuário sobre ou para cumprir as obrigações legais.
+
+Use informações pessoais de maneiras que os usuários fariam esperar quando eles tomaram a decisão de baixar ou ativar um aplicativo.
+
+
+### Caso de uso e exemplos
+
+Se você precisar de acesso aos dados da lista de contatos, identifique quais campos são necessários para preencher um determinado recurso do aplicativo e coletar não mais do que o campo (s) específico (s) obrigatório (s). Não use esses dados para finalidades não óbvias adicionais, a menos que o usuário tenha concordou com isso.
+
+
+### Diretriz
+
+**TCC5**
+
+**Quando necessário, obtenha o ativo do usuário consentimento**
+
+Às vezes, os usuários precisam dar seu consentimento ativo para o uso de seus informação pessoal.
+
+- a) Coleta ou uso de pessoal informação não necessária para o aplicativo principal objetivo,
+
+---
+
+- b) Compartilhamento de informações pessoais com terceiros.
+
+---
+
+- c) Armazenamento de informações pessoais após o uso imediato do inscrição.
+
+### Implementação
+
+Na maioria dos casos, será óbvio para usuários quais serão as informações pessoais necessário para oferecer suporte a um aplicativo. Contudo, onde acesso, coleta e uso de pessoal informações não são necessárias para um aplicativo propósito principal e seria inesperado por o usuário, então os usuários devem ter uma escolha sobre se deve permitir estes secundários e usos não óbvios de suas informações. De outros situações também podem exigir consentimento ativo:
+
+Redes sociais e mídia social, celular publicidade, localização, crianças e adolescentes (conforme detalhado nas seções abaixo). Onde for necessário obter consentimento ativo,
+os usuários devem estar cientes de:
+
+- por quanto tempo um consentimento é válido
+- como eles podem gerenciar qualquer consentimento dado por eles
+- as consequências da retenção ou retirando seu consentimento.
+
+Os usuários devem ser capazes de retirar o consentimento até meios simples e eficientes, sem qualquer indevida atraso ou custo indevido.
+
+---
+
+Se terceiros irão coletar ou ter acesso a informações do usuário para seus próprios fins, o usuário deve ser informado o mais cedo possível oportunidade de que seus dados sejam compartilhados, indicando:
+
+- com quem será compartilhado e para quais propósitos, e
+- fornecer links para esses terceiros e seus avisos de privacidade.
+
+Os usuários devem ter permissão para escolher se permitir esta coleta, acesso e uso por terceiros partidos.
+
+---
+
+Se os dados do usuário forem retidos após o uso imediato de um aplicativo, os usuários devem ser informações fornecidas sobre:
+
+- os períodos para os quais as informações podem ser retido e por que
+- como o usuário pode exercer direitos específicos sobre suas informações.
+
+
+### Caso de uso e exemplos
+
+Aplicativos que não usam localização para nenhum dos recursos ou funcionalidade de um aplicativo solicitado por um usuário não pode coletar localização para outros fins
+- por exemplo, publicidade direcionada ou análises - a menos que o usuário dê seu consentimento ativo.
+
+---
+
+Os aplicativos não devem incluir código de terceiros que coleta e analisa informações pessoais para direcionar usuários com publicidade, sem o consentimento ativo de
+o usuário.
+
+
+### Diretriz
+
+**TCC6**
+
+**Dê aos usuários controle sobre solicitando.**
+
+Sempre que possível, os usuários devem ter escolhas sobre como - e com que freqüência - eles são lembrados sobre recursos e funcionalidade que usa seus próprios em formação.
+
+
+### Implementação
+
+Sempre que tecnicamente possível, forneça aos usuários oportunidades para determinar como eles serão solicitado e com que frequência eles serão solicitado a tomar decisões sobre o acesso a, e uso de suas informações pessoais.
+
+Privacidade por Design significa colocar o usuário em primeiro lugar e ajudando-os a se tornarem cientes e gerenciar as implicações de privacidade de aplicativos e serviços, de forma a aprimorar a capacidade do usuário experiência de privacidade.
+
+
+### Caso de uso e exemplos
+
+Os usuários podem ter a opção de "lembrar" de seus credenciais de logon, endereço de cobrança, endereços de e-mail, ou localização. É possível fornecer cobertor uma única vez
+solicitando para cada tipo de dados ou mais granular comandos específicos do contexto.
+
+Por exemplo, os usuários podem ter a escolha de permitindo que um aplicativo acesse a localização do dispositivo permanentemente, por um período especificado ou para selecionar ser solicitado periodicamente por e-mail, texto, aviso no aplicativo ou ícone.
+
+### Diretriz
+### Implementação
+### Caso de uso e exemplos
+
+### Diretriz
+### Implementação
+### Caso de uso e exemplos
+
+
+
+
 
 
 ---
