@@ -270,8 +270,39 @@ solicitando para cada tipo de dados ou mais granular comandos específicos do co
 Por exemplo, os usuários podem ter a escolha de permitindo que um aplicativo acesse a localização do dispositivo permanentemente, por um período especificado ou para selecionar ser solicitado periodicamente por e-mail, texto, aviso no aplicativo ou ícone.
 
 ### Diretriz
+
+**TCC7**
+
+**Sem atualizações silenciosas ('secretas').**
+
+Os usuários devem concordar com quaisquer mudanças para um aplicativo que afeta seus privacidade.
+
+
 ### Implementação
+
+Os usuários devem ser informados sobre uma mudança material para a forma como um aplicativo irá coletar ou usar seus informações pessoais, antes que tal mudança seja
+implementado, para que eles possam fazer um escolha informada sobre continuar a usar o aplicativo.
+
+O consentimento para mudanças pode ser obtido em dois maneiras:
+
+1. Para mudanças que são essenciais para um operação contínua do aplicativo: Observe que uma mudança ocorrerá e um chance de desativar o aplicativo.
+2. Para alterações que o usuário pode escolher adotar: um prompt com opções sobre se deve permitir a mudança ou continue com o anterior funcionalidade.
+
+
+
 ### Caso de uso e exemplos
+
+Isso não impede o tipo remoto 'over the air' atualizações que são necessárias para manter o primário funcionalidade e integridade de um aplicativo ou serviço.
+
+A diretriz se aplicaria, por exemplo, onde um aplicativo de repente desejou acessar e fazer upload de contato detalhes armazenados no dispositivo de um usuário ou localização do dispositivo dados.
+
+# Retenção de dados e segurança
+
+A segurança pode existir sem privacidade, mas não pode haver privacidade sem segurança. Certifique-se de que você está protegendo adequadamente o informações pessoais que um usuário confiou a você, no telefone e onde quer que armazene ou transmita informações pessoais.
+
+Pense por que você precisa reter as informações pessoais de um usuário e quanto tempo você precisa para mantê-lo. Você pode justificar isso? Informações pessoais que são retidas indefinidamente diminuem de valor ao longo tempo, mas aumenta em custo e risco. Identifique quanto tempo um pedaço de informações pessoais continuam a ser necessárias para o seu modelo de negócios (como oposto ao desejável), e certifique-se de excluí-lo com segurança quando não for mais necessário. Definir períodos de retenção para seus dados (tão curtos quanto necessário) faz sentido para os negócios, pode ajudar a gerenciar riscos e custos, e para evitar ação regulatória ou publicidade negativa se as coisas correrem
+errado (porque você o manteve por muito tempo e os dados foram comprometido).
+
 
 ### Diretriz
 ### Implementação
