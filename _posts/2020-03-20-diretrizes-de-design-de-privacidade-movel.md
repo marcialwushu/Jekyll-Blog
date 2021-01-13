@@ -81,5 +81,11 @@ Existem categorias de informações que podem ser consideradas "sensíveis" e qu
 
 
 
+---
+
+[Artigo Original](https://iapp.org/resources/article/privacy-design-guidelines-for-mobile-application-development/)
+
+[Download PDF](data/gsmaprivacydesignguidelinesformobileapplicationdevelopmentv1.pdf)
+
 
 
