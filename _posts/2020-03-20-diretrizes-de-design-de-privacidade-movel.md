@@ -305,8 +305,95 @@ errado (porque você o manteve por muito tempo e os dados foram comprometido).
 
 
 ### Diretriz
+
+**DRS1**
+
+**Gerenciar identificadores ativamente.**
+
+Onde um aplicativo cria ou usa um identificador único, tome medidas para certifique-se de que o identificador está vinculado ao usuário correto do aplicativo e manter esta informação atualizada
+
+### Implementação
+
+Cada parte que usa identificadores é responsável para tomar medidas para:
+
+- garantir que todos os identificadores exclusivos se apliquem apenas a um único usuário
+- garantir que identificadores únicos sejam mantidos atualizados e mantido apenas pelo tempo necessário para cumprir a finalidade e os motivos dos aplicativos notificado aos usuários
+- evitar que um identificador único seja associado com outro usuário, a menos que exigido por um necessidade de negócios justificada (consulte o caso de uso e
+exemplos).
+
+### Caso de uso e exemplos
+
+As operadoras de celular podem reatribuir identificadores como MSISDN (números de celular) para outros clientes sem que o aplicativo esteja ciente disso. Se vocês capturar o MSISDN de um usuário, você deve tomar medidas para garantir que essas informações sejam precisas e atualizadas confirmando periodicamente com o usuário.
+
+Da mesma forma, os fabricantes de dispositivos podem atribuir IDs de dispositivo (UDID). Os usuários de celular podem substituir seus telefones celulares e vendê-los para outros
+indivíduos. A menos que se tome cuidado, o novo dono da o celular pode ser facilmente associado ao exclusivo Identificador de dispositivo ou outro identificador exclusivo associado com o proprietário anterior. Essa associação e a ligação pode ter consequências para o online experiências de privacidade do novo proprietário e seu uso do
+dispositivo. Cada parte que coleta e usa UDIDs é
+responsável por garantir que atendam a esta diretriz
+
+### Diretriz
+
+**DRS2**
+
+**Mantenha os dados seguros.**
+
+Tome as medidas adequadas para proteger informações pessoais dos usuários de divulgação ou acesso não autorizado.
+
+
+### Implementação
+
+Adote medidas técnicas e comerciais processos para prevenir o uso indevido ou corrupção de informações pessoais. Onde um aplicativo cria ou coleta informações pessoais consideradas confidenciais, como detalhes de logon, UDIDs, dispositivos móveis números, detalhes de contato, detalhes financeiros, tais as informações devem ser armazenadas e transmitidas em uma maneira segura.
+
+
+### Caso de uso e exemplos
+
+Coletar e manter certos tipos de informações quando simplesmente não é necessário, cria o risco de podem ser perdidos, roubados e mal utilizados. Se você precisar coletar, transmitir e reter informações confidenciais, como como detalhes de pagamento financeiro de um usuário ou detalhes de logon, então você deve proteger esses dados usando criptografia ou um mecanismo de hash adequado e excluí-lo quando não é mais necessário.
+
+### Diretriz
+
+**DRS3**
+
+**Autentique onde a segurança exige isto.**
+
+Autentique usuários sempre que possível usando métodos de autenticação apropriada ao risco .
+
+### Implementação
+
+Onde a afirmação de uma identidade do mundo real é um componente importante de um serviço, mais forte autenticação deve ser implementada, como autenticação de dois fatores usando um dispositivo móvel aparelho e UICC.
+
+Considere o uso de CAPTCHAs e RECAPTACHAs para ajudar a diferenciar de boa-fé membros de spammers. Use ferramentas técnicas para restringir spidering e downloads em massa ou
+acesso sem permissão de rede.
+
+### Caso de uso e exemplos
+
+### Diretriz
+
+**DRS4**
+
+**Defina os períodos de retenção e exclusão.**
+
+Informações pessoais que devem ser retido deve estar sujeito a retenção e períodos de exclusão que são justificados de acordo com claramente identificado necessidades de negócios ou obrigações legais.
+
+### Implementação
+
+Justifique a coleta e retenção de pessoal informações de acordo com as necessidades comerciais ou obrigações legais identificadas. Defina uma política e implementá-lo em um departamento técnico e comercial nível de processo.
+
+Uma vez que as informações pessoais não são mais necessário para atender a um negócio legítimo específico finalidade ou requisitos/obrigações legais, devem ser destruídos ou tornados anônimos.
+
+Dados verdadeiramente anônimos podem ser retidos indefinidamente. Para tornar os dados anônimos, remova qualquer informações que poderiam ser usadas para identificar um indivíduo específico, garantindo que não seja possível para reidentificar o indivíduo e garantir que os dados não podem ser relacionados a um único, indivíduo não identificado por único identificadores.
+
+### Caso de uso e exemplos
+
+Dados armazenados em um perfil comportamental relacionado a um usuário único por um cookie ou outro identificador de dispositivo, mesmo sem outras informações identificáveis,
+não ser considerado verdadeiramente anônimo. Um perfil com o identificador exclusivo removido ou hash pode ser considerado anônimo.
+
+## Educação
+
+É importante que os usuários possam entender a melhor forma de gerenciar sua privacidade e proteger suas informações pessoais, por fornecendo-lhes informações claras e simples sobre opções de privacidade e configurações de segurança de aplicativos. É ajudar os usuários a estarem cientes de questões de privacidade e segurança e como gerenciá-las.
+
+### Diretriz
 ### Implementação
 ### Caso de uso e exemplos
+
 
 
 
