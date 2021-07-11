@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como corrigi um erro 'cb.apply não é uma função' ao usar o Gitbook"
-date:   2020-04-01 17:59:38 -0200
+date:   2020-03-23 17:59:38 -0200
 categories: jekyll update
 ---
 
