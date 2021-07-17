@@ -50,11 +50,11 @@ Eu pessoalmente escolhi fazer isso do lado github, uma vez que o método Github 
 
 ## Método 1 Github CI/CD
 
-- Crie os seguintes segredos em seu repositório do Github
+- Crie os seguintes secrets em seu repositório do Github
     - ```TARGET_URL``` valor: a URL do repositório Gitlab
     - ```TARGET_TOKEN``` valor: Token Gitlab
     - ```TARGET_USERNAME``` valor: Nome de usuário Gitlab
-- Crie uma ação do Github para o seu repositório com o seguinte código:
+- Crie uma Action do Github para o seu repositório com o seguinte código:
 
 ```yml
 name: GitlabSync
