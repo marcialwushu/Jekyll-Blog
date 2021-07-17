@@ -84,7 +84,7 @@ jobs:
 
 - Certifique-se de que a branch para o qual você está fazendo o push no Gitlab não está protegido ou permite o push force.
 
-## Método 2 Gitlab CI/CD (requer prêmio Gitlab)
+## Método 2 Gitlab CI/CD (requer Gitlab premium)
 
 Observe que se você tiver uma assinatura com o Gitlab, você também pode fazer isso em alguns cliques no mesmo dashion como configuramos a sincronização do Gitlab para o Github.
 
